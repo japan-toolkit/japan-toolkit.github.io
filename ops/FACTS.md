@@ -21,7 +21,7 @@ Every row should cite a primary (official) page. "Checked" = page re-read and fi
 | 個人住民税の課税 | その年の1月1日時点で住所がある人に課税 | leaving-japan | https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/150790_06.html 「個人住民税は、その年の1月1日時点で市町村（都道府県）に住所がある方に対して課税されます。」 | not shown | 2026-11-08 |
 | 在留カードの返納 | 再入国許可によらない出国は出入国港で直ちに返納 (みなし再入国の扱いはこのページに記載なし) | leaving-japan | https://www.moj.go.jp/isa/applications/procedures/nyuukokukanri10_00020.html | not shown | 2026-11-08 |
 | 納税管理人 (脱退一時金の税金還付) | 帰国前に最終住所地の税務署へ「納税管理人の届出書」。出さずに帰国した場合は申告時に併せて提出 | nenkin-refund, leaving-japan | B.pdf leaflet (above) | 2026-09 | 2026-11-08 |
-| 還付申告の期限 (退職所得の選択課税) | leaving-japan says 5年 — NOT confirmed on an official page yet (nta taxanswer 2525 is gone). TODO | leaving-japan | — | — | — |
+| 還付申告の期限 | 還付申告書は「その年の翌年1月1日から5年間提出することができます」(一般規定。退職所得の選択課税の様式ページは未確認) | leaving-japan | https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2030.htm | 令和8年4月1日現在法令等 | 2026-11-08 |
 
 ## Calendar
 - New fiscal-year rates are usually announced Feb–Mar and apply from March/April. Watch closely in those months.

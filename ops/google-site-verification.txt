@@ -1,0 +1,3 @@
+# Google Search Console の確認コードをこの下の行に貼り付けてください（HTMLタグ方式）。
+# 例: <meta name="google-site-verification" content="AbCdEf..." />  または content の中身だけ。
+# 空のままならタグは出力されません。

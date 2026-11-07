@@ -10,6 +10,21 @@ LANGS = ["vi", "ne", "id", "my", "en", "ja"]
 LANG_NAMES = {"vi": "Tiếng Việt", "ne": "नेपाली", "id": "Bahasa Indonesia", "my": "မြန်မာ", "en": "English", "ja": "日本語"}
 TOOLS = ["nenkin-refund", "leaving-japan", "payslip"]
 
+# Google Search Console: the owner pastes the code from the "HTML tag" method into this file
+# (just the content="..." value, or the whole <meta> tag). Empty or missing file = no tag.
+GSC_FILE = REPO / "ops" / "google-site-verification.txt"
+
+def gsc_meta():
+    if not GSC_FILE.exists():
+        return ""
+    raw = "\n".join(l for l in GSC_FILE.read_text().splitlines() if not l.strip().startswith("#")).strip()
+    if not raw:
+        return ""
+    m = re.search(r'content="([^"]+)"', raw)
+    code = m.group(1) if m else raw
+    assert re.fullmatch(r"[A-Za-z0-9_-]{20,100}", code), f"unexpected verification code in {GSC_FILE}: {code!r}"
+    return f'<meta name="google-site-verification" content="{code}">'
+
 SHORT = {
  "nenkin-refund": {"vi":"Tính tiền nenkin hoàn lại","ne":"नेन्किन फिर्ता क्याल्कुलेटर","id":"Kalkulator pengembalian nenkin","my":"နန်ကင်ပြန်အမ်းငွေ တွက်စက်","en":"Nenkin refund calculator","ja":"脱退一時金の計算機"},
  "leaving-japan": {"vi":"Việc cần làm trước khi về nước","ne":"जापान छोड्नुअघिको चेकलिस्ट","id":"Daftar periksa sebelum pulang","my":"မထွက်ခွာမီ စစ်ဆေးစာရင်း","en":"Leaving Japan checklist","ja":"帰国前チェックリスト"},
@@ -110,7 +125,7 @@ def build_portals():
         (OUT / lang / "index.html").write_text(page)
     # Root: language chooser with the tagline in every language (no auto-redirect).
     rows = "".join(f'<a class="card" href="{l}/" lang="{l}"><b>{LANG_NAMES[l]}</b><span>{UI["tagline"][l]}</span></a>' for l in LANGS)
-    root = (head("en", "Japan Practical Toolkit", "Free tools in Vietnamese, Nepali, Indonesian, Burmese, English and Japanese for foreigners working in Japan.", "", PORTAL_CSS).replace(f'<link rel="canonical" href="{BASE}/en/">', f'<link rel="canonical" href="{BASE}/">')
+    root = (head("en", "Japan Practical Toolkit", "Free tools in Vietnamese, Nepali, Indonesian, Burmese, English and Japanese for foreigners working in Japan.", "", gsc_meta() + PORTAL_CSS).replace(f'<link rel="canonical" href="{BASE}/en/">', f'<link rel="canonical" href="{BASE}/">')
             + f'<body><div class="wrap"><div class="brand">Japan Practical Toolkit</div><h1>Japan Practical Toolkit</h1><div class="cards">{rows}</div>'
             + '<footer><a href="/privacy/">Privacy policy / プライバシーポリシー</a></footer></div></body></html>')
     (OUT / "index.html").write_text(root)

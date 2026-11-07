@@ -3,7 +3,7 @@
 0. **Confirm the 5-year deadline** on leaving-japan (「引かれた税金を取り戻す…期限は5年以内」) on an nta.go.jp page, or soften the wording. Reason: only user-facing figure without an official source.
 1. **Take-home pay calculator** — 令和9年分 税額表 is now published (basic deduction raised, 防衛特別所得税 added; URLs in FACTS.md). Build for 2027 pay from the start. Split into steps: (a) calc engine + tests against official 令和8年分 月額表 甲欄 / 電算機特例; (b) UI in six languages. Watch: 令和9年分 税額表 is being published (Nov).
    Original note: (手取り計算) in six languages — FY2026 rates from ops/FACTS.md; income tax via the monthly withholding table (源泉徴収税額表 甲欄). Verify against official examples before shipping.
-2. **FAQ sections** — nenkin-refund live; payslip on `daily/2026-11-08` awaiting approval. Next: leaving-japan (3–5 questions each, original text, figures only from FACTS.md).
+2. **FAQ sections** — nenkin-refund live; payslip live (2026-11-08). Next: leaving-japan (3–5 questions each, original text, figures only from FACTS.md).
 3. **Resident tax when leaving Japan** (出国時の住民税) explainer/estimator.
 4. **Free JLPT / 特定技能 kanji quiz** — if KANJIDIC data is used it must stay CC BY-SA with credit on every page; keep paid materials separate and original.
 5. **Paid material plan** — 特定技能 field vocabulary (介護, 外食, 建設…) in vi/id/ne; design only, no selling until the owner approves a platform.

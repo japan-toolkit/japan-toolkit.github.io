@@ -1,0 +1,43 @@
+# Japan Practical Toolkit — operating manual
+
+Free, multilingual web tools for foreigners working in Japan.
+Live site: https://japan-toolkit.github.io/ (GitHub Pages, served from branch `main`).
+This branch (`source`) holds the sources and the operations notes. It is never served.
+
+## Owner and constraints
+- The owner checks in **once a day, about 30 minutes**, reading in Japanese. Write every report in Japanese.
+- The owner stays **anonymous**. Never add a real name, photo, address or personal email anywhere.
+- No paid services. No partnerships with other companies.
+- Nothing illegal; never encourage gambling, account/SIM selling or other abuse.
+- Languages, in this order: vi, ne, id, my, en, ja. English stays.
+- Commit as `Claude <noreply@anthropic.com>` (`git config user.name Claude && git config user.email noreply@anthropic.com`).
+
+## Layout
+- `tools/<tool>/index.html` — one self-contained page per tool, with a `T` translation table for all six languages.
+- `build/build.py` — turns the tools into the site (per-language URLs, portals, sitemap, privacy page) in `dist/`.
+- `ops/FACTS.md` — official figures the tools rely on, with sources. Check these for changes.
+- `ops/BACKLOG.md` — next work, in priority order.
+- `ops/REVIEW.md` — translations waiting for a native-speaker check.
+
+## How to build and deploy
+1. `python3 build/build.py` (needs node).
+2. Check every page renders: serve `dist/` locally and open each `/<lang>/<tool>/` with Playwright; no JS errors, no horizontal scroll at 390px.
+3. Deploy only after the owner approves: clone `main`, replace its contents with `dist/` (keep `.git`), commit, push.
+   Until approval, push work to a branch named `daily/YYYY-MM-DD` instead.
+
+## Daily routine (scheduled run)
+1. Clone the repo; work on branch `source`.
+2. **Facts check**: re-read each source in `ops/FACTS.md`. If any figure or page "更新日" changed, note it at the top of the report and prepare the fix on a `daily/` branch.
+3. **One piece of work** from the top of `ops/BACKLOG.md` that can be finished and verified in one run. Push it to `daily/YYYY-MM-DD` on both `source` changes and a built preview. Do not merge to `main`.
+4. Update `ops/BACKLOG.md` (move done items, add ideas with a one-line reason), commit to `source`.
+5. Report to the owner in Japanese, short:
+   - 今日の要確認（法改正・数値変更があれば最優先）
+   - 今日やったこと（branch名、変更点、確認結果）
+   - 承認してほしいこと（「反映してOK」と返信すれば main に反映）
+   - 明日やる予定
+
+## Quality rules
+- Every number shown to users must trace to an official source listed in `ops/FACTS.md`.
+- Test calculation logic against the official tables before shipping.
+- Keep tools offline-only: no data leaves the browser. No cookies or tracking unless the owner approves and the privacy page is updated first.
+- Avoid copying other sites' text. Write original explanations.

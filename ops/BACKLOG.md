@@ -1,7 +1,6 @@
 # Backlog (top = next)
 
-1. **Take-home pay calculator** — 令和9年分 税額表 is now published (basic deduction raised, 防衛特別所得税 added; URLs in FACTS.md). Build for 2027 pay from the start. Split into steps: (a) calc engine + tests against official 令和8年分 月額表 甲欄 / 電算機特例; (b) UI in six languages. Watch: 令和9年分 税額表 is being published (Nov).
-   Original note: (手取り計算) in six languages — FY2026 rates from ops/FACTS.md; income tax via the monthly withholding table (源泉徴収税額表 甲欄). Verify against official examples before shipping.
+1. **Take-home pay calculator** — (a) DONE on `daily/2026-11-08`: `tools/takehome/engine.js` (income tax 甲欄, official computer method, 2026 and 2027) + `test_engine.js` (matches the 令和9年分 月額表 within 10 yen at band midpoints up to 602,000円). Next: (b) social insurance by 標準報酬月額 grades — needs official grade tables (協会けんぽ r08 保険料額表, 厚生年金 等級表) added to FACTS.md; (c) UI in six languages, with a note that companies using the printed table can differ a little (more above 740,000円 with dependants). Also get a few 令和8年分 月額表 rows to test the 2026 mode.
 2. **FAQ sections** — nenkin-refund live; payslip live (2026-11-08); leaving-japan live (2026-11-08). Next: more questions from Search Console queries (3–5 questions each, original text, figures only from FACTS.md).
 3. **Resident tax when leaving Japan** (出国時の住民税) explainer/estimator.
 4. **Free JLPT / 特定技能 kanji quiz** — if KANJIDIC data is used it must stay CC BY-SA with credit on every page; keep paid materials separate and original.
@@ -11,6 +10,7 @@
 7. **Last official source** — 協会けんぽ全国平均 9.9% (18.3% now cited on nenkin.go.jp). Reason: still TODO in FACTS.md.
 
 ## Done
+- 2026-11-08: take-home step (a) income-tax engine + tests (not user-facing yet).
 - 2026-11-08: 5-year tax refund period confirmed (nta taxanswer 2030, general rule). leaving-japan FAQ (4 Q&A × 6 languages) on `daily/2026-11-08`.
 - 2026-11-08 (owner session): all FACTS.md sources re-read, no changes; 18.3% cited officially; NTA 令和9年分 table recorded; leaving-japan rules (住民税 1月1日, 在留カード返納, 納税管理人) sourced. payslip FAQ (4 Q&A × 6 languages) on `daily/2026-11-08`, 26 pages checked.
 - 2026-11-08: nenkin-refund FAQ (4 Q&A × 6 languages, visible <details> + FAQPage structured data) via optional `faq.json` in build.py. All 26 pages checked with Playwright at 390px: no JS errors, no horizontal scroll, 4 FAQ items + valid JSON-LD on each nenkin-refund page. Branch `daily/2026-11-08`; owner approved, merged to `source` and deployed to main on 2026-11-08.

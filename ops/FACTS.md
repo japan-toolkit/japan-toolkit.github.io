@@ -18,7 +18,6 @@ Every row should cite a primary (official) page. "Checked" = page re-read and fi
 | 厚生年金保険料率 | 18.3% (本人 9.15%) | nenkin-refund, payslip | https://www.nenkin.go.jp/service/kounen/hokenryo/ryogaku/ryogakuhyo/index.html 「厚生年金保険料率は18.3％で固定されています」 | not shown | 2026-11-08 |
 | 源泉徴収税額表 令和8年分 | 月額表 01-07.pdf, 電算機特例 18.pdf | (planned take-home calc) | https://www.nta.go.jp/publication/pamph/gensen/zeigakuhyo2026/01.htm | — | 2026-11-08 |
 | 源泉徴収税額表 令和9年分 (2027年に支払う給与) | 公表済み。「令和８年度税制改正において、所得税の基礎控除の引上げ等が行われたことに伴い、税額が変更」。対象税目に防衛特別所得税が加わる。月額表 data/01-07.pdf, 告示 data/18.pdf | payslip FAQ, (planned take-home calc) | https://www.nta.go.jp/publication/pamph/gensen/zeigakuhyo2027/01.htm ; あらまし https://www.nta.go.jp/publication/pamph/gensen/2026kaisei.pdf | — | 2026-11-08 |
-
 | 個人住民税の課税 | その年の1月1日時点で住所がある人に課税 | leaving-japan | https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/150790_06.html 「個人住民税は、その年の1月1日時点で市町村（都道府県）に住所がある方に対して課税されます。」 | not shown | 2026-11-08 |
 | 在留カードの返納 | 再入国許可によらない出国は出入国港で直ちに返納 (みなし再入国の扱いはこのページに記載なし) | leaving-japan | https://www.moj.go.jp/isa/applications/procedures/nyuukokukanri10_00020.html | not shown | 2026-11-08 |
 | 納税管理人 (脱退一時金の税金還付) | 帰国前に最終住所地の税務署へ「納税管理人の届出書」。出さずに帰国した場合は申告時に併せて提出 | nenkin-refund, leaving-japan | B.pdf leaflet (above) | 2026-09 | 2026-11-08 |

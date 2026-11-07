@@ -7,7 +7,7 @@
 4. **Free JLPT / 特定技能 kanji quiz** — if KANJIDIC data is used it must stay CC BY-SA with credit on every page; keep paid materials separate and original.
 5. **Paid material plan** — 特定技能 field vocabulary (介護, 外食, 建設…) in vi/id/ne; design only, no selling until the owner approves a platform.
 
-6. **Search Console follow-up** — after the owner clicks 確認 and submits sitemap.xml, check weekly which queries bring visitors; use them to pick FAQ topics. Reason: data-driven priorities.
+6. **Search Console follow-up** — verified and sitemap.xml submitted by the owner on 2026-11-07. From ~2026-11-21, ask the owner weekly which queries bring visitors; use them to pick FAQ topics. Reason: data-driven priorities.
 7. **Last two official sources** — find official pages for 協会けんぽ全国平均 9.9% and 厚生年金 18.3% (nenkin.go.jp 保険料額表). Reason: still marked TODO in FACTS.md.
 
 ## Done

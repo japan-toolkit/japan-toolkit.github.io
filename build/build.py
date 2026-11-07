@@ -42,7 +42,10 @@ RESET = """<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:
 .site-nav{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 40px;display:flex;flex-direction:column;gap:10px;font-size:14px}
 .site-nav h2{font-size:15px;margin:0}.site-nav ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
 .site-nav a{color:inherit}.site-nav li a{display:inline-block;border:1px solid currentColor;border-radius:999px;padding:5px 12px;text-decoration:none;opacity:.8}
-.site-nav .legal{font-size:12px;opacity:.7}</style>"""
+.site-nav .legal{font-size:12px;opacity:.7}
+.site-faq{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 28px;display:flex;flex-direction:column;gap:8px}
+.site-faq h2{font-size:20px;margin:0 0 4px}.site-faq details{border:1px solid currentColor;border-color:color-mix(in srgb,currentColor 25%,transparent);border-radius:12px;padding:12px 14px}
+.site-faq summary{cursor:pointer;font-weight:600}.site-faq p{margin:8px 0 0;opacity:.85}</style>"""
 
 def meta_for(tool):
     """Read each language's title and lede straight from the tool's translation table."""
@@ -66,6 +69,20 @@ def nav(lang, current):
     return (f'<nav class="site-nav"><h2>{UI["more"][lang]}</h2><ul>{items}</ul>'
             f'<a class="legal" href="/privacy/">{UI["privacy"][lang]}</a></nav>')
 
+def faq_html(tool, lang):
+    """Optional tools/<tool>/faq.json -> visible FAQ (<details>) + FAQPage JSON-LD. Plain text only."""
+    f = ROOT / tool / "faq.json"
+    if not f.exists():
+        return ""
+    data = json.loads(f.read_text())
+    items = [it[lang] for it in data["items"]]
+    assert all(it["q"].strip() and it["a"].strip() for it in items), (tool, lang)
+    ld = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+        {"@type": "Question", "name": it["q"], "acceptedAnswer": {"@type": "Answer", "text": it["a"]}} for it in items]}
+    rows = "".join(f'<details><summary>{html.escape(it["q"])}</summary><p>{html.escape(it["a"])}</p></details>' for it in items)
+    return (f'<section class="site-faq" id="faq"><h2>{html.escape(data["heading"][lang])}</h2>{rows}</section>'
+            f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False).replace("</", "<\\/")}</script>')
+
 def build_tool(tool):
     src = (ROOT / tool / "index.html").read_text()
     meta = meta_for(tool)
@@ -81,7 +98,7 @@ def build_tool(tool):
     for lang in LANGS:
         m = meta[lang]
         page = (head(lang, f'{m["title"]} | Japan Practical Toolkit', m["lede"], f"{tool}/", top)
-                + f'<body><script>window.__LANG="{lang}";</script>' + body + nav(lang, tool) + "</body></html>")
+                + f'<body><script>window.__LANG="{lang}";</script>' + body + faq_html(tool, lang) + nav(lang, tool) + "</body></html>")
         d = OUT / lang / tool
         d.mkdir(parents=True, exist_ok=True)
         (d / "index.html").write_text(page)

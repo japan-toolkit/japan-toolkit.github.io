@@ -8,3 +8,4 @@ Machine-written; confidence noted. The owner decides when to order a review.
 | my (Burmese) | all 3 tools, portal | medium-low | not reviewed — highest priority |
 | vi (Vietnamese) | all 3 tools, portal | good | not reviewed |
 | id (Indonesian) | all 3 tools, portal | good | not reviewed |
+| all five | nenkin-refund FAQ (tools/nenkin-refund/faq.json, 4 Q&A, added 2026-11-08) | vi/id good, ne medium, my medium-low | not reviewed |

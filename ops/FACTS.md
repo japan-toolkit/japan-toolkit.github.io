@@ -1,4 +1,4 @@
-# Official figures used by the tools (checked 2026-11-07)
+# Official figures used by the tools (checked 2026-11-07; re-checked 2026-11-07 18:30 JST, no changes)
 
 | Figure | Value | Used in | Source |
 |---|---|---|---|
@@ -15,3 +15,5 @@
 | 雇用保険 労働者負担 (一般の事業) | 0.50% (2026年4月から, 前年0.55%) | payslip | 厚労省発表 (all-senmonka.jp 報道で確認) |
 
 New fiscal-year rates are usually announced Feb–Mar and apply from March/April. Watch closely in those months.
+
+Note 2026-11-07: 20210401_01.html lists 脱退一時金 payouts only (all FY2026 figures match); the 保険料 monthly amounts need their own official source (see BACKLOG).

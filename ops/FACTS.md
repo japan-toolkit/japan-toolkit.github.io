@@ -11,7 +11,7 @@ Every row should cite a primary (official) page. "Checked" = page re-read and fi
 | 国民年金保険料 月額 FY2026 | 17,920円 | nenkin-refund | https://www.nenkin.go.jp/faq/kokunen/seido/hokenryo/seidosetsumei/20150331.html | 2026-04-01 | 2026-11-08 |
 | 国民年金保険料 月額 FY2025 / FY2024 / FY2023 | 17,510 / 16,980 / 16,520円 | nenkin-refund | Derived from the payout table above ÷ 30 (60月 payout = 保険料 × 1/2 × 60), 20210401_01.html. The FAQ page shows the current year only. | 2026-04-01 | 2026-11-08 |
 | 源泉徴収 (厚生年金の脱退一時金) | 20.42% (国民年金分は源泉徴収なし) | nenkin-refund | https://www.nenkin.go.jp/international/english/japanese-system/benefit/payment.files/B.pdf (nenkin.go.jp leaflet, marked 2026.9) | 2026-09 | 2026-11-08 |
-| 協会けんぽ 健康保険料率 | 都道府県別 (例 東京 9.85%); 全国平均 9.9% | payslip | https://www.kyoukaikenpo.or.jp/about/business/insurance_rate/rate_prefectures/r08/ (3月分=4月納付分から). 全国平均 9.9% is NOT stated on that page (re-confirmed 2026-11-08) — still from 報道 (rodo.co.jp/news/211243). TODO: official statement. | not shown | 2026-11-08 |
+| 協会けんぽ 健康保険料率 | 都道府県別 9.21% (新潟) 〜 10.55% (佐賀), 東京 9.85% (2026年3月分から). payslip band 4.0–6.0% of gross covers every half-rate. Sample 12,805 = 東京 grade 20 (260,000) 折半額 | payslip, takehome | https://www.kyoukaikenpo.or.jp/about/business/insurance_rate/rate_prefectures/r08/ ; R8_13tokyo.pdf | not shown | 2026-11-08 |
 | 介護保険料率 (40〜64歳) | 1.62% (2026年3月分から) | payslip | same kyoukaikenpo r08 page | not shown | 2026-11-08 |
 | 子ども・子育て支援金率 | 0.23% (2026年4月分=5月納付分から, 全国一律) | payslip | same kyoukaikenpo r08 page | not shown | 2026-11-08 |
 | 雇用保険 労働者負担 (一般の事業) | 5/1,000 (事業主 8.5/1,000, 計 13.5/1,000; 2026-04-01〜2027-03-31; 前年 5.5/1,000) | payslip | https://www.mhlw.go.jp/content/001672589.pdf (linked from 栃木労働局 newpage_01657) | not shown | 2026-11-08 |

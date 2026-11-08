@@ -30,8 +30,9 @@ This branch (`source`) holds the sources and the operations notes. It is never s
 2. **Facts check**: re-read each source in `ops/FACTS.md`. If any figure or page "更新日" changed, note it at the top of the report and prepare the fix on a `daily/` branch.
 3. **One piece of work** from the top of `ops/BACKLOG.md` that can be finished and verified in one run. Push it to `daily/YYYY-MM-DD` on both `source` changes and a built preview. Do not merge to `main`.
 4. Update `ops/BACKLOG.md` (move done items, add ideas with a one-line reason), commit to `source`.
+   **Monthly (first run of each month, JST):** the KANJIDIC2 licence asks for regular data updates. www.edrdg.org is not reachable from this environment, so put a request at the top of the report: ask the owner to download https://www.edrdg.org/kanjidic/kanjidic2.xml.gz and attach it in the session. When it arrives: `python3 -I build/kanjidic_extract.py <file> tools/kanji-grade/kanji.js`, `node tools/kanji-grade/test_quiz.js`, build, check, push to `daily/`, and ask for approval. If the owner allows www.edrdg.org later, download it directly instead.
 5. Report to the owner in Japanese, short:
-   - 今日の要確認（法改正・数値変更があれば最優先）
+   - 今日の要確認（法改正・数値変更があれば最優先。毎月最初の実行では漢字データ更新のお願いも）
    - 今日やったこと（branch名、変更点、確認結果）
    - 承認してほしいこと（「反映してOK」と返信すれば main に反映）
    - 明日やる予定

@@ -2,13 +2,14 @@
 
 1. **Take-home pay calculator** — (a) DONE on `daily/2026-11-08`: `tools/takehome/engine.js` (income tax 甲欄, official computer method, 2026 and 2027) + `test_engine.js` (matches the 令和9年分 月額表 within 10 yen at band midpoints up to 602,000円). (b) DONE on `daily/2026-11-08`: `insurance.js` (grades 1–50, pension 88k–650k cap, 50銭 rounding, 47 prefecture rates) + `test_insurance.js` vs the official 東京 保険料額表. Before UI: second check of the 47 rates; confirm 雇用保険 rounding. (c) UI DONE on `daily/2026-11-08` (32 pages checked; page totals = tested modules for 4 cases × 6 languages). Live on main 2026-11-08. 雇用保険 rounding confirmed 2026-11-08 (MHLW). takehome FAQ (4 Q&A) on `daily/2026-11-08` awaiting approval. Remaining: bonus (賞与) mode later. Also get a few 令和8年分 月額表 rows to test the 2026 mode.
 2. **FAQ sections** — nenkin-refund live; payslip live (2026-11-08); leaving-japan live (2026-11-08). Next: more questions from Search Console queries (3–5 questions each, original text, figures only from FACTS.md).
-3. **Resident tax when leaving Japan** (出国時の住民税) explainer/estimator.
+3. **Resident tax when leaving Japan** — guide DONE on `daily/2026-11-08` (answers by leave month × payment method; 総務省 sources), awaiting approval. Later: FAQ; link it from the leaving-japan checklist item 「住民税の払い方を決める」; city pages (.lg.jp) were blocked by fetch permission — retry for 普通徴収 納期 details.
 4. **Free JLPT / 特定技能 kanji quiz** — if KANJIDIC data is used it must stay CC BY-SA with credit on every page; keep paid materials separate and original.
 5. **Paid material plan** — 特定技能 field vocabulary (介護, 外食, 建設…) in vi/id/ne; design only, no selling until the owner approves a platform.
 
 6. **Search Console follow-up** — verified and sitemap.xml submitted by the owner on 2026-11-07. From ~2026-11-21, ask the owner weekly which queries bring visitors; use them to pick FAQ topics. Reason: data-driven priorities.
 
 ## Done
+- 2026-11-08: resident-tax guide (new tool, 6 languages), 38 pages checked.
 - 2026-11-08: payslip no longer relies on the unofficial 9.9% national average: note cites the official prefecture range 9.21–10.55%, sample health amount = official Tokyo table (12,805). Live on main 2026-11-08.
 - 2026-11-08: take-home calculator page (6 languages) on `daily/2026-11-08`; 47 prefecture rates double-checked.
 - 2026-11-08: take-home step (b) social-insurance module + tests.

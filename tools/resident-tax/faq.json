@@ -1,0 +1,38 @@
+{
+ "_note": "Sources in ops/FACTS.md: 総務省 外国人の方の個人住民税について (1月1日, 前年1〜12月の所得, 一定額以上の給料, 納税管理人, 在留期間更新) and leaflet 000679117.pdf (納税管理人の要件・書類は市区町村により異なる).",
+ "heading": {"vi":"Câu hỏi thường gặp","ne":"धेरै सोधिने प्रश्नहरू","id":"Pertanyaan yang sering diajukan","my":"မေးလေ့ရှိသော မေးခွန်းများ","en":"Frequently asked questions","ja":"よくある質問"},
+ "items": [
+  {
+   "en":{"q":"Why is there no resident tax in my first year in Japan?","a":"Resident tax is charged to people who had an address in Japan on January 1, based on the previous year's income. If you came to Japan after January 1, you had no address here on that day, so there is no resident tax for that year. It usually starts the next year."},
+   "ja":{"q":"来日1年目に住民税がかからないのはなぜですか？","a":"住民税は、1月1日に日本に住所がある人に、前の年の所得をもとにかかります。1月2日以降に来日した場合は、その年の1月1日に日本に住所がないため、その年の住民税はかかりません。ふつうは翌年からかかります。"},
+   "vi":{"q":"Vì sao năm đầu tiên ở Nhật tôi không phải đóng thuế cư trú?","a":"Thuế cư trú được tính cho người có địa chỉ ở Nhật vào ngày 1 tháng 1, dựa trên thu nhập năm trước. Nếu bạn đến Nhật sau ngày 1 tháng 1, vào ngày đó bạn chưa có địa chỉ ở đây nên không có thuế cư trú cho năm đó. Thường thì bắt đầu từ năm sau."},
+   "ne":{"q":"जापानको पहिलो वर्षमा आवासीय कर किन लाग्दैन?","a":"आवासीय कर जनवरी १ मा जापानमा ठेगाना भएकाहरूलाई गत वर्षको आम्दानीका आधारमा लाग्छ। जनवरी १ पछि जापान आउनुभएको भए त्यो दिन यहाँ ठेगाना थिएन, त्यसैले त्यो वर्षको आवासीय कर लाग्दैन। प्रायः अर्को वर्षदेखि लाग्छ।"},
+   "id":{"q":"Mengapa tidak ada pajak penduduk pada tahun pertama saya di Jepang?","a":"Pajak penduduk dikenakan kepada orang yang memiliki alamat di Jepang pada 1 Januari, berdasarkan penghasilan tahun sebelumnya. Jika Anda datang ke Jepang setelah 1 Januari, pada hari itu Anda belum punya alamat di sini, jadi tidak ada pajak penduduk untuk tahun itu. Biasanya mulai tahun berikutnya."},
+   "my":{"q":"ဂျပန်တွင် ပထမနှစ်၌ နေထိုင်သူအခွန် ဘာကြောင့် မရှိသလဲ။","a":"နေထိုင်သူအခွန်ကို ဇန်နဝါရီ ၁ ရက်နေ့တွင် ဂျပန်၌ လိပ်စာရှိသူများအပေါ် ယမန်နှစ်ဝင်ငွေအရ ကောက်ပါသည်။ ဇန်နဝါရီ ၁ ရက်နောက်ပိုင်း ဂျပန်သို့ ရောက်လာပါက ထိုနေ့တွင် လိပ်စာ မရှိသေးသဖြင့် ထိုနှစ်အတွက် နေထိုင်သူအခွန် မရှိပါ။ များသောအားဖြင့် နောက်နှစ်မှ စပါသည်။"}
+  },
+  {
+   "en":{"q":"I only worked a few months last year. Do I still pay resident tax this year?","a":"If you had an address in Japan on January 1 this year and your pay last year was above a certain amount, yes. The amount is based on the pay you actually received from January to December last year, so a few months of pay usually means a smaller tax."},
+   "ja":{"q":"去年は数か月しか働いていません。今年の住民税はかかりますか？","a":"今年の1月1日に日本に住所があり、去年の給料などが一定額以上あれば、かかります。金額は去年1月〜12月に実際に受け取った給料などで決まるので、数か月分なら税額はふつう少なめです。"},
+   "vi":{"q":"Năm ngoái tôi chỉ làm việc vài tháng. Năm nay tôi vẫn phải đóng thuế cư trú chứ?","a":"Nếu bạn có địa chỉ ở Nhật vào ngày 1 tháng 1 năm nay và lương năm ngoái trên một mức nhất định thì có. Số tiền dựa trên lương bạn thực nhận từ tháng 1 đến tháng 12 năm ngoái, nên nếu chỉ làm vài tháng thì thuế thường ít hơn."},
+   "ne":{"q":"गत वर्ष केही महिना मात्र काम गरें। यो वर्ष आवासीय कर लाग्छ?","a":"यो वर्षको जनवरी १ मा जापानमा ठेगाना थियो र गत वर्षको तलब निश्चित रकमभन्दा बढी थियो भने लाग्छ। रकम गत वर्ष जनवरीदेखि डिसेम्बरसम्म वास्तवमा पाएको तलबमा आधारित हुन्छ, त्यसैले केही महिनाको मात्र भए कर प्रायः कम हुन्छ।"},
+   "id":{"q":"Tahun lalu saya hanya bekerja beberapa bulan. Apakah tahun ini tetap ada pajak penduduk?","a":"Ya, jika Anda memiliki alamat di Jepang pada 1 Januari tahun ini dan gaji tahun lalu di atas jumlah tertentu. Jumlahnya dihitung dari gaji yang benar-benar Anda terima dari Januari sampai Desember tahun lalu, jadi jika hanya beberapa bulan, pajaknya biasanya lebih kecil."},
+   "my":{"q":"ယမန်နှစ်က လအနည်းငယ်သာ အလုပ်လုပ်ခဲ့သည်။ ယခုနှစ် နေထိုင်သူအခွန် ပေးရမလား။","a":"ယခုနှစ် ဇန်နဝါရီ ၁ ရက်တွင် ဂျပန်၌ လိပ်စာရှိပြီး ယမန်နှစ်လစာက သတ်မှတ်ပမာဏထက် ကျော်ပါက ပေးရပါသည်။ ပမာဏကို ယမန်နှစ် ဇန်နဝါရီမှ ဒီဇင်ဘာအထိ အမှန်တကယ် ရရှိသော လစာဖြင့် တွက်သဖြင့် လအနည်းငယ်သာ ဖြစ်ပါက အခွန် များသောအားဖြင့် နည်းပါသည်။"}
+  },
+  {
+   "en":{"q":"Who can be my tax representative for resident tax?","a":"Someone who lives in Japan, such as a friend, coworker or relative you trust. Who can be a representative and which forms are needed differ by city, so ask your city office before you leave."},
+   "ja":{"q":"住民税の納税管理人には誰がなれますか？","a":"日本に住んでいる人で、信頼できる友人・同僚・親族などです。誰がなれるか、どんな書類が必要かは市区町村によって違うので、出国前に市区町村役所で確認してください。"},
+   "vi":{"q":"Ai có thể làm người đại diện nộp thuế cư trú cho tôi?","a":"Một người đang sống ở Nhật mà bạn tin tưởng, như bạn bè, đồng nghiệp hoặc người thân. Ai được làm đại diện và cần giấy tờ gì khác nhau tùy thành phố, nên hãy hỏi văn phòng thành phố trước khi đi."},
+   "ne":{"q":"आवासीय करको लागि मेरो कर प्रतिनिधि को बन्न सक्छ?","a":"जापानमा बस्ने तपाईंले भरोसा गर्ने साथी, सहकर्मी वा आफन्त। को प्रतिनिधि बन्न सक्छ र कुन कागजात चाहिन्छ भन्ने नगरपालिकाअनुसार फरक हुन्छ, त्यसैले जानुअघि नगरपालिका कार्यालयमा सोध्नुहोस्।"},
+   "id":{"q":"Siapa yang bisa menjadi wakil pajak saya untuk pajak penduduk?","a":"Orang yang tinggal di Jepang dan Anda percayai, seperti teman, rekan kerja, atau kerabat. Siapa yang boleh menjadi wakil dan dokumen yang diperlukan berbeda di setiap kota, jadi tanyakan ke kantor kota sebelum pergi."},
+   "my":{"q":"နေထိုင်သူအခွန်အတွက် ကျွန်ုပ်၏ အခွန်ကိုယ်စားလှယ်အဖြစ် မည်သူ ဖြစ်နိုင်သလဲ။","a":"ဂျပန်တွင် နေထိုင်ပြီး သင်ယုံကြည်ရသော သူငယ်ချင်း၊ လုပ်ဖော်ကိုင်ဖက် သို့မဟုတ် ဆွေမျိုး။ မည်သူ ဖြစ်နိုင်သည်နှင့် လိုအပ်သော စာရွက်စာတမ်းများမှာ မြို့နယ်အလိုက် ကွာခြားသဖြင့် မထွက်ခွာမီ မြို့နယ်ရုံးတွင် မေးပါ။"}
+  },
+  {
+   "en":{"q":"Can unpaid resident tax affect my visa?","a":"Yes. If resident tax is unpaid, an application to extend your period of stay may not be approved. This matters if you plan to come back to Japan, so pay everything or appoint a tax representative before you leave."},
+   "ja":{"q":"住民税を払わないと在留資格に影響しますか？","a":"影響することがあります。住民税が未納だと、在留期間の更新申請などが許可されない場合があります。日本に戻る予定がある人は特に大切なので、出国前に全部払うか納税管理人を決めておきましょう。"},
+   "vi":{"q":"Thuế cư trú chưa đóng có ảnh hưởng đến visa không?","a":"Có thể. Nếu còn thuế cư trú chưa đóng, đơn gia hạn thời gian lưu trú có thể không được chấp nhận. Điều này quan trọng nếu bạn định quay lại Nhật, nên hãy đóng hết hoặc chỉ định người đại diện trước khi đi."},
+   "ne":{"q":"आवासीय कर नतिरे भिसामा असर पर्छ?","a":"पर्न सक्छ। आवासीय कर बाँकी भए बसाइ अवधि नवीकरणको आवेदन स्वीकृत नहुन सक्छ। फेरि जापान आउने योजना छ भने यो महत्त्वपूर्ण छ, त्यसैले जानुअघि सबै तिर्नुहोस् वा कर प्रतिनिधि नियुक्त गर्नुहोस्।"},
+   "id":{"q":"Apakah pajak penduduk yang belum dibayar bisa memengaruhi visa saya?","a":"Bisa. Jika masih ada pajak penduduk yang belum dibayar, permohonan perpanjangan masa tinggal mungkin tidak disetujui. Ini penting jika Anda berencana kembali ke Jepang, jadi bayar semuanya atau tunjuk wakil pajak sebelum pergi."},
+   "my":{"q":"နေထိုင်သူအခွန် မပေးပါက ဗီဇာကို ထိခိုက်နိုင်ပါသလား။","a":"ထိခိုက်နိုင်ပါသည်။ နေထိုင်သူအခွန် မပေးရသေးပါက နေထိုင်ခွင့်သက်တမ်းတိုး လျှောက်လွှာကို ခွင့်မပြုနိုင်ပါ။ ဂျပန်သို့ ပြန်လာရန် စီစဉ်ထားပါက အရေးကြီးသဖြင့် မထွက်ခွာမီ အားလုံးပေးချေပါ သို့မဟုတ် အခွန်ကိုယ်စားလှယ် ခန့်ပါ။"}
+  }
+ ]
+}

@@ -8,7 +8,7 @@ OUT = REPO / "dist"
 BASE = "https://japan-toolkit.github.io"
 LANGS = ["vi", "ne", "id", "my", "en", "ja"]
 LANG_NAMES = {"vi": "Tiếng Việt", "ne": "नेपाली", "id": "Bahasa Indonesia", "my": "မြန်မာ", "en": "English", "ja": "日本語"}
-TOOLS = ["takehome", "nenkin-refund", "leaving-japan", "payslip"]
+TOOLS = ["takehome", "nenkin-refund", "leaving-japan", "resident-tax", "payslip"]
 
 # Google Search Console: the owner pastes the code from the "HTML tag" method into this file
 # (just the content="..." value, or the whole <meta> tag). Empty or missing file = no tag.
@@ -29,6 +29,7 @@ SHORT = {
  "nenkin-refund": {"vi":"Tính tiền nenkin hoàn lại","ne":"नेन्किन फिर्ता क्याल्कुलेटर","id":"Kalkulator pengembalian nenkin","my":"နန်ကင်ပြန်အမ်းငွေ တွက်စက်","en":"Nenkin refund calculator","ja":"脱退一時金の計算機"},
  "leaving-japan": {"vi":"Việc cần làm trước khi về nước","ne":"जापान छोड्नुअघिको चेकलिस्ट","id":"Daftar periksa sebelum pulang","my":"မထွက်ခွာမီ စစ်ဆေးစာရင်း","en":"Leaving Japan checklist","ja":"帰国前チェックリスト"},
  "takehome": {"vi":"Tính lương thực nhận","ne":"हातमा आउने तलब क्याल्कुलेटर","id":"Kalkulator gaji bersih","my":"လက်ထဲရောက်လစာ တွက်စက်","en":"Take-home pay calculator","ja":"手取り計算機"},
+ "resident-tax": {"vi":"Thuế cư trú khi về nước","ne":"जापान छोड्दा आवासीय कर","id":"Pajak penduduk saat pulang","my":"ပြန်ချိန် နေထိုင်သူအခွန်","en":"Resident tax when leaving","ja":"帰国時の住民税"},
  "payslip": {"vi":"Đọc phiếu lương","ne":"तलब विवरण बुझ्ने तरिका","id":"Baca slip gaji","my":"လစာစာရွက် ဖတ်နည်း","en":"Pay slip reader","ja":"給与明細の読み方"},
 }
 UI = {

@@ -1,6 +1,6 @@
 # Backlog (top = next)
 
-1. **Translation quality (AI cross-review, see ops/REVIEW.md)** — all four languages AI-cross-reviewed once on `daily/2026-11-08` (awaiting approval). Next: re-run after text changes; watch GitHub issues. Also: 'translation mistake?' link on every page lets real users report.
+1. **Translation quality (AI cross-review, see ops/REVIEW.md)** — all four languages AI-cross-reviewed once, live on main 2026-11-08. Next: re-run after text changes; watch GitHub issues. Also: 'translation mistake?' link on every page lets real users report.
 2. **Search Console follow-up** — from ~2026-11-21, ask the owner weekly which queries bring visitors; use them to pick new FAQ questions and tools. Reason: data-driven priorities.
 3. **Take-home calculator: bonus (賞与)** — live on main 2026-11-08 (NTA bonus rate table 2026/2027 transcribed twice; official worked example passes). Later: add a bonus FAQ question.
 4. **Kanji quizzes** — monthly KANJIDIC2 refresh (CLAUDE.md). Ideas: more field sets (漁業, 自動車整備, 航空, ビルクリーニング), a "review my mistakes" mode. Words must be checked twice.

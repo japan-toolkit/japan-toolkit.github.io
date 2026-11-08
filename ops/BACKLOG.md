@@ -1,13 +1,16 @@
 # Backlog (top = next)
 
-1. **Take-home pay calculator** — (a) DONE on `daily/2026-11-08`: `tools/takehome/engine.js` (income tax 甲欄, official computer method, 2026 and 2027) + `test_engine.js` (matches the 令和9年分 月額表 within 10 yen at band midpoints up to 602,000円). (b) DONE on `daily/2026-11-08`: `insurance.js` (grades 1–50, pension 88k–650k cap, 50銭 rounding, 47 prefecture rates) + `test_insurance.js` vs the official 東京 保険料額表. Before UI: second check of the 47 rates; confirm 雇用保険 rounding. (c) UI DONE on `daily/2026-11-08` (32 pages checked; page totals = tested modules for 4 cases × 6 languages). Live on main 2026-11-08. 雇用保険 rounding confirmed 2026-11-08 (MHLW). takehome FAQ (4 Q&A) on `daily/2026-11-08` awaiting approval. Remaining: bonus (賞与) mode later. Also get a few 令和8年分 月額表 rows to test the 2026 mode.
-2. **FAQ sections** — nenkin-refund live; payslip live (2026-11-08); leaving-japan live (2026-11-08). Next: more questions from Search Console queries (3–5 questions each, original text, figures only from FACTS.md).
-3. **Resident tax when leaving Japan** — guide DONE on `daily/2026-11-08` (answers by leave month × payment method; 総務省 sources), live on main 2026-11-08. FAQ + checklist links (住民税 → guide, 脱退一時金 → calculator) live on main 2026-11-08. Later: city pages (.lg.jp) were blocked by fetch permission — retry for 普通徴収 納期 details.
-4. **Kanji quiz** — design in `ops/DESIGN-kanji-quiz.md`. v1 「仕事で見る漢字クイズ」 (48 original words, 4 sets, meaning/reading modes) live on main 2026-11-08. v2 = school-grade kanji from KANJIDIC2 (needs owner decision on downloading the official file). No JLPT labels (no official lists since 2010). Construction/care/food sets (36 words) live on main 2026-11-08; farming/factory/hotel sets (36 words) live on main 2026-11-08. v2 「小学校で習う漢字クイズ」 (KANJIDIC2 2026-311, owner-attached file) live on main 2026-11-08. Monthly data refresh (in CLAUDE.md daily routine, owner agreed 2026-11-08): ask the owner for a new file on the first run of each month (see DESIGN note).
-   Licence checked 2026-11-08 (https://www.edrdg.org/edrdg/licence.html): KANJIDIC2 = CC BY-SA 4.0, free incl. commercial use, no contract. Must: credit EDRDG + link https://www.edrdg.org/wiki/index.php/KANJIDIC_Project on every page that shows the data; derived data files stay CC BY-SA; keep data updated (licence says web dictionary servers at least monthly); never claim copyright over it. Avoid SKIP codes and other contributor fields (own terms, section 8). Check the KANJIDIC2 docs before using its JLPT field (likely old 4-level scale).
-5. **Paid material plan** — 特定技能 field vocabulary (介護, 外食, 建設…) in vi/id/ne; design only, no selling until the owner approves a platform.
+1. **Native-speaker review** — sheets ready in `ops/review/<lang>.md` (plan in `ops/REVIEW.md`). Waiting for the owner to find reviewers; apply corrections as they come. Reason: machine-written translations, esp. Burmese/Nepali, on safety words.
+2. **Search Console follow-up** — from ~2026-11-21, ask the owner weekly which queries bring visitors; use them to pick new FAQ questions and tools. Reason: data-driven priorities.
+3. **Take-home calculator: bonus (賞与) mode** — needs 賞与 rate table (NTA 15-16.pdf) + 標準賞与額 rules; test against official tables. Reason: bonus months confuse people.
+4. **Kanji quizzes** — monthly KANJIDIC2 refresh (CLAUDE.md). Ideas: more field sets (漁業, 自動車整備, 航空, ビルクリーニング), a "review my mistakes" mode. Words must be checked twice.
+5. **Paid material plan** — 特定技能 field vocabulary in vi/id/ne; design only, no selling until the owner approves a platform. Keep separate from the free quizzes (KANJIDIC data is CC BY-SA; paid material must not use it).
+6. **Last-year resident tax estimate** — only if an official, nationwide formula can be cited; otherwise keep the guide as is.
 
-6. **Search Console follow-up** — verified and sitemap.xml submitted by the owner on 2026-11-07. From ~2026-11-21, ask the owner weekly which queries bring visitors; use them to pick FAQ topics. Reason: data-driven priorities.
+## Status of shipped tools (all live on main, 2026-11-08)
+- takehome (income tax 2026/2027 甲欄 + FY2026 insurance, 47 prefectures, FAQ) · nenkin-refund (+FAQ) · leaving-japan (+FAQ, links) ·
+  resident-tax (+FAQ) · payslip (+FAQ, official rate range) · kanji-work (120 words, 10 sets) · kanji-grade (1,026 kanji, KANJIDIC2 2026-311).
+- Sitemap lastmod per tool. Privacy page mentions quiz scores.
 
 ## Done
 - 2026-11-08: kanji-grade quiz (1,026 kanji, reading/meaning/Hán-Việt), 50 pages checked, 9,234 generated questions tested.

@@ -7,9 +7,9 @@
 5. **Paid material plan** — 特定技能 field vocabulary (介護, 外食, 建設…) in vi/id/ne; design only, no selling until the owner approves a platform.
 
 6. **Search Console follow-up** — verified and sitemap.xml submitted by the owner on 2026-11-07. From ~2026-11-21, ask the owner weekly which queries bring visitors; use them to pick FAQ topics. Reason: data-driven priorities.
-7. **Last official source** — 協会けんぽ全国平均 9.9% (18.3% now cited on nenkin.go.jp). Reason: still TODO in FACTS.md.
 
 ## Done
+- 2026-11-08: payslip no longer relies on the unofficial 9.9% national average: note cites the official prefecture range 9.21–10.55%, sample health amount = official Tokyo table (12,805). On `daily/2026-11-08`, awaiting approval.
 - 2026-11-08: take-home calculator page (6 languages) on `daily/2026-11-08`; 47 prefecture rates double-checked.
 - 2026-11-08: take-home step (b) social-insurance module + tests.
 - 2026-11-08: take-home step (a) income-tax engine + tests (not user-facing yet).

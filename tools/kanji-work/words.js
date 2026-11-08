@@ -85,6 +85,48 @@ food: [
  ["加熱","かねつ",{vi:"Làm nóng / nấu chín",ne:"तताउने",id:"Pemanasan (dimasak)",my:"အပူပေးခြင်း",en:"Heating (cooking through)",ja:"熱をくわえること"}],
  ["会計","かいけい",{vi:"Thanh toán (tính tiền)",ne:"बिल भुक्तानी",id:"Pembayaran (kasir)",my:"ငွေရှင်းခြင်း",en:"Paying the bill",ja:"お金をはらうこと"}]
 ],
+farm: [
+ ["収穫","しゅうかく",{vi:"Thu hoạch",ne:"बाली भित्र्याउने",id:"Panen",my:"ရိတ်သိမ်းခြင်း",en:"Harvest",ja:"作物をとり入れること"}],
+ ["農薬","のうやく",{vi:"Thuốc bảo vệ thực vật",ne:"कीटनाशक औषधि",id:"Pestisida",my:"ပိုးသတ်ဆေး",en:"Pesticide",ja:"虫や病気から作物を守る薬"}],
+ ["肥料","ひりょう",{vi:"Phân bón",ne:"मल",id:"Pupuk",my:"မြေဩဇာ",en:"Fertilizer",ja:"作物を育てるための栄養"}],
+ ["出荷","しゅっか",{vi:"Xuất hàng",ne:"ढुवानी पठाउने",id:"Pengiriman hasil",my:"ကုန်ပို့ခြင်း",en:"Shipping (sending out)",ja:"商品を送り出すこと"}],
+ ["選別","せんべつ",{vi:"Phân loại",ne:"छनोट गर्ने",id:"Penyortiran",my:"ခွဲခြားရွေးချယ်ခြင်း",en:"Sorting",ja:"大きさや質で分けること"}],
+ ["温室","おんしつ",{vi:"Nhà kính",ne:"हरितगृह",id:"Rumah kaca",my:"ဖန်လုံအိမ်",en:"Greenhouse",ja:"中をあたたかくした建物"}],
+ ["畑","はたけ",{vi:"Ruộng (cạn), vườn rau",ne:"खेत",id:"Ladang",my:"ယာခင်း",en:"Field (for vegetables)",ja:"野菜などを育てる土地"}],
+ ["田んぼ","たんぼ",{vi:"Ruộng lúa",ne:"धान खेत",id:"Sawah",my:"လယ်ကွင်း",en:"Rice paddy",ja:"米を育てる水のある土地"}],
+ ["種まき","たねまき",{vi:"Gieo hạt",ne:"बीउ छर्ने",id:"Menabur benih",my:"မျိုးစေ့ကြဲခြင်း",en:"Sowing seeds",ja:"種を土にまくこと"}],
+ ["家畜","かちく",{vi:"Gia súc",ne:"पशुधन",id:"Ternak",my:"မွေးမြူရေး တိရစ္ဆာန်",en:"Livestock",ja:"牛や豚など、人が育てる動物"}],
+ ["飼料","しりょう",{vi:"Thức ăn chăn nuôi",ne:"पशु आहार",id:"Pakan ternak",my:"တိရစ္ဆာန်အစာ",en:"Animal feed",ja:"動物のえさ"}],
+ ["草刈り","くさかり",{vi:"Cắt cỏ",ne:"घाँस काट्ने",id:"Memotong rumput",my:"မြက်ရိတ်ခြင်း",en:"Cutting grass",ja:"草を切ること"}]
+],
+factory: [
+ ["製造","せいぞう",{vi:"Sản xuất",ne:"उत्पादन",id:"Produksi",my:"ထုတ်လုပ်ခြင်း",en:"Manufacturing",ja:"物をつくること"}],
+ ["工場","こうじょう",{vi:"Nhà máy",ne:"कारखाना",id:"Pabrik",my:"စက်ရုံ",en:"Factory",ja:"物をつくる所"}],
+ ["不良品","ふりょうひん",{vi:"Hàng lỗi",ne:"खराब सामान",id:"Barang cacat",my:"ချို့ယွင်းသော ပစ္စည်း",en:"Defective product",ja:"問題がある製品"}],
+ ["検品","けんぴん",{vi:"Kiểm tra hàng",ne:"सामान जाँच",id:"Pemeriksaan barang",my:"ကုန်ပစ္စည်း စစ်ဆေးခြင်း",en:"Checking products",ja:"製品を調べること"}],
+ ["組立","くみたて",{vi:"Lắp ráp",ne:"जोड्ने काम",id:"Perakitan",my:"တပ်ဆင်ခြင်း",en:"Assembly",ja:"部品を組み合わせてつくること"}],
+ ["梱包","こんぽう",{vi:"Đóng gói",ne:"प्याकिङ",id:"Pengemasan",my:"ထုပ်ပိုးခြင်း",en:"Packing",ja:"箱などにつめること"}],
+ ["在庫","ざいこ",{vi:"Hàng tồn kho",ne:"मौज्दात",id:"Stok",my:"လက်ကျန်ပစ္စည်း",en:"Stock (inventory)",ja:"倉庫などにある品物"}],
+ ["部品","ぶひん",{vi:"Linh kiện",ne:"पार्टपुर्जा",id:"Suku cadang",my:"အစိတ်အပိုင်း",en:"Parts",ja:"機械や製品の一部"}],
+ ["品質","ひんしつ",{vi:"Chất lượng",ne:"गुणस्तर",id:"Kualitas",my:"အရည်အသွေး",en:"Quality",ja:"品物のよしあし"}],
+ ["作業手順","さぎょうてじゅん",{vi:"Quy trình làm việc",ne:"कामको प्रक्रिया",id:"Prosedur kerja",my:"လုပ်ငန်းအဆင့်ဆင့်",en:"Work procedure",ja:"作業をする順番"}],
+ ["停止","ていし",{vi:"Dừng",ne:"रोक्ने",id:"Berhenti",my:"ရပ်တန့်",en:"Stop",ja:"止めること"}],
+ ["点検","てんけん",{vi:"Kiểm tra máy móc",ne:"मेसिन जाँच",id:"Pemeriksaan mesin",my:"စက်စစ်ဆေးခြင်း",en:"Checking equipment",ja:"機械などに問題がないか調べること"}]
+],
+hotel: [
+ ["宿泊","しゅくはく",{vi:"Lưu trú (ở lại qua đêm)",ne:"बास बस्ने",id:"Menginap",my:"တည်းခိုခြင်း",en:"Staying overnight",ja:"ホテルなどにとまること"}],
+ ["客室","きゃくしつ",{vi:"Phòng khách (phòng ngủ)",ne:"पाहुना कोठा",id:"Kamar tamu",my:"ဧည့်သည်အခန်း",en:"Guest room",ja:"お客さんがとまる部屋"}],
+ ["清掃","せいそう",{vi:"Dọn dẹp",ne:"सरसफाइ",id:"Pembersihan",my:"သန့်ရှင်းရေး",en:"Cleaning",ja:"きれいにそうじすること"}],
+ ["予約","よやく",{vi:"Đặt trước",ne:"बुकिङ",id:"Reservasi",my:"ကြိုတင်မှာယူခြင်း",en:"Reservation",ja:"前もって約束すること"}],
+ ["受付","うけつけ",{vi:"Quầy lễ tân",ne:"सोधपुछ कक्ष",id:"Resepsionis",my:"ဧည့်ကြိုကောင်တာ",en:"Reception",ja:"お客さんを迎える場所"}],
+ ["浴場","よくじょう",{vi:"Nhà tắm chung",ne:"सार्वजनिक स्नानघर",id:"Pemandian umum",my:"ရေချိုးဆောင်",en:"Bath hall",ja:"大きなおふろ"}],
+ ["布団","ふとん",{vi:"Chăn nệm (futon)",ne:"फुटोन (बिस्तरा)",id:"Futon (kasur lipat)",my:"ဖူတွန် အိပ်ရာ",en:"Futon (bedding)",ja:"ねるときに使う寝具"}],
+ ["連泊","れんぱく",{vi:"Ở nhiều đêm liên tiếp",ne:"लगातार धेरै रात बस्ने",id:"Menginap beberapa malam",my:"ညအတော်ကြာ ဆက်တည်းခြင်း",en:"Staying several nights",ja:"続けて何日もとまること"}],
+ ["備品","びひん",{vi:"Đồ dùng trong phòng",ne:"कोठाका सामान",id:"Perlengkapan kamar",my:"အခန်းတွင်း ပစ္စည်းများ",en:"Room supplies",ja:"部屋に置いてある物"}],
+ ["忘れ物","わすれもの",{vi:"Đồ để quên",ne:"बिर्सिएको सामान",id:"Barang tertinggal",my:"မေ့ကျန်ခဲ့သော ပစ္စည်း",en:"Item left behind",ja:"わすれて置いていった物"}],
+ ["朝食会場","ちょうしょくかいじょう",{vi:"Nơi ăn sáng",ne:"बिहानको खाना खाने ठाउँ",id:"Tempat sarapan",my:"နံနက်စာ စားသောက်ရာနေရာ",en:"Breakfast room",ja:"朝ごはんを食べる場所"}],
+ ["喫煙所","きつえんじょ",{vi:"Khu vực hút thuốc",ne:"धूम्रपान गर्ने ठाउँ",id:"Area merokok",my:"ဆေးလိပ်သောက်ရန်နေရာ",en:"Smoking area",ja:"たばこを吸ってもいい場所"}]
+],
 docs: [
  ["氏名","しめい",{vi:"Họ và tên",ne:"पूरा नाम",id:"Nama lengkap",my:"အမည်",en:"Full name",ja:"名前"}],
  ["住所","じゅうしょ",{vi:"Địa chỉ",ne:"ठेगाना",id:"Alamat",my:"လိပ်စာ",en:"Address",ja:"住んでいる場所"}],

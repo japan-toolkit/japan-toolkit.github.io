@@ -308,6 +308,13 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | notes[1] | Income tax uses the official computer method (甲 column). If your company uses the printed table, the amount can differ a little (usually up to a few hundred yen), and more above 740,000 yen with dependants. | आयकर आधिकारिक कम्प्युटर विधि (甲 स्तम्भ) बाट गणना गरिएको हो। कम्पनीले छापिएको तालिका प्रयोग गरे अलिकति फरक पर्न सक्छ (प्रायः बढीमा केही सय येन); ७,४०,००० येनभन्दा बढी तलब र आश्रित भए अझ बढी। | |
 | notes[2] | If you have not given your company the 扶養控除等申告書 form, much more tax is taken (乙 column). That case is not covered here. | 扶養控除等申告書 कम्पनीमा नबुझाएको भए कर धेरै बढी हुन्छ (乙 स्तम्भ)। यो उपकरणमा समावेश छैन। | |
 | notes[3] | Insurance rates are Kyokai Kenpo FY2026 rates. If your company has its own health insurance society, its rate is different. | बीमा दर आर्थिक वर्ष २०२६ को क्योकाइ केन्पो दर हो। कम्पनीको आफ्नै बीमा संघ भए दर फरक हुन्छ। | |
+| bTitle | Bonus (賞与) | बोनस (賞与) | |
+| bL | Bonus amount (yen) | बोनस रकम (येन) | |
+| bH | The monthly pay above is used as last month's pay. Enter 0 if you have no bonus. | माथिको मासिक तलबलाई गत महिनाको तलब मानिन्छ। नभए ० लेख्नुहोस्। | |
+| bNet | Estimated bonus take-home | अनुमानित हातमा आउने बोनस | |
+| rateL | Tax rate | कर दर | |
+| bSpecial | For this bonus your company calculates tax another way (no pay last month, or the bonus is more than 10 times last month's pay). This tool does not estimate that case. | यो बोनसमा कम्पनीले फरक तरिकाले कर गणना गर्छ (गत महिना तलब थिएन, वा बोनस गत महिनाको तलबको १० गुणाभन्दा बढी छ)। यो उपकरणले त्यो अवस्था अनुमान गर्दैन। | |
+| bNote | Insurance on a bonus uses the bonus rounded down to the nearest 1,000 yen. Employees' Pension counts up to 1,500,000 yen per month and health insurance up to 5,730,000 yen per fiscal year (earlier bonuses this year are not counted here). Income tax uses the official bonus rate table (甲 column). | बोनसको बीमा १,००० येनमुनि काटेर गणना हुन्छ। कर्मचारी पेन्सन महिनामा बढीमा १५,००,००० येन र स्वास्थ्य बीमा आर्थिक वर्षमा बढीमा ५७,३०,००० येनसम्म गनिन्छ (यस वर्षका पहिलेका बोनस यहाँ गनिँदैनन्)। आयकर बोनसको आधिकारिक दर तालिका (甲 स्तम्भ) बाट गणना हुन्छ। | |
 | source | Sources: | स्रोत: | |
 | checked | Figures checked November 2026. | नोभेम्बर २०२६ मा जाँच गरिएको। | |
 | faq[0].q | Why is income tax lower when I choose 2027? | २०२७ छान्दा आयकर किन कम हुन्छ? | |

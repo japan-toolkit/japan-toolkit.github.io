@@ -1,0 +1,195 @@
+<title>Primary-School Kanji Quiz</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Be+Vietnam+Pro:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;600&family=Noto+Sans+Myanmar:wght@400;600&family=Noto+Sans+JP:wght@400;600;700&display=swap">
+<style>
+/* Layout: grade + mode chooser, one question card at a time, then a review list. */
+:root{
+  --bg:#f3f5f4; --surface:#ffffff; --ink:#14231f; --muted:#5a6b66; --line:#d7dfdc;
+  --accent:#0f6b5c; --accent-soft:#dcefea; --seal:#b5532f; --seal-soft:#f6e6de; --ok:#2f7d4a; --ok-soft:#e1f1e6;
+  --display:"Bricolage Grotesque","Be Vietnam Pro","Noto Sans Devanagari","Noto Sans Myanmar","Noto Sans JP",system-ui,sans-serif;
+  --body:"Be Vietnam Pro","Noto Sans Devanagari","Noto Sans Myanmar","Noto Sans JP",system-ui,sans-serif;
+  --jp:"Noto Sans JP",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f1715; --surface:#16211e; --ink:#e4ece9; --muted:#9aaba6; --line:#2a3a36;
+  --accent:#5cc4ae; --accent-soft:#1d3631; --seal:#e08a66; --seal-soft:#3a251d; --ok:#7fcf98; --ok-soft:#1c3324; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1715; --surface:#16211e; --ink:#e4ece9; --muted:#9aaba6; --line:#2a3a36;
+  --accent:#5cc4ae; --accent-soft:#1d3631; --seal:#e08a66; --seal-soft:#3a251d; --ok:#7fcf98; --ok-soft:#1c3324; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.6}
+html:lang(my) body{line-height:1.95} html:lang(ne) body{line-height:1.8}
+.wrap{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 48px;display:flex;flex-direction:column;gap:22px}
+header{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.brand{font-family:"Bricolage Grotesque",sans-serif;font-weight:600;letter-spacing:.04em;text-transform:uppercase;font-size:12px;color:var(--muted)}
+select{font:500 14px var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:7px 14px;max-width:100%}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(26px,5vw,40px);line-height:1.2;margin:0;text-wrap:balance}
+.lede{color:var(--muted);margin:8px 0 0;max-width:62ch}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:16px}
+.q{font-weight:600;font-size:14px;margin-bottom:8px}
+.chips{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:6px}
+.chips button,.opts button,.btn{border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:10px;padding:10px 12px;font:600 14px var(--body);cursor:pointer;text-align:left;line-height:1.35}
+.chips button small{display:block;font-weight:400;color:var(--muted);font-size:12.5px}
+.chips button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.card .btn{text-align:center}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--surface);text-align:center;font-size:15px;padding:12px}
+button:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:14px}
+.bar{display:flex;justify-content:space-between;font-size:13px;color:var(--muted)}
+.kanji{font:700 clamp(40px,12vw,64px)/1.2 var(--jp);text-align:center;padding:10px 0;overflow-wrap:anywhere}
+.ask{text-align:center;color:var(--muted);font-size:14px;margin:0}
+.opts{display:grid;grid-template-columns:1fr;gap:8px}
+.opts button{font-size:16px;padding:12px 14px}
+.opts button.jp{font-family:var(--jp)}
+.opts button.right{border-color:var(--ok);background:var(--ok-soft)}
+.opts button.wrong{border-color:var(--seal);background:var(--seal-soft)}
+.opts button:disabled{cursor:default;color:var(--ink)}
+.fb{border-radius:10px;padding:12px 14px;font-size:14px}
+.fb.ok{background:var(--ok-soft)} .fb.ng{background:var(--seal-soft)}
+.fb b{display:block;font-size:15px}
+.fb .jp{font-family:var(--jp)}
+.score{font:700 clamp(34px,8vw,48px)/1 var(--display);color:var(--accent);text-align:center}
+.review{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.review li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:2px 14px;padding:10px 0;border-bottom:1px solid var(--line)}
+.review .k{font:700 20px var(--jp);grid-row:1/3}
+.review .r{font-size:13px;color:var(--muted)}
+.grades{grid-template-columns:repeat(3,minmax(0,1fr))}
+.kanji.big1{font-size:clamp(64px,20vw,96px)}
+.foot a{color:var(--accent)}
+.best{font-size:12.5px;color:var(--muted)}
+.foot{font-size:12.5px;color:var(--muted);display:flex;flex-direction:column;gap:6px}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="brand">Japan Practical Toolkit</div>
+    <select id="lang" aria-label="Language">
+      <option value="vi">Tiếng Việt</option>
+      <option value="ne">नेपाली</option>
+      <option value="id">Bahasa Indonesia</option>
+      <option value="my">မြန်မာ</option>
+      <option value="en">English</option>
+      <option value="ja">日本語</option>
+    </select>
+  </header>
+  <div>
+    <h1 id="title"></h1>
+    <p class="lede" id="lede"></p>
+  </div>
+
+  <div class="panel" id="setup">
+    <div><div class="q" id="l-set"></div><div class="chips grades" id="sets"></div></div>
+    <div><div class="q" id="l-mode"></div><div class="chips" id="modes"></div></div>
+    <button type="button" class="btn primary" id="start"></button>
+  </div>
+
+  <section class="card" id="quiz" hidden aria-live="polite"></section>
+
+  <div class="foot"><span id="note"></span>
+    <span>Kanji data: <a href="https://www.edrdg.org/wiki/index.php/KANJIDIC_Project" target="_blank" rel="noopener">KANJIDIC2</a> by the <a href="https://www.edrdg.org/" target="_blank" rel="noopener">Electronic Dictionary Research and Development Group</a>, used under <a href="https://www.edrdg.org/edrdg/licence.html" target="_blank" rel="noopener">its licence</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>). The kanji data on this page is shared under the same licence. <span id="ver"></span></span>
+  </div>
+</div>
+
+<script>
+/*@include kanji.js*/
+/*@include quiz.js*/
+const T={
+vi:{title:"Kanji tiểu học theo lớp",lede:"1.026 chữ kanji học ở tiểu học Nhật Bản (lớp 1–6). Luyện cách đọc, nghĩa tiếng Anh và âm Hán Việt. Mỗi lượt 10 câu.",
+lset:"Chọn lớp",grade:"Lớp {g}",count:"{n} chữ",lmode:"Chọn kiểu câu hỏi",modes:{reading:["Cách đọc","Chọn một cách đọc đúng"],meaning:["Nghĩa (tiếng Anh)","Chọn nghĩa tiếng Anh"],viet:["Âm Hán Việt","Chọn âm Hán Việt"]},
+start:"Bắt đầu",next:"Câu tiếp theo",finish:"Xem kết quả",again:"Làm lại",change:"Đổi lớp",askR:"Đâu là một cách đọc của chữ này?",askM:"Chữ này có nghĩa là gì? (tiếng Anh)",askV:"Âm Hán Việt của chữ này là gì?",
+right:"Đúng rồi!",wrong:"Chưa đúng",of:"Câu {n}/{t}",result:"Kết quả",missed:"Các chữ cần ôn lại",perfect:"Đúng hết! Rất tốt.",best:"Điểm cao nhất: {n}/{t}",on:"Âm On",kun:"Âm Kun",strokes:"{n} nét",
+note:"Điểm chỉ được lưu trên thiết bị của bạn."},
+ne:{title:"कक्षाअनुसार प्राथमिक कान्जी",lede:"जापानको प्राथमिक विद्यालयमा (कक्षा १–६) सिकिने १,०२६ कान्जी। उच्चारण र अंग्रेजी अर्थ अभ्यास गर्नुहोस्। एक पटकमा १० प्रश्न।",
+lset:"कक्षा छान्नुहोस्",grade:"कक्षा {g}",count:"{n} अक्षर",lmode:"प्रश्नको प्रकार छान्नुहोस्",modes:{reading:["उच्चारण","सही उच्चारण छान्नुहोस्"],meaning:["अर्थ (अंग्रेजी)","अंग्रेजी अर्थ छान्नुहोस्"]},
+start:"सुरु गर्नुहोस्",next:"अर्को प्रश्न",finish:"नतिजा हेर्नुहोस्",again:"फेरि गर्नुहोस्",change:"कक्षा बदल्नुहोस्",askR:"यस अक्षरको एउटा उच्चारण कुन हो?",askM:"यस अक्षरको अर्थ के हो? (अंग्रेजी)",askV:"",
+right:"सही!",wrong:"मिलेन",of:"प्रश्न {n}/{t}",result:"नतिजा",missed:"दोहोर्याउनुपर्ने अक्षरहरू",perfect:"सबै सही! धेरै राम्रो।",best:"उच्च अंक: {n}/{t}",on:"ओन",kun:"कुन",strokes:"{n} स्ट्रोक",
+note:"अंक तपाईंको उपकरणमा मात्र रहन्छ।"},
+id:{title:"Kanji SD per kelas",lede:"1.026 kanji yang dipelajari di SD Jepang (kelas 1–6). Latihan cara baca dan arti bahasa Inggris. 10 soal per putaran.",
+lset:"Pilih kelas",grade:"Kelas {g}",count:"{n} kanji",lmode:"Pilih jenis soal",modes:{reading:["Cara baca","Pilih satu cara baca yang benar"],meaning:["Arti (bahasa Inggris)","Pilih arti bahasa Inggris"]},
+start:"Mulai",next:"Soal berikutnya",finish:"Lihat hasil",again:"Coba lagi",change:"Ganti kelas",askR:"Mana salah satu cara baca kanji ini?",askM:"Apa arti kanji ini? (bahasa Inggris)",askV:"",
+right:"Benar!",wrong:"Belum tepat",of:"Soal {n}/{t}",result:"Hasil",missed:"Kanji yang perlu diulang",perfect:"Semua benar! Bagus sekali.",best:"Skor terbaik: {n}/{t}",on:"On",kun:"Kun",strokes:"{n} goresan",
+note:"Skor hanya disimpan di perangkat Anda."},
+my:{title:"အတန်းအလိုက် မူလတန်း ခန်းဂျီး",lede:"ဂျပန် မူလတန်းကျောင်း (အတန်း ၁–၆) တွင် သင်ယူသော ခန်းဂျီး ၁,၀၂၆ လုံး။ အသံထွက်နှင့် အင်္ဂလိပ်အဓိပ္ပာယ် လေ့ကျင့်ပါ။ တစ်ကြိမ်လျှင် မေးခွန်း ၁၀ ခု။",
+lset:"အတန်း ရွေးပါ",grade:"အတန်း {g}",count:"{n} လုံး",lmode:"မေးခွန်းအမျိုးအစား ရွေးပါ",modes:{reading:["အသံထွက်","မှန်ကန်သော အသံထွက် ရွေးရန်"],meaning:["အဓိပ္ပာယ် (အင်္ဂလိပ်)","အင်္ဂလိပ်အဓိပ္ပာယ် ရွေးရန်"]},
+start:"စတင်ရန်",next:"နောက်မေးခွန်း",finish:"ရလဒ် ကြည့်ရန်",again:"ထပ်လုပ်ရန်",change:"အတန်း ပြောင်းရန်",askR:"ဤခန်းဂျီး၏ အသံထွက်တစ်ခုမှာ ဘယ်ဟာလဲ။",askM:"ဤခန်းဂျီး၏ အဓိပ္ပာယ်မှာ ဘာလဲ။ (အင်္ဂလိပ်)",askV:"",
+right:"မှန်ပါသည်!",wrong:"မမှန်သေးပါ",of:"မေးခွန်း {n}/{t}",result:"ရလဒ်",missed:"ပြန်လေ့လာရန် ခန်းဂျီးများ",perfect:"အားလုံးမှန်ပါသည်! အရမ်းကောင်းပါသည်။",best:"အမြင့်ဆုံးရမှတ်: {n}/{t}",on:"အွန်",kun:"ခွန်",strokes:"ရေးချက် {n}",
+note:"ရမှတ်ကို သင့်စက်တွင်သာ သိမ်းသည်။"},
+en:{title:"Primary-school kanji by grade",lede:"The 1,026 kanji taught in Japanese primary school (grades 1–6). Practise readings and English meanings. 10 questions per round.",
+lset:"Choose a grade",grade:"Grade {g}",count:"{n} kanji",lmode:"Choose a question type",modes:{reading:["Reading","Choose one correct reading"],meaning:["Meaning","Choose the English meaning"]},
+start:"Start",next:"Next question",finish:"See results",again:"Try again",change:"Change grade",askR:"Which is a reading of this kanji?",askM:"What does this kanji mean?",askV:"",
+right:"Correct!",wrong:"Not quite",of:"Question {n} of {t}",result:"Your result",missed:"Kanji to review",perfect:"All correct! Great job.",best:"Best score: {n}/{t}",on:"On",kun:"Kun",strokes:"{n} strokes",
+note:"Your scores are saved only on this device."},
+ja:{title:"小学校で習う漢字クイズ",lede:"小学校1〜6年生で習う漢字1,026字。読み方と英語の意味を練習できます。1回10問。",
+lset:"学年を選ぶ",grade:"{g}年生",count:"{n}字",lmode:"問題の種類を選ぶ",modes:{reading:["読み方","正しい読みを1つ選ぶ"],meaning:["意味（英語）","英語の意味を選ぶ"]},
+start:"スタート",next:"次の問題",finish:"結果を見る",again:"もう一度",change:"学年を変える",askR:"この漢字の読み方はどれ？",askM:"この漢字の意味は？（英語）",askV:"",
+right:"正解！",wrong:"ざんねん",of:"{t}問中 {n}問目",result:"結果",missed:"復習する漢字",perfect:"全問正解！すばらしい。",best:"最高記録：{n}/{t}",on:"音",kun:"訓",strokes:"{n}画",
+note:"記録はこの端末の中だけに保存されます。"}
+};
+
+const N=10;
+let lang="vi", grade=1, mode="reading", round=null, best={};
+try{const s=localStorage.getItem("kjg-lang"); if(T[s]) lang=s;}catch(e){}
+try{best=JSON.parse(localStorage.getItem("kjg-best"))||{};}catch(e){best={};}
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt=(s,o)=>s.replace("{n}",o.n).replace("{t}",o.t).replace("{g}",o.g);
+const COUNTS=[1,2,3,4,5,6].map(g=>KANJI.filter(r=>r[1]===g).length);
+
+function renderSetup(){
+  const t=T[lang]; if(!t.modes[mode]) mode="reading";
+  $("l-set").textContent=t.lset; $("l-mode").textContent=t.lmode; $("start").textContent=t.start;
+  $("sets").innerHTML=[1,2,3,4,5,6].map(g=>{const b=best[g+"-"+mode];return `<button type="button" data-grade="${g}" aria-pressed="${grade===g}">${esc(fmt(t.grade,{g}))}<small>${esc(fmt(t.count,{n:COUNTS[g-1]}))}${b!=null?" · "+b+"/"+N:""}</small></button>`;}).join("");
+  $("modes").innerHTML=Object.keys(t.modes).map(k=>`<button type="button" data-mode="${k}" aria-pressed="${mode===k}">${esc(t.modes[k][0])}<small>${esc(t.modes[k][1])}</small></button>`).join("");
+}
+function detail(row){
+  const t=T[lang];
+  return `<span lang="ja">${esc(t.on)}: ${esc(row[3].join("、")||"—")} / ${esc(t.kun)}: ${esc(row[4].map(showReading).join("、")||"—")}</span><br><span>${esc(showMeaning(row))}</span>${lang==="vi"?` · <span>${esc(showViet(row))}</span>`:""} · <span>${esc(fmt(t.strokes,{n:row[2]}))}</span>`;
+}
+function renderQuiz(){
+  const t=T[lang], q=$("quiz");
+  if(!round){q.hidden=true;$("setup").hidden=false;return;}
+  q.hidden=false; $("setup").hidden=true;
+  if(round.i>=round.qs.length){
+    const missed=round.missed.map(r=>`<li><span class="k" lang="ja">${esc(r[0])}</span><span class="r">${detail(r)}</span></li>`).join("");
+    q.innerHTML=`<div class="ask">${esc(t.result)}</div><div class="score">${round.score} / ${round.qs.length}</div>
+      ${round.missed.length?`<div class="q">${esc(t.missed)}</div><ul class="review">${missed}</ul>`:`<p class="ask">${esc(t.perfect)}</p>`}
+      <button type="button" class="btn primary" data-act="again">${esc(t.again)}</button><button type="button" class="btn" data-act="change">${esc(t.change)}</button>`;
+    q.querySelector('[data-act="again"]').focus(); return;
+  }
+  const qq=round.qs[round.i], row=qq.row, jp=round.mode==="reading";
+  let fb="";
+  if(round.answered){
+    fb=`<div class="fb ${round.lastOk?"ok":"ng"}"><b>${esc(round.lastOk?t.right:t.wrong)}</b>${detail(row)}</div>
+      <button type="button" class="btn primary" data-act="next">${esc(round.i+1<round.qs.length?t.next:t.finish)}</button>`;
+  }
+  const ask=round.mode==="reading"?t.askR:round.mode==="viet"?t.askV:t.askM;
+  q.innerHTML=`<div class="bar"><span>${esc(fmt(t.of,{n:round.i+1,t:round.qs.length}))}</span><span>${round.score} ✓</span></div>
+    <div class="kanji big1" lang="ja">${esc(row[0])}</div><p class="ask">${esc(ask)}</p>
+    <div class="opts">${qq.options.map((o,i)=>{let c=jp?"jp":"";if(round.answered){if(o===qq.answer)c+=" right";else if(o===round.pick)c+=" wrong";}
+      return `<button type="button" class="${c}" data-opt="${i}"${jp?' lang="ja"':(round.mode==="meaning"?' lang="en"':"")}${round.answered?" disabled":""}>${esc(o)}</button>`;}).join("")}</div>${fb}`;
+  if(round.answered) q.querySelector('[data-act="next"]').focus();
+}
+function render(){
+  const t=T[lang];
+  document.documentElement.lang=lang; $("lang").value=lang;
+  $("title").textContent=t.title; $("lede").textContent=t.lede; $("note").textContent=t.note;
+  $("ver").textContent="(KANJIDIC2 "+KANJIDIC_VERSION.database_version+", "+KANJIDIC_VERSION.date_of_creation+")";
+  renderSetup(); renderQuiz();
+}
+document.addEventListener("click",e=>{
+  const b=e.target.closest("button"); if(!b) return;
+  if(b.dataset.grade){grade=+b.dataset.grade;renderSetup();return;}
+  if(b.dataset.mode){mode=b.dataset.mode;renderSetup();return;}
+  if(b.id==="start"||b.dataset.act==="again"){round={qs:makeRound(grade,mode,N),i:0,score:0,missed:[],answered:false,mode};renderQuiz();return;}
+  if(b.dataset.opt!=null&&round&&!round.answered){
+    const q=round.qs[round.i], pick=q.options[+b.dataset.opt], ok=pick===q.answer;
+    round.answered=true; round.lastOk=ok; round.pick=pick; if(ok) round.score++; else round.missed.push(q.row);
+    renderQuiz(); return;
+  }
+  if(b.dataset.act==="next"){round.i++;round.answered=false;
+    if(round.i>=round.qs.length){const k=grade+"-"+round.mode;best[k]=Math.max(best[k]||0,round.score);try{localStorage.setItem("kjg-best",JSON.stringify(best))}catch(_){}}
+    renderQuiz();return;}
+  if(b.dataset.act==="change"){round=null;renderSetup();renderQuiz();$("start").focus();return;}
+});
+$("lang").addEventListener("change",e=>{lang=e.target.value;try{localStorage.setItem("kjg-lang",lang)}catch(_){}render();});
+render();
+</script>

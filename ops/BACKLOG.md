@@ -9,7 +9,7 @@
 6. **Search Console follow-up** — verified and sitemap.xml submitted by the owner on 2026-11-07. From ~2026-11-21, ask the owner weekly which queries bring visitors; use them to pick FAQ topics. Reason: data-driven priorities.
 
 ## Done
-- 2026-11-08: payslip no longer relies on the unofficial 9.9% national average: note cites the official prefecture range 9.21–10.55%, sample health amount = official Tokyo table (12,805). On `daily/2026-11-08`, awaiting approval.
+- 2026-11-08: payslip no longer relies on the unofficial 9.9% national average: note cites the official prefecture range 9.21–10.55%, sample health amount = official Tokyo table (12,805). Live on main 2026-11-08.
 - 2026-11-08: take-home calculator page (6 languages) on `daily/2026-11-08`; 47 prefecture rates double-checked.
 - 2026-11-08: take-home step (b) social-insurance module + tests.
 - 2026-11-08: take-home step (a) income-tax engine + tests (not user-facing yet).

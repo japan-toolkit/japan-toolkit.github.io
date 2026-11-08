@@ -26,15 +26,15 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | askM | What does this kanji mean? | यस अक्षरको अर्थ के हो? (अंग्रेजी) | |
 | askV |  |  | |
 | right | Correct! | सही! | |
-| wrong | Not quite | मिलेन | |
+| wrong | Not quite | गलत | |
 | of | Question {n} of {t} | प्रश्न {n}/{t} | |
 | result | Your result | नतिजा | |
-| missed | Kanji to review | दोहोर्याउनुपर्ने अक्षरहरू | |
+| missed | Kanji to review | दोहोर्‍याउनुपर्ने अक्षरहरू | |
 | perfect | All correct! Great job. | सबै सही! धेरै राम्रो। | |
-| best | Best score: {n}/{t} | उच्च अंक: {n}/{t} | |
-| on | On | ओन | |
-| kun | Kun | कुन | |
-| strokes | {n} strokes | {n} स्ट्रोक | |
+| best | Best score: {n}/{t} | सबैभन्दा राम्रो अंक: {n}/{t} | |
+| on | On | ओन (音) | |
+| kun | Kun | कुन् (訓) | |
+| strokes | {n} strokes | {n} धर्का | |
 | note | Your scores are saved only on this device. | अंक तपाईंको उपकरणमा मात्र रहन्छ। | |
 
 ## kanji-work
@@ -42,10 +42,10 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | ne | correction |
 |---|---|---|---|
 | title | Kanji you see at work | काममा देखिने कान्जी | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories and hotels. 10 questions per round. | सुरक्षा चिन्ह, तलब विवरण, सिफ्ट तालिका, कागजात र निर्माण, हेरचाह, रेस्टुरेन्ट, कृषि, कारखाना र होटलका कान्जी पढ्ने अभ्यास। एक पटकमा १० प्रश्न। | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories and hotels. 10 questions per round. | सुरक्षा चिह्न, तलब विवरण, सिफ्ट तालिका, कागजात, निर्माण, हेरचाह, रेस्टुरेन्ट, कृषि, कारखाना र होटलमा देखिने कान्जी पढ्ने अभ्यास। एक पटकमा १० प्रश्न। | |
 | lset | Choose a topic | विषय छान्नुहोस् | |
 | lmode | Choose a question type | प्रश्नको प्रकार छान्नुहोस् | |
-| sets.safety[0] | Safety signs | सुरक्षा चिन्ह | |
+| sets.safety[0] | Safety signs | सुरक्षा चिह्न | |
 | sets.safety[1] | 安全 | 安全 | |
 | sets.payslip[0] | Pay slip | तलब विवरण | |
 | sets.payslip[1] | 給与明細 | 給与明細 | |
@@ -77,12 +77,12 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | askM | What does this word mean? | यो शब्दको अर्थ के हो? | |
 | askR | How do you read this word? | यो शब्द कसरी पढ्ने? | |
 | right | Correct! | सही! | |
-| wrong | Not quite | मिलेन | |
+| wrong | Not quite | गलत | |
 | of | Question {n} of {t} | प्रश्न {n}/{t} | |
 | result | Your result | नतिजा | |
-| missed | Words to review | दोहोर्याउनुपर्ने शब्दहरू | |
+| missed | Words to review | दोहोर्‍याउनुपर्ने शब्दहरू | |
 | perfect | All correct! Great job. | सबै सही! धेरै राम्रो। | |
-| best | Best score: {n}/{t} | उच्च अंक: {n}/{t} | |
+| best | Best score: {n}/{t} | सबैभन्दा राम्रो अंक: {n}/{t} | |
 | note | Word list written by Japan Practical Toolkit. Your scores are saved only on this device. | शब्दसूची Japan Practical Toolkit ले आफैँ तयार गरेको हो। अंक तपाईंको उपकरणमा मात्र रहन्छ। | |
 
 ## leaving-japan
@@ -137,9 +137,9 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | ne | correction |
 |---|---|---|---|
 | title | How much pension will you get back when you leave Japan? | जापान छोड्दा तपाईंले कति पेन्सन फिर्ता पाउनुहुन्छ? | |
-| lede | Estimate your Lump-sum Withdrawal Payment (脱退一時金, the “nenkin refund”) using the official FY2026 formula from the Japan Pension Service. | जापान पेन्सन सेवाको आर्थिक वर्ष २०२६ को आधिकारिक सूत्र प्रयोग गरेर एकमुष्ट फिर्ता भुक्तानी (脱退一時金, “नेन्किन फिर्ता”) को अनुमान गर्नुहोस्। | |
+| lede | Estimate your Lump-sum Withdrawal Payment (脱退一時金, the “nenkin refund”) using the official FY2026 formula from the Japan Pension Service. | जापान पेन्सन सेवाको आर्थिक वर्ष २०२६ को आधिकारिक सूत्र प्रयोग गरेर एकमुष्ट फिर्ता भुक्तानी (脱退一時金, “पेन्सन फिर्ता (नेन्किन)”) को अनुमान गर्नुहोस्। | |
 | tabK | Company employee | कम्पनी कर्मचारी | |
-| tabN | Self-enrolled / student | आफैं दर्ता / विद्यार्थी | |
+| tabN | Self-enrolled / student | राष्ट्रिय पेन्सन (आफैँ तिर्ने) / विद्यार्थी | |
 | salary | Average monthly salary (yen) | औसत मासिक तलब (येन) | |
 | salaryHint | Before tax. Include regular allowances such as commuting pay. | कर अघिको रकम। यातायात भत्ता जस्ता नियमित भत्ता पनि समावेश गर्नुहोस्। | |
 | bonus | Bonuses per year (yen) | वार्षिक बोनस (येन) | |
@@ -156,26 +156,26 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | tax | Income tax withheld (20.42%) | काटिएको आयकर (२०.४२%) | |
 | net | Paid to your bank | तपाईंको बैंकमा आउने रकम | |
 | factorN | Months counted | गणना गरिएका महिना | |
-| taxNote | You can claim back most of the 20.42% tax. Appoint a tax representative (納税管理人) in Japan before you leave, then file a tax return after you receive the refund. | २०.४२% करको धेरैजसो भाग फिर्ता लिन सकिन्छ। जानुअघि जापानमा कर प्रतिनिधि (納税管理人) नियुक्त गर्नुहोस्, र रकम पाएपछि कर विवरण बुझाउनुहोस्। | |
+| taxNote | You can claim back most of the 20.42% tax. Appoint a tax representative (納税管理人) in Japan before you leave, then file a tax return after you receive the refund. | धेरैजसो अवस्थामा २०.४२% करको ठूलो भाग फिर्ता लिन सकिन्छ। जानुअघि जापानमा कर प्रतिनिधि (納税管理人) नियुक्त गर्नुहोस्, र रकम पाएपछि कर विवरण बुझाउनुहोस्। | |
 | noTax | No tax is withheld from a National Pension refund. | राष्ट्रिय पेन्सनको फिर्ता रकममा कर काटिँदैन। | |
 | under6 | You need at least 6 months of enrollment to qualify. | योग्य हुन कम्तीमा ६ महिना दर्ता हुनुपर्छ। | |
-| over120 | With 120 months (10 years) or more, you qualify for a regular pension instead of a refund. | १२० महिना (१० वर्ष) वा बढी दर्ता भएमा, एकमुष्ट फिर्ताको सट्टा नियमित पेन्सन पाउनुहुन्छ। | |
+| over120 | With 120 months (10 years) or more, you qualify for a regular pension instead of a refund. | १२० महिना (१० वर्ष) वा बढी दर्ता भएमा एकमुष्ट फिर्ता पाइँदैन; बरु पछि नियमित पेन्सन पाउने हकदार हुन सक्नुहुन्छ। | |
 | eligTitle | Before you claim | आवेदन दिनुअघि | |
-| elig[0] | You are not a Japanese citizen and you have left Japan (moved your address out). | तपाईं जापानी नागरिक होइन र जापान छोडिसक्नुभएको छ (ठेगाना बाहिर सारिसकेको)। | |
+| elig[0] | You are not a Japanese citizen and you have left Japan (moved your address out). | तपाईं जापानी नागरिक हुनुहुन्न र जापान छोडिसक्नुभएको छ (ठेगाना बाहिर सारिसक्नुभएको)। | |
 | elig[1] | You paid into the system for at least 6 months, but less than 10 years in total. | कम्तीमा ६ महिना तिर्नुभएको छ, तर जम्मा १० वर्ष पुगेको छैन। | |
 | elig[2] | Claim within 2 years of leaving Japan. Late claims are refused. | जापान छोडेको २ वर्षभित्र आवेदन दिनुहोस्। ढिलो आवेदन अस्वीकार हुन्छ। | |
-| elig[3] | Claiming erases all your Japanese pension periods. If your country has a social security agreement with Japan (for example the US, Germany, Australia, Brazil), those years could count toward a pension there. Check before you claim. | फिर्ता लिएपछि जापानमा तिरेका सबै अवधि मेटिन्छन्। तपाईंको देशको जापानसँग सामाजिक सुरक्षा सम्झौता छ भने ती वर्षहरू त्यहाँको पेन्सनमा गनिन सक्छन्। पहिले जाँच गर्नुहोस्। | |
+| elig[3] | Claiming erases all your Japanese pension periods. If your country has a social security agreement with Japan (for example the US, Germany, Australia, Brazil), those years could count toward a pension there. Check before you claim. | फिर्ता लिएपछि जापानमा तिरेका सबै अवधि पेन्सनको गणनाबाट हट्छन्। तपाईंको देशको जापानसँग सामाजिक सुरक्षा सम्झौता छ भने ती वर्षहरू त्यहाँको पेन्सनमा गनिन सक्छन्। पहिले जाँच गर्नुहोस्। | |
 | disclaimer | This is an estimate. The Japan Pension Service calculates your final amount from your official record, which uses salary grades rather than your exact pay. | यो अनुमान मात्र हो। जापान पेन्सन सेवाले तपाईंको वास्तविक तलब होइन, मानक तलब तहमा आधारित आधिकारिक अभिलेखबाट अन्तिम रकम गणना गर्छ। | |
 | source | Source: | स्रोत: | |
 | checked | Figures checked November 2026 (FY2026 rates). | नोभेम्बर २०२६ मा जाँच गरिएको (आर्थिक वर्ष २०२६ का दर)। | |
 | faq[0].q | Can I apply for the refund while I am still living in Japan? | जापानमै बसिरहेको बेला फिर्ताको लागि आवेदन दिन सकिन्छ? | |
-| faq[0].a | No. You can apply only after you no longer have an address in Japan. Usually you report your move-out (転出届) at your city office before you leave, then send the claim form after your move-out date, for example from your home country. | सकिँदैन। जापानमा तपाईंको ठेगाना नरहेपछि मात्र आवेदन दिन सकिन्छ। सामान्यतया जानुअघि नगरपालिका कार्यालयमा ठेगाना सराइको सूचना (転出届) दिनुहोस्, अनि सराइको मितिपछि, जस्तै आफ्नो देशबाट, आवेदन फारम पठाउनुहोस्। | |
+| faq[0].a | No. You can apply only after you no longer have an address in Japan. Usually you report your move-out (転出届) at your city office before you leave, then send the claim form after your move-out date, for example from your home country. | सकिँदैन। जापानमा तपाईंको ठेगाना नरहेपछि मात्र आवेदन दिन सकिन्छ। सामान्यतया जानुअघि नगरपालिका कार्यालयमा ठेगाना सराइको सूचना (転出届) दिनुहोस्, अनि सराइको मितिपछि आवेदन फारम पठाउनुहोस् (जस्तै, आफ्नो देश पुगेपछि)। | |
 | faq[1].q | Is there a deadline? | आवेदन दिने म्याद छ? | |
 | faq[1].a | Yes. The Japan Pension Service must receive your claim within 2 years from the day you stopped having an address in Japan. After that, you cannot get the refund. | छ। जापानमा ठेगाना नरहेको दिनदेखि २ वर्षभित्र आवेदन दिनुपर्छ। त्यसपछि फिर्ता रकम पाइँदैन। | |
-| faq[2].q | I paid for more than 5 years. Is everything refunded? | मैले ५ वर्षभन्दा बढी तिरें। सबै फिर्ता हुन्छ? | |
-| faq[2].a | No. For Employees' Pension, if your last month of enrollment was April 2021 or later, at most 60 months (5 years) are counted, even if you paid longer. If you have 10 years or more in total, you cannot get the refund; you qualify for a pension in old age instead. | हुँदैन। अन्तिम महिना अप्रिल २०२१ वा त्योभन्दा पछि भए, जति लामो तिरे पनि बढीमा ६० महिना (५ वर्ष) मात्र गनिन्छ। जम्मा १० वर्ष वा बढी भए फिर्ता पाइँदैन; बरु बुढेसकालमा पेन्सन पाउने हकदार हुनुहुन्छ। | |
+| faq[2].q | I paid for more than 5 years. Is everything refunded? | मैले ५ वर्षभन्दा बढी तिरेँ। सबै फिर्ता हुन्छ? | |
+| faq[2].a | No. For Employees' Pension, if your last month of enrollment was April 2021 or later, at most 60 months (5 years) are counted, even if you paid longer. If you have 10 years or more in total, you cannot get the refund; you qualify for a pension in old age instead. | हुँदैन। अन्तिम महिना अप्रिल २०२१ वा त्योभन्दा पछि भए, जति लामो तिर्नुभए पनि बढीमा ६० महिना (५ वर्ष) मात्र गनिन्छ। जम्मा १० वर्ष वा बढी भए फिर्ता पाइँदैन; बरु वृद्धावस्थामा पेन्सन पाउने हकदार हुन सक्नुहुन्छ। | |
 | faq[3].q | Why is tax taken from my refund, and can I get it back? | फिर्ता रकमबाट किन कर काटिन्छ, र फिर्ता लिन सकिन्छ? | |
-| faq[3].a | From the Employees' Pension refund, 20.42% income tax is withheld. Nothing is withheld from a National Pension refund. To get most of the tax back, appoint a tax representative (納税管理人) in Japan before you leave; after the refund arrives, they file a tax return for you. | कर्मचारी पेन्सन (厚生年金) को फिर्ताबाट २०.४२% आयकर काटिन्छ। राष्ट्रिय पेन्सन (国民年金) को फिर्ताबाट केही काटिँदैन। करको धेरैजसो भाग फिर्ता लिन जानुअघि जापानमा कर प्रतिनिधि (納税管理人) नियुक्त गर्नुहोस्; रकम आएपछि उहाँले तपाईंको तर्फबाट कर विवरण बुझाउनुहुन्छ। | |
+| faq[3].a | From the Employees' Pension refund, 20.42% income tax is withheld. Nothing is withheld from a National Pension refund. To get most of the tax back, appoint a tax representative (納税管理人) in Japan before you leave; after the refund arrives, they file a tax return for you. | कर्मचारी पेन्सन (厚生年金) को फिर्ताबाट २०.४२% आयकर काटिन्छ। राष्ट्रिय पेन्सन (国民年金) को फिर्ताबाट केही काटिँदैन। काटिएको करको ठूलो भाग प्रायः फिर्ता लिन सकिन्छ; यसका लागि जानुअघि जापानमा कर प्रतिनिधि (納税管理人) नियुक्त गर्नुहोस्। रकम आएपछि उहाँले तपाईंको तर्फबाट कर विवरण बुझाउनुहुन्छ। | |
 
 ## payslip
 
@@ -192,7 +192,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | ok | Normal range | सामान्य दायराभित्र | |
 | high | Higher than usual. Ask your company. | सामान्यभन्दा बढी। कम्पनीलाई सोध्नुहोस्। | |
 | low | Lower than usual. Ask your company. | सामान्यभन्दा कम। कम्पनीलाई सोध्नुहोस्। | |
-| none | Not deducted. Ask if you should be enrolled. | कट्टी भएको छैन। तपाईं दर्ता हुनुपर्ने हो कि सोध्नुहोस्। | |
+| none | Not deducted. Ask if you should be enrolled. | कट्टी भएको छैन। तपाईं यो बीमामा दर्ता हुनुपर्ने हो कि कम्पनीलाई सोध्नुहोस्। | |
 | under40 | You are under 40. Ask your company. | तपाईंको उमेर ४० भन्दा कम छ। कम्पनीलाई सोध्नुहोस्। | |
 | note | Expected ranges cover the FY2026 Kyokai Kenpo health insurance rates of every prefecture (9.21%–10.55%). Your company's own health insurance society may use a different rate, and insurance uses pay grades, so small differences are normal. | अनुमानित दायराले क्योकाइ केन्पोको आर्थिक वर्ष २०२६ का सबै प्रिफेक्चरका स्वास्थ्य बीमा दर (९.२१%–१०.५५%) समेट्छ। तपाईंको कम्पनीको बीमा संघले फरक दर प्रयोग गर्न सक्छ, र बीमा तलबको तहमा गणना हुने भएकाले सानो फरक सामान्य हो। | |
 | sample | Sample numbers are filled in. Replace them with your own. | नमुना अंकहरू भरिएका छन्। आफ्नै अंकले बदल्नुहोस्। | |
@@ -206,7 +206,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | r.other[0] | Other allowances | अन्य भत्ताहरू | |
 | r.other[1] | Housing, family, skill and similar allowances. | आवास, परिवार, सीप आदि भत्ता। | |
 | r.health[0] | Health insurance | स्वास्थ्य बीमा | |
-| r.health[1] | You pay about half and your company pays the rest. It means you pay only 30% of medical costs. | तपाईं करिब आधा तिर्नुहुन्छ, बाँकी कम्पनीले तिर्छ। उपचार खर्चको ३०% मात्र तिरे पुग्छ। | |
+| r.health[1] | You pay about half and your company pays the rest. It means you pay only 30% of medical costs. | तपाईं करिब आधा तिर्नुहुन्छ, बाँकी कम्पनीले तिर्छ। उपचार गर्दा सामान्यतया खर्चको ३०% मात्र तिरे पुग्छ। | |
 | r.kaigo[0] | Long-term care insurance | दीर्घकालीन हेरचाह बीमा | |
 | r.kaigo[1] | Only people aged 40 to 64 pay this. | ४० देखि ६४ वर्षका व्यक्तिले मात्र तिर्छन्। | |
 | r.kodomo[0] | Child and childcare support levy | बालबालिका तथा बाल हेरचाह सहयोग शुल्क | |
@@ -214,13 +214,13 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | r.pension[0] | Employees' Pension (nenkin) | कर्मचारी पेन्सन (नेन्किन) | |
 | r.pension[1] | When you leave Japan, you can get most of this back as a lump-sum refund. | जापान छोड्दा यसको धेरैजसो भाग एकमुष्ट फिर्ताको रूपमा पाउन सक्नुहुन्छ। | |
 | r.koyo[0] | Employment insurance | रोजगार बीमा | |
-| r.koyo[1] | Pays benefits if you lose your job. | जागिर गुमाएमा भत्ता दिन्छ। | |
+| r.koyo[1] | Pays benefits if you lose your job. | जागिर गुमाएमा सर्त पुगे भत्ता पाउन सकिन्छ। | |
 | r.shotoku[0] | Income tax | आयकर | |
 | r.shotoku[1] | This month's tax, taken in advance. Any difference is settled at year-end adjustment (年末調整) in December. | यो महिनाको कर, अग्रिम रूपमा काटिन्छ। फरक रकम डिसेम्बरमा मिलान (年末調整) गरिन्छ। | |
 | r.jumin[0] | Resident tax | आवासीय कर | |
 | r.jumin[1] | Based on last year's income. It is usually zero in your first year in Japan and often starts in June of the next year. | गत वर्षको आम्दानीमा आधारित। जापानको पहिलो वर्षमा प्रायः शून्य हुन्छ; प्रायः अर्को वर्षको जुनदेखि काटिन थाल्छ। | |
 | r.other_d[0] | Dormitory and other deductions | छात्रावास र अन्य कट्टी | |
-| r.other_d[1] | Dormitory, meals and similar costs. Your company may only deduct these under a written labor-management agreement. Check the amount matches your contract. | छात्रावास, खाना आदि खर्च। लिखित श्रम सम्झौता भएमा मात्र कम्पनीले काट्न पाउँछ। सम्झौतासँग मिल्छ कि जाँच गर्नुहोस्। | |
+| r.other_d[1] | Dormitory, meals and similar costs. Your company may only deduct these under a written labor-management agreement. Check the amount matches your contract. | छात्रावास, खाना आदि खर्च। कामदार र कम्पनीबीचको लिखित सम्झौता (労使協定) भएमा मात्र कम्पनीले काट्न पाउँछ। सम्झौतासँग मिल्छ कि जाँच गर्नुहोस्। | |
 | faq[0].q | Why is there a new small deduction on my pay slip since May 2026? | मे २०२६ देखि तलब विवरणमा सानो नयाँ कट्टी किन देखियो? | |
 | faq[0].a | It is the child and childcare support levy (子ども・子育て支援金). It started in April 2026 and is usually taken from May pay. The rate is 0.23% of your standard monthly pay in total, shared between you and your company, so your part is small. | यो बालबालिका तथा बाल हेरचाह सहयोग शुल्क (子ども・子育て支援金) हो। अप्रिल २०२६ देखि सुरु भएको हो र प्रायः मेको तलबबाट काटिन्छ। दर मानक मासिक तलबको जम्मा ०.२३% हो, जुन तपाईं र कम्पनीले बाँडेर तिर्छन्, त्यसैले तपाईंको भाग सानो हुन्छ। | |
 | faq[1].q | My friend earns the same, but pays a different amount of health insurance. Why? | मेरो साथीको तलब मेरो जत्तिकै छ, तर स्वास्थ्य बीमा फरक छ। किन? | |
@@ -281,11 +281,11 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | ne | correction |
 |---|---|---|---|
 | title | How much pay will you actually take home? | तपाईंको हातमा आउने तलब कति हो? | |
-| lede | Enter your monthly pay to estimate social insurance, income tax and your take-home pay, using the official 2026 and 2027 tables. | मासिक तलब लेख्नुहोस्। आधिकारिक २०२६ र २०२७ तालिकाअनुसार सामाजिक बीमा, आयकर र हातमा आउने रकमको अनुमान देखाउँछ। | |
+| lede | Enter your monthly pay to estimate social insurance, income tax and your take-home pay, using the official 2026 and 2027 tables. | मासिक तलब लेख्नुहोस्। आधिकारिक २०२६ र २०२७ तालिकाअनुसार यसले सामाजिक बीमा, आयकर र हातमा आउने रकमको अनुमान देखाउँछ। | |
 | pay | Total monthly pay (yen) | कुल मासिक तलब (येन) | |
 | hPay | Before deductions. Include overtime and commuting allowance. | कट्टीअघिको रकम। ओभरटाइम र यातायात भत्ता समेत। | |
 | commute | Of which: commuting allowance (yen) | यसमध्ये यातायात भत्ता (येन) | |
-| hCommute | Not taxed, but it counts for insurance. | कर लाग्दैन, तर बीमामा गनिन्छ। | |
+| hCommute | Not taxed, but it counts for insurance. | प्रायः कर लाग्दैन, तर बीमामा गनिन्छ। | |
 | pref | Prefecture where you work | काम गर्ने प्रिफेक्चर | |
 | hPref | Kyokai Kenpo health insurance rates differ by prefecture. | क्योकाइ केन्पोको स्वास्थ्य बीमा दर प्रिफेक्चरअनुसार फरक हुन्छ। | |
 | deps | Number of dependants | आश्रितको संख्या | |
@@ -298,7 +298,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | gross | Gross pay | कुल तलब | |
 | health | Health insurance | स्वास्थ्य बीमा | |
 | kaigo | (incl. long-term care insurance) | (दीर्घकालीन हेरचाह बीमासहित) | |
-| kodomo | Child support levy | बाल हेरचाह सहयोग शुल्क | |
+| kodomo | Child support levy | बालबालिका तथा बाल हेरचाह सहयोग शुल्क | |
 | pension | Employees' Pension | कर्मचारी पेन्सन | |
 | koyo | Employment insurance | रोजगार बीमा | |
 | shotoku | Income tax | आयकर | |
@@ -314,14 +314,14 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | bNet | Estimated bonus take-home | अनुमानित हातमा आउने बोनस | |
 | rateL | Tax rate | कर दर | |
 | bSpecial | For this bonus your company calculates tax another way (no pay last month, or the bonus is more than 10 times last month's pay). This tool does not estimate that case. | यो बोनसमा कम्पनीले फरक तरिकाले कर गणना गर्छ (गत महिना तलब थिएन, वा बोनस गत महिनाको तलबको १० गुणाभन्दा बढी छ)। यो उपकरणले त्यो अवस्था अनुमान गर्दैन। | |
-| bNote | Insurance on a bonus uses the bonus rounded down to the nearest 1,000 yen. Employees' Pension counts up to 1,500,000 yen per month and health insurance up to 5,730,000 yen per fiscal year (earlier bonuses this year are not counted here). Income tax uses the official bonus rate table (甲 column). | बोनसको बीमा १,००० येनमुनि काटेर गणना हुन्छ। कर्मचारी पेन्सन महिनामा बढीमा १५,००,००० येन र स्वास्थ्य बीमा आर्थिक वर्षमा बढीमा ५७,३०,००० येनसम्म गनिन्छ (यस वर्षका पहिलेका बोनस यहाँ गनिँदैनन्)। आयकर बोनसको आधिकारिक दर तालिका (甲 स्तम्भ) बाट गणना हुन्छ। | |
+| bNote | Insurance on a bonus uses the bonus rounded down to the nearest 1,000 yen. Employees' Pension counts up to 1,500,000 yen per month and health insurance up to 5,730,000 yen per fiscal year (earlier bonuses this year are not counted here). Income tax uses the official bonus rate table (甲 column). | बोनसको बीमा गणना गर्दा १,००० येनभन्दा कमको भाग हटाइन्छ। कर्मचारी पेन्सनमा महिनामा बढीमा १५,००,००० येन र स्वास्थ्य बीमामा आर्थिक वर्षमा बढीमा ५७,३०,००० येनसम्म गनिन्छ (यस वर्षका पहिलेका बोनस यहाँ गनिँदैनन्)। आयकर बोनसको आधिकारिक दर तालिका (甲 स्तम्भ) बाट गणना हुन्छ। | |
 | source | Sources: | स्रोत: | |
 | checked | Figures checked November 2026. | नोभेम्बर २०२६ मा जाँच गरिएको। | |
 | faq[0].q | Why is income tax lower when I choose 2027? | २०२७ छान्दा आयकर किन कम हुन्छ? | |
 | faq[0].a | From pay received in 2027, the National Tax Agency's new withholding tables apply. The basic deduction was raised in the 2026 tax reform, so for the same pay the monthly tax is the same or a little lower. | २०२७ मा पाउने तलबदेखि राष्ट्रिय कर एजेन्सीको नयाँ कर कट्टी तालिका लागू हुन्छ। २०२६ को कर सुधारमा आधारभूत कट्टी बढाइएकाले उही तलबमा मासिक कर उस्तै वा अलिकति कम हुन्छ। | |
 | faq[1].q | My company takes much more income tax than this calculator shows. Why? | कम्पनीले यो क्याल्कुलेटरभन्दा धेरै आयकर काट्छ। किन? | |
 | faq[1].a | Check whether you gave your company the 扶養控除等申告書 (declaration for dependants) form. Without it, tax is taken from the 乙 column, which is much higher. For example, in the 2027 table, pay of about 200,000 yen after insurance has 4,170 yen tax in the 甲 column (no dependants) but 19,200 yen in the 乙 column. | कम्पनीमा 扶養控除等申告書 फारम बुझाउनुभएको छ कि जाँच गर्नुहोस्। नबुझाए 乙 स्तम्भबाट कर काटिन्छ, जुन धेरै बढी हुन्छ। उदाहरणका लागि २०२७ को तालिकामा बीमापछिको तलब करिब २,००,००० येन हुँदा 甲 स्तम्भ (आश्रित ०) मा ४,१७० येन, तर 乙 स्तम्भमा १९,२०० येन हुन्छ। | |
-| faq[2].q | Why does the pension amount stop rising at high pay? | तलब धेरै हुँदा पेन्सन रकम किन बढ्न रोकिन्छ? | |
+| faq[2].q | Why does the pension amount stop rising at high pay? | तलब धेरै हुँदा पेन्सन कट्टी किन बढ्न रोकिन्छ? | |
 | faq[2].a | Employees' Pension uses standard monthly pay from 88,000 to 650,000 yen. Above 650,000 yen it stays at the top grade, so your share stays at 59,475 yen a month (9.15% of 650,000). Health insurance has more grades and keeps rising up to 1,390,000 yen. | कर्मचारी पेन्सनको मानक मासिक तलब ८८,००० देखि ६,५०,००० येनसम्म हुन्छ। ६,५०,००० येनभन्दा बढी भए पनि उच्चतम तहमै रहन्छ, त्यसैले तपाईंको भाग मासिक ५९,४७५ येन (६,५०,००० को ९.१५%) मा रोकिन्छ। स्वास्थ्य बीमामा धेरै तह छन् र १३,९०,००० येनसम्म बढ्छ। | |
 | faq[3].q | Why doesn't the calculator work out resident tax? | क्याल्कुलेटरले आवासीय कर किन आफैँ गणना गर्दैन? | |
 | faq[3].a | Resident tax is decided by your city from the previous year's income, for people who had an address in Japan on January 1. It depends on your city and last year's deductions, so please type in the amount from your pay slip or the city's notice. In your first year in Japan it is usually 0. | जनवरी १ मा जापानमा ठेगाना भएकाहरूको आवासीय कर गत वर्षको आम्दानीका आधारमा नगरपालिकाले तय गर्छ। यो नगरपालिका र गत वर्षका कट्टीमा भर पर्ने भएकाले तलब विवरण वा नगरपालिकाको सूचनामा भएको रकम लेख्नुहोस्। जापानको पहिलो वर्षमा प्रायः ० हुन्छ। | |

@@ -6,7 +6,9 @@
    problems (grammar, unnatural wording, wrong term, register, Unicode), with a corrected version.
 3. A second fresh agent back-translates only the corrections. Claude compares both back-translations with the English
    source and accepts a correction only if the meaning still matches (hedges like "may" kept, numbers unchanged).
-4. Apply, rerun all tests, rebuild review sheets, ship through the normal approval.
+4. Apply with `build/apply_translation_fixes.py` — it replaces whole strings by key only. (A first version replaced
+   substrings and changed unrelated text, e.g. a short Burmese word inside 'tax'; caught before deploy and redone.)
+   Rerun all tests, rebuild review sheets, ship through the normal approval.
 This catches meaning errors and obvious unnatural wording, but it is still machine judgement: real users' reports
 (the "translation mistake?" link on every page → GitHub issue) stay the final check.
 
@@ -15,7 +17,12 @@ This catches meaning errors and obvious unnatural wording, but it is still machi
   37 corrections applied, 4 rejected (2 kept original wording, 2 replaced by better terms: 図面, 通勤手当); hedges fixed
   ("may not be approved"). ne: 34 flagged, 32 applied, 2 rejected (排泄, 転出届 kept). Consistent terms now:
   my 通勤手当 = အလုပ်သွားလာစရိတ် ထောက်ပံ့ငွေ, 差引支給額 = အသားတင် လက်ခံရငွေ; ne "पेन्सन (नेन्किन)".
-- Next: my/ne for takehome, payslip, nenkin-refund, kanji-grade UI, FAQs; then vi and id.
+- 2026-11-08 my + ne round 2: takehome, payslip, nenkin-refund, kanji-grade/kanji-work UI and FAQs. my: 53 flagged,
+  46 applied (4 rejected: 'prefecture' rendered as 'district', a refund line that became 'part of', an eligibility line
+  that became ambiguous, 1 style-only). ne: 31 flagged, 30 applied (1 rejected: bonus hint changed meaning).
+  Many fixes hedge firm claims ("usually", "may") and fix terms (Burmese 子ども・子育て支援金 no longer reads as an allowance
+  you receive; kun label no longer reads as 'tax').
+- Next: vi and id (same method).
 
 ## How to get a free review (plan, 2026-11-08)
 - Review sheets: `ops/review/<lang>.md` (vi, ne, id, my, ja). Each lists every string next to the English, with a

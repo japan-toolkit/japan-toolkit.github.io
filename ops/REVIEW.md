@@ -1,5 +1,14 @@
 # Translations waiting for a native-speaker check
 
+## How to get a free review (plan, 2026-11-08)
+- Review sheets: `ops/review/<lang>.md` (vi, ne, id, my, ja). Each lists every string next to the English, with a
+  "correction" column. Regenerate after any text change: `python3 build/export_review.py`.
+- Share the GitHub link of one sheet with a native speaker you know (friend, coworker, language-exchange partner).
+  They can reply with corrections in any form; Claude applies them, rebuilds and asks for approval as usual.
+- Priority order: 1) kanji-work safety words and leaving-japan/resident-tax steps (wrong = real harm),
+  2) calculators' labels and notes, 3) FAQ, 4) everything else. Burmese (my) first, then Nepali (ne).
+- No paid services or companies. Credit reviewers only if they want it (first name or handle), never the owner.
+
 Machine-written; confidence noted. The owner decides when to order a review.
 
 | Language | Pages | Confidence | Status |

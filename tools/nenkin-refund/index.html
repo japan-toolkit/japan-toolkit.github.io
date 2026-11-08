@@ -184,7 +184,7 @@ const T = {
  vi:{
   title:"Bạn sẽ nhận lại bao nhiêu tiền lương hưu khi rời Nhật Bản?",
   lede:"Ước tính khoản Trợ cấp rút một lần (脱退一時金, “tiền nenkin”) theo công thức chính thức năm tài chính 2026 của Cơ quan Hưu trí Nhật Bản.",
-  tabK:"Nhân viên công ty", tabN:"Tự tham gia / du học sinh",
+  tabK:"Nhân viên công ty", tabN:"Tự đóng Hưu trí quốc dân / du học sinh",
   salary:"Lương tháng trung bình (yên)", salaryHint:"Trước thuế. Bao gồm các khoản phụ cấp cố định như tiền đi lại.",
   bonus:"Tiền thưởng mỗi năm (yên)", bonusHint:"Nhập 0 nếu bạn không có thưởng.",
   months:"Số tháng tham gia", monthsHint:"Tính tất cả các tháng bạn đóng Hưu trí phúc lợi. Tối đa được tính 60 tháng.",
@@ -199,14 +199,14 @@ const T = {
   under6:"Bạn cần tham gia ít nhất 6 tháng mới đủ điều kiện.",
   over120:"Nếu đã tham gia từ 120 tháng (10 năm) trở lên, bạn sẽ nhận lương hưu thông thường thay vì rút một lần.",
   eligTitle:"Trước khi nộp đơn",
-  elig:["Bạn không có quốc tịch Nhật và đã rời Nhật (đã chuyển địa chỉ ra nước ngoài).","Bạn đã đóng ít nhất 6 tháng nhưng tổng cộng chưa đủ 10 năm.","Nộp đơn trong vòng 2 năm sau khi rời Nhật. Nộp trễ sẽ bị từ chối.","Khi nhận tiền rút một lần, toàn bộ thời gian tham gia ở Nhật sẽ bị xóa. Nếu nước bạn có hiệp định an sinh xã hội với Nhật, thời gian này có thể được cộng vào lương hưu ở nước bạn. Hãy kiểm tra trước."],
+  elig:["Bạn không có quốc tịch Nhật và đã rời Nhật (đã chuyển địa chỉ ra nước ngoài).","Bạn đã đóng ít nhất 6 tháng nhưng tổng cộng chưa đủ 10 năm.","Nộp đơn trong vòng 2 năm sau khi rời Nhật. Nộp trễ sẽ bị từ chối.","Khi nhận tiền rút một lần, toàn bộ thời gian tham gia ở Nhật trước đó sẽ không còn được tính. Nếu nước bạn có hiệp định an sinh xã hội với Nhật, bạn có thể cộng thời gian này vào lương hưu ở nước bạn, nhưng chỉ khi không rút một lần. Hãy kiểm tra trước khi nộp đơn."],
   disclaimer:"Đây là số tiền ước tính. Cơ quan Hưu trí Nhật Bản tính số tiền cuối cùng dựa trên hồ sơ chính thức, theo bậc lương chuẩn chứ không phải lương thực tế.",
-  source:"Nguồn:", checked:"Số liệu kiểm tra tháng 11/2026 (mức năm tài chính 2026)."
+  source:"Nguồn:", checked:"Số liệu được kiểm tra vào tháng 11/2026 (mức năm tài chính 2026)."
  },
  id:{
   title:"Berapa uang pensiun yang kembali saat Anda meninggalkan Jepang?",
   lede:"Perkirakan Pembayaran Penarikan Sekaligus (脱退一時金, “pengembalian nenkin”) dengan rumus resmi tahun fiskal 2026 dari Japan Pension Service.",
-  tabK:"Karyawan perusahaan", tabN:"Daftar sendiri / pelajar",
+  tabK:"Karyawan perusahaan", tabN:"Peserta Pensiun Nasional (wiraswasta / pelajar)",
   salary:"Rata-rata gaji bulanan (yen)", salaryHint:"Sebelum pajak. Termasuk tunjangan tetap seperti uang transportasi.",
   bonus:"Bonus per tahun (yen)", bonusHint:"Isi 0 jika tidak ada.",
   months:"Jumlah bulan kepesertaan", monthsHint:"Hitung semua bulan Anda membayar Pensiun Karyawan. Maksimal dihitung 60 bulan.",
@@ -219,9 +219,9 @@ const T = {
   taxNote:"<strong>Sebagian besar pajak 20,42% bisa diminta kembali.</strong> Tunjuk wakil pajak (納税管理人) di Jepang sebelum pergi, lalu laporkan pajak setelah menerima pengembalian.",
   noTax:"Pengembalian dari Pensiun Nasional <strong>tidak dipotong pajak</strong>.",
   under6:"Anda memerlukan kepesertaan minimal 6 bulan untuk memenuhi syarat.",
-  over120:"Jika kepesertaan 120 bulan (10 tahun) atau lebih, Anda berhak atas pensiun biasa, bukan pengembalian sekaligus.",
+  over120:"Jika kepesertaan 120 bulan (10 tahun) atau lebih, Anda berhak atas pensiun hari tua, bukan pengembalian sekaligus.",
   eligTitle:"Sebelum mengajukan",
-  elig:["Anda bukan warga negara Jepang dan sudah meninggalkan Jepang (alamat sudah dipindahkan).","Anda membayar minimal 6 bulan, tetapi total kurang dari 10 tahun.","Ajukan dalam 2 tahun setelah meninggalkan Jepang. Pengajuan terlambat ditolak.","Setelah menerima pengembalian, seluruh masa kepesertaan Anda di Jepang dihapus. Jika negara Anda punya perjanjian jaminan sosial dengan Jepang, masa itu mungkin bisa dihitung untuk pensiun di negara Anda. Periksa dulu."],
+  elig:["Anda bukan warga negara Jepang dan sudah meninggalkan Jepang (sudah lapor pindah keluar dan tidak punya alamat di Jepang).","Anda membayar minimal 6 bulan, tetapi total kurang dari 10 tahun.","Ajukan dalam 2 tahun setelah meninggalkan Jepang. Pengajuan terlambat ditolak.","Setelah menerima pengembalian, seluruh masa kepesertaan Anda di Jepang dihapus. Jika negara Anda punya perjanjian jaminan sosial dengan Jepang, masa itu mungkin bisa dihitung untuk pensiun di negara Anda. Periksa dulu."],
   disclaimer:"Ini hanya perkiraan. Japan Pension Service menghitung jumlah akhir dari catatan resmi, yang memakai tingkat gaji standar, bukan gaji persis Anda.",
   source:"Sumber:", checked:"Angka diperiksa November 2026 (tarif tahun fiskal 2026)."
  },

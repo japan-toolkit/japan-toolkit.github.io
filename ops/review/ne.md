@@ -112,7 +112,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | items[5][0] | Stop electricity, gas, water and internet | बिजुली, ग्यास, पानी र इन्टरनेट बन्द गर्नुहोस् | |
 | items[5][1] | Request service to end on your moving day, by phone or online. | सर्ने दिनदेखि सेवा बन्द हुने गरी फोन वा अनलाइनबाट आवेदन दिनुहोस्। | |
 | items[6][0] | Cancel your mobile phone contract | मोबाइल फोनको सम्झौता रद्द गर्नुहोस् | |
-| items[6][1] | Pay the final bill. Giving or selling your phone or SIM to someone else is illegal. | अन्तिम बिल तिर्नुहोस्। फोन वा SIM अरूलाई दिनु वा बेच्नु गैरकानुनी हो। | |
+| items[6][1] | Pay the final bill. Giving or selling a SIM card or phone line in your name to someone else is illegal. | अन्तिम बिल तिर्नुहोस्। आफ्नो नाममा रहेको SIM कार्ड वा फोन लाइन अरूलाई दिनु वा बेच्नु गैरकानुनी हो। | |
 | items[7][0] | Close your bank account | बैंक खाता बन्द गर्नुहोस् | |
 | items[7][1] | Do this after your last salary and deposit refund arrive. Selling or giving your account to someone else is illegal. | अन्तिम तलब र घरको धरौटी रकम आएपछि गर्नुहोस्। खाता अरूलाई बेच्नु वा दिनु गैरकानुनी हो। | |
 | items[8][0] | Return health insurance documents | स्वास्थ्य बीमा कार्ड फिर्ता गर्नुहोस् | |
@@ -212,7 +212,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | r.kodomo[0] | Child and childcare support levy | बालबालिका तथा बाल हेरचाह सहयोग शुल्क | |
 | r.kodomo[1] | A new deduction that started with pay from May 2026. The amount is small. | मे २०२६ को तलबदेखि सुरु भएको नयाँ कट्टी। रकम सानो हुन्छ। | |
 | r.pension[0] | Employees' Pension (nenkin) | कर्मचारी पेन्सन (नेन्किन) | |
-| r.pension[1] | When you leave Japan, you can get most of this back as a lump-sum refund. | जापान छोड्दा यसको धेरैजसो भाग एकमुष्ट फिर्ताको रूपमा पाउन सक्नुहुन्छ। | |
+| r.pension[1] | When you leave Japan, you can get part of this back as a lump-sum refund (up to a limit). | जापान छोड्दा यसको धेरैजसो भाग एकमुष्ट फिर्ताको रूपमा पाउन सक्नुहुन्छ। | |
 | r.koyo[0] | Employment insurance | रोजगार बीमा | |
 | r.koyo[1] | Pays benefits if you lose your job. | जागिर गुमाएमा सर्त पुगे भत्ता पाउन सकिन्छ। | |
 | r.shotoku[0] | Income tax | आयकर | |

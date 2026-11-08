@@ -112,7 +112,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | items[5][0] | Stop electricity, gas, water and internet | 電気・ガス・水道・インターネットを止める | |
 | items[5][1] | Request service to end on your moving day, by phone or online. | 引っ越しの日に合わせて、電話かインターネットで停止を申し込みます。 | |
 | items[6][0] | Cancel your mobile phone contract | 携帯電話を解約する | |
-| items[6][1] | Pay the final bill. Giving or selling your phone or SIM to someone else is illegal. | 最後の請求を払います。携帯電話やSIMを他人に渡したり売ったりするのは違法です。 | |
+| items[6][1] | Pay the final bill. Giving or selling a SIM card or phone line in your name to someone else is illegal. | 最後の請求を払います。自分名義のSIMカードや携帯電話の回線を他人に渡したり売ったりするのは違法です。 | |
 | items[7][0] | Close your bank account | 銀行口座を解約する | |
 | items[7][1] | Do this after your last salary and deposit refund arrive. Selling or giving your account to someone else is illegal. | 最後の給料と敷金の返金が入ってから解約します。口座を他人に売ったり渡したりするのは違法です。 | |
 | items[8][0] | Return health insurance documents | 健康保険の書類を返す | |
@@ -212,7 +212,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | r.kodomo[0] | Child and childcare support levy | 子ども・子育て支援金 | |
 | r.kodomo[1] | A new deduction that started with pay from May 2026. The amount is small. | 2026年5月支給の給与から始まった新しい控除。金額は小さめです。 | |
 | r.pension[0] | Employees' Pension (nenkin) | 厚生年金 | |
-| r.pension[1] | When you leave Japan, you can get most of this back as a lump-sum refund. | 日本を離れるとき、脱退一時金として多くを取り戻せます。 | |
+| r.pension[1] | When you leave Japan, you can get part of this back as a lump-sum refund (up to a limit). | 日本を離れるとき、脱退一時金としてその一部（上限あり）を取り戻せます。 | |
 | r.koyo[0] | Employment insurance | 雇用保険 | |
 | r.koyo[1] | Pays benefits if you lose your job. | 仕事を失ったときに給付を受けられます。 | |
 | r.shotoku[0] | Income tax | 所得税 | |

@@ -22,7 +22,11 @@ This catches meaning errors and obvious unnatural wording, but it is still machi
   that became ambiguous, 1 style-only). ne: 31 flagged, 30 applied (1 rejected: bonus hint changed meaning).
   Many fixes hedge firm claims ("usually", "may") and fix terms (Burmese 子ども・子育て支援金 no longer reads as an allowance
   you receive; kun label no longer reads as 'tax').
-- Next: vi and id (same method).
+- 2026-11-08 vi + id (all strings, ~390 each): vi 32 flagged / 32 applied, id 14 flagged / 14 applied (1 adjusted).
+  Found two content issues that also affected en/ja/ne/my and were fixed in all six languages:
+  (1) "giving or selling your phone or SIM is illegal" was too broad → now "a SIM card or phone line in your name";
+  (2) "you can get most of this back" (payslip, pension) → "part of this back (up to a limit)" in en/ja/vi/id.
+- Status: all four languages AI-cross-reviewed once. Next: re-run after each text change; watch GitHub issues.
 
 ## How to get a free review (plan, 2026-11-08)
 - Review sheets: `ops/review/<lang>.md` (vi, ne, id, my, ja). Each lists every string next to the English, with a
@@ -37,10 +41,10 @@ Machine-written; confidence noted. The owner decides when to order a review.
 
 | Language | Pages | Confidence | Status |
 |---|---|---|---|
-| ne (Nepali) | all 3 tools, portal | medium | not reviewed |
-| my (Burmese) | all 3 tools, portal | medium-low | not reviewed — highest priority |
-| vi (Vietnamese) | all 3 tools, portal | good | not reviewed |
-| id (Indonesian) | all 3 tools, portal | good | not reviewed |
+| ne (Nepali) | all tools | medium → AI cross-reviewed 2026-11-08 | no native review |
+| my (Burmese) | all tools | medium-low → AI cross-reviewed 2026-11-08 | no native review — highest priority |
+| vi (Vietnamese) | all tools | good → AI cross-reviewed 2026-11-08 | no native review |
+| id (Indonesian) | all tools | good → AI cross-reviewed 2026-11-08 | no native review |
 | all five | nenkin-refund FAQ (tools/nenkin-refund/faq.json, 4 Q&A, added 2026-11-08) | vi/id good, ne medium, my medium-low | not reviewed |
 | all five | payslip FAQ (tools/payslip/faq.json, 4 Q&A, added 2026-11-08) | vi/id good, ne medium, my medium-low | not reviewed |
 | all five | leaving-japan FAQ (tools/leaving-japan/faq.json, 4 Q&A, added 2026-11-08) | vi/id good, ne medium, my medium-low | not reviewed |

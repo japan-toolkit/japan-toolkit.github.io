@@ -112,7 +112,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | items[5][0] | Stop electricity, gas, water and internet | လျှပ်စစ်၊ ဓာတ်ငွေ့၊ ရေနှင့် အင်တာနက်ကို ပိတ်ရန် လျှောက်ပါ | |
 | items[5][1] | Request service to end on your moving day, by phone or online. | ပြောင်းရွှေ့မည့်နေ့တွင် ပိတ်ရန် ဖုန်း သို့မဟုတ် အွန်လိုင်းဖြင့် လျှောက်ထားပါ။ | |
 | items[6][0] | Cancel your mobile phone contract | မိုဘိုင်းဖုန်း စာချုပ်ကို ဖျက်သိမ်းပါ | |
-| items[6][1] | Pay the final bill. Giving or selling your phone or SIM to someone else is illegal. | နောက်ဆုံးငွေတောင်းခံလွှာကို ပေးဆောင်ပါ။ ဖုန်း သို့မဟုတ် SIM ကို အခြားသူအား ပေးခြင်း သို့မဟုတ် ရောင်းခြင်းသည် တရားမဝင်ပါ။ | |
+| items[6][1] | Pay the final bill. Giving or selling a SIM card or phone line in your name to someone else is illegal. | နောက်ဆုံးငွေတောင်းခံလွှာကို ပေးချေပါ။ သင့်အမည်ဖြင့် ရှိသော SIM ကတ် သို့မဟုတ် ဖုန်းလိုင်းကို အခြားသူအား ပေးခြင်း သို့မဟုတ် ရောင်းခြင်းသည် တရားမဝင်ပါ။ | |
 | items[7][0] | Close your bank account | ဘဏ်အကောင့်ကို ပိတ်ပါ | |
 | items[7][1] | Do this after your last salary and deposit refund arrive. Selling or giving your account to someone else is illegal. | နောက်ဆုံးလစာနှင့် အိမ်စပေါ်ငွေ ဝင်ပြီးမှ ပိတ်ပါ။ အကောင့်ကို အခြားသူအား ရောင်းခြင်း သို့မဟုတ် ပေးခြင်းသည် တရားမဝင်ပါ။ | |
 | items[8][0] | Return health insurance documents | ကျန်းမာရေးအာမခံ စာရွက်စာတမ်းများကို ပြန်အပ်ပါ | |
@@ -212,7 +212,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | r.kodomo[0] | Child and childcare support levy | ကလေးနှင့် ကလေးပြုစုမှု ပံ့ပိုးကြေး (子ども・子育て支援金) | |
 | r.kodomo[1] | A new deduction that started with pay from May 2026. The amount is small. | များသောအားဖြင့် ၂၀၂၆ မေလ လစာမှစ၍ နုတ်သော နုတ်ယူငွေအသစ်။ ပမာဏ နည်းပါသည်။ | |
 | r.pension[0] | Employees' Pension (nenkin) | ဝန်ထမ်းပင်စင် (နန်ကင်) | |
-| r.pension[1] | When you leave Japan, you can get most of this back as a lump-sum refund. | ဂျပန်မှ ထွက်ခွာသည့်အခါ ဤငွေ၏ အများစုကို တစ်လုံးတစ်ခဲ ပြန်ရနိုင်ပါသည်။ | |
+| r.pension[1] | When you leave Japan, you can get part of this back as a lump-sum refund (up to a limit). | ဂျပန်မှ ထွက်ခွာသည့်အခါ ဤငွေ၏ အများစုကို တစ်လုံးတစ်ခဲ ပြန်ရနိုင်ပါသည်။ | |
 | r.koyo[0] | Employment insurance | အလုပ်အကိုင်အာမခံ | |
 | r.koyo[1] | Pays benefits if you lose your job. | အလုပ်ပြုတ်ပါက (သတ်မှတ်ချက်ပြည့်မီလျှင်) ထောက်ပံ့ငွေ ရနိုင်ပါသည်။ | |
 | r.shotoku[0] | Income tax | ဝင်ငွေခွန် | |

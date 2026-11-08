@@ -90,7 +90,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | ne | correction |
 |---|---|---|---|
 | title | Things to do before you leave Japan | जापान छोड्नुअघि गर्नुपर्ने कामहरू | |
-| lede | Once you decide to go home, work through these steps in order. Your checks are saved on this device. | स्वदेश फर्कने निर्णय भएपछि, तलको क्रम अनुसार काम गर्नुहोस्। तपाईंले लगाएको चिन्ह यो उपकरणमा सुरक्षित रहन्छ। | |
+| lede | Once you decide to go home, work through these steps in order. Your checks are saved on this device. | स्वदेश फर्कने निर्णय भएपछि, तलको क्रमअनुसार काम गर्नुहोस्। तपाईंले लगाएका ✓ चिन्हहरू यही ब्राउजरमा सुरक्षित रहन्छन्। | |
 | phases[0] | 1 month before | १ महिना अघि | |
 | phases[1] | 2 weeks before | २ हप्ता अघि | |
 | phases[2] | The day before and the day you leave | प्रस्थानको अघिल्लो दिन र प्रस्थानको दिन | |
@@ -100,37 +100,37 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | crime | Illegal | गैरकानुनी | |
 | note | Procedures can differ by city and employer. If you are unsure, ask your city office or your company. | प्रक्रिया नगरपालिका र कम्पनी अनुसार फरक हुन सक्छ। थाहा नभए नगरपालिका कार्यालय वा कम्पनीमा सोध्नुहोस्। | |
 | items[0][0] | Tell your company and collect documents | कम्पनीलाई जानकारी दिनुहोस् र कागजात लिनुहोस् | |
-| items[0][1] | Ask for your withholding tax slip (源泉徴収票) and a document showing your basic pension number. You need both for the pension refund and the tax refund. | कर कट्टी प्रमाणपत्र (源泉徴収票) र आधारभूत पेन्सन नम्बर भएको कागजात माग्नुहोस्। नेन्किन फिर्ता र कर फिर्ताका लागि यी चाहिन्छ। | |
+| items[0][1] | Ask for your withholding tax slip (源泉徴収票) and a document showing your basic pension number. You need both for the pension refund and the tax refund. | कर कट्टी प्रमाणपत्र (源泉徴収票) र आधारभूत पेन्सन नम्बर भएको कागजात माग्नुहोस्। पेन्सन (नेन्किन) फिर्ता र कर फिर्ताका लागि यी चाहिन्छन्। | |
 | items[1][0] | Decide how to pay resident tax (住民税) | आवासीय कर (住民税) कसरी तिर्ने तय गर्नुहोस् | |
 | items[1][1] | If you lived in Japan on January 1, you owe resident tax for that year. Pay it all before you leave, or appoint a tax representative. See the resident tax guide → | जनवरी १ मा जापानमा बस्ने व्यक्तिले त्यो वर्षको आवासीय कर तिर्नुपर्छ। जानुअघि सबै तिर्नुहोस् वा कर प्रतिनिधि नियुक्त गर्नुहोस्। आवासीय कर गाइड हेर्नुहोस् → | |
 | items[2][0] | Appoint a tax representative (納税管理人) | कर प्रतिनिधि (納税管理人) नियुक्त गर्नुहोस् | |
-| items[2][1] | Choose a trusted person living in Japan or a tax accountant, and register them at the tax office. You need one to recover the 20.42% tax taken from your pension refund. | जापानमा बस्ने भरपर्दो व्यक्ति वा कर विशेषज्ञ छान्नुहोस् र कर कार्यालयमा सूचना दिनुहोस्। नेन्किनबाट काटिएको २०.४२% कर फिर्ता लिन यो आवश्यक छ। | |
-| items[3][0] | Give notice on your apartment | घरको सम्झौता अन्त्य गर्ने सूचना दिनुहोस् | |
+| items[2][1] | Choose a trusted person living in Japan or a tax accountant, and register them at the tax office. You need one to recover the 20.42% tax taken from your pension refund. | जापानमा बस्ने भरपर्दो व्यक्ति वा कर विशेषज्ञ छान्नुहोस् र कर कार्यालयमा सूचना दिनुहोस्। पेन्सन फिर्ता रकमबाट काटिएको २०.४२% कर फिर्ता लिन यो आवश्यक छ। | |
+| items[3][0] | Give notice on your apartment | घर भाडा सम्झौता अन्त्य गर्ने सूचना दिनुहोस् | |
 | items[3][1] | Contact your landlord or management company. Many require one month's notice. | घरधनी वा व्यवस्थापन कम्पनीलाई सम्पर्क गर्नुहोस्। धेरैजसो ठाउँमा १ महिना अघि सूचना दिनुपर्छ। | |
 | items[4][0] | Submit a moving-out notice (転出届) at the city office | नगरपालिका कार्यालयमा बसाइँसराइ सूचना (転出届) बुझाउनुहोस् | |
 | items[4][1] | Handle National Health Insurance and National Pension at the same visit. | राष्ट्रिय स्वास्थ्य बीमा र राष्ट्रिय पेन्सनको प्रक्रिया पनि सँगै गर्नुहोस्। | |
 | items[5][0] | Stop electricity, gas, water and internet | बिजुली, ग्यास, पानी र इन्टरनेट बन्द गर्नुहोस् | |
-| items[5][1] | Request service to end on your moving day, by phone or online. | सर्ने दिनका लागि फोन वा अनलाइनबाट सेवा बन्दको आवेदन दिनुहोस्। | |
+| items[5][1] | Request service to end on your moving day, by phone or online. | सर्ने दिनदेखि सेवा बन्द हुने गरी फोन वा अनलाइनबाट आवेदन दिनुहोस्। | |
 | items[6][0] | Cancel your mobile phone contract | मोबाइल फोनको सम्झौता रद्द गर्नुहोस् | |
 | items[6][1] | Pay the final bill. Giving or selling your phone or SIM to someone else is illegal. | अन्तिम बिल तिर्नुहोस्। फोन वा SIM अरूलाई दिनु वा बेच्नु गैरकानुनी हो। | |
 | items[7][0] | Close your bank account | बैंक खाता बन्द गर्नुहोस् | |
 | items[7][1] | Do this after your last salary and deposit refund arrive. Selling or giving your account to someone else is illegal. | अन्तिम तलब र घरको धरौटी रकम आएपछि गर्नुहोस्। खाता अरूलाई बेच्नु वा दिनु गैरकानुनी हो। | |
-| items[8][0] | Return health insurance documents | स्वास्थ्य बीमाका कागजात फिर्ता गर्नुहोस् | |
-| items[8][1] | Follow your company's instructions (company insurance) or the city office's (National Health Insurance). | कम्पनी (कम्पनीको बीमा) वा नगरपालिका (राष्ट्रिय बीमा) को निर्देशन अनुसार गर्नुहोस्। | |
+| items[8][0] | Return health insurance documents | स्वास्थ्य बीमा कार्ड फिर्ता गर्नुहोस् | |
+| items[8][1] | Follow your company's instructions (company insurance) or the city office's (National Health Insurance). | कम्पनी (कम्पनीको बीमा) वा नगरपालिका (राष्ट्रिय स्वास्थ्य बीमा) को निर्देशनअनुसार गर्नुहोस्। | |
 | items[9][0] | Return your residence card at the airport | विमानस्थलमा निवास कार्ड फिर्ता गर्नुहोस् | |
-| items[9][1] | If you don't plan to come back, hand in your residence card (在留カード) at departure immigration. | जापान फर्कने योजना छैन भने, प्रस्थान जाँचको बेला निवास कार्ड (在留カード) बुझाउनुहोस्। | |
-| items[10][0] | Claim your pension refund within 2 years | २ वर्षभित्र नेन्किन फिर्ताको आवेदन दिनुहोस् | |
+| items[9][1] | If you don't plan to come back, hand in your residence card (在留カード) at departure immigration. | जापान फर्कने योजना छैन भने, प्रस्थान गर्दा अध्यागमन जाँचमा निवास कार्ड (在留カード) बुझाउनुहोस्। | |
+| items[10][0] | Claim your pension refund within 2 years | २ वर्षभित्र पेन्सन (नेन्किन) फिर्ताको आवेदन दिनुहोस् | |
 | items[10][1] | Check the estimated amount with the nenkin calculator before you apply. Open the nenkin calculator → | आवेदन दिनुअघि नेन्किन क्याल्कुलेटरमा अनुमानित रकम हेर्नुहोस्। नेन्किन क्याल्कुलेटर खोल्नुहोस् → | |
 | items[11][0] | Get back the withheld tax | काटिएको कर फिर्ता लिनुहोस् | |
-| items[11][1] | After you receive the pension refund, your tax representative files a tax return for you. The deadline is 5 years. | नेन्किन पाएपछि तपाईंको कर प्रतिनिधिले तपाईंको तर्फबाट कर विवरण बुझाउनुहुन्छ। समयसीमा ५ वर्षभित्र हो। | |
+| items[11][1] | After you receive the pension refund, your tax representative files a tax return for you. The deadline is 5 years. | पेन्सन फिर्ता रकम पाएपछि तपाईंको कर प्रतिनिधिले तपाईंको तर्फबाट कर विवरण बुझाउनुहुन्छ। यो ५ वर्षभित्र बुझाउन सकिन्छ। | |
 | faq[0].q | I am leaving in the middle of the year. Do I still pay resident tax? | म वर्षको बीचमा जापान छोड्दैछु। आवासीय कर तिर्नुपर्छ? | |
 | faq[0].a | Yes. Resident tax is charged to everyone who had an address in a Japanese city on January 1 of that year, based on the previous year's income. Leaving later in the year does not cancel it. Pay the remaining amount before you leave, or appoint a tax representative (納税管理人) to pay it for you. | पर्छ। त्यस वर्षको जनवरी १ मा जापानको कुनै नगरपालिकामा ठेगाना भएका सबैलाई गत वर्षको आम्दानीका आधारमा आवासीय कर लाग्छ। वर्षको बीचमा जापान छोडे पनि त्यो कर हट्दैन। जानुअघि बाँकी रकम तिर्नुहोस्, वा कर प्रतिनिधि (納税管理人) लाई तिर्न लगाउनुहोस्। | |
 | faq[1].q | What do I do with my residence card when I leave? | जापान छोड्दा निवास कार्ड के गर्ने? | |
 | faq[1].a | If you leave Japan without a re-entry permit, hand in your residence card (在留カード) to the immigration officer at the airport or seaport when you depart. If you leave with a re-entry permit but do not come back before it expires, the card becomes invalid and must be returned within 14 days. Late returns can be fined. | पुनः प्रवेश अनुमति (再入国許可) बिना जापान छोड्दै हुनुहुन्छ भने प्रस्थान गर्दा विमानस्थल वा बन्दरगाहमा अध्यागमन अधिकारीलाई निवास कार्ड (在留カード) फिर्ता दिनुहोस्। पुनः प्रवेश अनुमति लिएर गएर म्यादभित्र नफर्केमा कार्ड अमान्य हुन्छ र १४ दिनभित्र फिर्ता गर्नुपर्छ। ढिलो गरे जरिवाना हुन सक्छ। | |
-| faq[2].q | I left Japan without appointing a tax representative. Can I still get the tax back? | कर प्रतिनिधि नियुक्त नगरी जापान छोडें। कर फिर्ता पाउन सकिन्छ? | |
+| faq[2].q | I left Japan without appointing a tax representative. Can I still get the tax back? | कर प्रतिनिधि नियुक्त नगरी जापान छोडेँ। कर फिर्ता पाउन सकिन्छ? | |
 | faq[2].a | Usually yes. It is best to register a tax representative (納税管理人) at your last local tax office before you leave. If you did not, the Japan Pension Service leaflet says you can submit the registration form together with your tax return. Your representative only needs to live in Japan. | प्रायः सकिन्छ। जानुअघि अन्तिम बसेको ठाउँको कर कार्यालयमा कर प्रतिनिधि (納税管理人) दर्ता गर्नु सबैभन्दा राम्रो हो। नगरेको भए, जापान पेन्सन सेवाको पर्चाअनुसार कर विवरण बुझाउँदा दर्ता फारम सँगै बुझाउन सकिन्छ। प्रतिनिधि जापानमा बस्ने व्यक्ति भए पुग्छ। | |
-| faq[3].q | How long do I have to claim the pension refund and the tax back? | पेन्सन फिर्ता र कर फिर्ताको लागि कहिलेसम्म समय हुन्छ? | |
-| faq[3].a | Two different deadlines. The pension refund must be claimed within 2 years from the day you stopped having an address in Japan. The tax refund return can be filed for 5 years from January 1 of the year after you received the pension refund. | दुई फरक म्याद छन्। पेन्सन फिर्ता जापानमा ठेगाना नरहेको दिनदेखि २ वर्षभित्र माग्नुपर्छ। कर फिर्ताको विवरण फिर्ता रकम पाएको वर्षको अर्को वर्षको जनवरी १ देखि ५ वर्षसम्म बुझाउन सकिन्छ। | |
+| faq[3].q | How long do I have to claim the pension refund and the tax back? | पेन्सन फिर्ता र कर फिर्ताको म्याद कहिलेसम्म हुन्छ? | |
+| faq[3].a | Two different deadlines. The pension refund must be claimed within 2 years from the day you stopped having an address in Japan. The tax refund return can be filed for 5 years from January 1 of the year after you received the pension refund. | दुई फरक म्याद छन्। पेन्सन फिर्ता जापानमा ठेगाना नरहेको दिनदेखि २ वर्षभित्र माग्नुपर्छ। कर फिर्ताका लागि कर विवरण चाहिँ पेन्सन फिर्ता रकम पाएको वर्षको अर्को वर्षको जनवरी १ देखि ५ वर्षभित्र बुझाउन सकिन्छ। | |
 
 ## nenkin-refund
 
@@ -248,28 +248,28 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | h3 | I don't know | थाहा छैन | |
 | h3s |  |  | |
 | s.lump[0] | Your company takes all the rest automatically | कम्पनीले बाँकी सबै आफैँ काट्छ | |
-| s.lump[1] | If you leave your job between January and May, your company takes all the unpaid resident tax from your last salary or retirement pay at once (一括徴収). You do not need to ask. | जनवरीदेखि मेसम्म जागिर छोडे, कम्पनीले नतिरेको सबै आवासीय कर अन्तिम तलब वा अवकाश रकमबाट एकमुष्ट काट्छ (一括徴収)। अनुरोध गर्नु पर्दैन। | |
+| s.lump[1] | If you leave your job between January and May, your company takes all the unpaid resident tax from your last salary or retirement pay at once (一括徴収). You do not need to ask. | जनवरीदेखि मेसम्म जागिर छोडे, बाँकी रहेको सबै आवासीय कर कम्पनीले अन्तिम तलब वा अवकाश रकमबाट एकमुष्ट काट्छ (一括徴収)। अनुरोध गर्नुपर्दैन। | |
 | s.choose[0] | Choose how to pay the rest | बाँकी कर कसरी तिर्ने छान्नुहोस् | |
-| s.choose[1] | If you leave your job between June and December, choose: ask your company to take it all from your last salary or retirement pay (一括徴収), or switch to paying bills yourself (普通徴収). If you don't ask, it switches to bills automatically. If you are going home, paying at once is the simplest. | जुनदेखि डिसेम्बरसम्म जागिर छोडे, छान्नुहोस्: कम्पनीलाई अन्तिम तलब वा अवकाश रकमबाट सबै एकमुष्ट काट्न भन्ने (一括徴収), वा बिलबाट आफैँ तिर्ने (普通徴収)। केही नभने आफैँ बिलमा सर्छ। देश फर्कँदा एकमुष्ट नै सबैभन्दा सजिलो हो। | |
+| s.choose[1] | If you leave your job between June and December, choose: ask your company to take it all from your last salary or retirement pay (一括徴収), or switch to paying bills yourself (普通徴収). If you don't ask, it switches to bills automatically. If you are going home, paying at once is the simplest. | जुनदेखि डिसेम्बरसम्म जागिर छोडे, यीमध्ये एउटा छान्नुहोस्: कम्पनीलाई अन्तिम तलब वा अवकाश रकमबाट सबै एकमुष्ट काट्न भन्ने (一括徴収), वा बिलअनुसार आफैँ तिर्ने (普通徴収)। केही नभनेमा स्वतः बिलअनुसार तिर्ने तरिकामा सर्छ। देश फर्कँदा एकमुष्ट काट्न लगाउनु नै सबैभन्दा सजिलो हुन्छ। | |
 | s.bills[0] | Pay all remaining bills before you go | जानुअघि बाँकी सबै बिल तिर्नुहोस् | |
 | s.bills[1] | The city sends tax bills (納付書) around June each year. Pay everything that is left before you leave Japan. | नगरपालिकाले हरेक वर्ष जुनतिर कर बिल (納付書) पठाउँछ। जापान छोड्नुअघि बाँकी सबै तिर्नुहोस्। | |
 | s.unsure[0] | Ask your company first | पहिले कम्पनीलाई सोध्नुहोस् | |
-| s.unsure[1] | Check whether your pay slip has a 住民税 line. If it does, the tax is taken from your salary. If you are not sure, ask your HR or payroll staff. | तलब विवरणमा 住民税 लाइन छ कि हेर्नुहोस्। छ भने कर तलबबाट काटिँदैछ। निश्चित नभए मानव संसाधन विभागलाई सोध्नुहोस्। | |
-| s.newyear[0] | This year's tax may come after you leave | यस वर्षको कर तपाईं गएपछि आउन सक्छ | |
-| s.newyear[1] | Because you had an address in Japan on January 1 this year, you also owe this year's resident tax (based on last year's income). The amount is usually decided around June, which may be after you leave. Ask your city office before you go. | यस वर्षको जनवरी १ मा जापानमा ठेगाना भएकाले यस वर्षको आवासीय कर (गत वर्षको आम्दानीमा आधारित) पनि तिर्नुपर्छ। रकम प्रायः जुनतिर तय हुन्छ, जुन तपाईं गएपछि हुन सक्छ। जानुअघि नगरपालिका कार्यालयमा सोध्नुहोस्। | |
+| s.unsure[1] | Check whether your pay slip has a 住民税 line. If it does, the tax is taken from your salary. If you are not sure, ask your HR or payroll staff. | तलब विवरण (पे स्लिप) मा 住民税 लेखिएको पङ्क्ति छ कि छैन हेर्नुहोस्। छ भने कर तलबबाट काटिँदै छ। निश्चित नभए मानव संसाधन विभागलाई सोध्नुहोस्। | |
+| s.newyear[0] | This year's tax may come after you leave | यस वर्षको करको बिल तपाईं गएपछि आउन सक्छ | |
+| s.newyear[1] | Because you had an address in Japan on January 1 this year, you also owe this year's resident tax (based on last year's income). The amount is usually decided around June, which may be after you leave. Ask your city office before you go. | यस वर्षको जनवरी १ मा जापानमा ठेगाना भएकाले यस वर्षको आवासीय कर (गत वर्षको आम्दानीमा आधारित) पनि तिर्नुपर्छ। रकम प्रायः जुन महिनातिर तय हुन्छ; यो तपाईं गइसकेपछि पनि हुन सक्छ। जानुअघि नगरपालिका कार्यालयमा सोध्नुहोस्। | |
 | s.rep[0] | If you cannot pay before leaving: appoint a representative | जानुअघि तिर्न नसके: प्रतिनिधि नियुक्त गर्नुहोस् | |
 | s.rep[1] | Choose someone who lives in Japan as your tax representative (納税管理人) and register them at your city office before you leave Japan. Who can be one and the forms differ by city. | जापानमा बस्ने कुनै व्यक्तिलाई कर प्रतिनिधि (納税管理人) बनाउनुहोस् र जानुअघि नगरपालिका कार्यालयमा दर्ता गर्नुहोस्। को प्रतिनिधि बन्न सक्छ र फारम नगरपालिकाअनुसार फरक हुन्छ। | |
 | s.visa[0] | Do not leave tax unpaid | कर बाँकी नराख्नुहोस् | |
-| s.visa[1] | Unpaid resident tax can mean an application to extend your period of stay is not approved if you come back to Japan later. | आवासीय कर बाँकी भए पछि जापान फर्केर बसाइ अवधि नवीकरण गर्दा अनुमति नपाइन सक्छ। | |
+| s.visa[1] | Unpaid resident tax can mean an application to extend your period of stay is not approved if you come back to Japan later. | आवासीय कर बाँकी छ भने, पछि जापान फर्केर बसाइ अवधि नवीकरण गर्दा स्वीकृति नपाउन सक्नुहुन्छ। | |
 | s.next[0] | What about next year? | अर्को वर्ष के हुन्छ? | |
-| s.next[1] | If you have moved your address out of Japan before January 1 next year, there is no resident tax for next year. | अर्को वर्षको जनवरी १ अघि नै जापानबाट ठेगाना सारिसके, अर्को वर्षको आवासीय कर लाग्दैन। | |
+| s.next[1] | If you have moved your address out of Japan before January 1 next year, there is no resident tax for next year. | अर्को वर्षको जनवरी १ अघि नै ठेगाना जापानबाहिर सारिसक्नुभएको छ भने, अर्को वर्षको आवासीय कर लाग्दैन। | |
 | note | Procedures can differ by city. Please confirm with the city office where you live. | प्रक्रिया नगरपालिकाअनुसार फरक हुन सक्छ। आफू बस्ने नगरपालिका कार्यालयमा पुष्टि गर्नुहोस्। | |
 | source | Sources: | स्रोत: | |
 | leaflet | Official leaflet (English) | आधिकारिक पर्चा (अंग्रेजी) | |
 | checked | Checked November 2026. | नोभेम्बर २०२६ मा जाँच गरिएको। | |
 | faq[0].q | Why is there no resident tax in my first year in Japan? | जापानको पहिलो वर्षमा आवासीय कर किन लाग्दैन? | |
 | faq[0].a | Resident tax is charged to people who had an address in Japan on January 1, based on the previous year's income. If you came to Japan after January 1, you had no address here on that day, so there is no resident tax for that year. It usually starts the next year. | आवासीय कर जनवरी १ मा जापानमा ठेगाना भएकाहरूलाई गत वर्षको आम्दानीका आधारमा लाग्छ। जनवरी १ पछि जापान आउनुभएको भए त्यो दिन यहाँ ठेगाना थिएन, त्यसैले त्यो वर्षको आवासीय कर लाग्दैन। प्रायः अर्को वर्षदेखि लाग्छ। | |
-| faq[1].q | I only worked a few months last year. Do I still pay resident tax this year? | गत वर्ष केही महिना मात्र काम गरें। यो वर्ष आवासीय कर लाग्छ? | |
+| faq[1].q | I only worked a few months last year. Do I still pay resident tax this year? | गत वर्ष केही महिना मात्र काम गरेँ। यो वर्ष आवासीय कर लाग्छ? | |
 | faq[1].a | If you had an address in Japan on January 1 this year and your pay last year was above a certain amount, yes. The amount is based on the pay you actually received from January to December last year, so a few months of pay usually means a smaller tax. | यो वर्षको जनवरी १ मा जापानमा ठेगाना थियो र गत वर्षको तलब निश्चित रकमभन्दा बढी थियो भने लाग्छ। रकम गत वर्ष जनवरीदेखि डिसेम्बरसम्म वास्तवमा पाएको तलबमा आधारित हुन्छ, त्यसैले केही महिनाको मात्र भए कर प्रायः कम हुन्छ। | |
 | faq[2].q | Who can be my tax representative for resident tax? | आवासीय करको लागि मेरो कर प्रतिनिधि को बन्न सक्छ? | |
 | faq[2].a | Someone who lives in Japan, such as a friend, coworker or relative you trust. Who can be a representative and which forms are needed differ by city, so ask your city office before you leave. | जापानमा बस्ने तपाईंले भरोसा गर्ने साथी, सहकर्मी वा आफन्त। को प्रतिनिधि बन्न सक्छ र कुन कागजात चाहिन्छ भन्ने नगरपालिकाअनुसार फरक हुन्छ, त्यसैले जानुअघि नगरपालिका कार्यालयमा सोध्नुहोस्। | |
@@ -334,11 +334,11 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 注意 | ちゅうい | Caution | सावधान | |
 | 立入禁止 | たちいりきんし | No entry | प्रवेश निषेध | |
 | 関係者以外立入禁止 | かんけいしゃいがいたちいりきんし | Staff only | सम्बन्धित व्यक्तिबाहेक प्रवेश निषेध | |
-| 火気厳禁 | かきげんきん | No open flames | आगो पूर्ण निषेध | |
+| 火気厳禁 | かきげんきん | No open flames | आगो बाल्न पूर्ण निषेध | |
 | 禁煙 | きんえん | No smoking | धूम्रपान निषेध | |
 | 非常口 | ひじょうぐち | Emergency exit | आपतकालीन निकास | |
-| 消火器 | しょうかき | Fire extinguisher | अग्नि निभाउने यन्त्र | |
-| 避難経路 | ひなんけいろ | Evacuation route | सुरक्षित निस्कने बाटो | |
+| 消火器 | しょうかき | Fire extinguisher | आगो निभाउने यन्त्र | |
+| 避難経路 | ひなんけいろ | Evacuation route | आपतकालमा भाग्ने बाटो | |
 | 頭上注意 | ずじょうちゅうい | Watch your head | टाउकोमाथि सावधान | |
 | 足元注意 | あしもとちゅうい | Watch your step | खुट्टामुनि सावधान | |
 | 保護具着用 | ほごぐちゃくよう | Wear protective gear | सुरक्षा सामग्री लगाउनुहोस् | |
@@ -349,7 +349,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 通勤手当 | つうきんてあて | Commuting allowance | यातायात भत्ता | |
 | 差引支給額 | さしひきしきゅうがく | Take-home pay | हातमा आउने रकम | |
 | 源泉徴収 | げんせんちょうしゅう | Tax withheld from pay | स्रोतमा कर कट्टी | |
-| 有給休暇 | ゆうきゅうきゅうか | Paid leave | तलबी बिदा | |
+| 有給休暇 | ゆうきゅうきゅうか | Paid leave | तलबसहितको बिदा | |
 | 社会保険 | しゃかいほけん | Social insurance | सामाजिक बीमा | |
 | 雇用保険 | こようほけん | Employment insurance | रोजगार बीमा | |
 | 住民税 | じゅうみんぜい | Resident tax | आवासीय कर | |
@@ -361,7 +361,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 早退 | そうたい | Leaving early | चाँडै जानु | |
 | 欠勤 | けっきん | Absence from work | अनुपस्थित | |
 | 休日 | きゅうじつ | Day off | बिदाको दिन | |
-| 夜勤 | やきん | Night shift | रात्रि सिफ्ट | |
+| 夜勤 | やきん | Night shift | रातको सिफ्ट | |
 | 交代 | こうたい | Shift change | पालो फेर्नु | |
 | 残業 | ざんぎょう | Overtime | ओभरटाइम | |
 | 勤務表 | きんむひょう | Work schedule | कामको तालिका | |
@@ -374,9 +374,9 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 資材 | しざい | Building materials | निर्माण सामग्री | |
 | 解体 | かいたい | Demolition | भत्काउने काम | |
 | 溶接 | ようせつ | Welding | वेल्डिङ | |
-| 吊り荷 | つりに | Suspended load | क्रेनले झुण्ड्याएको भारी | |
+| 吊り荷 | つりに | Suspended load | क्रेनले झुन्ड्याएको भारी | |
 | 開口部 | かいこうぶ | Opening in a floor or wall | भुइँ वा भित्तामा खुला प्वाल | |
-| 図面 | ずめん | Drawing (blueprint) | नक्सा (ड्रइङ) | |
+| 図面 | ずめん | Drawing (blueprint) | ड्रइङ (नक्सा) | |
 | 鉄筋 | てっきん | Reinforcing steel (rebar) | रड (फलामे छड) | |
 | 介護 | かいご | Care (nursing care) | हेरचाह | |
 | 利用者 | りようしゃ | Service user (resident) | सेवाग्राही | |
@@ -388,11 +388,11 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 服薬 | ふくやく | Taking medicine | औषधि सेवन | |
 | 体温 | たいおん | Body temperature | शरीरको तापक्रम | |
 | 血圧 | けつあつ | Blood pressure | रक्तचाप | |
-| 申し送り | もうしおくり | Shift handover | पालो हस्तान्तरण जानकारी | |
+| 申し送り | もうしおくり | Shift handover | सिफ्ट हस्तान्तरणको जानकारी | |
 | 転倒 | てんとう | Falling over | लडेर खस्नु | |
 | 厨房 | ちゅうぼう | Kitchen | भान्सा | |
 | 手洗い | てあらい | Hand washing | हात धुने | |
-| 消毒 | しょうどく | Disinfection | कीटाणुनाशक सफाइ | |
+| 消毒 | しょうどく | Disinfection | कीटाणु मार्ने सफाइ | |
 | 賞味期限 | しょうみきげん | Best-before date | उत्तम स्वाद रहने मिति | |
 | 消費期限 | しょうひきげん | Use-by date | खान सुरक्षित रहने अन्तिम मिति | |
 | 食中毒 | しょくちゅうどく | Food poisoning | खाद्य विषाक्तता | |
@@ -405,7 +405,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 収穫 | しゅうかく | Harvest | बाली भित्र्याउने | |
 | 農薬 | のうやく | Pesticide | कीटनाशक औषधि | |
 | 肥料 | ひりょう | Fertilizer | मल | |
-| 出荷 | しゅっか | Shipping (sending out) | ढुवानी पठाउने | |
+| 出荷 | しゅっか | Shipping (sending out) | सामान पठाउने (ढुवानी) | |
 | 選別 | せんべつ | Sorting | छनोट गर्ने | |
 | 温室 | おんしつ | Greenhouse | हरितगृह | |
 | 畑 | はたけ | Field (for vegetables) | खेत | |
@@ -430,7 +430,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 客室 | きゃくしつ | Guest room | पाहुना कोठा | |
 | 清掃 | せいそう | Cleaning | सरसफाइ | |
 | 予約 | よやく | Reservation | बुकिङ | |
-| 受付 | うけつけ | Reception | सोधपुछ कक्ष | |
+| 受付 | うけつけ | Reception | स्वागत कक्ष (रिसेप्सन) | |
 | 浴場 | よくじょう | Bath hall | सार्वजनिक स्नानघर | |
 | 布団 | ふとん | Futon (bedding) | फुटोन (बिस्तरा) | |
 | 連泊 | れんぱく | Staying several nights | लगातार धेरै रात बस्ने | |

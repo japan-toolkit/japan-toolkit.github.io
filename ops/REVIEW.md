@@ -1,5 +1,22 @@
 # Translations waiting for a native-speaker check
 
+## AI cross-review (no native reviewer available) — method, 2026-11-08
+1. Extract the target-language strings only (no English) from `ops/review/<lang>.md`.
+2. A fresh reviewer agent that never sees the English back-translates each string literally and lists native-reader
+   problems (grammar, unnatural wording, wrong term, register, Unicode), with a corrected version.
+3. A second fresh agent back-translates only the corrections. Claude compares both back-translations with the English
+   source and accepts a correction only if the meaning still matches (hedges like "may" kept, numbers unchanged).
+4. Apply, rerun all tests, rebuild review sheets, ship through the normal approval.
+This catches meaning errors and obvious unnatural wording, but it is still machine judgement: real users' reports
+(the "translation mistake?" link on every page → GitHub issue) stay the final check.
+
+### Done
+- 2026-11-08 my + ne: leaving-japan, resident-tax (all strings + FAQ) and all 120 kanji-work words. my: 41 flagged,
+  37 corrections applied, 4 rejected (2 kept original wording, 2 replaced by better terms: 図面, 通勤手当); hedges fixed
+  ("may not be approved"). ne: 34 flagged, 32 applied, 2 rejected (排泄, 転出届 kept). Consistent terms now:
+  my 通勤手当 = အလုပ်သွားလာစရိတ် ထောက်ပံ့ငွေ, 差引支給額 = အသားတင် လက်ခံရငွေ; ne "पेन्सन (नेन्किन)".
+- Next: my/ne for takehome, payslip, nenkin-refund, kanji-grade UI, FAQs; then vi and id.
+
 ## How to get a free review (plan, 2026-11-08)
 - Review sheets: `ops/review/<lang>.md` (vi, ne, id, my, ja). Each lists every string next to the English, with a
   "correction" column. Regenerate after any text change: `python3 build/export_review.py`.

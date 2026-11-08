@@ -1,11 +1,13 @@
 """Build the static multilingual site for https://japan-toolkit.github.io/ from the tool pages."""
 import json, re, shutil, html, subprocess
+from urllib.parse import quote
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 ROOT = REPO / "tools"
 OUT = REPO / "dist"
 BASE = "https://japan-toolkit.github.io"
+ISSUES = "https://github.com/japan-toolkit/japan-toolkit.github.io/issues/new"
 LANGS = ["vi", "ne", "id", "my", "en", "ja"]
 LANG_NAMES = {"vi": "Tiếng Việt", "ne": "नेपाली", "id": "Bahasa Indonesia", "my": "မြန်မာ", "en": "English", "ja": "日本語"}
 TOOLS = ["takehome", "nenkin-refund", "leaving-japan", "resident-tax", "payslip", "kanji-work", "kanji-grade"]
@@ -38,6 +40,7 @@ UI = {
  "tagline": {"vi":"Công cụ miễn phí cho người nước ngoài làm việc tại Nhật","ne":"जापानमा काम गर्ने विदेशीहरूका लागि निःशुल्क उपकरण","id":"Alat gratis untuk orang asing yang bekerja di Jepang","my":"ဂျပန်တွင် အလုပ်လုပ်သော နိုင်ငံခြားသားများအတွက် အခမဲ့ ကိရိယာများ","en":"Free tools for foreigners working in Japan","ja":"日本で働く外国人のための無料ツール"},
  "intro": {"vi":"Không cần đăng ký. Số liệu bạn nhập chỉ ở trên thiết bị của bạn.","ne":"दर्ता गर्नु पर्दैन। तपाईंले लेखेका अंकहरू तपाईंकै उपकरणमा मात्र रहन्छन्।","id":"Tanpa pendaftaran. Angka yang Anda masukkan hanya tersimpan di perangkat Anda.","my":"စာရင်းသွင်းရန် မလိုပါ။ သင်ထည့်သော ကိန်းဂဏန်းများသည် သင့်စက်ပေါ်တွင်သာ ရှိပါသည်။","en":"No sign-up. The numbers you type stay on your own device.","ja":"登録不要。入力した数字はあなたの端末の中だけで使われます。"},
  "more": {"vi":"Công cụ khác","ne":"अन्य उपकरण","id":"Alat lainnya","my":"အခြားကိရိယာများ","en":"More tools","ja":"ほかのツール"},
+ "fix": {"vi":"Bản dịch có chỗ sai? Hãy báo cho chúng tôi","ne":"अनुवादमा गल्ती छ? हामीलाई बताउनुहोस्","id":"Ada terjemahan yang salah? Beri tahu kami","my":"ဘာသာပြန် မှားနေပါသလား။ ကျွန်ုပ်တို့ကို ပြောပြပါ","en":"Found a translation mistake? Tell us","ja":"翻訳のまちがいを知らせる"},
  "privacy": {"vi":"Chính sách bảo mật","ne":"गोपनीयता नीति","id":"Kebijakan privasi","my":"ကိုယ်ရေးအချက်အလက် မူဝါဒ","en":"Privacy policy","ja":"プライバシーポリシー"},
 }
 
@@ -71,6 +74,7 @@ def head(lang, title, desc, path, extra=""):
 def nav(lang, current):
     items = "".join(f'<li><a href="../{t}/">{SHORT[t][lang]}</a></li>' for t in TOOLS if t != current)
     return (f'<nav class="site-nav"><h2>{UI["more"][lang]}</h2><ul>{items}</ul>'
+            f'<a class="legal" href="{ISSUES}?title=' + quote(f"[{lang}] {current}: translation") + f'&amp;labels=translation" target="_blank" rel="noopener">{UI["fix"][lang]}</a>'
             f'<a class="legal" href="/privacy/">{UI["privacy"][lang]}</a></nav>')
 
 def faq_html(tool, lang):

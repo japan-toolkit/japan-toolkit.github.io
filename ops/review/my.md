@@ -90,27 +90,27 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | my | correction |
 |---|---|---|---|
 | title | Things to do before you leave Japan | ဂျပန်နိုင်ငံမှ မထွက်ခွာမီ လုပ်ရမည့်အရာများ | |
-| lede | Once you decide to go home, work through these steps in order. Your checks are saved on this device. | နိုင်ငံပြန်ရန် ဆုံးဖြတ်ပြီးပါက အောက်ပါအစဉ်အတိုင်း ဆောင်ရွက်ပါ။ အမှန်ခြစ်ထားသည်များကို ဤစက်တွင် သိမ်းဆည်းထားပါသည်။ | |
+| lede | Once you decide to go home, work through these steps in order. Your checks are saved on this device. | နိုင်ငံပြန်ရန် ဆုံးဖြတ်ပြီးပါက အောက်ပါအစဉ်အတိုင်း ဆောင်ရွက်ပါ။ အမှန်ခြစ်ထားသည်များကို သင့်ဖုန်း (သို့မဟုတ် ကွန်ပျူတာ) ထဲတွင်သာ သိမ်းထားပါသည်။ | |
 | phases[0] | 1 month before | ၁ လ အလို | |
 | phases[1] | 2 weeks before | ၂ ပတ် အလို | |
-| phases[2] | The day before and the day you leave | ထွက်ခွာမည့် ရှေ့နေ့နှင့် ထွက်ခွာသည့်နေ့ | |
+| phases[2] | The day before and the day you leave | ထွက်ခွာမည့်နေ့ မတိုင်မီ တစ်ရက်နှင့် ထွက်ခွာသည့်နေ့ | |
 | phases[3] | After you get home | နိုင်ငံပြန်ရောက်ပြီးနောက် | |
 | progress | {n} of {t} done | {t} ခုအနက် {n} ခု ပြီးပါပြီ | |
 | reset | Clear all checks | အမှန်ခြစ်အားလုံး ဖျက်ရန် | |
 | crime | Illegal | တရားမဝင် | |
-| note | Procedures can differ by city and employer. If you are unsure, ask your city office or your company. | လုပ်ထုံးလုပ်နည်းများသည် မြို့နယ်နှင့် ကုမ္ပဏီအလိုက် ကွာခြားနိုင်ပါသည်။ မသေချာပါက မြို့ရုံး သို့မဟုတ် ကုမ္ပဏီကို မေးမြန်းပါ။ | |
+| note | Procedures can differ by city and employer. If you are unsure, ask your city office or your company. | လုပ်ထုံးလုပ်နည်းများသည် မြို့နယ်နှင့် ကုမ္ပဏီအလိုက် ကွာခြားနိုင်ပါသည်။ မသေချာပါက မြို့နယ်ရုံး သို့မဟုတ် ကုမ္ပဏီကို မေးမြန်းပါ။ | |
 | items[0][0] | Tell your company and collect documents | ကုမ္ပဏီကို အသိပေးပြီး စာရွက်စာတမ်းများ ယူပါ | |
-| items[0][1] | Ask for your withholding tax slip (源泉徴収票) and a document showing your basic pension number. You need both for the pension refund and the tax refund. | အခွန်နုတ်ယူမှု လက်မှတ် (源泉徴収票) နှင့် အခြေခံ ပင်စင်နံပါတ်ပါသော စာရွက်ကို တောင်းပါ။ နန်ကင်ငွေ ပြန်ထုတ်ရန်နှင့် အခွန်ပြန်အမ်းရန် လိုအပ်ပါသည်။ | |
+| items[0][1] | Ask for your withholding tax slip (源泉徴収票) and a document showing your basic pension number. You need both for the pension refund and the tax refund. | အခွန်နုတ်ယူမှု ထောက်ခံစာ (源泉徴収票) နှင့် အခြေခံ ပင်စင်နံပါတ်ပါသော စာရွက်ကို တောင်းပါ။ ပင်စင် (နန်ကင်) ပြန်အမ်းငွေ ထုတ်ရန်နှင့် အခွန်ပြန်ရရန် လိုအပ်ပါသည်။ | |
 | items[1][0] | Decide how to pay resident tax (住民税) | နေထိုင်သူအခွန် (住民税) ပေးဆောင်ပုံကို ဆုံးဖြတ်ပါ | |
 | items[1][1] | If you lived in Japan on January 1, you owe resident tax for that year. Pay it all before you leave, or appoint a tax representative. See the resident tax guide → | ဇန်နဝါရီ ၁ ရက်နေ့တွင် ဂျပန်၌ နေထိုင်ခဲ့ပါက ထိုနှစ်၏ နေထိုင်သူအခွန်ကို ပေးဆောင်ရပါမည်။ မထွက်ခွာမီ အားလုံးပေးဆောင်ပါ သို့မဟုတ် အခွန်ကိုယ်စားလှယ် ခန့်အပ်ပါ။ နေထိုင်သူအခွန် လမ်းညွှန် ကြည့်ရန် → | |
 | items[2][0] | Appoint a tax representative (納税管理人) | အခွန်ကိုယ်စားလှယ် (納税管理人) ခန့်အပ်ပါ | |
-| items[2][1] | Choose a trusted person living in Japan or a tax accountant, and register them at the tax office. You need one to recover the 20.42% tax taken from your pension refund. | ဂျပန်တွင် နေထိုင်သော ယုံကြည်ရသူ သို့မဟုတ် အခွန်ကျွမ်းကျင်သူကို ရွေးချယ်ပြီး အခွန်ရုံးသို့ အကြောင်းကြားပါ။ နန်ကင်မှ နုတ်ယူထားသော ၂၀.၄၂% အခွန်ကို ပြန်ရရန် လိုအပ်ပါသည်။ | |
+| items[2][1] | Choose a trusted person living in Japan or a tax accountant, and register them at the tax office. You need one to recover the 20.42% tax taken from your pension refund. | ဂျပန်တွင် နေထိုင်သော ယုံကြည်ရသူ သို့မဟုတ် အခွန်အကြံပေးကို ရွေးချယ်ပြီး အခွန်ရုံးသို့ အကြောင်းကြားပါ။ ပင်စင် (နန်ကင်) ပြန်အမ်းငွေမှ နုတ်ထားသော ၂၀.၄၂% အခွန်ကို ပြန်ရရန် လိုအပ်ပါသည်။ | |
 | items[3][0] | Give notice on your apartment | အိမ်ငှားစာချုပ် ဖျက်သိမ်းရန် အကြောင်းကြားပါ | |
 | items[3][1] | Contact your landlord or management company. Many require one month's notice. | အိမ်ရှင် သို့မဟုတ် စီမံခန့်ခွဲမှုကုမ္ပဏီကို ဆက်သွယ်ပါ။ အများစုမှာ ၁ လ ကြိုတင် အကြောင်းကြားရန် လိုအပ်ပါသည်။ | |
 | items[4][0] | Submit a moving-out notice (転出届) at the city office | မြို့ရုံးတွင် ပြောင်းရွှေ့ထွက်ခွာကြောင်း အသိပေးစာ (転出届) တင်ပါ | |
-| items[4][1] | Handle National Health Insurance and National Pension at the same visit. | အမျိုးသား ကျန်းမာရေးအာမခံနှင့် အမျိုးသားပင်စင် လုပ်ငန်းစဉ်များကိုလည်း တစ်ပြိုင်နက် ဆောင်ရွက်ပါ။ | |
-| items[5][0] | Stop electricity, gas, water and internet | လျှပ်စစ်၊ ဓာတ်ငွေ့၊ ရေနှင့် အင်တာနက်ကို ရပ်ဆိုင်းပါ | |
-| items[5][1] | Request service to end on your moving day, by phone or online. | ပြောင်းရွှေ့မည့်နေ့အတွက် ဖုန်း သို့မဟုတ် အွန်လိုင်းမှ ရပ်ဆိုင်းရန် လျှောက်ထားပါ။ | |
+| items[4][1] | Handle National Health Insurance and National Pension at the same visit. | အမျိုးသား ကျန်းမာရေးအာမခံနှင့် အမျိုးသားပင်စင် လုပ်ငန်းစဉ်များကိုလည်း တစ်ခါတည်း ဆောင်ရွက်ပါ။ | |
+| items[5][0] | Stop electricity, gas, water and internet | လျှပ်စစ်၊ ဓာတ်ငွေ့၊ ရေနှင့် အင်တာနက်ကို ပိတ်ရန် လျှောက်ပါ | |
+| items[5][1] | Request service to end on your moving day, by phone or online. | ပြောင်းရွှေ့မည့်နေ့တွင် ပိတ်ရန် ဖုန်း သို့မဟုတ် အွန်လိုင်းဖြင့် လျှောက်ထားပါ။ | |
 | items[6][0] | Cancel your mobile phone contract | မိုဘိုင်းဖုန်း စာချုပ်ကို ဖျက်သိမ်းပါ | |
 | items[6][1] | Pay the final bill. Giving or selling your phone or SIM to someone else is illegal. | နောက်ဆုံးငွေတောင်းခံလွှာကို ပေးဆောင်ပါ။ ဖုန်း သို့မဟုတ် SIM ကို အခြားသူအား ပေးခြင်း သို့မဟုတ် ရောင်းခြင်းသည် တရားမဝင်ပါ။ | |
 | items[7][0] | Close your bank account | ဘဏ်အကောင့်ကို ပိတ်ပါ | |
@@ -122,13 +122,13 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | items[10][0] | Claim your pension refund within 2 years | ၂ နှစ်အတွင်း နန်ကင်ငွေ ပြန်ထုတ်ရန် လျှောက်ထားပါ | |
 | items[10][1] | Check the estimated amount with the nenkin calculator before you apply. Open the nenkin calculator → | မလျှောက်မီ နန်ကင်တွက်စက်ဖြင့် ခန့်မှန်းငွေပမာဏကို ကြည့်ပါ။ နန်ကင် တွက်စက် ဖွင့်ရန် → | |
 | items[11][0] | Get back the withheld tax | နုတ်ယူထားသော အခွန်ကို ပြန်ယူပါ | |
-| items[11][1] | After you receive the pension refund, your tax representative files a tax return for you. The deadline is 5 years. | နန်ကင်ငွေ ရရှိပြီးနောက် သင့်အခွန်ကိုယ်စားလှယ်က သင့်ကိုယ်စား အခွန်ပြန်တမ်း တင်ပေးပါမည်။ သက်တမ်း ၅ နှစ်အတွင်း ဖြစ်ပါသည်။ | |
+| items[11][1] | After you receive the pension refund, your tax representative files a tax return for you. The deadline is 5 years. | ပင်စင် (နန်ကင်) ပြန်အမ်းငွေ ရရှိပြီးနောက် သင့်အခွန်ကိုယ်စားလှယ်က သင့်ကိုယ်စား အခွန်ပြန်တမ်း တင်ပေးပါမည်။ ၅ နှစ်အတွင်း တင်ရပါမည်။ | |
 | faq[0].q | I am leaving in the middle of the year. Do I still pay resident tax? | နှစ်လယ်တွင် ပြန်မည်ဖြစ်သည်။ နေထိုင်သူအခွန် ပေးရန် လိုပါသေးသလား။ | |
 | faq[0].a | Yes. Resident tax is charged to everyone who had an address in a Japanese city on January 1 of that year, based on the previous year's income. Leaving later in the year does not cancel it. Pay the remaining amount before you leave, or appoint a tax representative (納税管理人) to pay it for you. | လိုပါသည်။ နေထိုင်သူအခွန်ကို ထိုနှစ် ဇန်နဝါရီ ၁ ရက်နေ့တွင် ဂျပန်မြို့တစ်မြို့၌ လိပ်စာရှိသူတိုင်းအပေါ် ယမန်နှစ်ဝင်ငွေအရ ကောက်ခံပါသည်။ နှစ်လယ်တွင် ထွက်ခွာသော်လည်း ပျက်ပြယ်မသွားပါ။ မထွက်ခွာမီ ကျန်ငွေကို ပေးချေပါ၊ သို့မဟုတ် အခွန်ကိုယ်စားလှယ် (納税管理人) ကို ပေးခိုင်းပါ။ | |
 | faq[1].q | What do I do with my residence card when I leave? | ထွက်ခွာသည့်အခါ နေထိုင်ခွင့်ကတ်ကို ဘာလုပ်ရမလဲ။ | |
-| faq[1].a | If you leave Japan without a re-entry permit, hand in your residence card (在留カード) to the immigration officer at the airport or seaport when you depart. If you leave with a re-entry permit but do not come back before it expires, the card becomes invalid and must be returned within 14 days. Late returns can be fined. | ပြန်လည်ဝင်ရောက်ခွင့် (再入国許可) မပါဘဲ ဂျပန်မှ ထွက်ခွာပါက ထွက်ခွာချိန်တွင် လေဆိပ် သို့မဟုတ် ဆိပ်ကမ်းရှိ လူဝင်မှုကြီးကြပ်ရေး အရာရှိထံ နေထိုင်ခွင့်ကတ် (在留カード) ကို ပြန်အပ်ပါ။ ပြန်လည်ဝင်ရောက်ခွင့်ဖြင့် ထွက်သွားပြီး သက်တမ်းအတွင်း ပြန်မလာပါက ကတ် ပျက်ပြယ်ပြီး ၁၄ ရက်အတွင်း ပြန်အပ်ရပါမည်။ နောက်ကျပါက ဒဏ်ငွေ ချမှတ်ခံရနိုင်ပါသည်။ | |
-| faq[2].q | I left Japan without appointing a tax representative. Can I still get the tax back? | အခွန်ကိုယ်စားလှယ် မခန့်ဘဲ ပြန်လာခဲ့ပါသည်။ အခွန်ပြန်ရနိုင်ပါသေးသလား။ | |
-| faq[2].a | Usually yes. It is best to register a tax representative (納税管理人) at your last local tax office before you leave. If you did not, the Japan Pension Service leaflet says you can submit the registration form together with your tax return. Your representative only needs to live in Japan. | များသောအားဖြင့် ရနိုင်ပါသည်။ မထွက်ခွာမီ နောက်ဆုံးနေထိုင်ခဲ့သော ဒေသ၏ အခွန်ရုံးတွင် အခွန်ကိုယ်စားလှယ် (納税管理人) မှတ်ပုံတင်ခြင်းက အကောင်းဆုံးဖြစ်သည်။ မလုပ်ခဲ့ပါက ဂျပန်ပင်စင်ဝန်ဆောင်မှု လက်ကမ်းစာစောင်အရ အခွန်ပြန်တမ်းနှင့်အတူ မှတ်ပုံတင်ပုံစံကို တင်နိုင်ပါသည်။ ကိုယ်စားလှယ်သည် ဂျပန်တွင် နေထိုင်သူ ဖြစ်ရုံဖြင့် လုံလောက်ပါသည်။ | |
+| faq[1].a | If you leave Japan without a re-entry permit, hand in your residence card (在留カード) to the immigration officer at the airport or seaport when you depart. If you leave with a re-entry permit but do not come back before it expires, the card becomes invalid and must be returned within 14 days. Late returns can be fined. | ပြန်လည်ဝင်ရောက်ခွင့် (再入国許可) မပါဘဲ ဂျပန်မှ ထွက်ခွာပါက ထွက်ခွာချိန်တွင် လေဆိပ် သို့မဟုတ် ဆိပ်ကမ်းရှိ လူဝင်မှုကြီးကြပ်ရေး အရာရှိထံ နေထိုင်ခွင့်ကတ် (在留カード) ကို ပြန်အပ်ပါ။ ပြန်လည်ဝင်ရောက်ခွင့်ဖြင့် ထွက်သွားပြီး သက်တမ်းအတွင်း ပြန်မလာပါက ကတ် ပျက်ပြယ်သွားပြီး ပျက်ပြယ်သည့်နေ့မှ ၁၄ ရက်အတွင်း ပြန်အပ်ရပါမည်။ နောက်ကျပါက ဒဏ်ငွေ ချမှတ်ခံရနိုင်ပါသည်။ | |
+| faq[2].q | I left Japan without appointing a tax representative. Can I still get the tax back? | အခွန်ကိုယ်စားလှယ် မခန့်ဘဲ နိုင်ငံသို့ ပြန်ရောက်နေပါပြီ။ အခွန်ပြန်ရနိုင်ပါသေးသလား။ | |
+| faq[2].a | Usually yes. It is best to register a tax representative (納税管理人) at your last local tax office before you leave. If you did not, the Japan Pension Service leaflet says you can submit the registration form together with your tax return. Your representative only needs to live in Japan. | များသောအားဖြင့် ရနိုင်ပါသည်။ မထွက်ခွာမီ နောက်ဆုံးနေထိုင်ခဲ့သော ဒေသ၏ အခွန်ရုံးတွင် အခွန်ကိုယ်စားလှယ် (納税管理人) မှတ်ပုံတင်ခြင်းက အကောင်းဆုံးဖြစ်သည်။ မလုပ်ခဲ့ပါက ဂျပန်ပင်စင်ဝန်ဆောင်မှုအဖွဲ့၏ လက်ကမ်းစာစောင်အရ အခွန်ပြန်တမ်းနှင့်အတူ မှတ်ပုံတင်ပုံစံကို တင်နိုင်ပါသည်။ ကိုယ်စားလှယ်သည် ဂျပန်တွင် နေထိုင်သူ ဖြစ်ရုံဖြင့် လုံလောက်ပါသည်။ | |
 | faq[3].q | How long do I have to claim the pension refund and the tax back? | ပင်စင်ပြန်အမ်းငွေနှင့် အခွန်ပြန်ရရန် မည်မျှ အချိန်ရှိပါသလဲ။ | |
 | faq[3].a | Two different deadlines. The pension refund must be claimed within 2 years from the day you stopped having an address in Japan. The tax refund return can be filed for 5 years from January 1 of the year after you received the pension refund. | နောက်ဆုံးရက် နှစ်မျိုး ရှိပါသည်။ ပင်စင်ပြန်အမ်းငွေကို ဂျပန်တွင် လိပ်စာ မရှိတော့သည့်နေ့မှ ၂ နှစ်အတွင်း လျှောက်ရပါမည်။ အခွန်ပြန်အမ်းရန် ပြန်တမ်းကို ပင်စင်ငွေ ရရှိသည့်နှစ်၏ နောက်နှစ် ဇန်နဝါရီ ၁ ရက်မှ ၅ နှစ်အတွင်း တင်နိုင်ပါသည်။ | |
 
@@ -141,7 +141,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | tabK | Company employee | ကုမ္ပဏီဝန်ထမ်း | |
 | tabN | Self-enrolled / student | ကိုယ်တိုင်ဝင်ရောက်သူ / ကျောင်းသား | |
 | salary | Average monthly salary (yen) | ပျမ်းမျှ လစဉ်လစာ (ယန်း) | |
-| salaryHint | Before tax. Include regular allowances such as commuting pay. | အခွန်မနုတ်မီ ပမာဏ။ ခရီးစရိတ်ကဲ့သို့ ပုံမှန်ထောက်ပံ့ကြေးများလည်း ထည့်ပါ။ | |
+| salaryHint | Before tax. Include regular allowances such as commuting pay. | အခွန်မနုတ်မီ ပမာဏ။ အလုပ်သွားလာစရိတ် ထောက်ပံ့ငွေကဲ့သို့ ပုံမှန်ထောက်ပံ့ကြေးများလည်း ထည့်ပါ။ | |
 | bonus | Bonuses per year (yen) | တစ်နှစ်လျှင် ဆုကြေးငွေ (ယန်း) | |
 | bonusHint | Enter 0 if you received none. | ဆုကြေးမရှိပါက 0 ထည့်ပါ။ | |
 | months | Months enrolled | အသင်းဝင်ခဲ့သည့် လအရေအတွက် | |
@@ -201,7 +201,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | r.base[1] | Your fixed monthly pay set in your contract. | စာချုပ်တွင် သတ်မှတ်ထားသော လစဉ်ပုံသေလစာ။ | |
 | r.overtime[0] | Overtime pay | အချိန်ပိုထောက်ပံ့ကြေး | |
 | r.overtime[1] | Pay for work beyond 8 hours a day or 40 hours a week. It must be at least 25% above your normal hourly rate. | တစ်နေ့ ၈ နာရီ သို့မဟုတ် တစ်ပတ် ၄၀ နာရီထက် ပိုလုပ်သော အလုပ်ခ။ ပုံမှန်နာရီလုပ်ခထက် အနည်းဆုံး ၂၅% ပိုရမည်။ | |
-| r.commute[0] | Commuting allowance | ခရီးစရိတ် | |
+| r.commute[0] | Commuting allowance | အလုပ်သွားလာစရိတ် ထောက်ပံ့ငွေ | |
 | r.commute[1] | Money for travel to work. It is usually not taxed, but it does count for social insurance. | အလုပ်သို့ သွားလာစရိတ်။ များသောအားဖြင့် အခွန်မကောက်သော်လည်း လူမှုအာမခံတွင် ထည့်တွက်ပါသည်။ | |
 | r.other[0] | Other allowances | အခြားထောက်ပံ့ကြေးများ | |
 | r.other[1] | Housing, family, skill and similar allowances. | အိမ်၊ မိသားစု၊ ကျွမ်းကျင်မှု စသည့် ထောက်ပံ့ကြေးများ။ | |
@@ -226,7 +226,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | faq[1].q | My friend earns the same, but pays a different amount of health insurance. Why? | သူငယ်ချင်းနှင့် လစာတူသော်လည်း ကျန်းမာရေးအာမခံကြေး ကွာခြားပါသည်။ ဘာကြောင့်လဲ။ | |
 | faq[1].a | Health insurance rates are different in each prefecture. With Kyokai Kenpo, for example, Tokyo is 9.85% in FY2026 (shared with your company). Company health insurance societies set their own rates. If you are 40 to 64, long-term care insurance (1.62%) is also added. Also, the amount is based on your pay grade (標準報酬月額), not your exact pay. | ကျန်းမာရေးအာမခံနှုန်းသည် ခရိုင် (都道府県) အလိုက် ကွာခြားပါသည်။ ဥပမာ Kyokai Kenpo တွင် တိုကျိုသည် ၂၀၂၆ ဘဏ္ဍာနှစ်အတွက် ၉.၈၅% (ကုမ္ပဏီနှင့် ခွဲပေး) ဖြစ်ပါသည်။ ကုမ္ပဏီ၏ ကျန်းမာရေးအာမခံအသင်းများသည် ကိုယ်ပိုင်နှုန်း သတ်မှတ်ပါသည်။ အသက် ၄၀ မှ ၆၄ နှစ်ဖြစ်ပါက ရေရှည်စောင့်ရှောက်မှုအာမခံ (၁.၆၂%) ပါ ပေါင်းထည့်ပါသည်။ ထို့အပြင် ပမာဏကို အတိအကျလစာဖြင့် မဟုတ်ဘဲ လစာအဆင့် (標準報酬月額) ဖြင့် တွက်ပါသည်။ | |
 | faq[2].q | How much is employment insurance? | အလုပ်အကိုင်အာမခံကြေး ဘယ်လောက်လဲ။ | |
-| faq[2].a | For most jobs, you pay 0.5% (5 per 1,000) of your total pay, including overtime and commuting allowance, from April 2026 to March 2027. Before April 2026 it was 0.55%. Some industries use a different rate. | အလုပ်အများစုအတွက် ၂၀၂၆ ဧပြီမှ ၂၀၂၇ မတ်လအထိ အချိန်ပိုကြေးနှင့် ခရီးစရိတ် အပါအဝင် စုစုပေါင်းလစာ၏ ၀.၅% (၁,၀၀၀ လျှင် ၅) ပေးရပါသည်။ ၂၀၂၆ ဧပြီမတိုင်မီက ၀.၅၅% ဖြစ်ခဲ့ပါသည်။ လုပ်ငန်းအချို့တွင် နှုန်းကွာခြားပါသည်။ | |
+| faq[2].a | For most jobs, you pay 0.5% (5 per 1,000) of your total pay, including overtime and commuting allowance, from April 2026 to March 2027. Before April 2026 it was 0.55%. Some industries use a different rate. | အလုပ်အများစုအတွက် ၂၀၂၆ ဧပြီမှ ၂၀၂၇ မတ်လအထိ အချိန်ပိုကြေးနှင့် အလုပ်သွားလာစရိတ် ထောက်ပံ့ငွေ အပါအဝင် စုစုပေါင်းလစာ၏ ၀.၅% (၁,၀၀၀ လျှင် ၅) ပေးရပါသည်။ ၂၀၂၆ ဧပြီမတိုင်မီက ၀.၅၅% ဖြစ်ခဲ့ပါသည်။ လုပ်ငန်းအချို့တွင် နှုန်းကွာခြားပါသည်။ | |
 | faq[3].q | Will income tax on my pay change in 2027? | ၂၀၂၇ ခုနှစ်တွင် လစာဝင်ငွေခွန် ပြောင်းလဲမည်လား။ | |
 | faq[3].a | The National Tax Agency has published new withholding tax tables for pay received in 2027. The amounts change because the basic deduction (基礎控除) was raised in the 2026 tax reform. Your company uses the new table automatically. How much your tax changes depends on your pay and family situation. | အမျိုးသားအခွန်ဦးစီးဌာနသည် ၂၀၂၇ တွင် ရရှိမည့် လစာအတွက် အခွန်နုတ်ယူမှုဇယားအသစ်ကို ထုတ်ပြန်ထားပါသည်။ ၂၀၂၆ အခွန်ပြုပြင်ပြောင်းလဲမှုတွင် အခြေခံနုတ်ယူငွေ (基礎控除) တိုးမြှင့်သဖြင့် အခွန်ပမာဏ ပြောင်းလဲပါသည်။ ကုမ္ပဏီက ဇယားအသစ်ကို အလိုအလျောက် သုံးပါမည်။ မည်မျှ ပြောင်းလဲမည်ဆိုသည်မှာ သင့်လစာနှင့် မိသားစုအခြေအနေပေါ် မူတည်ပါသည်။ | |
 
@@ -243,26 +243,26 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | q2 | How do you pay resident tax now? | ယခု နေထိုင်သူအခွန်ကို မည်သို့ ပေးနေပါသလဲ။ | |
 | h1 | Taken from my salary | လစာမှ နုတ်သည် | |
 | h1s | 特別徴収 | 特別徴収 | |
-| h2 | I pay bills from the city myself | မြို့နယ်ငွေတောင်းခံလွှာဖြင့် ကိုယ်တိုင်ပေးသည် | |
+| h2 | I pay bills from the city myself | မြို့နယ်ရုံးမှ ပို့သော ငွေတောင်းခံလွှာဖြင့် ကိုယ်တိုင်ပေးသည် | |
 | h2s | 普通徴収 | 普通徴収 | |
 | h3 | I don't know | မသိပါ | |
 | h3s |  |  | |
 | s.lump[0] | Your company takes all the rest automatically | ကုမ္ပဏီက ကျန်ငွေအားလုံးကို အလိုအလျောက် နုတ်ပါမည် | |
-| s.lump[1] | If you leave your job between January and May, your company takes all the unpaid resident tax from your last salary or retirement pay at once (一括徴収). You do not need to ask. | ဇန်နဝါရီမှ မေလအတွင်း အလုပ်ထွက်ပါက မပေးရသေးသော နေထိုင်သူအခွန်အားလုံးကို နောက်ဆုံးလစာ သို့မဟုတ် အငြိမ်းစားငွေမှ တစ်ပြိုင်နက် နုတ်ပါမည် (一括徴収)။ တောင်းဆိုရန် မလိုပါ။ | |
+| s.lump[1] | If you leave your job between January and May, your company takes all the unpaid resident tax from your last salary or retirement pay at once (一括徴収). You do not need to ask. | ဇန်နဝါရီမှ မေလအတွင်း အလုပ်ထွက်ပါက မပေးရသေးသော နေထိုင်သူအခွန်အားလုံးကို နောက်ဆုံးလစာ သို့မဟုတ် အလုပ်ထွက်ထောက်ပံ့ငွေမှ တစ်ခါတည်း နုတ်ပါမည် (一括徴収)။ တောင်းဆိုရန် မလိုပါ။ | |
 | s.choose[0] | Choose how to pay the rest | ကျန်ငွေ ပေးပုံကို ရွေးပါ | |
-| s.choose[1] | If you leave your job between June and December, choose: ask your company to take it all from your last salary or retirement pay (一括徴収), or switch to paying bills yourself (普通徴収). If you don't ask, it switches to bills automatically. If you are going home, paying at once is the simplest. | ဇွန်မှ ဒီဇင်ဘာအတွင်း အလုပ်ထွက်ပါက ရွေးပါ- ကုမ္ပဏီကို နောက်ဆုံးလစာ သို့မဟုတ် အငြိမ်းစားငွေမှ အားလုံးနုတ်ခိုင်းခြင်း (一括徴収) သို့မဟုတ် ငွေတောင်းခံလွှာဖြင့် ကိုယ်တိုင်ပေးခြင်း (普通徴収)။ မတောင်းဆိုပါက ငွေတောင်းခံလွှာသို့ အလိုအလျောက် ပြောင်းပါမည်။ ပြန်မည်ဆိုလျှင် တစ်ပြိုင်နက်နုတ်ခြင်းက အလွယ်ဆုံးဖြစ်သည်။ | |
+| s.choose[1] | If you leave your job between June and December, choose: ask your company to take it all from your last salary or retirement pay (一括徴収), or switch to paying bills yourself (普通徴収). If you don't ask, it switches to bills automatically. If you are going home, paying at once is the simplest. | ဇွန်မှ ဒီဇင်ဘာအတွင်း အလုပ်ထွက်ပါက ရွေးပါ- ကုမ္ပဏီကို နောက်ဆုံးလစာ သို့မဟုတ် အလုပ်ထွက်ထောက်ပံ့ငွေမှ တစ်ခါတည်း နုတ်ခိုင်းခြင်း (一括徴収) သို့မဟုတ် ငွေတောင်းခံလွှာဖြင့် ကိုယ်တိုင်ပေးခြင်း (普通徴収)။ မတောင်းဆိုပါက ငွေတောင်းခံလွှာဖြင့် ကိုယ်တိုင်ပေးရသည့်နည်းသို့ အလိုအလျောက် ပြောင်းပါမည်။ နိုင်ငံပြန်မည်ဆိုလျှင် တစ်ခါတည်း နုတ်ခိုင်းခြင်းက အလွယ်ဆုံးဖြစ်သည်။ | |
 | s.bills[0] | Pay all remaining bills before you go | မထွက်ခွာမီ ကျန်ငွေတောင်းခံလွှာအားလုံး ပေးပါ | |
 | s.bills[1] | The city sends tax bills (納付書) around June each year. Pay everything that is left before you leave Japan. | မြို့နယ်က နှစ်စဉ် ဇွန်လခန့်တွင် အခွန်ငွေတောင်းခံလွှာ (納付書) ပို့ပါသည်။ ဂျပန်မှ မထွက်ခွာမီ ကျန်ငွေအားလုံး ပေးပါ။ | |
 | s.unsure[0] | Ask your company first | ကုမ္ပဏီကို အရင်မေးပါ | |
-| s.unsure[1] | Check whether your pay slip has a 住民税 line. If it does, the tax is taken from your salary. If you are not sure, ask your HR or payroll staff. | လစာစာရွက်တွင် 住民税 လိုင်း ရှိမရှိ ကြည့်ပါ။ ရှိပါက လစာမှ နုတ်နေခြင်း ဖြစ်သည်။ မသေချာပါက ဝန်ထမ်းရေးရာဌာနကို မေးပါ။ | |
-| s.newyear[0] | This year's tax may come after you leave | ယခုနှစ်၏ အခွန်သည် သင်ထွက်ခွာပြီးမှ ရောက်လာနိုင်သည် | |
-| s.newyear[1] | Because you had an address in Japan on January 1 this year, you also owe this year's resident tax (based on last year's income). The amount is usually decided around June, which may be after you leave. Ask your city office before you go. | ယခုနှစ် ဇန်နဝါရီ ၁ ရက်တွင် ဂျပန်၌ လိပ်စာရှိခဲ့သဖြင့် ယခုနှစ်၏ နေထိုင်သူအခွန် (ယမန်နှစ်ဝင်ငွေအရ) ကိုလည်း ပေးရပါမည်။ ပမာဏကို များသောအားဖြင့် ဇွန်လခန့်တွင် သတ်မှတ်ပြီး သင်ထွက်ခွာပြီးနောက် ဖြစ်နိုင်သည်။ မထွက်ခွာမီ မြို့နယ်ရုံးကို မေးပါ။ | |
+| s.unsure[1] | Check whether your pay slip has a 住民税 line. If it does, the tax is taken from your salary. If you are not sure, ask your HR or payroll staff. | လစာရှင်းတမ်းတွင် 住民税 စာကြောင်း ရှိမရှိ ကြည့်ပါ။ ရှိပါက လစာမှ နုတ်နေခြင်း ဖြစ်သည်။ မသေချာပါက ဝန်ထမ်းရေးရာဌာနကို မေးပါ။ | |
+| s.newyear[0] | This year's tax may come after you leave | ယခုနှစ်၏ အခွန်ငွေတောင်းခံလွှာသည် သင်ထွက်ခွာပြီးမှ ရောက်လာနိုင်သည် | |
+| s.newyear[1] | Because you had an address in Japan on January 1 this year, you also owe this year's resident tax (based on last year's income). The amount is usually decided around June, which may be after you leave. Ask your city office before you go. | ယခုနှစ် ဇန်နဝါရီ ၁ ရက်တွင် ဂျပန်၌ လိပ်စာရှိခဲ့သဖြင့် ယခုနှစ်၏ နေထိုင်သူအခွန် (ယမန်နှစ်ဝင်ငွေအရ) ကိုလည်း ပေးရပါမည်။ ပမာဏကို များသောအားဖြင့် ဇွန်လခန့်မှ သတ်မှတ်သဖြင့် သင်ထွက်ခွာပြီးမှ သိရနိုင်ပါသည်။ မထွက်ခွာမီ မြို့နယ်ရုံးကို မေးပါ။ | |
 | s.rep[0] | If you cannot pay before leaving: appoint a representative | မထွက်ခွာမီ မပေးနိုင်ပါက ကိုယ်စားလှယ် ခန့်ပါ | |
 | s.rep[1] | Choose someone who lives in Japan as your tax representative (納税管理人) and register them at your city office before you leave Japan. Who can be one and the forms differ by city. | ဂျပန်တွင် နေထိုင်သူ တစ်ဦးကို အခွန်ကိုယ်စားလှယ် (納税管理人) အဖြစ် ရွေးပြီး မထွက်ခွာမီ မြို့နယ်ရုံးတွင် မှတ်ပုံတင်ပါ။ မည်သူ ကိုယ်စားလှယ်ဖြစ်နိုင်သည်နှင့် ပုံစံများမှာ မြို့နယ်အလိုက် ကွာခြားပါသည်။ | |
-| s.visa[0] | Do not leave tax unpaid | အခွန်မကျန်စေပါနှင့် | |
-| s.visa[1] | Unpaid resident tax can mean an application to extend your period of stay is not approved if you come back to Japan later. | နေထိုင်သူအခွန် မပေးရသေးပါက နောက်ပိုင်း ဂျပန်သို့ ပြန်လာ၍ နေထိုင်ခွင့်သက်တမ်းတိုး လျှောက်ရာတွင် ခွင့်မပြုနိုင်ပါ။ | |
-| s.next[0] | What about next year? | နောက်နှစ်အတွက်ကော | |
-| s.next[1] | If you have moved your address out of Japan before January 1 next year, there is no resident tax for next year. | နောက်နှစ် ဇန်နဝါရီ ၁ ရက်မတိုင်မီ ဂျပန်မှ လိပ်စာ ပြောင်းရွှေ့ပြီးပါက နောက်နှစ်အတွက် နေထိုင်သူအခွန် မရှိပါ။ | |
+| s.visa[0] | Do not leave tax unpaid | အခွန် မပေးဘဲ မထားခဲ့ပါနှင့် | |
+| s.visa[1] | Unpaid resident tax can mean an application to extend your period of stay is not approved if you come back to Japan later. | နေထိုင်သူအခွန် မပေးရသေးပါက နောက်ပိုင်း ဂျပန်သို့ ပြန်လာ၍ နေထိုင်ခွင့်သက်တမ်းတိုး လျှောက်ရာတွင် ငြင်းပယ်ခံရနိုင်ပါသည်။ | |
+| s.next[0] | What about next year? | နောက်နှစ်အတွက် ဘယ်လိုလဲ။ | |
+| s.next[1] | If you have moved your address out of Japan before January 1 next year, there is no resident tax for next year. | နောက်နှစ် ဇန်နဝါရီ ၁ ရက်မတိုင်မီ ဂျပန်မှ ပြောင်းရွှေ့ထွက်ခွာပြီးပါက နောက်နှစ်အတွက် နေထိုင်သူအခွန် မရှိပါ။ | |
 | note | Procedures can differ by city. Please confirm with the city office where you live. | လုပ်ထုံးလုပ်နည်းများ မြို့နယ်အလိုက် ကွာခြားနိုင်ပါသည်။ နေထိုင်ရာ မြို့နယ်ရုံးတွင် အတည်ပြုပါ။ | |
 | source | Sources: | ရင်းမြစ်: | |
 | leaflet | Official leaflet (English) | တရားဝင် လက်ကမ်းစာစောင် (အင်္ဂလိပ်) | |
@@ -274,17 +274,17 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | faq[2].q | Who can be my tax representative for resident tax? | နေထိုင်သူအခွန်အတွက် ကျွန်ုပ်၏ အခွန်ကိုယ်စားလှယ်အဖြစ် မည်သူ ဖြစ်နိုင်သလဲ။ | |
 | faq[2].a | Someone who lives in Japan, such as a friend, coworker or relative you trust. Who can be a representative and which forms are needed differ by city, so ask your city office before you leave. | ဂျပန်တွင် နေထိုင်ပြီး သင်ယုံကြည်ရသော သူငယ်ချင်း၊ လုပ်ဖော်ကိုင်ဖက် သို့မဟုတ် ဆွေမျိုး။ မည်သူ ဖြစ်နိုင်သည်နှင့် လိုအပ်သော စာရွက်စာတမ်းများမှာ မြို့နယ်အလိုက် ကွာခြားသဖြင့် မထွက်ခွာမီ မြို့နယ်ရုံးတွင် မေးပါ။ | |
 | faq[3].q | Can unpaid resident tax affect my visa? | နေထိုင်သူအခွန် မပေးပါက ဗီဇာကို ထိခိုက်နိုင်ပါသလား။ | |
-| faq[3].a | Yes. If resident tax is unpaid, an application to extend your period of stay may not be approved. This matters if you plan to come back to Japan, so pay everything or appoint a tax representative before you leave. | ထိခိုက်နိုင်ပါသည်။ နေထိုင်သူအခွန် မပေးရသေးပါက နေထိုင်ခွင့်သက်တမ်းတိုး လျှောက်လွှာကို ခွင့်မပြုနိုင်ပါ။ ဂျပန်သို့ ပြန်လာရန် စီစဉ်ထားပါက အရေးကြီးသဖြင့် မထွက်ခွာမီ အားလုံးပေးချေပါ သို့မဟုတ် အခွန်ကိုယ်စားလှယ် ခန့်ပါ။ | |
+| faq[3].a | Yes. If resident tax is unpaid, an application to extend your period of stay may not be approved. This matters if you plan to come back to Japan, so pay everything or appoint a tax representative before you leave. | ထိခိုက်နိုင်ပါသည်။ နေထိုင်သူအခွန် မပေးရသေးပါက နေထိုင်ခွင့်သက်တမ်းတိုး လျှောက်လွှာ ငြင်းပယ်ခံရနိုင်ပါသည်။ ဂျပန်သို့ ပြန်လာရန် စီစဉ်ထားပါက အထူးအရေးကြီးသဖြင့် မထွက်ခွာမီ အားလုံးပေးချေပါ သို့မဟုတ် အခွန်ကိုယ်စားလှယ် ခန့်ပါ။ | |
 
 ## takehome
 
 | key | English | my | correction |
 |---|---|---|---|
 | title | How much pay will you actually take home? | သင့်လက်ထဲရောက်မည့် လစာ ဘယ်လောက်လဲ။ | |
-| lede | Enter your monthly pay to estimate social insurance, income tax and your take-home pay, using the official 2026 and 2027 tables. | လစဉ်လစာကို ထည့်ပါ။ တရားဝင် ၂၀၂၆ နှင့် ၂၀၂၇ ဇယားများအရ လူမှုအာမခံ၊ ဝင်ငွေခွန်နှင့် လက်ထဲရောက်ငွေကို ခန့်မှန်းပေးပါသည်။ | |
+| lede | Enter your monthly pay to estimate social insurance, income tax and your take-home pay, using the official 2026 and 2027 tables. | လစဉ်လစာကို ထည့်ပါ။ တရားဝင် ၂၀၂၆ နှင့် ၂၀၂၇ ဇယားများအရ လူမှုအာမခံ၊ ဝင်ငွေခွန်နှင့် အသားတင် လက်ခံရငွေကို ခန့်မှန်းပေးပါသည်။ | |
 | pay | Total monthly pay (yen) | လစဉ် စုစုပေါင်းလစာ (ယန်း) | |
-| hPay | Before deductions. Include overtime and commuting allowance. | မနုတ်မီ ပမာဏ။ အချိန်ပိုကြေးနှင့် ခရီးစရိတ် ပါဝင်သည်။ | |
-| commute | Of which: commuting allowance (yen) | ယင်းအနက် ခရီးစရိတ် (ယန်း) | |
+| hPay | Before deductions. Include overtime and commuting allowance. | မနုတ်မီ ပမာဏ။ အချိန်ပိုကြေးနှင့် အလုပ်သွားလာစရိတ် ထောက်ပံ့ငွေ ပါဝင်သည်။ | |
+| commute | Of which: commuting allowance (yen) | ယင်းအနက် အလုပ်သွားလာစရိတ် ထောက်ပံ့ငွေ (ယန်း) | |
 | hCommute | Not taxed, but it counts for insurance. | အခွန်မကောက်သော်လည်း အာမခံတွင် ထည့်တွက်သည်။ | |
 | pref | Prefecture where you work | အလုပ်လုပ်သော ခရိုင် (都道府県) | |
 | hPref | Kyokai Kenpo health insurance rates differ by prefecture. | Kyokai Kenpo ကျန်းမာရေးအာမခံနှုန်းသည် ခရိုင်အလိုက် ကွာခြားသည်။ | |
@@ -294,7 +294,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | hJumin | From your pay slip or the city's notice. Usually 0 in your first year. | လစာစာရွက် သို့မဟုတ် မြို့နယ်ရုံး အကြောင်းကြားစာမှ။ ပထမနှစ်တွင် များသောအားဖြင့် ၀။ | |
 | age | I am between 40 and 64 years old | ကျွန်ုပ် အသက် ၄၀ မှ ၆၄ နှစ်ဖြစ်သည် | |
 | year | Pay received in | လစာရရှိသည့်နှစ် | |
-| net | Estimated take-home pay | ခန့်မှန်း လက်ထဲရောက်ငွေ | |
+| net | Estimated take-home pay | ခန့်မှန်း အသားတင် လက်ခံရငွေ | |
 | gross | Gross pay | စုစုပေါင်းလစာ | |
 | health | Health insurance | ကျန်းမာရေးအာမခံ | |
 | kaigo | (incl. long-term care insurance) | (ရေရှည်စောင့်ရှောက်မှုအာမခံ ပါဝင်) | |
@@ -340,21 +340,21 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 消火器 | しょうかき | Fire extinguisher | မီးသတ်ဗူး | |
 | 避難経路 | ひなんけいろ | Evacuation route | ဘေးလွတ်ရာ ထွက်ပြေးလမ်း | |
 | 頭上注意 | ずじょうちゅうい | Watch your head | ခေါင်းပေါ် သတိ | |
-| 足元注意 | あしもとちゅうい | Watch your step | ခြေလှမ်း သတိ | |
-| 保護具着用 | ほごぐちゃくよう | Wear protective gear | အကာအကွယ်ပစ္စည်း ဝတ်ဆင်ရန် | |
+| 足元注意 | あしもとちゅうい | Watch your step | ခြေချရာ သတိထားပါ | |
+| 保護具着用 | ほごぐちゃくよう | Wear protective gear | အကာအကွယ်ပစ္စည်း ဝတ်ဆင်ပါ | |
 | 支給 | しきゅう | Payment (earnings) | ပေးငွေ | |
 | 控除 | こうじょ | Deduction | နုတ်ယူငွေ | |
 | 基本給 | きほんきゅう | Base salary | အခြေခံလစာ | |
 | 残業手当 | ざんぎょうてあて | Overtime pay | အချိန်ပိုကြေး | |
-| 通勤手当 | つうきんてあて | Commuting allowance | ခရီးစရိတ် | |
-| 差引支給額 | さしひきしきゅうがく | Take-home pay | လက်ထဲရောက်ငွေ | |
-| 源泉徴収 | げんせんちょうしゅう | Tax withheld from pay | အရင်းမြစ်တွင် အခွန်နုတ်ခြင်း | |
+| 通勤手当 | つうきんてあて | Commuting allowance | အလုပ်သွားလာစရိတ် ထောက်ပံ့ငွေ | |
+| 差引支給額 | さしひきしきゅうがく | Take-home pay | အသားတင် လက်ခံရငွေ | |
+| 源泉徴収 | げんせんちょうしゅう | Tax withheld from pay | လစာမှ ကြိုတင်နုတ်သော အခွန် | |
 | 有給休暇 | ゆうきゅうきゅうか | Paid leave | လစာပေး ခွင့်ရက် | |
 | 社会保険 | しゃかいほけん | Social insurance | လူမှုအာမခံ | |
 | 雇用保険 | こようほけん | Employment insurance | အလုပ်အကိုင်အာမခံ | |
 | 住民税 | じゅうみんぜい | Resident tax | နေထိုင်သူအခွန် | |
 | 所得税 | しょとくぜい | Income tax | ဝင်ငွေခွန် | |
-| 出勤 | しゅっきん | Coming to work | အလုပ်ဆင်း | |
+| 出勤 | しゅっきん | Coming to work | အလုပ်တက် | |
 | 退勤 | たいきん | Leaving work | အလုပ်သိမ်း | |
 | 休憩 | きゅうけい | Break | အနားယူချိန် | |
 | 遅刻 | ちこく | Being late | နောက်ကျ | |
@@ -362,10 +362,10 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 欠勤 | けっきん | Absence from work | အလုပ်ပျက် | |
 | 休日 | きゅうじつ | Day off | ပိတ်ရက် | |
 | 夜勤 | やきん | Night shift | ညဆိုင်း | |
-| 交代 | こうたい | Shift change | အလှည့်ပြောင်း | |
+| 交代 | こうたい | Shift change | ဆိုင်းပြောင်း | |
 | 残業 | ざんぎょう | Overtime | အချိန်ပို | |
 | 勤務表 | きんむひょう | Work schedule | အလုပ်ဇယား | |
-| 朝礼 | ちょうれい | Morning meeting | နံနက်အစည်းအဝေး | |
+| 朝礼 | ちょうれい | Morning meeting | မနက်ခင်း စုဝေးခြင်း | |
 | 足場 | あしば | Scaffolding | ငြမ်း | |
 | 安全帯 | あんぜんたい | Safety harness | လုံခြုံရေးခါးပတ် | |
 | 墜落 | ついらく | Fall from height | အမြင့်မှ ပြုတ်ကျခြင်း | |
@@ -376,13 +376,13 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 溶接 | ようせつ | Welding | ဂဟေဆော်ခြင်း | |
 | 吊り荷 | つりに | Suspended load | ကရိန်းဖြင့် ချိတ်ဆွဲထားသော ဝန် | |
 | 開口部 | かいこうぶ | Opening in a floor or wall | ကြမ်းပြင်/နံရံရှိ အပေါက် | |
-| 図面 | ずめん | Drawing (blueprint) | ပုံစံဆွဲ | |
+| 図面 | ずめん | Drawing (blueprint) | ဒီဇိုင်းပုံ | |
 | 鉄筋 | てっきん | Reinforcing steel (rebar) | သံချောင်း | |
 | 介護 | かいご | Care (nursing care) | စောင့်ရှောက်မှု | |
 | 利用者 | りようしゃ | Service user (resident) | ဝန်ဆောင်မှုအသုံးပြုသူ | |
 | 食事介助 | しょくじかいじょ | Help with eating | အစားအသောက် ကူညီခြင်း | |
-| 入浴 | にゅうよく | Bathing | ရေချိုးခြင်း | |
-| 排泄 | はいせつ | Toileting | အညစ်အကြေး စွန့်ခြင်း | |
+| 入浴 | にゅうよく | Bathing | ရေချိုးပေးခြင်း | |
+| 排泄 | はいせつ | Toileting | အိမ်သာသွားခြင်း (အိမ်သာသွားခြင်း (အညစ်အကြေး စွန့်ခြင်း)) | |
 | 移乗 | いじょう | Transfer (bed to wheelchair) | ကုတင်မှ ဘီးတပ်ကုလားထိုင်သို့ ရွှေ့ခြင်း | |
 | 車椅子 | くるまいす | Wheelchair | ဘီးတပ်ကုလားထိုင် | |
 | 服薬 | ふくやく | Taking medicine | ဆေးသောက်ခြင်း | |
@@ -393,11 +393,11 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 厨房 | ちゅうぼう | Kitchen | မီးဖိုချောင် | |
 | 手洗い | てあらい | Hand washing | လက်ဆေးခြင်း | |
 | 消毒 | しょうどく | Disinfection | ပိုးသတ်ခြင်း | |
-| 賞味期限 | しょうみきげん | Best-before date | အရသာအကောင်းဆုံး သက်တမ်း | |
+| 賞味期限 | しょうみきげん | Best-before date | အကောင်းဆုံး စားသုံးရန် ရက် | |
 | 消費期限 | しょうひきげん | Use-by date | စားသုံးရန် နောက်ဆုံးရက် | |
 | 食中毒 | しょくちゅうどく | Food poisoning | အစားအစာ အဆိပ်သင့်ခြင်း | |
 | 冷蔵 | れいぞう | Refrigerated | ရေခဲသေတ္တာတွင် အအေးခံ | |
-| 冷凍 | れいとう | Frozen | အေးခဲ | |
+| 冷凍 | れいとう | Frozen | အေးခဲထားခြင်းထားခြင်း | |
 | 仕込み | しこみ | Food prep | ကြိုတင်ပြင်ဆင်ခြင်း | |
 | 盛り付け | もりつけ | Plating | ပန်းကန်ထဲ ထည့်ပြင်ခြင်း | |
 | 加熱 | かねつ | Heating (cooking through) | အပူပေးခြင်း | |
@@ -433,7 +433,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 受付 | うけつけ | Reception | ဧည့်ကြိုကောင်တာ | |
 | 浴場 | よくじょう | Bath hall | ရေချိုးဆောင် | |
 | 布団 | ふとん | Futon (bedding) | ဖူတွန် အိပ်ရာ | |
-| 連泊 | れんぱく | Staying several nights | ညအတော်ကြာ ဆက်တည်းခြင်း | |
+| 連泊 | れんぱく | Staying several nights | ညပေါင်းများစွာ ဆက်တိုက် တည်းခိုခြင်း | |
 | 備品 | びひん | Room supplies | အခန်းတွင်း ပစ္စည်းများ | |
 | 忘れ物 | わすれもの | Item left behind | မေ့ကျန်ခဲ့သော ပစ္စည်း | |
 | 朝食会場 | ちょうしょくかいじょう | Breakfast room | နံနက်စာ စားသောက်ရာနေရာ | |

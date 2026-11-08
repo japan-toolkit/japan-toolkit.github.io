@@ -1,0 +1,262 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Lương thực nhận của bạn là bao nhiêu? | Japan Practical Toolkit</title><meta name="description" content="Nhập lương tháng để ước tính bảo hiểm xã hội, thuế thu nhập và số tiền thực nhận, theo bảng chính thức năm 2026 và 2027."><link rel="canonical" href="https://japan-toolkit.github.io/vi/takehome/"><link rel="alternate" hreflang="vi" href="https://japan-toolkit.github.io/vi/takehome/"><link rel="alternate" hreflang="ne" href="https://japan-toolkit.github.io/ne/takehome/"><link rel="alternate" hreflang="id" href="https://japan-toolkit.github.io/id/takehome/"><link rel="alternate" hreflang="my" href="https://japan-toolkit.github.io/my/takehome/"><link rel="alternate" hreflang="en" href="https://japan-toolkit.github.io/en/takehome/"><link rel="alternate" hreflang="ja" href="https://japan-toolkit.github.io/ja/takehome/"><link rel="alternate" hreflang="x-default" href="https://japan-toolkit.github.io/"><meta property="og:title" content="Lương thực nhận của bạn là bao nhiêu? | Japan Practical Toolkit"><meta property="og:description" content="Nhập lương tháng để ước tính bảo hiểm xã hội, thuế thu nhập và số tiền thực nhận, theo bảng chính thức năm 2026 và 2027."><style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font-size:14px;font-family:system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}
+.site-nav{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 40px;display:flex;flex-direction:column;gap:10px;font-size:14px}
+.site-nav h2{font-size:15px;margin:0}.site-nav ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.site-nav a{color:inherit}.site-nav li a{display:inline-block;border:1px solid currentColor;border-radius:999px;padding:5px 12px;text-decoration:none;opacity:.8}
+.site-nav .legal{font-size:12px;opacity:.7}
+.site-faq{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 28px;display:flex;flex-direction:column;gap:8px}
+.site-faq h2{font-size:20px;margin:0 0 4px}.site-faq details{border:1px solid currentColor;border-color:color-mix(in srgb,currentColor 25%,transparent);border-radius:12px;padding:12px 14px}
+.site-faq summary{cursor:pointer;font-weight:600}.site-faq p{margin:8px 0 0;opacity:.85}</style><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Be+Vietnam+Pro:wght@400;500;600&family=IBM+Plex+Mono:wght@500&family=Noto+Sans+Devanagari:wght@400;600&family=Noto+Sans+Myanmar:wght@400;600&family=Noto+Sans+JP:wght@400;600;700&display=swap">
+<style>
+/* Layout: inputs card, then a big take-home figure and the deduction lines, each keyed by its Japanese term as on a pay slip. */
+:root{
+  --bg:#f3f5f4; --surface:#ffffff; --ink:#14231f; --muted:#5a6b66; --line:#d7dfdc;
+  --accent:#0f6b5c; --accent-soft:#dcefea; --seal:#b5532f; --seal-soft:#f6e6de;
+  --display:"Bricolage Grotesque","Be Vietnam Pro","Noto Sans Devanagari","Noto Sans Myanmar","Noto Sans JP",system-ui,sans-serif;
+  --body:"Be Vietnam Pro","Noto Sans Devanagari","Noto Sans Myanmar","Noto Sans JP",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,monospace; --jp:"Noto Sans JP",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f1715; --surface:#16211e; --ink:#e4ece9; --muted:#9aaba6; --line:#2a3a36;
+  --accent:#5cc4ae; --accent-soft:#1d3631; --seal:#e08a66; --seal-soft:#3a251d; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1715; --surface:#16211e; --ink:#e4ece9; --muted:#9aaba6; --line:#2a3a36;
+  --accent:#5cc4ae; --accent-soft:#1d3631; --seal:#e08a66; --seal-soft:#3a251d; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.6}
+html:lang(my) body{line-height:1.95} html:lang(ne) body{line-height:1.8}
+.wrap{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 48px;display:flex;flex-direction:column;gap:22px}
+header{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.brand{font-family:"Bricolage Grotesque",sans-serif;font-weight:600;letter-spacing:.04em;text-transform:uppercase;font-size:12px;color:var(--muted)}
+select{font:500 14px var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:7px 14px;max-width:100%}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(26px,5vw,40px);line-height:1.2;margin:0;text-wrap:balance}
+.lede{color:var(--muted);margin:8px 0 0;max-width:62ch}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
+@media (max-width:560px){.panel{grid-template-columns:minmax(0,1fr)}}
+label{display:flex;flex-direction:column;gap:6px;font-weight:600;font-size:14px;min-width:0}
+label .hint{font-weight:400;color:var(--muted);font-size:12.5px}
+input[type=number]{font:500 16px var(--mono);font-variant-numeric:tabular-nums;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 12px;width:100%;box-sizing:border-box}
+.panel select{border-radius:10px;padding:10px 12px;font-size:15px;background:var(--bg);width:100%}
+.check{flex-direction:row;align-items:center;gap:10px;font-weight:500}
+.check input{width:20px;height:20px;accent-color:var(--accent)}
+.year{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.year button{border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:10px;padding:10px;font:600 14px var(--body);cursor:pointer}
+.year button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+input:focus-visible,select:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.result{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:12px}
+.eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.big{font:600 clamp(34px,7vw,48px)/1 var(--mono);font-variant-numeric:tabular-nums;color:var(--accent)}
+.lines{display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.line{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 12px;padding:9px 0;border-bottom:1px solid var(--line);font-size:14px}
+.line .jp{font:600 13px var(--jp);color:var(--muted)}
+.line .amt{grid-row:1/3;grid-column:2;align-self:center;font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.line.neg .amt{color:var(--seal)}
+.line.total{font-weight:600}
+.notes{font-size:13.5px;color:var(--muted);margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.foot{font-size:12.5px;color:var(--muted);display:flex;flex-direction:column;gap:6px}
+.foot a{color:var(--accent)}
+</style>
+
+</head><body><script>window.__LANG="vi";</script><div class="wrap">
+  <header>
+    <a class="brand" href="../" style="text-decoration:none">Japan Practical Toolkit</a>
+    <select id="lang" aria-label="Language">
+      <option value="vi">Tiếng Việt</option>
+      <option value="ne">नेपाली</option>
+      <option value="id">Bahasa Indonesia</option>
+      <option value="my">မြန်မာ</option>
+      <option value="en">English</option>
+      <option value="ja">日本語</option>
+    </select>
+  </header>
+  <div>
+    <h1 id="title"></h1>
+    <p class="lede" id="lede"></p>
+  </div>
+
+  <form class="panel" onsubmit="return false">
+    <label><span id="l-pay"></span><input id="pay" type="number" inputmode="numeric" min="0" step="1000" value="250000"><span class="hint" id="h-pay"></span></label>
+    <label><span id="l-commute"></span><input id="commute" type="number" inputmode="numeric" min="0" step="1000" value="10000"><span class="hint" id="h-commute"></span></label>
+    <label><span id="l-pref"></span><select id="pref"></select><span class="hint" id="h-pref"></span></label>
+    <label><span id="l-deps"></span><select id="deps"></select><span class="hint" id="h-deps"></span></label>
+    <label><span id="l-jumin"></span><input id="jumin" type="number" inputmode="numeric" min="0" step="100" value="0"><span class="hint" id="h-jumin"></span></label>
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <label class="check" for="age40"><input type="checkbox" id="age40"><span id="l-age"></span></label>
+      <div><div style="font-weight:600;font-size:14px;margin-bottom:6px" id="l-year"></div>
+        <div class="year"><button type="button" data-y="2026" id="y2026"></button><button type="button" data-y="2027" id="y2027"></button></div></div>
+    </div>
+  </form>
+
+  <section class="result" aria-live="polite">
+    <div class="eyebrow" id="l-net"></div>
+    <div class="big" id="v-net">—</div>
+    <div class="lines" id="lines"></div>
+  </section>
+
+  <ul class="notes" id="notes"></ul>
+  <div class="foot">
+    <span><span id="l-source"></span>
+      <a href="https://www.nta.go.jp/publication/pamph/gensen/zeigakuhyo2027/01.htm" target="_blank" rel="noopener">国税庁 源泉徴収税額表</a> ·
+      <a href="https://www.kyoukaikenpo.or.jp/about/business/insurance_rate/rate_prefectures/r08/" target="_blank" rel="noopener">協会けんぽ 令和8年度 保険料率</a> ·
+      <a href="https://www.nenkin.go.jp/service/kounen/hokenryo/ryogaku/ryogakuhyo/index.html" target="_blank" rel="noopener">日本年金機構</a> ·
+      <a href="https://www.mhlw.go.jp/content/001672589.pdf" target="_blank" rel="noopener">厚生労働省 雇用保険料率</a></span>
+    <span id="checked"></span>
+  </div>
+</div>
+
+<script>
+// Monthly income-tax withholding, 甲欄, by the official computer method
+// (電子計算機等を使用して源泉徴収税額を計算する方法, NTA zeigakuhyo2026/2027 data/18.pdf).
+// A = pay after social insurance for the month (円); deps = spouse + dependants counted (源泉控除対象).
+const TAX_YEARS = {
+  2026: { kyuyoMin: 54167, kyuyoMinTo: 158333, kiso0: 48334 },
+  2027: { kyuyoMin: 57500, kyuyoMinTo: 169444, kiso0: 51667 },
+};
+function kyuyoKojo(A, y) {
+  const c = TAX_YEARS[y];
+  if (A <= c.kyuyoMinTo) return c.kyuyoMin;
+  if (A <= 299999) return Math.ceil(A * 0.3 + 6667);
+  if (A <= 549999) return Math.ceil(A * 0.2 + 36667);
+  if (A <= 708330) return Math.ceil(A * 0.1 + 91667);
+  return 162500;
+}
+function kisoKojo(A, y) {
+  if (A <= 2120833) return TAX_YEARS[y].kiso0;
+  if (A <= 2162499) return 40000;
+  if (A <= 2204166) return 26667;
+  if (A <= 2245833) return 13334;
+  return 0;
+}
+const RATE = [[162500, 0.05105, 0], [275000, 0.10210, 8296], [579166, 0.20420, 36374], [750000, 0.23483, 54113],
+  [1500000, 0.33693, 130688], [3333333, 0.40840, 237893], [Infinity, 0.45945, 408061]];
+function withholdingKou(A, deps, y) {
+  if (!TAX_YEARS[y]) throw new Error("unsupported year " + y);
+  A = Math.floor(A);
+  const B = A - kyuyoKojo(A, y) - 31667 * deps - kisoKojo(A, y);
+  if (B <= 0) return 0;
+  const [, r, d] = RATE.find(([max]) => B <= max);
+  const tax = B * r - d;
+  return tax <= 0 ? 0 : Math.round(tax / 10) * 10;   // 10円未満四捨五入
+}
+if (typeof module !== "undefined") module.exports = { withholdingKou, kyuyoKojo, kisoKojo, TAX_YEARS };
+
+// Employee social-insurance premiums for one month (FY2026), from the official
+// 協会けんぽ 令和8年度 保険料額表 (東京支部: https://www.kyoukaikenpo.or.jp/assets/R8_13tokyo.pdf).
+// Grade boundaries are national; only the health-insurance rate differs by prefecture.
+// [standard monthly pay 標準報酬月額, lower bound of 報酬月額 (以上)] for 健康保険 grades 1-50.
+const GRADES = [[58000,0],[68000,63000],[78000,73000],[88000,83000],[98000,93000],[104000,101000],[110000,107000],
+ [118000,114000],[126000,122000],[134000,130000],[142000,138000],[150000,146000],[160000,155000],[170000,165000],
+ [180000,175000],[190000,185000],[200000,195000],[220000,210000],[240000,230000],[260000,250000],[280000,270000],
+ [300000,290000],[320000,310000],[340000,330000],[360000,350000],[380000,370000],[410000,395000],[440000,425000],
+ [470000,455000],[500000,485000],[530000,515000],[560000,545000],[590000,575000],[620000,605000],[650000,635000],
+ [680000,665000],[710000,695000],[750000,730000],[790000,770000],[830000,810000],[880000,855000],[930000,905000],
+ [980000,955000],[1030000,1005000],[1090000,1055000],[1150000,1115000],[1210000,1175000],[1270000,1235000],
+ [1330000,1295000],[1390000,1355000]];
+// 協会けんぽ 令和8年度 健康保険料率 (%), from https://www.kyoukaikenpo.or.jp/about/business/insurance_rate/rate_prefectures/r08/
+// transcribed 2026-11-08. second independent read 2026-11-08: all 47 identical.
+const HEALTH_RATE_FY2026 = {"北海道":10.28, "青森":9.85, "岩手":9.51, "宮城":10.10, "秋田":10.01, "山形":9.75, "福島":9.50, "茨城":9.52, "栃木":9.82, "群馬":9.68, "埼玉":9.67, "千葉":9.73, "東京":9.85, "神奈川":9.92, "新潟":9.21, "富山":9.59, "石川":9.70, "福井":9.71, "山梨":9.55, "長野":9.63, "岐阜":9.80, "静岡":9.61, "愛知":9.93, "三重":9.77, "滋賀":9.88, "京都":9.89, "大阪":10.13, "兵庫":10.12, "奈良":9.91, "和歌山":10.06, "鳥取":9.86, "島根":9.94, "岡山":10.05, "広島":9.78, "山口":10.15, "徳島":10.24, "香川":10.02, "愛媛":9.98, "高知":10.05, "福岡":10.11, "佐賀":10.55, "長崎":10.06, "熊本":10.08, "大分":10.08, "宮崎":9.77, "鹿児島":10.13, "沖縄":9.44};
+const RATES_FY2026 = { kaigo: 0.0162, kodomo: 0.0023, pension: 0.183, koyo: 0.005 };
+// 健康保険 grade (1-50) for a monthly pay amount.
+function healthGrade(pay) { let g = 0; while (g + 1 < GRADES.length && pay >= GRADES[g + 1][1]) g++; return g + 1; }
+const healthStd = pay => GRADES[healthGrade(pay) - 1][0];
+// 厚生年金 uses health grades 4 (88,000) to 35 (650,000) as its grades 1-32.
+const pensionStd = pay => Math.min(650000, Math.max(88000, healthStd(pay)));
+// Deducted from pay: 50銭以下は切り捨て、50銭を超える場合は切り上げ (footnote of the 保険料額表).
+const roundDeduction = x => { const f = Math.floor(x); return x - f > 0.5 + 1e-9 ? f + 1 : f; };
+// pay: monthly pay incl. commuting and overtime (for 標準報酬, normally the April-June average); healthRate: e.g. 0.0985 (東京).
+function premiums(pay, { healthRate, age40to64 = false, koyo = true, rates = RATES_FY2026 } = {}) {
+  const hs = healthStd(pay), ps = pensionStd(pay);
+  const health = roundDeduction(hs * (healthRate + (age40to64 ? rates.kaigo : 0)) / 2);
+  const kodomo = roundDeduction(hs * rates.kodomo / 2);
+  const pension = roundDeduction(ps * rates.pension / 2);
+  const koyoAmt = koyo ? roundDeduction(pay * rates.koyo) : 0;
+  return { healthStd: hs, pensionStd: ps, health, kodomo, pension, koyo: koyoAmt, total: health + kodomo + pension + koyoAmt };
+}
+if (typeof module !== "undefined") module.exports = { HEALTH_RATE_FY2026, GRADES, healthGrade, healthStd, pensionStd, roundDeduction, premiums, RATES_FY2026 };
+
+const PREF_EN={"北海道":"Hokkaido","青森":"Aomori","岩手":"Iwate","宮城":"Miyagi","秋田":"Akita","山形":"Yamagata","福島":"Fukushima","茨城":"Ibaraki","栃木":"Tochigi","群馬":"Gunma","埼玉":"Saitama","千葉":"Chiba","東京":"Tokyo","神奈川":"Kanagawa","新潟":"Niigata","富山":"Toyama","石川":"Ishikawa","福井":"Fukui","山梨":"Yamanashi","長野":"Nagano","岐阜":"Gifu","静岡":"Shizuoka","愛知":"Aichi","三重":"Mie","滋賀":"Shiga","京都":"Kyoto","大阪":"Osaka","兵庫":"Hyogo","奈良":"Nara","和歌山":"Wakayama","鳥取":"Tottori","島根":"Shimane","岡山":"Okayama","広島":"Hiroshima","山口":"Yamaguchi","徳島":"Tokushima","香川":"Kagawa","愛媛":"Ehime","高知":"Kochi","福岡":"Fukuoka","佐賀":"Saga","長崎":"Nagasaki","熊本":"Kumamoto","大分":"Oita","宮崎":"Miyazaki","鹿児島":"Kagoshima","沖縄":"Okinawa"};
+const T={
+vi:{title:"Lương thực nhận của bạn là bao nhiêu?",lede:"Nhập lương tháng để ước tính bảo hiểm xã hội, thuế thu nhập và số tiền thực nhận, theo bảng chính thức năm 2026 và 2027.",
+pay:"Tổng lương tháng (yên)",hPay:"Trước khi trừ. Bao gồm làm thêm giờ và phụ cấp đi lại.",commute:"Trong đó: phụ cấp đi lại (yên)",hCommute:"Không bị tính thuế, nhưng vẫn tính vào bảo hiểm.",
+pref:"Nơi làm việc (tỉnh)",hPref:"Tỷ lệ bảo hiểm y tế của Kyokai Kenpo khác nhau theo tỉnh.",deps:"Số người phụ thuộc",hDeps:"Vợ/chồng và người thân mà công ty tính cho bạn (theo tờ khai 扶養控除等申告書).",
+jumin:"Thuế cư trú hằng tháng (yên)",hJumin:"Lấy từ phiếu lương hoặc thông báo của thành phố. Năm đầu thường là 0.",age:"Tôi từ 40 đến 64 tuổi",year:"Lương nhận trong năm",
+net:"Thực nhận ước tính",gross:"Tổng lương",health:"Bảo hiểm y tế",kaigo:"(gồm bảo hiểm chăm sóc dài hạn)",kodomo:"Phí hỗ trợ trẻ em và nuôi con",pension:"Hưu trí phúc lợi",koyo:"Bảo hiểm việc làm",shotoku:"Thuế thu nhập",juminL:"Thuế cư trú",total:"Tổng khoản trừ",
+notes:["Bảo hiểm được tính theo bậc lương chuẩn (標準報酬月額), thường dựa trên lương trung bình tháng 4–6. Ở đây dùng lương tháng này nên có thể lệch một chút.","Thuế thu nhập dùng phương pháp tính bằng máy tính chính thức (cột 甲). Nếu công ty dùng bảng in, số tiền có thể khác một chút (thường tối đa vài trăm yên), nhiều hơn khi lương trên 740.000 yên và có người phụ thuộc.","Nếu bạn chưa nộp tờ khai 扶養控除等申告書 cho công ty, thuế sẽ cao hơn nhiều (cột 乙). Không tính trong công cụ này.","Tỷ lệ bảo hiểm là của năm tài chính 2026 (Kyokai Kenpo). Nếu công ty có quỹ bảo hiểm riêng, tỷ lệ sẽ khác."],
+source:"Nguồn:",checked:"Số liệu kiểm tra tháng 11/2026."},
+ne:{title:"तपाईंको हातमा आउने तलब कति हो?",lede:"मासिक तलब लेख्नुहोस्। आधिकारिक २०२६ र २०२७ तालिकाअनुसार सामाजिक बीमा, आयकर र हातमा आउने रकमको अनुमान देखाउँछ।",
+pay:"कुल मासिक तलब (येन)",hPay:"कट्टीअघिको रकम। ओभरटाइम र यातायात भत्ता समेत।",commute:"यसमध्ये यातायात भत्ता (येन)",hCommute:"कर लाग्दैन, तर बीमामा गनिन्छ।",
+pref:"काम गर्ने प्रिफेक्चर",hPref:"क्योकाइ केन्पोको स्वास्थ्य बीमा दर प्रिफेक्चरअनुसार फरक हुन्छ।",deps:"आश्रितको संख्या",hDeps:"कम्पनीले गन्ने श्रीमान्/श्रीमती र परिवार (扶養控除等申告書 अनुसार)।",
+jumin:"मासिक आवासीय कर (येन)",hJumin:"तलब विवरण वा नगरपालिकाको सूचनाबाट। पहिलो वर्ष प्रायः ०।",age:"मेरो उमेर ४० देखि ६४ वर्ष छ",year:"तलब पाउने वर्ष",
+net:"अनुमानित हातमा आउने रकम",gross:"कुल तलब",health:"स्वास्थ्य बीमा",kaigo:"(दीर्घकालीन हेरचाह बीमासहित)",kodomo:"बाल हेरचाह सहयोग शुल्क",pension:"कर्मचारी पेन्सन",koyo:"रोजगार बीमा",shotoku:"आयकर",juminL:"आवासीय कर",total:"जम्मा कट्टी",
+notes:["बीमा तलबको मानक तह (標準報酬月額) मा आधारित हुन्छ, जुन प्रायः अप्रिल–जुनको औसतबाट तय हुन्छ। यहाँ यो महिनाको तलब प्रयोग गरिएकाले अलिकति फरक पर्न सक्छ।","आयकर आधिकारिक कम्प्युटर विधि (甲 स्तम्भ) बाट गणना गरिएको हो। कम्पनीले छापिएको तालिका प्रयोग गरे अलिकति फरक पर्न सक्छ (प्रायः बढीमा केही सय येन); ७,४०,००० येनभन्दा बढी तलब र आश्रित भए अझ बढी।","扶養控除等申告書 कम्पनीमा नबुझाएको भए कर धेरै बढी हुन्छ (乙 स्तम्भ)। यो उपकरणमा समावेश छैन।","बीमा दर आर्थिक वर्ष २०२६ को क्योकाइ केन्पो दर हो। कम्पनीको आफ्नै बीमा संघ भए दर फरक हुन्छ।"],
+source:"स्रोत:",checked:"नोभेम्बर २०२६ मा जाँच गरिएको।"},
+id:{title:"Berapa gaji bersih Anda?",lede:"Masukkan gaji bulanan untuk memperkirakan asuransi sosial, pajak penghasilan, dan gaji bersih, berdasarkan tabel resmi 2026 dan 2027.",
+pay:"Gaji kotor per bulan (yen)",hPay:"Sebelum potongan. Termasuk lembur dan tunjangan transportasi.",commute:"Di antaranya: tunjangan transportasi (yen)",hCommute:"Tidak dikenai pajak, tetapi dihitung untuk asuransi.",
+pref:"Prefektur tempat kerja",hPref:"Tarif asuransi kesehatan Kyokai Kenpo berbeda per prefektur.",deps:"Jumlah tanggungan",hDeps:"Pasangan dan keluarga yang dihitung perusahaan (sesuai formulir 扶養控除等申告書).",
+jumin:"Pajak penduduk per bulan (yen)",hJumin:"Lihat slip gaji atau surat dari kota. Tahun pertama biasanya 0.",age:"Saya berusia 40 sampai 64 tahun",year:"Gaji diterima pada tahun",
+net:"Perkiraan gaji bersih",gross:"Gaji kotor",health:"Asuransi kesehatan",kaigo:"(termasuk asuransi perawatan jangka panjang)",kodomo:"Iuran dukungan anak",pension:"Pensiun Karyawan",koyo:"Asuransi ketenagakerjaan",shotoku:"Pajak penghasilan",juminL:"Pajak penduduk",total:"Total potongan",
+notes:["Asuransi dihitung dari tingkat gaji standar (標準報酬月額), biasanya dari rata-rata gaji April–Juni. Di sini memakai gaji bulan ini, jadi bisa sedikit berbeda.","Pajak penghasilan memakai metode komputer resmi (kolom 甲). Jika perusahaan memakai tabel cetak, hasilnya bisa sedikit berbeda (biasanya paling banyak beberapa ratus yen), lebih besar jika gaji di atas 740.000 yen dan ada tanggungan.","Jika Anda belum menyerahkan formulir 扶養控除等申告書 ke perusahaan, pajaknya jauh lebih tinggi (kolom 乙). Tidak dihitung di sini.","Tarif asuransi adalah tarif Kyokai Kenpo tahun fiskal 2026. Jika perusahaan punya perkumpulan asuransi sendiri, tarifnya berbeda."],
+source:"Sumber:",checked:"Angka diperiksa November 2026."},
+my:{title:"သင့်လက်ထဲရောက်မည့် လစာ ဘယ်လောက်လဲ။",lede:"လစဉ်လစာကို ထည့်ပါ။ တရားဝင် ၂၀၂၆ နှင့် ၂၀၂၇ ဇယားများအရ လူမှုအာမခံ၊ ဝင်ငွေခွန်နှင့် လက်ထဲရောက်ငွေကို ခန့်မှန်းပေးပါသည်။",
+pay:"လစဉ် စုစုပေါင်းလစာ (ယန်း)",hPay:"မနုတ်မီ ပမာဏ။ အချိန်ပိုကြေးနှင့် ခရီးစရိတ် ပါဝင်သည်။",commute:"ယင်းအနက် ခရီးစရိတ် (ယန်း)",hCommute:"အခွန်မကောက်သော်လည်း အာမခံတွင် ထည့်တွက်သည်။",
+pref:"အလုပ်လုပ်သော ခရိုင် (都道府県)",hPref:"Kyokai Kenpo ကျန်းမာရေးအာမခံနှုန်းသည် ခရိုင်အလိုက် ကွာခြားသည်။",deps:"မှီခိုသူ အရေအတွက်",hDeps:"ကုမ္ပဏီက တွက်ပေးသော ဇနီး/ခင်ပွန်းနှင့် မိသားစု (扶養控除等申告書 အရ)။",
+jumin:"လစဉ် နေထိုင်သူအခွန် (ယန်း)",hJumin:"လစာစာရွက် သို့မဟုတ် မြို့နယ်ရုံး အကြောင်းကြားစာမှ။ ပထမနှစ်တွင် များသောအားဖြင့် ၀။",age:"ကျွန်ုပ် အသက် ၄၀ မှ ၆၄ နှစ်ဖြစ်သည်",year:"လစာရရှိသည့်နှစ်",
+net:"ခန့်မှန်း လက်ထဲရောက်ငွေ",gross:"စုစုပေါင်းလစာ",health:"ကျန်းမာရေးအာမခံ",kaigo:"(ရေရှည်စောင့်ရှောက်မှုအာမခံ ပါဝင်)",kodomo:"ကလေးပြုစုမှု ထောက်ပံ့ကြေး",pension:"ဝန်ထမ်းပင်စင်",koyo:"အလုပ်အကိုင်အာမခံ",shotoku:"ဝင်ငွေခွန်",juminL:"နေထိုင်သူအခွန်",total:"နုတ်ယူငွေ စုစုပေါင်း",
+notes:["အာမခံကို စံလစာအဆင့် (標準報酬月額) ဖြင့် တွက်ပြီး များသောအားဖြင့် ဧပြီ–ဇွန် ပျမ်းမျှလစာမှ သတ်မှတ်သည်။ ဤနေရာတွင် ယခုလလစာကို သုံးသဖြင့် အနည်းငယ် ကွာနိုင်သည်။","ဝင်ငွေခွန်ကို တရားဝင် ကွန်ပျူတာနည်း (甲 ကော်လံ) ဖြင့် တွက်သည်။ ကုမ္ပဏီက ပုံနှိပ်ဇယား သုံးပါက အနည်းငယ် (များသောအားဖြင့် ယန်း ရာဂဏန်းအထိ) ကွာနိုင်ပြီး လစာ ၇၄၀,၀၀၀ ယန်းကျော်၍ မှီခိုသူရှိပါက ပိုကွာနိုင်သည်။","扶養控除等申告書 ကို ကုမ္ပဏီသို့ မတင်ရသေးပါက အခွန် အများကြီး ပိုများသည် (乙 ကော်လံ)။ ဤကိရိယာတွင် မပါဝင်ပါ။","အာမခံနှုန်းသည် ၂၀၂၆ ဘဏ္ဍာနှစ် Kyokai Kenpo နှုန်း ဖြစ်သည်။ ကုမ္ပဏီတွင် ကိုယ်ပိုင်အာမခံအသင်း ရှိပါက နှုန်း ကွာသည်။"],
+source:"ရင်းမြစ်:",checked:"၂၀၂၆ နိုဝင်ဘာတွင် စစ်ဆေးထားသည်။"},
+en:{title:"How much pay will you actually take home?",lede:"Enter your monthly pay to estimate social insurance, income tax and your take-home pay, using the official 2026 and 2027 tables.",
+pay:"Total monthly pay (yen)",hPay:"Before deductions. Include overtime and commuting allowance.",commute:"Of which: commuting allowance (yen)",hCommute:"Not taxed, but it counts for insurance.",
+pref:"Prefecture where you work",hPref:"Kyokai Kenpo health insurance rates differ by prefecture.",deps:"Number of dependants",hDeps:"Spouse and family your company counts for you (from your 扶養控除等申告書 form).",
+jumin:"Monthly resident tax (yen)",hJumin:"From your pay slip or the city's notice. Usually 0 in your first year.",age:"I am between 40 and 64 years old",year:"Pay received in",
+net:"Estimated take-home pay",gross:"Gross pay",health:"Health insurance",kaigo:"(incl. long-term care insurance)",kodomo:"Child support levy",pension:"Employees' Pension",koyo:"Employment insurance",shotoku:"Income tax",juminL:"Resident tax",total:"Total deductions",
+notes:["Insurance uses your standard monthly pay grade (標準報酬月額), usually set from your April–June average. This tool uses this month's pay, so it can differ a little.","Income tax uses the official computer method (甲 column). If your company uses the printed table, the amount can differ a little (usually up to a few hundred yen), and more above 740,000 yen with dependants.","If you have not given your company the 扶養控除等申告書 form, much more tax is taken (乙 column). That case is not covered here.","Insurance rates are Kyokai Kenpo FY2026 rates. If your company has its own health insurance society, its rate is different."],
+source:"Sources:",checked:"Figures checked November 2026."},
+ja:{title:"手取りはいくら？給与の手取り計算",lede:"月の給与を入力すると、2026年・2027年の公式の表をもとに社会保険料・所得税・手取りの目安を計算します。",
+pay:"月の総支給額（円）",hPay:"控除前の金額。残業代・通勤手当を含みます。",commute:"うち通勤手当（円）",hCommute:"所得税はかかりませんが、社会保険料の計算には含まれます。",
+pref:"勤務地の都道府県",hPref:"協会けんぽの健康保険料率は都道府県ごとに違います。",deps:"扶養親族等の数",hDeps:"会社に出した扶養控除等申告書で数えられる配偶者・家族の人数。",
+jumin:"毎月の住民税（円）",hJumin:"給与明細や市区町村の通知で確認。来日1年目はふつう0円。",age:"40歳〜64歳です",year:"給与を受け取る年",
+net:"手取りの目安",gross:"総支給額",health:"健康保険",kaigo:"（介護保険を含む）",kodomo:"子ども・子育て支援金",pension:"厚生年金",koyo:"雇用保険",shotoku:"所得税",juminL:"住民税",total:"控除合計",
+notes:["社会保険料は標準報酬月額の等級で決まり、通常は4〜6月の平均給与から決まります。ここでは今月の給与で計算するため、多少ずれることがあります。","所得税は国税庁の電算機計算の特例（甲欄）で計算しています。会社が税額表を使う場合は多少（通常は数百円以内）違うことがあり、月74万円を超えて扶養親族がいる場合はさらに差が出ます。","扶養控除等申告書を会社に出していない場合は、税額がかなり高くなります（乙欄）。このツールでは計算しません。","保険料率は協会けんぽの2026年度の料率です。会社独自の健康保険組合の場合は料率が違います。"],
+source:"出典：",checked:"2026年11月に数値を確認。"}
+};
+
+let lang="vi", year=Math.min(2027,Math.max(2026,new Date().getFullYear()));
+lang=window.__LANG;
+const $=id=>document.getElementById(id);
+const yen=n=>"¥"+Math.round(n).toLocaleString("en-US");
+const num=id=>Math.max(0,Math.floor(+$(id).value||0));
+
+function fillSelects(){
+  const t=T[lang], pv=$("pref").value||"東京", dv=$("deps").value||"0";
+  $("pref").innerHTML=Object.keys(HEALTH_RATE_FY2026).map(p=>`<option value="${p}">${lang==="ja"?p:PREF_EN[p]+" "+p} (${HEALTH_RATE_FY2026[p].toFixed(2)}%)</option>`).join("");
+  $("pref").value=pv;
+  $("deps").innerHTML=[0,1,2,3,4,5,6,7].map(n=>`<option value="${n}">${n}</option>`).join("");
+  $("deps").value=dv;
+}
+function calc(){
+  const t=T[lang], pay=num("pay"), commute=Math.min(num("commute"),pay), jumin=num("jumin");
+  const over40=$("age40").checked, deps=+$("deps").value, pref=$("pref").value;
+  const ins=premiums(pay,{healthRate:HEALTH_RATE_FY2026[pref]/100,age40to64:over40});
+  const A=Math.max(0,pay-commute-ins.total);           // 社会保険料等控除後の給与等の金額
+  const tax=pay>0?withholdingKou(A,deps,year):0;
+  const total=ins.total+tax+jumin, net=pay-total;
+  $("v-net").textContent=pay>0?yen(net):"—";
+  const L=[["gross","総支給額",pay,""],["health","健康保険"+(over40?"・介護保険":""),-ins.health,over40?t.kaigo:""],["kodomo","子ども・子育て支援金",-ins.kodomo,""],
+    ["pension","厚生年金",-ins.pension,""],["koyo","雇用保険",-ins.koyo,""],["shotoku","所得税",-tax,""],["juminL","住民税",-jumin,""],["total","控除合計",-total,""]];
+  $("lines").innerHTML=L.map(([k,jp,v,extra])=>`<div class="line${(k!=="gross"&&v!==0)||k==="total"?" neg":""}${k==="total"?" total":""}"><span>${t[k]} ${extra}</span><span class="jp" lang="ja">${jp}</span><span class="amt">${k!=="gross"&&v!==0?"−"+yen(-v):yen(Math.abs(v))}</span></div>`).join("");
+}
+function render(){
+  const t=T[lang];
+  document.documentElement.lang=lang; $("lang").value=lang;
+  $("title").textContent=t.title; $("lede").textContent=t.lede;
+  for(const [id,k] of [["l-pay","pay"],["h-pay","hPay"],["l-commute","commute"],["h-commute","hCommute"],["l-pref","pref"],["h-pref","hPref"],["l-deps","deps"],["h-deps","hDeps"],["l-jumin","jumin"],["h-jumin","hJumin"],["l-age","age"],["l-year","year"],["l-net","net"],["l-source","source"],["checked","checked"]]) $(id).textContent=t[k];
+  $("y2026").textContent="2026"; $("y2027").textContent="2027";
+  $("notes").innerHTML=t.notes.map(n=>`<li>${n}</li>`).join("");
+  fillSelects(); setYear(year);
+}
+function setYear(y){ year=y; document.querySelectorAll(".year button").forEach(b=>b.setAttribute("aria-pressed",String(+b.dataset.y===y))); calc(); }
+document.querySelectorAll(".year button").forEach(b=>b.addEventListener("click",()=>setYear(+b.dataset.y)));
+["pay","commute","jumin"].forEach(id=>$(id).addEventListener("input",calc));
+["pref","deps","age40"].forEach(id=>$(id).addEventListener("change",calc));
+$("lang").addEventListener("change",e=>{location.href="../../"+e.target.value+"/takehome/";return;lang=e.target.value;try{localStorage.setItem("thc-lang",lang)}catch(_){}render();});
+render();
+</script>
+<section class="site-faq" id="faq"><h2>Câu hỏi thường gặp</h2><details><summary>Vì sao chọn năm 2027 thì thuế thu nhập thấp hơn?</summary><p>Từ tiền lương nhận trong năm 2027, bảng khấu trừ thuế mới của Cơ quan Thuế Quốc gia được áp dụng. Mức khấu trừ cơ bản đã được nâng lên trong cải cách thuế năm 2026, nên với cùng mức lương, thuế hằng tháng bằng hoặc thấp hơn một chút.</p></details><details><summary>Công ty trừ thuế thu nhập cao hơn nhiều so với công cụ này. Vì sao?</summary><p>Hãy kiểm tra bạn đã nộp tờ khai 扶養控除等申告書 cho công ty chưa. Nếu chưa, thuế được tính theo cột 乙 và cao hơn nhiều. Ví dụ, theo bảng năm 2027, lương khoảng 200.000 yên sau bảo hiểm thì cột 甲 (không người phụ thuộc) là 4.170 yên, còn cột 乙 là 19.200 yên.</p></details><details><summary>Vì sao tiền hưu trí không tăng nữa khi lương cao?</summary><p>Hưu trí phúc lợi dùng mức lương chuẩn từ 88.000 đến 650.000 yên. Trên 650.000 yên vẫn tính ở bậc cao nhất, nên phần bạn đóng giữ ở 59.475 yên/tháng (9,15% của 650.000). Bảo hiểm y tế có nhiều bậc hơn và tăng đến 1.390.000 yên.</p></details><details><summary>Vì sao công cụ không tự tính thuế cư trú?</summary><p>Thuế cư trú do thành phố quyết định dựa trên thu nhập năm trước, cho những người có địa chỉ ở Nhật vào ngày 1 tháng 1. Số tiền tùy theo thành phố và các khoản khấu trừ năm trước, nên hãy nhập số tiền trên phiếu lương hoặc thông báo của thành phố. Năm đầu ở Nhật thường là 0.</p></details></section><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Vì sao chọn năm 2027 thì thuế thu nhập thấp hơn?", "acceptedAnswer": {"@type": "Answer", "text": "Từ tiền lương nhận trong năm 2027, bảng khấu trừ thuế mới của Cơ quan Thuế Quốc gia được áp dụng. Mức khấu trừ cơ bản đã được nâng lên trong cải cách thuế năm 2026, nên với cùng mức lương, thuế hằng tháng bằng hoặc thấp hơn một chút."}}, {"@type": "Question", "name": "Công ty trừ thuế thu nhập cao hơn nhiều so với công cụ này. Vì sao?", "acceptedAnswer": {"@type": "Answer", "text": "Hãy kiểm tra bạn đã nộp tờ khai 扶養控除等申告書 cho công ty chưa. Nếu chưa, thuế được tính theo cột 乙 và cao hơn nhiều. Ví dụ, theo bảng năm 2027, lương khoảng 200.000 yên sau bảo hiểm thì cột 甲 (không người phụ thuộc) là 4.170 yên, còn cột 乙 là 19.200 yên."}}, {"@type": "Question", "name": "Vì sao tiền hưu trí không tăng nữa khi lương cao?", "acceptedAnswer": {"@type": "Answer", "text": "Hưu trí phúc lợi dùng mức lương chuẩn từ 88.000 đến 650.000 yên. Trên 650.000 yên vẫn tính ở bậc cao nhất, nên phần bạn đóng giữ ở 59.475 yên/tháng (9,15% của 650.000). Bảo hiểm y tế có nhiều bậc hơn và tăng đến 1.390.000 yên."}}, {"@type": "Question", "name": "Vì sao công cụ không tự tính thuế cư trú?", "acceptedAnswer": {"@type": "Answer", "text": "Thuế cư trú do thành phố quyết định dựa trên thu nhập năm trước, cho những người có địa chỉ ở Nhật vào ngày 1 tháng 1. Số tiền tùy theo thành phố và các khoản khấu trừ năm trước, nên hãy nhập số tiền trên phiếu lương hoặc thông báo của thành phố. Năm đầu ở Nhật thường là 0."}}]}</script><nav class="site-nav"><h2>Công cụ khác</h2><ul><li><a href="../nenkin-refund/">Tính tiền nenkin hoàn lại</a></li><li><a href="../leaving-japan/">Việc cần làm trước khi về nước</a></li><li><a href="../resident-tax/">Thuế cư trú khi về nước</a></li><li><a href="../payslip/">Đọc phiếu lương</a></li><li><a href="../kanji-work/">Kanji ở nơi làm việc</a></li><li><a href="../kanji-grade/">Kanji tiểu học theo lớp</a></li></ul><a class="legal" href="/privacy/">Chính sách bảo mật</a></nav></body></html>

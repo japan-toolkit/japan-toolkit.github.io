@@ -1,0 +1,350 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Bạn sẽ nhận lại bao nhiêu tiền lương hưu khi rời Nhật Bản? | Japan Practical Toolkit</title><meta name="description" content="Ước tính khoản Trợ cấp rút một lần (脱退一時金, “tiền nenkin”) theo công thức chính thức năm tài chính 2026 của Cơ quan Hưu trí Nhật Bản."><link rel="canonical" href="https://japan-toolkit.github.io/vi/nenkin-refund/"><link rel="alternate" hreflang="vi" href="https://japan-toolkit.github.io/vi/nenkin-refund/"><link rel="alternate" hreflang="ne" href="https://japan-toolkit.github.io/ne/nenkin-refund/"><link rel="alternate" hreflang="id" href="https://japan-toolkit.github.io/id/nenkin-refund/"><link rel="alternate" hreflang="my" href="https://japan-toolkit.github.io/my/nenkin-refund/"><link rel="alternate" hreflang="en" href="https://japan-toolkit.github.io/en/nenkin-refund/"><link rel="alternate" hreflang="ja" href="https://japan-toolkit.github.io/ja/nenkin-refund/"><link rel="alternate" hreflang="x-default" href="https://japan-toolkit.github.io/"><meta property="og:title" content="Bạn sẽ nhận lại bao nhiêu tiền lương hưu khi rời Nhật Bản? | Japan Practical Toolkit"><meta property="og:description" content="Ước tính khoản Trợ cấp rút một lần (脱退一時金, “tiền nenkin”) theo công thức chính thức năm tài chính 2026 của Cơ quan Hưu trí Nhật Bản."><style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font-size:14px;font-family:system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}
+.site-nav{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 40px;display:flex;flex-direction:column;gap:10px;font-size:14px}
+.site-nav h2{font-size:15px;margin:0}.site-nav ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.site-nav a{color:inherit}.site-nav li a{display:inline-block;border:1px solid currentColor;border-radius:999px;padding:5px 12px;text-decoration:none;opacity:.8}
+.site-nav .legal{font-size:12px;opacity:.7}
+.site-faq{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 28px;display:flex;flex-direction:column;gap:8px}
+.site-faq h2{font-size:20px;margin:0 0 4px}.site-faq details{border:1px solid currentColor;border-color:color-mix(in srgb,currentColor 25%,transparent);border-radius:12px;padding:12px 14px}
+.site-faq summary{cursor:pointer;font-weight:600}.site-faq p{margin:8px 0 0;opacity:.85}</style><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Be+Vietnam+Pro:wght@400;500;600&family=IBM+Plex+Mono:wght@500&family=Noto+Sans+Devanagari:wght@400;600&family=Noto+Sans+Myanmar:wght@400;600&family=Noto+Sans+JP:wght@400;600&display=swap">
+<style>
+/* Layout: one narrow working column; inputs left, result card right on wide screens, stacked on phones. */
+:root{
+  --bg:#f3f5f4; --surface:#ffffff; --ink:#14231f; --muted:#5a6b66; --line:#d7dfdc;
+  --accent:#0f6b5c; --accent-soft:#dcefea; --seal:#b5532f; --seal-soft:#f6e6de;
+  --display:"Bricolage Grotesque","Be Vietnam Pro",system-ui,sans-serif;
+  --body:"Be Vietnam Pro","Noto Sans Devanagari","Noto Sans Myanmar","Noto Sans JP",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f1715; --surface:#16211e; --ink:#e4ece9; --muted:#9aaba6; --line:#2a3a36;
+  --accent:#5cc4ae; --accent-soft:#1d3631; --seal:#e08a66; --seal-soft:#3a251d; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1715; --surface:#16211e; --ink:#e4ece9; --muted:#9aaba6; --line:#2a3a36;
+  --accent:#5cc4ae; --accent-soft:#1d3631; --seal:#e08a66; --seal-soft:#3a251d; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.6}
+.wrap{max-width:980px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 48px;display:flex;flex-direction:column;gap:24px}
+header{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.brand{font-family:var(--display);font-weight:600;letter-spacing:.04em;text-transform:uppercase;font-size:12px;color:var(--muted)}
+#lang{width:auto;font:500 14px var(--body);background:var(--surface);border-radius:999px;padding:7px 14px}
+html:lang(my) body{line-height:1.95}
+html:lang(ne) body{line-height:1.8}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(28px,5vw,44px);line-height:1.1;margin:0;text-wrap:balance}
+.lede{color:var(--muted);max-width:62ch;margin:8px 0 0}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px;align-items:start}
+@media (max-width:760px){.grid{grid-template-columns:minmax(0,1fr)}}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:16px;min-width:0}
+.tabs{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.tabs button{border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:10px;padding:10px;font:600 14px var(--body);cursor:pointer;text-align:left;line-height:1.3}
+.tabs button small{display:block;font-weight:400;color:var(--muted);font-size:12px}
+.tabs button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+label{display:flex;flex-direction:column;gap:6px;font-weight:600;font-size:14px}
+label .hint{font-weight:400;color:var(--muted);font-size:12.5px}
+input,select{font:500 16px var(--mono);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 12px;width:100%;box-sizing:border-box}
+select{font-family:var(--body)}
+input:focus-visible,select:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.check{flex-direction:row;align-items:flex-start;gap:10px;font-weight:400}
+.check input{width:auto;margin-top:4px}
+.result .eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.big{font:600 clamp(34px,6vw,48px)/1 var(--mono);font-variant-numeric:tabular-nums;color:var(--accent)}
+.rows{display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.row{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);font-size:14px}
+.row span:last-child{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.row.neg span:last-child{color:var(--seal)}
+.row.total{font-weight:600}
+.note{background:var(--seal-soft);border-radius:10px;padding:12px 14px;font-size:13.5px}
+.note strong{color:var(--seal)}
+.formula{font-family:var(--mono);font-size:12.5px;color:var(--muted);overflow-x:auto}
+.warn{display:none;font-size:13.5px;color:var(--seal)}
+section h2{font-family:var(--display);font-weight:600;font-size:20px;margin:0 0 8px}
+ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.foot{font-size:12.5px;color:var(--muted);display:flex;flex-direction:column;gap:6px}
+.foot a{color:var(--accent)}
+@media (prefers-reduced-motion:no-preference){.big{transition:color .2s}}
+</style>
+
+</head><body><script>window.__LANG="vi";</script><div class="wrap">
+  <header>
+    <a class="brand" href="../" style="text-decoration:none">Japan Practical Toolkit</a>
+    <select id="lang" aria-label="Language">
+      <option value="vi">Tiếng Việt</option>
+      <option value="ne">नेपाली</option>
+      <option value="id">Bahasa Indonesia</option>
+      <option value="my">မြန်မာ</option>
+      <option value="en">English</option>
+      <option value="ja">日本語</option>
+    </select>
+  </header>
+
+  <div>
+    <h1 data-i="title"></h1>
+    <p class="lede" data-i="lede"></p>
+  </div>
+
+  <div class="grid">
+    <form class="panel" id="form" onsubmit="return false">
+      <div class="tabs" role="group">
+        <button type="button" id="tab-k" data-mode="kosei"><span data-i="tabK"></span><small>厚生年金 · Kōsei Nenkin</small></button>
+        <button type="button" id="tab-n" data-mode="kokumin"><span data-i="tabN"></span><small>国民年金 · Kokumin Nenkin</small></button>
+      </div>
+
+      <div id="kosei-fields" style="display:flex;flex-direction:column;gap:16px">
+        <label for="salary"><span data-i="salary"></span><span class="hint" data-i="salaryHint"></span>
+          <input id="salary" type="number" inputmode="numeric" min="0" step="1000" value="250000"></label>
+        <label for="bonus"><span data-i="bonus"></span><span class="hint" data-i="bonusHint"></span>
+          <input id="bonus" type="number" inputmode="numeric" min="0" step="10000" value="0"></label>
+        <label for="months"><span data-i="months"></span><span class="hint" data-i="monthsHint"></span>
+          <input id="months" type="number" inputmode="numeric" min="0" max="119" value="36"></label>
+        <label class="check" for="before2021"><input id="before2021" type="checkbox"><span data-i="before2021"></span></label>
+      </div>
+
+      <div id="kokumin-fields" style="display:none;flex-direction:column;gap:16px">
+        <label for="nmonths"><span data-i="nmonths"></span><span class="hint" data-i="nmonthsHint"></span>
+          <input id="nmonths" type="number" inputmode="numeric" min="0" max="119" value="24"></label>
+        <label for="fy"><span data-i="fy"></span>
+          <select id="fy">
+            <option value="2026">Apr 2026 – Mar 2027</option>
+            <option value="2025">Apr 2025 – Mar 2026</option>
+            <option value="2024">Apr 2024 – Mar 2025</option>
+            <option value="2023">Apr 2023 – Mar 2024</option>
+          </select></label>
+      </div>
+      <p class="warn" id="warn"></p>
+    </form>
+
+    <div class="panel result" aria-live="polite">
+      <div>
+        <div class="eyebrow" data-i="gross"></div>
+        <div class="big" id="out-gross">¥0</div>
+      </div>
+      <div class="rows" id="rows"></div>
+      <div class="note" id="tax-note"></div>
+      <div class="formula" id="formula"></div>
+    </div>
+  </div>
+
+  <section class="panel">
+    <h2 data-i="eligTitle"></h2>
+    <ul id="elig"></ul>
+  </section>
+
+  <div class="foot">
+    <span data-i="disclaimer"></span>
+    <span><span data-i="source"></span> <a href="https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/dattai-ichiji/20150406.html" target="_blank" rel="noopener">Japan Pension Service (日本年金機構)</a> · <span data-i="checked"></span></span>
+  </div>
+</div>
+
+<script>
+const RATE = 0.183; // 厚生年金保険料率 (fixed since Sept 2017)
+const PREMIUM = {2026:17920, 2025:17510, 2024:16980, 2023:16520}; // 国民年金保険料 (monthly)
+const TAX = 0.2042;
+
+function factor(months, cap){ // 支給額/支給率 計算に用いる数
+  if (months < 6) return 0;
+  return Math.min(Math.floor(months/6)*6, cap);
+}
+function koseiRate(months, cap){ // 支給率, rounded to 1 decimal
+  const n = factor(months, cap);
+  return Math.round(RATE/2*n*10)/10;
+}
+function stdMonthly(s){ return Math.min(Math.max(s, 88000), 650000); } // 標準報酬月額 range (approx.)
+function calcKosei(salary, annualBonus, months, before2021){
+  const cap = before2021 ? 36 : 60;
+  const bonusStd = Math.min(annualBonus, 3000000); // 標準賞与額 cap 1.5M per payment, assumes ≤2 payments
+  const avg = stdMonthly(salary) + bonusStd/12;
+  const rate = koseiRate(months, cap);
+  const gross = Math.floor(avg*rate);
+  const tax = Math.floor(gross*TAX);
+  return {avg, rate, gross, tax, net: gross - tax};
+}
+function calcKokumin(months, fy){
+  const n = factor(months, 60);
+  const gross = PREMIUM[fy]/2*n;
+  return {n, gross, tax:0, net:gross};
+}
+
+const T = {
+ en:{
+  title:"How much pension will you get back when you leave Japan?",
+  lede:"Estimate your Lump-sum Withdrawal Payment (脱退一時金, the “nenkin refund”) using the official FY2026 formula from the Japan Pension Service.",
+  tabK:"Company employee", tabN:"Self-enrolled / student",
+  salary:"Average monthly salary (yen)", salaryHint:"Before tax. Include regular allowances such as commuting pay.",
+  bonus:"Bonuses per year (yen)", bonusHint:"Enter 0 if you received none.",
+  months:"Months enrolled", monthsHint:"Count every month you paid into Employees' Pension. The refund counts up to 60 months.",
+  before2021:"My last month of enrollment was March 2021 or earlier (the cap is then 36 months)",
+  nmonths:"Months of premiums paid", nmonthsHint:"Only months you actually paid count. Unpaid months do not.",
+  fy:"When did you make your last payment?",
+  gross:"Estimated refund before tax",
+  avg:"Average standard monthly pay", rate:"Payment multiplier", tax:"Income tax withheld (20.42%)", net:"Paid to your bank",
+  factorN:"Months counted",
+  taxNote:"<strong>You can claim back most of the 20.42% tax.</strong> Appoint a tax representative (納税管理人) in Japan before you leave, then file a tax return after you receive the refund.",
+  noTax:"<strong>No tax is withheld</strong> from a National Pension refund.",
+  under6:"You need at least 6 months of enrollment to qualify.",
+  over120:"With 120 months (10 years) or more, you qualify for a regular pension instead of a refund.",
+  eligTitle:"Before you claim",
+  elig:["You are not a Japanese citizen and you have left Japan (moved your address out).","You paid into the system for at least 6 months, but less than 10 years in total.","Claim within 2 years of leaving Japan. Late claims are refused.","Claiming erases all your Japanese pension periods. If your country has a social security agreement with Japan (for example the US, Germany, Australia, Brazil), those years could count toward a pension there. Check before you claim."],
+  disclaimer:"This is an estimate. The Japan Pension Service calculates your final amount from your official record, which uses salary grades rather than your exact pay.",
+  source:"Source:", checked:"Figures checked November 2026 (FY2026 rates)."
+ },
+ vi:{
+  title:"Bạn sẽ nhận lại bao nhiêu tiền lương hưu khi rời Nhật Bản?",
+  lede:"Ước tính khoản Trợ cấp rút một lần (脱退一時金, “tiền nenkin”) theo công thức chính thức năm tài chính 2026 của Cơ quan Hưu trí Nhật Bản.",
+  tabK:"Nhân viên công ty", tabN:"Tự tham gia / du học sinh",
+  salary:"Lương tháng trung bình (yên)", salaryHint:"Trước thuế. Bao gồm các khoản phụ cấp cố định như tiền đi lại.",
+  bonus:"Tiền thưởng mỗi năm (yên)", bonusHint:"Nhập 0 nếu bạn không có thưởng.",
+  months:"Số tháng tham gia", monthsHint:"Tính tất cả các tháng bạn đóng Hưu trí phúc lợi. Tối đa được tính 60 tháng.",
+  before2021:"Tháng tham gia cuối cùng của tôi là tháng 3/2021 hoặc sớm hơn (khi đó tối đa 36 tháng)",
+  nmonths:"Số tháng đã đóng phí", nmonthsHint:"Chỉ tính các tháng đã thực sự đóng. Tháng chưa đóng không được tính.",
+  fy:"Bạn đóng phí lần cuối khi nào?",
+  gross:"Số tiền ước tính trước thuế",
+  avg:"Mức lương chuẩn trung bình", rate:"Hệ số chi trả", tax:"Thuế thu nhập bị khấu trừ (20,42%)", net:"Số tiền chuyển vào tài khoản",
+  factorN:"Số tháng được tính",
+  taxNote:"<strong>Bạn có thể lấy lại phần lớn khoản thuế 20,42%.</strong> Hãy chỉ định người đại diện nộp thuế (納税管理人) tại Nhật trước khi về nước, sau đó khai thuế khi đã nhận tiền.",
+  noTax:"<strong>Không bị khấu trừ thuế</strong> đối với tiền rút từ Hưu trí quốc dân.",
+  under6:"Bạn cần tham gia ít nhất 6 tháng mới đủ điều kiện.",
+  over120:"Nếu đã tham gia từ 120 tháng (10 năm) trở lên, bạn sẽ nhận lương hưu thông thường thay vì rút một lần.",
+  eligTitle:"Trước khi nộp đơn",
+  elig:["Bạn không có quốc tịch Nhật và đã rời Nhật (đã chuyển địa chỉ ra nước ngoài).","Bạn đã đóng ít nhất 6 tháng nhưng tổng cộng chưa đủ 10 năm.","Nộp đơn trong vòng 2 năm sau khi rời Nhật. Nộp trễ sẽ bị từ chối.","Khi nhận tiền rút một lần, toàn bộ thời gian tham gia ở Nhật sẽ bị xóa. Nếu nước bạn có hiệp định an sinh xã hội với Nhật, thời gian này có thể được cộng vào lương hưu ở nước bạn. Hãy kiểm tra trước."],
+  disclaimer:"Đây là số tiền ước tính. Cơ quan Hưu trí Nhật Bản tính số tiền cuối cùng dựa trên hồ sơ chính thức, theo bậc lương chuẩn chứ không phải lương thực tế.",
+  source:"Nguồn:", checked:"Số liệu kiểm tra tháng 11/2026 (mức năm tài chính 2026)."
+ },
+ id:{
+  title:"Berapa uang pensiun yang kembali saat Anda meninggalkan Jepang?",
+  lede:"Perkirakan Pembayaran Penarikan Sekaligus (脱退一時金, “pengembalian nenkin”) dengan rumus resmi tahun fiskal 2026 dari Japan Pension Service.",
+  tabK:"Karyawan perusahaan", tabN:"Daftar sendiri / pelajar",
+  salary:"Rata-rata gaji bulanan (yen)", salaryHint:"Sebelum pajak. Termasuk tunjangan tetap seperti uang transportasi.",
+  bonus:"Bonus per tahun (yen)", bonusHint:"Isi 0 jika tidak ada.",
+  months:"Jumlah bulan kepesertaan", monthsHint:"Hitung semua bulan Anda membayar Pensiun Karyawan. Maksimal dihitung 60 bulan.",
+  before2021:"Bulan terakhir kepesertaan saya adalah Maret 2021 atau sebelumnya (batasnya menjadi 36 bulan)",
+  nmonths:"Jumlah bulan iuran yang dibayar", nmonthsHint:"Hanya bulan yang benar-benar dibayar. Bulan yang belum dibayar tidak dihitung.",
+  fy:"Kapan Anda terakhir membayar iuran?",
+  gross:"Perkiraan pengembalian sebelum pajak",
+  avg:"Rata-rata gaji standar bulanan", rate:"Pengali pembayaran", tax:"Pajak penghasilan dipotong (20,42%)", net:"Ditransfer ke rekening Anda",
+  factorN:"Bulan yang dihitung",
+  taxNote:"<strong>Sebagian besar pajak 20,42% bisa diminta kembali.</strong> Tunjuk wakil pajak (納税管理人) di Jepang sebelum pergi, lalu laporkan pajak setelah menerima pengembalian.",
+  noTax:"Pengembalian dari Pensiun Nasional <strong>tidak dipotong pajak</strong>.",
+  under6:"Anda memerlukan kepesertaan minimal 6 bulan untuk memenuhi syarat.",
+  over120:"Jika kepesertaan 120 bulan (10 tahun) atau lebih, Anda berhak atas pensiun biasa, bukan pengembalian sekaligus.",
+  eligTitle:"Sebelum mengajukan",
+  elig:["Anda bukan warga negara Jepang dan sudah meninggalkan Jepang (alamat sudah dipindahkan).","Anda membayar minimal 6 bulan, tetapi total kurang dari 10 tahun.","Ajukan dalam 2 tahun setelah meninggalkan Jepang. Pengajuan terlambat ditolak.","Setelah menerima pengembalian, seluruh masa kepesertaan Anda di Jepang dihapus. Jika negara Anda punya perjanjian jaminan sosial dengan Jepang, masa itu mungkin bisa dihitung untuk pensiun di negara Anda. Periksa dulu."],
+  disclaimer:"Ini hanya perkiraan. Japan Pension Service menghitung jumlah akhir dari catatan resmi, yang memakai tingkat gaji standar, bukan gaji persis Anda.",
+  source:"Sumber:", checked:"Angka diperiksa November 2026 (tarif tahun fiskal 2026)."
+ },
+ ne:{
+  title:"जापान छोड्दा तपाईंले कति पेन्सन फिर्ता पाउनुहुन्छ?",
+  lede:"जापान पेन्सन सेवाको आर्थिक वर्ष २०२६ को आधिकारिक सूत्र प्रयोग गरेर एकमुष्ट फिर्ता भुक्तानी (脱退一時金, “नेन्किन फिर्ता”) को अनुमान गर्नुहोस्।",
+  tabK:"कम्पनी कर्मचारी", tabN:"आफैं दर्ता / विद्यार्थी",
+  salary:"औसत मासिक तलब (येन)", salaryHint:"कर अघिको रकम। यातायात भत्ता जस्ता नियमित भत्ता पनि समावेश गर्नुहोस्।",
+  bonus:"वार्षिक बोनस (येन)", bonusHint:"बोनस छैन भने 0 लेख्नुहोस्।",
+  months:"दर्ता भएका महिना", monthsHint:"कर्मचारी पेन्सनमा तिरेका सबै महिना गन्नुहोस्। बढीमा ६० महिनासम्म गणना हुन्छ।",
+  before2021:"मेरो अन्तिम दर्ता महिना मार्च २०२१ वा त्यसअघि हो (त्यसो भए सीमा ३६ महिना हुन्छ)",
+  nmonths:"शुल्क तिरेका महिना", nmonthsHint:"वास्तवमा तिरेका महिना मात्र गन्नुहोस्। नतिरेका महिना गनिँदैनन्।",
+  fy:"तपाईंले अन्तिम पटक शुल्क कहिले तिर्नुभयो?",
+  gross:"कर अघिको अनुमानित फिर्ता रकम",
+  avg:"औसत मानक मासिक तलब", rate:"भुक्तानी गुणक", tax:"काटिएको आयकर (२०.४२%)", net:"तपाईंको बैंकमा आउने रकम",
+  factorN:"गणना गरिएका महिना",
+  taxNote:"<strong>२०.४२% करको धेरैजसो भाग फिर्ता लिन सकिन्छ।</strong> जानुअघि जापानमा कर प्रतिनिधि (納税管理人) नियुक्त गर्नुहोस्, र रकम पाएपछि कर विवरण बुझाउनुहोस्।",
+  noTax:"राष्ट्रिय पेन्सनको फिर्ता रकममा <strong>कर काटिँदैन</strong>।",
+  under6:"योग्य हुन कम्तीमा ६ महिना दर्ता हुनुपर्छ।",
+  over120:"१२० महिना (१० वर्ष) वा बढी दर्ता भएमा, एकमुष्ट फिर्ताको सट्टा नियमित पेन्सन पाउनुहुन्छ।",
+  eligTitle:"आवेदन दिनुअघि",
+  elig:["तपाईं जापानी नागरिक होइन र जापान छोडिसक्नुभएको छ (ठेगाना बाहिर सारिसकेको)।","कम्तीमा ६ महिना तिर्नुभएको छ, तर जम्मा १० वर्ष पुगेको छैन।","जापान छोडेको २ वर्षभित्र आवेदन दिनुहोस्। ढिलो आवेदन अस्वीकार हुन्छ।","फिर्ता लिएपछि जापानमा तिरेका सबै अवधि मेटिन्छन्। तपाईंको देशको जापानसँग सामाजिक सुरक्षा सम्झौता छ भने ती वर्षहरू त्यहाँको पेन्सनमा गनिन सक्छन्। पहिले जाँच गर्नुहोस्।"],
+  disclaimer:"यो अनुमान मात्र हो। जापान पेन्सन सेवाले तपाईंको वास्तविक तलब होइन, मानक तलब तहमा आधारित आधिकारिक अभिलेखबाट अन्तिम रकम गणना गर्छ।",
+  source:"स्रोत:", checked:"नोभेम्बर २०२६ मा जाँच गरिएको (आर्थिक वर्ष २०२६ का दर)।"
+ },
+ my:{
+  title:"ဂျပန်မှ ထွက်ခွာသည့်အခါ ပင်စင်ငွေ ဘယ်လောက် ပြန်ရမလဲ?",
+  lede:"ဂျပန်ပင်စင်ဝန်ဆောင်မှု၏ ၂၀၂၆ ဘဏ္ဍာနှစ် တရားဝင်ပုံသေနည်းဖြင့် တစ်လုံးတစ်ခဲ ပြန်ထုတ်ငွေ (脱退一時金၊ “နန်ကင်ပြန်အမ်းငွေ”) ကို ခန့်မှန်းတွက်ချက်ပါ။",
+  tabK:"ကုမ္ပဏီဝန်ထမ်း", tabN:"ကိုယ်တိုင်ဝင်ရောက်သူ / ကျောင်းသား",
+  salary:"ပျမ်းမျှ လစဉ်လစာ (ယန်း)", salaryHint:"အခွန်မနုတ်မီ ပမာဏ။ ခရီးစရိတ်ကဲ့သို့ ပုံမှန်ထောက်ပံ့ကြေးများလည်း ထည့်ပါ။",
+  bonus:"တစ်နှစ်လျှင် ဆုကြေးငွေ (ယန်း)", bonusHint:"ဆုကြေးမရှိပါက 0 ထည့်ပါ။",
+  months:"အသင်းဝင်ခဲ့သည့် လအရေအတွက်", monthsHint:"ဝန်ထမ်းပင်စင် ပေးသွင်းခဲ့သည့် လအားလုံးကို ရေတွက်ပါ။ အများဆုံး ၆၀ လအထိ တွက်ပါသည်။",
+  before2021:"ကျွန်ုပ်၏ နောက်ဆုံးအသင်းဝင်လသည် ၂၀၂၁ မတ်လ သို့မဟုတ် ထို့ထက်စောပါသည် (ထိုအခါ အများဆုံး ၃၆ လ)",
+  nmonths:"ကြေးပေးသွင်းခဲ့သည့် လအရေအတွက်", nmonthsHint:"အမှန်တကယ် ပေးသွင်းခဲ့သည့် လများသာ။ မပေးသွင်းရသေးသော လများ မပါဝင်ပါ။",
+  fy:"နောက်ဆုံး ကြေးပေးသွင်းခဲ့သည်မှာ ဘယ်အချိန်လဲ?",
+  gross:"အခွန်မနုတ်မီ ခန့်မှန်းပြန်ရငွေ",
+  avg:"ပျမ်းမျှ စံလစဉ်လစာ", rate:"ပေးချေမှု မြှောက်ကိန်း", tax:"နုတ်ယူသော ဝင်ငွေခွန် (၂၀.၄၂%)", net:"သင့်ဘဏ်အကောင့်သို့ ရောက်မည့်ငွေ",
+  factorN:"တွက်ချက်သည့် လအရေအတွက်",
+  taxNote:"<strong>၂၀.၄၂% အခွန်၏ အများစုကို ပြန်ယူနိုင်ပါသည်။</strong> မထွက်ခွာမီ ဂျပန်တွင် အခွန်ကိုယ်စားလှယ် (納税管理人) ခန့်အပ်ပြီး ငွေရရှိပြီးနောက် အခွန်ပြန်တမ်း တင်ပါ။",
+  noTax:"အမျိုးသားပင်စင် ပြန်အမ်းငွေမှ <strong>အခွန်မနုတ်ပါ</strong>။",
+  under6:"အရည်အချင်းပြည့်မီရန် အနည်းဆုံး ၆ လ အသင်းဝင်ရန် လိုအပ်ပါသည်။",
+  over120:"အသင်းဝင်ကာလ ၁၂၀ လ (၁၀ နှစ်) နှင့်အထက် ရှိပါက တစ်လုံးတစ်ခဲငွေအစား ပုံမှန်ပင်စင်ကို ရရှိပါမည်။",
+  eligTitle:"မလျှောက်ထားမီ",
+  elig:["သင်သည် ဂျပန်နိုင်ငံသား မဟုတ်ဘဲ ဂျပန်မှ ထွက်ခွာပြီးဖြစ်သည် (လိပ်စာ ပြောင်းရွှေ့ပြီး)။","အနည်းဆုံး ၆ လ ပေးသွင်းခဲ့ပြီး စုစုပေါင်း ၁၀ နှစ် မပြည့်သေးပါ။","ဂျပန်မှ ထွက်ခွာပြီး ၂ နှစ်အတွင်း လျှောက်ထားပါ။ နောက်ကျပါက လက်မခံပါ။","ငွေထုတ်ယူပြီးပါက ဂျပန်ရှိ အသင်းဝင်ကာလအားလုံး ပျက်ပြယ်ပါမည်။ သင့်နိုင်ငံသည် ဂျပန်နှင့် လူမှုဖူလုံရေးသဘောတူညီချက် ရှိပါက ထိုနှစ်များကို သင့်နိုင်ငံ၏ ပင်စင်တွင် ထည့်တွက်နိုင်ပါသည်။ ကြိုတင်စစ်ဆေးပါ။"],
+  disclaimer:"ဤပမာဏသည် ခန့်မှန်းချက်သာ ဖြစ်ပါသည်။ ဂျပန်ပင်စင်ဝန်ဆောင်မှုက သင့်အမှန်တကယ်လစာ မဟုတ်ဘဲ စံလစာအဆင့်ဖြင့် မှတ်တမ်းတင်ထားသော တရားဝင်မှတ်တမ်းမှ နောက်ဆုံးပမာဏကို တွက်ချက်ပါသည်။",
+  source:"ရင်းမြစ်:", checked:"၂၀၂၆ နိုဝင်ဘာလတွင် စစ်ဆေးထားသည် (၂၀၂၆ ဘဏ္ဍာနှစ် နှုန်းများ)။"
+ },
+ ja:{
+  title:"帰国するとき、年金はいくら戻ってくる？",
+  lede:"日本年金機構の2026年度の公式計算式で、脱退一時金の目安を計算します。",
+  tabK:"会社員（厚生年金）", tabN:"自分で加入・留学生",
+  salary:"平均月給（円）", salaryHint:"税引き前。通勤手当など毎月の手当も含めます。",
+  bonus:"年間の賞与（円）", bonusHint:"賞与がなければ0。",
+  months:"加入月数", monthsHint:"厚生年金に加入していた月数。計算は60月が上限です。",
+  before2021:"最後の加入月が2021年3月以前（上限は36月）",
+  nmonths:"保険料を納付した月数", nmonthsHint:"実際に納付した月のみ。未納の月は含みません。",
+  fy:"最後に保険料を納付した時期",
+  gross:"支給額の目安（税引き前）",
+  avg:"平均標準報酬額", rate:"支給率", tax:"源泉徴収税（20.42%）", net:"口座に振り込まれる額",
+  factorN:"計算に用いる月数",
+  taxNote:"<strong>20.42%の税金の多くは取り戻せます。</strong>出国前に納税管理人を定め、一時金の受け取り後に確定申告をします。",
+  noTax:"国民年金の脱退一時金は<strong>源泉徴収されません</strong>。",
+  under6:"受給には6か月以上の加入が必要です。",
+  over120:"加入期間が120か月（10年）以上の場合は、脱退一時金ではなく老齢年金の対象になります。",
+  eligTitle:"請求する前に",
+  elig:["日本国籍がなく、日本を出国している（住民票を転出済み）。","加入期間が6か月以上、10年未満。","出国後2年以内に請求する。期限を過ぎると受け取れません。","受け取ると日本の加入期間はすべて消えます。社会保障協定の相手国（アメリカ、ドイツ、オーストラリア、ブラジルなど）では、年金の通算に使えた可能性があります。事前に確認してください。"],
+  disclaimer:"表示額は目安です。実際の支給額は、日本年金機構が実際の給与ではなく標準報酬の等級で記録した公式の加入記録から計算します。",
+  source:"出典：", checked:"2026年11月に確認（2026年度の数値）。"
+ }
+};
+
+let lang="vi", mode="kosei";
+lang=window.__LANG;
+const yen = n => "¥" + Math.round(n).toLocaleString("en-US");
+const $ = id => document.getElementById(id);
+
+function render(){
+  const t=T[lang];
+  document.documentElement.lang=lang;
+  document.querySelectorAll("[data-i]").forEach(el=>{el.textContent=t[el.dataset.i];});
+  $("lang").value=lang;
+  $("tab-k").setAttribute("aria-pressed", mode==="kosei");
+  $("tab-n").setAttribute("aria-pressed", mode==="kokumin");
+  $("kosei-fields").style.display = mode==="kosei"?"flex":"none";
+  $("kokumin-fields").style.display = mode==="kokumin"?"flex":"none";
+  $("elig").innerHTML = t.elig.map(x=>"<li>"+x+"</li>").join("");
+
+  const months = +(mode==="kosei"?$("months").value:$("nmonths").value)||0;
+  const warn=$("warn"); warn.style.display="none";
+  if(months<6){warn.textContent=t.under6;warn.style.display="block";}
+  else if(months>=120){warn.textContent=t.over120;warn.style.display="block";}
+
+  let rows="", gross=0;
+  if(mode==="kosei"){
+    const r=calcKosei(+$("salary").value||0, +$("bonus").value||0, months, $("before2021").checked);
+    gross = months>=6&&months<120 ? r.gross : 0;
+    const tax = Math.floor(gross*TAX);
+    rows = `<div class="row"><span>${t.avg}</span><span>${yen(r.avg)}</span></div>
+            <div class="row"><span>${t.rate}</span><span>× ${r.rate.toFixed(1)}</span></div>
+            <div class="row neg"><span>${t.tax}</span><span>− ${yen(tax)}</span></div>
+            <div class="row total"><span>${t.net}</span><span>${yen(gross-tax)}</span></div>`;
+    $("tax-note").innerHTML=t.taxNote;
+    $("formula").textContent = `${yen(r.avg)} × ${r.rate.toFixed(1)} = ${yen(gross)}`;
+  } else {
+    const fy=$("fy").value, r=calcKokumin(months, fy);
+    gross = months>=6&&months<120 ? r.gross : 0;
+    rows = `<div class="row"><span>${t.factorN}</span><span>${r.n}</span></div>
+            <div class="row total"><span>${t.net}</span><span>${yen(gross)}</span></div>`;
+    $("tax-note").innerHTML=t.noTax;
+    $("formula").textContent = `${yen(PREMIUM[fy])} × 1/2 × ${r.n} = ${yen(gross)}`;
+  }
+  $("out-gross").textContent=yen(gross);
+  $("rows").innerHTML=rows;
+}
+
+$("lang").addEventListener("change",e=>{location.href="../../"+e.target.value+"/nenkin-refund/";return;lang=e.target.value;try{localStorage.setItem("nrc-lang",lang)}catch(e){}render();});
+document.querySelectorAll(".tabs button").forEach(b=>b.addEventListener("click",()=>{mode=b.dataset.mode;render();}));
+$("form").addEventListener("input",render);
+render();
+</script>
+<section class="site-faq" id="faq"><h2>Câu hỏi thường gặp</h2><details><summary>Tôi có thể nộp đơn khi vẫn còn sống ở Nhật không?</summary><p>Không. Bạn chỉ có thể nộp đơn sau khi không còn địa chỉ ở Nhật. Thông thường, bạn khai báo chuyển đi (転出届) tại văn phòng thành phố trước khi về nước, rồi gửi đơn sau ngày chuyển đi, ví dụ từ quê nhà.</p></details><details><summary>Có thời hạn nộp đơn không?</summary><p>Có. Bạn phải nộp đơn trong vòng 2 năm kể từ ngày không còn địa chỉ ở Nhật. Quá thời hạn này bạn sẽ không nhận được tiền.</p></details><details><summary>Tôi đã đóng hơn 5 năm. Tôi có được hoàn lại toàn bộ không?</summary><p>Không. Nếu tháng tham gia cuối cùng là tháng 4/2021 trở về sau, tối đa chỉ 60 tháng (5 năm) được tính, dù bạn đã đóng lâu hơn. Nếu tổng cộng từ 10 năm trở lên, bạn không nhận được tiền rút một lần mà sẽ nhận lương hưu khi về già.</p></details><details><summary>Vì sao tiền hoàn lại bị trừ thuế, và tôi có lấy lại được không?</summary><p>Tiền rút một lần từ Hưu trí phúc lợi bị khấu trừ 20,42% thuế thu nhập. Tiền từ Hưu trí quốc dân không bị khấu trừ. Để lấy lại phần lớn khoản thuế, hãy chỉ định người đại diện nộp thuế (納税管理人) tại Nhật trước khi về nước; sau khi nhận tiền, người đó sẽ khai thuế thay bạn.</p></details></section><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Tôi có thể nộp đơn khi vẫn còn sống ở Nhật không?", "acceptedAnswer": {"@type": "Answer", "text": "Không. Bạn chỉ có thể nộp đơn sau khi không còn địa chỉ ở Nhật. Thông thường, bạn khai báo chuyển đi (転出届) tại văn phòng thành phố trước khi về nước, rồi gửi đơn sau ngày chuyển đi, ví dụ từ quê nhà."}}, {"@type": "Question", "name": "Có thời hạn nộp đơn không?", "acceptedAnswer": {"@type": "Answer", "text": "Có. Bạn phải nộp đơn trong vòng 2 năm kể từ ngày không còn địa chỉ ở Nhật. Quá thời hạn này bạn sẽ không nhận được tiền."}}, {"@type": "Question", "name": "Tôi đã đóng hơn 5 năm. Tôi có được hoàn lại toàn bộ không?", "acceptedAnswer": {"@type": "Answer", "text": "Không. Nếu tháng tham gia cuối cùng là tháng 4/2021 trở về sau, tối đa chỉ 60 tháng (5 năm) được tính, dù bạn đã đóng lâu hơn. Nếu tổng cộng từ 10 năm trở lên, bạn không nhận được tiền rút một lần mà sẽ nhận lương hưu khi về già."}}, {"@type": "Question", "name": "Vì sao tiền hoàn lại bị trừ thuế, và tôi có lấy lại được không?", "acceptedAnswer": {"@type": "Answer", "text": "Tiền rút một lần từ Hưu trí phúc lợi bị khấu trừ 20,42% thuế thu nhập. Tiền từ Hưu trí quốc dân không bị khấu trừ. Để lấy lại phần lớn khoản thuế, hãy chỉ định người đại diện nộp thuế (納税管理人) tại Nhật trước khi về nước; sau khi nhận tiền, người đó sẽ khai thuế thay bạn."}}]}</script><nav class="site-nav"><h2>Công cụ khác</h2><ul><li><a href="../takehome/">Tính lương thực nhận</a></li><li><a href="../leaving-japan/">Việc cần làm trước khi về nước</a></li><li><a href="../resident-tax/">Thuế cư trú khi về nước</a></li><li><a href="../payslip/">Đọc phiếu lương</a></li><li><a href="../kanji-work/">Kanji ở nơi làm việc</a></li><li><a href="../kanji-grade/">Kanji tiểu học theo lớp</a></li></ul><a class="legal" href="/privacy/">Chính sách bảo mật</a></nav></body></html>

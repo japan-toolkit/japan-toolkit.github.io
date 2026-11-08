@@ -308,6 +308,13 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | notes[1] | Income tax uses the official computer method (甲 column). If your company uses the printed table, the amount can differ a little (usually up to a few hundred yen), and more above 740,000 yen with dependants. | ဝင်ငွေခွန်ကို တရားဝင် ကွန်ပျူတာနည်း (甲 ကော်လံ) ဖြင့် တွက်သည်။ ကုမ္ပဏီက ပုံနှိပ်ဇယား သုံးပါက အနည်းငယ် (များသောအားဖြင့် ယန်း ရာဂဏန်းအထိ) ကွာနိုင်ပြီး လစာ ၇၄၀,၀၀၀ ယန်းကျော်၍ မှီခိုသူရှိပါက ပိုကွာနိုင်သည်။ | |
 | notes[2] | If you have not given your company the 扶養控除等申告書 form, much more tax is taken (乙 column). That case is not covered here. | 扶養控除等申告書 ကို ကုမ္ပဏီသို့ မတင်ရသေးပါက အခွန် အများကြီး ပိုများသည် (乙 ကော်လံ)။ ဤကိရိယာတွင် မပါဝင်ပါ။ | |
 | notes[3] | Insurance rates are Kyokai Kenpo FY2026 rates. If your company has its own health insurance society, its rate is different. | အာမခံနှုန်းသည် ၂၀၂၆ ဘဏ္ဍာနှစ် Kyokai Kenpo နှုန်း ဖြစ်သည်။ ကုမ္ပဏီတွင် ကိုယ်ပိုင်အာမခံအသင်း ရှိပါက နှုန်း ကွာသည်။ | |
+| bTitle | Bonus (賞与) | ဘောနပ်စ် (賞与) | |
+| bL | Bonus amount (yen) | ဘောနပ်စ် ပမာဏ (ယန်း) | |
+| bH | The monthly pay above is used as last month's pay. Enter 0 if you have no bonus. | အထက်ပါ လစဉ်လစာကို ယခင်လ လစာအဖြစ် သုံးသည်။ မရှိပါက ၀ ထည့်ပါ။ | |
+| bNet | Estimated bonus take-home | ခန့်မှန်း လက်ထဲရောက် ဘောနပ်စ် | |
+| rateL | Tax rate | အခွန်နှုန်း | |
+| bSpecial | For this bonus your company calculates tax another way (no pay last month, or the bonus is more than 10 times last month's pay). This tool does not estimate that case. | ဤဘောနပ်စ်အတွက် ကုမ္ပဏီက အခြားနည်းဖြင့် အခွန်တွက်သည် (ယခင်လ လစာမရှိ သို့မဟုတ် ဘောနပ်စ်သည် ယခင်လ လစာ၏ ၁၀ ဆထက် များသည်)။ ဤကိရိယာက ထိုအခြေအနေကို မခန့်မှန်းပါ။ | |
+| bNote | Insurance on a bonus uses the bonus rounded down to the nearest 1,000 yen. Employees' Pension counts up to 1,500,000 yen per month and health insurance up to 5,730,000 yen per fiscal year (earlier bonuses this year are not counted here). Income tax uses the official bonus rate table (甲 column). | ဘောနပ်စ်အပေါ် အာမခံကို ယန်း ၁,၀၀၀ အောက် ဖြုတ်၍ တွက်သည်။ ဝန်ထမ်းပင်စင်ကို တစ်လ အများဆုံး ၁,၅၀၀,၀၀၀ ယန်း၊ ကျန်းမာရေးအာမခံကို ဘဏ္ဍာနှစ်တစ်နှစ် အများဆုံး ၅,၇၃၀,၀၀၀ ယန်းအထိ တွက်သည် (ယခုနှစ် ယခင်ဘောနပ်စ်များကို ဤနေရာတွင် မတွက်ပါ)။ ဝင်ငွေခွန်ကို ဘောနပ်စ်အတွက် တရားဝင်နှုန်းဇယား (甲 ကော်လံ) ဖြင့် တွက်သည်။ | |
 | source | Sources: | ရင်းမြစ်: | |
 | checked | Figures checked November 2026. | ၂၀၂၆ နိုဝင်ဘာတွင် စစ်ဆေးထားသည်။ | |
 | faq[0].q | Why is income tax lower when I choose 2027? | ၂၀၂၇ ကို ရွေးလျှင် ဝင်ငွေခွန် ဘာကြောင့် နည်းသွားပါသလဲ။ | |

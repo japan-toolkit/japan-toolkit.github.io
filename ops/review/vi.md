@@ -308,6 +308,13 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | notes[1] | Income tax uses the official computer method (甲 column). If your company uses the printed table, the amount can differ a little (usually up to a few hundred yen), and more above 740,000 yen with dependants. | Thuế thu nhập dùng phương pháp tính bằng máy tính chính thức (cột 甲). Nếu công ty dùng bảng in, số tiền có thể khác một chút (thường tối đa vài trăm yên), nhiều hơn khi lương trên 740.000 yên và có người phụ thuộc. | |
 | notes[2] | If you have not given your company the 扶養控除等申告書 form, much more tax is taken (乙 column). That case is not covered here. | Nếu bạn chưa nộp tờ khai 扶養控除等申告書 cho công ty, thuế sẽ cao hơn nhiều (cột 乙). Không tính trong công cụ này. | |
 | notes[3] | Insurance rates are Kyokai Kenpo FY2026 rates. If your company has its own health insurance society, its rate is different. | Tỷ lệ bảo hiểm là của năm tài chính 2026 (Kyokai Kenpo). Nếu công ty có quỹ bảo hiểm riêng, tỷ lệ sẽ khác. | |
+| bTitle | Bonus (賞与) | Tiền thưởng (賞与) | |
+| bL | Bonus amount (yen) | Tiền thưởng (yên) | |
+| bH | The monthly pay above is used as last month's pay. Enter 0 if you have no bonus. | Dùng lương tháng ở trên làm lương tháng trước. Nhập 0 nếu không có. | |
+| bNet | Estimated bonus take-home | Tiền thưởng thực nhận ước tính | |
+| rateL | Tax rate | Tỷ lệ thuế | |
+| bSpecial | For this bonus your company calculates tax another way (no pay last month, or the bonus is more than 10 times last month's pay). This tool does not estimate that case. | Với khoản thưởng này, công ty tính thuế theo cách khác (tháng trước không có lương, hoặc thưởng lớn hơn 10 lần lương tháng trước). Công cụ này không ước tính trường hợp đó. | |
+| bNote | Insurance on a bonus uses the bonus rounded down to the nearest 1,000 yen. Employees' Pension counts up to 1,500,000 yen per month and health insurance up to 5,730,000 yen per fiscal year (earlier bonuses this year are not counted here). Income tax uses the official bonus rate table (甲 column). | Bảo hiểm trên tiền thưởng tính theo số tiền thưởng làm tròn xuống đến 1.000 yên. Hưu trí phúc lợi tính tối đa 1.500.000 yên mỗi tháng, bảo hiểm y tế tối đa 5.730.000 yên mỗi năm tài chính (không tính các lần thưởng trước trong năm). Thuế thu nhập dùng bảng tỷ lệ chính thức cho tiền thưởng (cột 甲). | |
 | source | Sources: | Nguồn: | |
 | checked | Figures checked November 2026. | Số liệu kiểm tra tháng 11/2026. | |
 | faq[0].q | Why is income tax lower when I choose 2027? | Vì sao chọn năm 2027 thì thuế thu nhập thấp hơn? | |

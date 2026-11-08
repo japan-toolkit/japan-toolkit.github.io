@@ -308,6 +308,13 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | notes[1] | Income tax uses the official computer method (甲 column). If your company uses the printed table, the amount can differ a little (usually up to a few hundred yen), and more above 740,000 yen with dependants. | 所得税は国税庁の電算機計算の特例（甲欄）で計算しています。会社が税額表を使う場合は多少（通常は数百円以内）違うことがあり、月74万円を超えて扶養親族がいる場合はさらに差が出ます。 | |
 | notes[2] | If you have not given your company the 扶養控除等申告書 form, much more tax is taken (乙 column). That case is not covered here. | 扶養控除等申告書を会社に出していない場合は、税額がかなり高くなります（乙欄）。このツールでは計算しません。 | |
 | notes[3] | Insurance rates are Kyokai Kenpo FY2026 rates. If your company has its own health insurance society, its rate is different. | 保険料率は協会けんぽの2026年度の料率です。会社独自の健康保険組合の場合は料率が違います。 | |
+| bTitle | Bonus (賞与) | 賞与（ボーナス） | |
+| bL | Bonus amount (yen) | 賞与の金額（円） | |
+| bH | The monthly pay above is used as last month's pay. Enter 0 if you have no bonus. | 上の月給を「前月の給与」として使います。賞与がなければ0円。 | |
+| bNet | Estimated bonus take-home | 賞与の手取りの目安 | |
+| rateL | Tax rate | 税率 | |
+| bSpecial | For this bonus your company calculates tax another way (no pay last month, or the bonus is more than 10 times last month's pay). This tool does not estimate that case. | この賞与は、会社が別の方法で税額を計算します（前月に給与がない、または賞与が前月の給与の10倍を超える場合）。このツールでは計算しません。 | |
+| bNote | Insurance on a bonus uses the bonus rounded down to the nearest 1,000 yen. Employees' Pension counts up to 1,500,000 yen per month and health insurance up to 5,730,000 yen per fiscal year (earlier bonuses this year are not counted here). Income tax uses the official bonus rate table (甲 column). | 賞与の社会保険料は、賞与額の1,000円未満を切り捨てた標準賞与額で計算します。厚生年金は1か月150万円、健康保険は年度の累計573万円が上限です（同じ年度の以前の賞与はここでは数えていません）。所得税は国税庁の「賞与に対する源泉徴収税額の算出率の表」（甲欄）で計算しています。 | |
 | source | Sources: | 出典： | |
 | checked | Figures checked November 2026. | 2026年11月に数値を確認。 | |
 | faq[0].q | Why is income tax lower when I choose 2027? | 2027年を選ぶと所得税が少し下がるのはなぜですか？ | |

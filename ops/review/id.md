@@ -308,6 +308,13 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | notes[1] | Income tax uses the official computer method (甲 column). If your company uses the printed table, the amount can differ a little (usually up to a few hundred yen), and more above 740,000 yen with dependants. | Pajak penghasilan memakai metode komputer resmi (kolom 甲). Jika perusahaan memakai tabel cetak, hasilnya bisa sedikit berbeda (biasanya paling banyak beberapa ratus yen), lebih besar jika gaji di atas 740.000 yen dan ada tanggungan. | |
 | notes[2] | If you have not given your company the 扶養控除等申告書 form, much more tax is taken (乙 column). That case is not covered here. | Jika Anda belum menyerahkan formulir 扶養控除等申告書 ke perusahaan, pajaknya jauh lebih tinggi (kolom 乙). Tidak dihitung di sini. | |
 | notes[3] | Insurance rates are Kyokai Kenpo FY2026 rates. If your company has its own health insurance society, its rate is different. | Tarif asuransi adalah tarif Kyokai Kenpo tahun fiskal 2026. Jika perusahaan punya perkumpulan asuransi sendiri, tarifnya berbeda. | |
+| bTitle | Bonus (賞与) | Bonus (賞与) | |
+| bL | Bonus amount (yen) | Jumlah bonus (yen) | |
+| bH | The monthly pay above is used as last month's pay. Enter 0 if you have no bonus. | Gaji bulanan di atas dipakai sebagai gaji bulan lalu. Isi 0 jika tidak ada. | |
+| bNet | Estimated bonus take-home | Perkiraan bonus bersih | |
+| rateL | Tax rate | Tarif pajak | |
+| bSpecial | For this bonus your company calculates tax another way (no pay last month, or the bonus is more than 10 times last month's pay). This tool does not estimate that case. | Untuk bonus ini, perusahaan menghitung pajak dengan cara lain (tidak ada gaji bulan lalu, atau bonus lebih dari 10 kali gaji bulan lalu). Alat ini tidak memperkirakan kasus tersebut. | |
+| bNote | Insurance on a bonus uses the bonus rounded down to the nearest 1,000 yen. Employees' Pension counts up to 1,500,000 yen per month and health insurance up to 5,730,000 yen per fiscal year (earlier bonuses this year are not counted here). Income tax uses the official bonus rate table (甲 column). | Asuransi atas bonus dihitung dari bonus yang dibulatkan ke bawah per 1.000 yen. Pensiun Karyawan dihitung paling banyak 1.500.000 yen per bulan dan asuransi kesehatan paling banyak 5.730.000 yen per tahun fiskal (bonus sebelumnya tahun ini tidak dihitung di sini). Pajak penghasilan memakai tabel tarif resmi untuk bonus (kolom 甲). | |
 | source | Sources: | Sumber: | |
 | checked | Figures checked November 2026. | Angka diperiksa November 2026. | |
 | faq[0].q | Why is income tax lower when I choose 2027? | Mengapa pajak penghasilan lebih rendah jika saya memilih 2027? | |

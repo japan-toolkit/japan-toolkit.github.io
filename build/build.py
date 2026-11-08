@@ -8,7 +8,7 @@ OUT = REPO / "dist"
 BASE = "https://japan-toolkit.github.io"
 LANGS = ["vi", "ne", "id", "my", "en", "ja"]
 LANG_NAMES = {"vi": "Tiếng Việt", "ne": "नेपाली", "id": "Bahasa Indonesia", "my": "မြန်မာ", "en": "English", "ja": "日本語"}
-TOOLS = ["takehome", "nenkin-refund", "leaving-japan", "resident-tax", "payslip"]
+TOOLS = ["takehome", "nenkin-refund", "leaving-japan", "resident-tax", "payslip", "kanji-work"]
 
 # Google Search Console: the owner pastes the code from the "HTML tag" method into this file
 # (just the content="..." value, or the whole <meta> tag). Empty or missing file = no tag.
@@ -30,6 +30,7 @@ SHORT = {
  "leaving-japan": {"vi":"Việc cần làm trước khi về nước","ne":"जापान छोड्नुअघिको चेकलिस्ट","id":"Daftar periksa sebelum pulang","my":"မထွက်ခွာမီ စစ်ဆေးစာရင်း","en":"Leaving Japan checklist","ja":"帰国前チェックリスト"},
  "takehome": {"vi":"Tính lương thực nhận","ne":"हातमा आउने तलब क्याल्कुलेटर","id":"Kalkulator gaji bersih","my":"လက်ထဲရောက်လစာ တွက်စက်","en":"Take-home pay calculator","ja":"手取り計算機"},
  "resident-tax": {"vi":"Thuế cư trú khi về nước","ne":"जापान छोड्दा आवासीय कर","id":"Pajak penduduk saat pulang","my":"ပြန်ချိန် နေထိုင်သူအခွန်","en":"Resident tax when leaving","ja":"帰国時の住民税"},
+ "kanji-work": {"vi":"Kanji ở nơi làm việc","ne":"काममा देखिने कान्जी","id":"Kanji di tempat kerja","my":"အလုပ်ခွင် ခန်းဂျီး","en":"Kanji at work quiz","ja":"仕事の漢字クイズ"},
  "payslip": {"vi":"Đọc phiếu lương","ne":"तलब विवरण बुझ्ने तरिका","id":"Baca slip gaji","my":"လစာစာရွက် ဖတ်နည်း","en":"Pay slip reader","ja":"給与明細の読み方"},
 }
 UI = {
@@ -159,7 +160,7 @@ PRIVACY = """<!doctype html><html lang="en"><head><meta charset="utf-8"><meta na
 <p>Last updated: November 2026</p>
 <ul>
 <li>The tools run entirely in your browser. The numbers you type are not sent to or stored on any server.</li>
-<li>Your browser may remember your language choice and checklist progress on your own device (local storage). You can clear this at any time in your browser settings.</li>
+<li>Your browser may remember your language choice, checklist progress and quiz scores on your own device (local storage). You can clear this at any time in your browser settings.</li>
 <li>We do not use cookies, accounts or tracking at this time. If we add analytics or advertising in the future, we will update this page first.</li>
 <li>The tools give estimates and general information, not legal, tax or financial advice. Please confirm with the official office concerned.</li>
 <li>Contact: open an issue at <a href="https://github.com/japan-toolkit/japan-toolkit.github.io/issues">GitHub</a>.</li>
@@ -167,7 +168,7 @@ PRIVACY = """<!doctype html><html lang="en"><head><meta charset="utf-8"><meta na
 <h2 lang="ja">プライバシーポリシー（日本語）</h2>
 <ul lang="ja">
 <li>各ツールはブラウザの中だけで動作します。入力した数字がサーバーに送信・保存されることはありません。</li>
-<li>言語の選択やチェックリストの進み具合は、あなたの端末のブラウザ（ローカルストレージ）に保存されることがあります。ブラウザの設定からいつでも削除できます。</li>
+<li>言語の選択、チェックリストの進み具合、クイズの記録は、あなたの端末のブラウザ（ローカルストレージ）に保存されることがあります。ブラウザの設定からいつでも削除できます。</li>
 <li>現在、Cookie・アカウント・アクセス解析は使用していません。今後アクセス解析や広告を導入する場合は、事前に本ページを更新します。</li>
 <li>本サイトの情報は目安・一般情報であり、法律・税務・金融の助言ではありません。最終的には各公的機関でご確認ください。</li>
 <li>お問い合わせ：<a href="https://github.com/japan-toolkit/japan-toolkit.github.io/issues">GitHub</a> の Issue からご連絡ください。</li>

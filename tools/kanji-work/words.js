@@ -1,0 +1,60 @@
+// "Kanji you see at work" word list. Original content written for this site (no dictionary data).
+// Each entry: [kanji, reading, {vi, ne, id, my, en, ja: meaning}]. ja meaning = plain Japanese explanation.
+const WORDS = {
+safety: [
+ ["危険","きけん",{vi:"Nguy hiểm",ne:"खतरा",id:"Bahaya",my:"အန္တရာယ်",en:"Danger",ja:"あぶない"}],
+ ["注意","ちゅうい",{vi:"Chú ý / cẩn thận",ne:"सावधान",id:"Perhatian / hati-hati",my:"သတိပြုရန်",en:"Caution",ja:"気をつける"}],
+ ["立入禁止","たちいりきんし",{vi:"Cấm vào",ne:"प्रवेश निषेध",id:"Dilarang masuk",my:"ဝင်ခွင့်မပြု",en:"No entry",ja:"入ってはいけない"}],
+ ["関係者以外立入禁止","かんけいしゃいがいたちいりきんし",{vi:"Người không phận sự miễn vào",ne:"सम्बन्धित व्यक्तिबाहेक प्रवेश निषेध",id:"Selain petugas dilarang masuk",my:"သက်ဆိုင်သူမှလွဲ၍ ဝင်ခွင့်မပြု",en:"Staff only",ja:"関係する人だけが入れる"}],
+ ["火気厳禁","かきげんきん",{vi:"Nghiêm cấm lửa",ne:"आगो पूर्ण निषेध",id:"Dilarang keras ada api",my:"မီး လုံးဝ မသုံးရ",en:"No open flames",ja:"火を絶対に使ってはいけない"}],
+ ["禁煙","きんえん",{vi:"Cấm hút thuốc",ne:"धूम्रपान निषेध",id:"Dilarang merokok",my:"ဆေးလိပ်မသောက်ရ",en:"No smoking",ja:"たばこを吸ってはいけない"}],
+ ["非常口","ひじょうぐち",{vi:"Lối thoát hiểm",ne:"आपतकालीन निकास",id:"Pintu darurat",my:"အရေးပေါ်ထွက်ပေါက်",en:"Emergency exit",ja:"災害のときに逃げる出口"}],
+ ["消火器","しょうかき",{vi:"Bình chữa cháy",ne:"अग्नि निभाउने यन्त्र",id:"Alat pemadam api",my:"မီးသတ်ဗူး",en:"Fire extinguisher",ja:"火を消す道具"}],
+ ["避難経路","ひなんけいろ",{vi:"Đường sơ tán",ne:"सुरक्षित निस्कने बाटो",id:"Jalur evakuasi",my:"ဘေးလွတ်ရာ ထွက်ပြေးလမ်း",en:"Evacuation route",ja:"逃げるための道"}],
+ ["頭上注意","ずじょうちゅうい",{vi:"Chú ý phía trên đầu",ne:"टाउकोमाथि सावधान",id:"Awas kepala",my:"ခေါင်းပေါ် သတိ",en:"Watch your head",ja:"頭の上に気をつける"}],
+ ["足元注意","あしもとちゅうい",{vi:"Chú ý dưới chân",ne:"खुट्टामुनि सावधान",id:"Awas langkah",my:"ခြေလှမ်း သတိ",en:"Watch your step",ja:"足の下に気をつける"}],
+ ["保護具着用","ほごぐちゃくよう",{vi:"Phải mang đồ bảo hộ",ne:"सुरक्षा सामग्री लगाउनुहोस्",id:"Wajib memakai alat pelindung",my:"အကာအကွယ်ပစ္စည်း ဝတ်ဆင်ရန်",en:"Wear protective gear",ja:"ヘルメットや手袋などを身につける"}]
+],
+payslip: [
+ ["支給","しきゅう",{vi:"Khoản được trả",ne:"भुक्तानी (आम्दानी)",id:"Pembayaran (penghasilan)",my:"ပေးငွေ",en:"Payment (earnings)",ja:"払われるお金"}],
+ ["控除","こうじょ",{vi:"Khoản trừ",ne:"कट्टी",id:"Potongan",my:"နုတ်ယူငွေ",en:"Deduction",ja:"差し引かれるお金"}],
+ ["基本給","きほんきゅう",{vi:"Lương cơ bản",ne:"आधारभूत तलब",id:"Gaji pokok",my:"အခြေခံလစာ",en:"Base salary",ja:"基本になる給料"}],
+ ["残業手当","ざんぎょうてあて",{vi:"Tiền làm thêm giờ",ne:"ओभरटाइम भत्ता",id:"Uang lembur",my:"အချိန်ပိုကြေး",en:"Overtime pay",ja:"残業した分のお金"}],
+ ["通勤手当","つうきんてあて",{vi:"Phụ cấp đi lại",ne:"यातायात भत्ता",id:"Tunjangan transportasi",my:"ခရီးစရိတ်",en:"Commuting allowance",ja:"通勤のためのお金"}],
+ ["差引支給額","さしひきしきゅうがく",{vi:"Số tiền thực nhận",ne:"हातमा आउने रकम",id:"Gaji bersih",my:"လက်ထဲရောက်ငွေ",en:"Take-home pay",ja:"手取りの金額"}],
+ ["源泉徴収","げんせんちょうしゅう",{vi:"Khấu trừ thuế tại nguồn",ne:"स्रोतमा कर कट्टी",id:"Pemotongan pajak di sumber",my:"အရင်းမြစ်တွင် အခွန်နုတ်ခြင်း",en:"Tax withheld from pay",ja:"給料から先に税金を引くこと"}],
+ ["有給休暇","ゆうきゅうきゅうか",{vi:"Nghỉ phép có lương",ne:"तलबी बिदा",id:"Cuti berbayar",my:"လစာပေး ခွင့်ရက်",en:"Paid leave",ja:"休んでも給料が出る休み"}],
+ ["社会保険","しゃかいほけん",{vi:"Bảo hiểm xã hội",ne:"सामाजिक बीमा",id:"Asuransi sosial",my:"လူမှုအာမခံ",en:"Social insurance",ja:"健康保険や厚生年金など"}],
+ ["雇用保険","こようほけん",{vi:"Bảo hiểm việc làm",ne:"रोजगार बीमा",id:"Asuransi ketenagakerjaan",my:"အလုပ်အကိုင်အာမခံ",en:"Employment insurance",ja:"仕事を失ったときのための保険"}],
+ ["住民税","じゅうみんぜい",{vi:"Thuế cư trú",ne:"आवासीय कर",id:"Pajak penduduk",my:"နေထိုင်သူအခွန်",en:"Resident tax",ja:"住んでいる市区町村などに払う税金"}],
+ ["所得税","しょとくぜい",{vi:"Thuế thu nhập",ne:"आयकर",id:"Pajak penghasilan",my:"ဝင်ငွေခွန်",en:"Income tax",ja:"収入にかかる国の税金"}]
+],
+shift: [
+ ["出勤","しゅっきん",{vi:"Đi làm / vào ca",ne:"काममा आउनु",id:"Masuk kerja",my:"အလုပ်ဆင်း",en:"Coming to work",ja:"仕事に来ること"}],
+ ["退勤","たいきん",{vi:"Tan ca / về",ne:"काम सकेर जानु",id:"Pulang kerja",my:"အလုပ်သိမ်း",en:"Leaving work",ja:"仕事を終えて帰ること"}],
+ ["休憩","きゅうけい",{vi:"Giờ nghỉ giải lao",ne:"विश्राम",id:"Istirahat",my:"အနားယူချိန်",en:"Break",ja:"仕事の間の休み"}],
+ ["遅刻","ちこく",{vi:"Đi muộn",ne:"ढिलो आउनु",id:"Terlambat",my:"နောက်ကျ",en:"Being late",ja:"決まった時間に遅れること"}],
+ ["早退","そうたい",{vi:"Về sớm",ne:"चाँडै जानु",id:"Pulang lebih awal",my:"စောပြန်",en:"Leaving early",ja:"仕事の途中で早く帰ること"}],
+ ["欠勤","けっきん",{vi:"Nghỉ làm (vắng mặt)",ne:"अनुपस्थित",id:"Tidak masuk kerja",my:"အလုပ်ပျက်",en:"Absence from work",ja:"仕事を休むこと"}],
+ ["休日","きゅうじつ",{vi:"Ngày nghỉ",ne:"बिदाको दिन",id:"Hari libur",my:"ပိတ်ရက်",en:"Day off",ja:"仕事がない日"}],
+ ["夜勤","やきん",{vi:"Ca đêm",ne:"रात्रि सिफ्ट",id:"Shift malam",my:"ညဆိုင်း",en:"Night shift",ja:"夜に働くこと"}],
+ ["交代","こうたい",{vi:"Đổi ca / thay phiên",ne:"पालो फेर्नु",id:"Pergantian (shift)",my:"အလှည့်ပြောင်း",en:"Shift change",ja:"ほかの人と代わること"}],
+ ["残業","ざんぎょう",{vi:"Làm thêm giờ",ne:"ओभरटाइम",id:"Lembur",my:"အချိန်ပို",en:"Overtime",ja:"決まった時間より長く働くこと"}],
+ ["勤務表","きんむひょう",{vi:"Bảng phân ca",ne:"कामको तालिका",id:"Jadwal kerja",my:"အလုပ်ဇယား",en:"Work schedule",ja:"だれがいつ働くかの表"}],
+ ["朝礼","ちょうれい",{vi:"Họp đầu giờ sáng",ne:"बिहानको भेला",id:"Apel pagi",my:"နံနက်အစည်းအဝေး",en:"Morning meeting",ja:"朝、仕事の前に集まること"}]
+],
+docs: [
+ ["氏名","しめい",{vi:"Họ và tên",ne:"पूरा नाम",id:"Nama lengkap",my:"အမည်",en:"Full name",ja:"名前"}],
+ ["住所","じゅうしょ",{vi:"Địa chỉ",ne:"ठेगाना",id:"Alamat",my:"လိပ်စာ",en:"Address",ja:"住んでいる場所"}],
+ ["生年月日","せいねんがっぴ",{vi:"Ngày tháng năm sinh",ne:"जन्म मिति",id:"Tanggal lahir",my:"မွေးသက္ကရာဇ်",en:"Date of birth",ja:"生まれた年・月・日"}],
+ ["国籍","こくせき",{vi:"Quốc tịch",ne:"राष्ट्रियता",id:"Kewarganegaraan",my:"နိုင်ငံသား",en:"Nationality",ja:"どの国の人か"}],
+ ["署名","しょめい",{vi:"Chữ ký",ne:"हस्ताक्षर",id:"Tanda tangan",my:"လက်မှတ်",en:"Signature",ja:"自分で名前を書くこと"}],
+ ["印鑑","いんかん",{vi:"Con dấu cá nhân",ne:"व्यक्तिगत छाप",id:"Stempel nama",my:"တံဆိပ်တုံး",en:"Personal seal (stamp)",ja:"名前のはんこ"}],
+ ["記入例","きにゅうれい",{vi:"Mẫu điền",ne:"भर्ने नमुना",id:"Contoh pengisian",my:"ဖြည့်ပုံနမူနာ",en:"Sample of how to fill in",ja:"書き方の見本"}],
+ ["申請書","しんせいしょ",{vi:"Đơn xin",ne:"आवेदन फारम",id:"Formulir permohonan",my:"လျှောက်လွှာ",en:"Application form",ja:"お願いするための書類"}],
+ ["在留カード","ざいりゅうカード",{vi:"Thẻ cư trú",ne:"निवास कार्ड",id:"Kartu izin tinggal",my:"နေထိုင်ခွင့်ကတ်",en:"Residence card",ja:"日本に住む外国人のカード"}],
+ ["住民票","じゅうみんひょう",{vi:"Giấy chứng nhận cư trú",ne:"निवास प्रमाणपत्र",id:"Surat keterangan domisili",my:"နေထိုင်မှု မှတ်တမ်း",en:"Certificate of residence",ja:"どこに住んでいるかの証明"}],
+ ["転出届","てんしゅつとどけ",{vi:"Thông báo chuyển đi",ne:"ठेगाना सराइको सूचना",id:"Laporan pindah keluar",my:"ပြောင်းရွှေ့ကြောင်း အကြောင်းကြားစာ",en:"Moving-out notice",ja:"ほかの市区町村や外国へ引っ越すときの届け"}],
+ ["有効期限","ゆうこうきげん",{vi:"Ngày hết hạn",ne:"म्याद सकिने मिति",id:"Masa berlaku",my:"သက်တမ်းကုန်ရက်",en:"Expiry date",ja:"使える最後の日"}]
+]};
+if (typeof module !== "undefined") module.exports = { WORDS };

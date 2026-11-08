@@ -24,6 +24,8 @@ Every row should cite a primary (official) page. "Checked" = page re-read and fi
 | 雇用保険料の端数処理 | 賃金から源泉控除する場合「50銭以下の場合は切り捨て、50銭1厘以上の場合は切り上げ」; 基準は賃金総額（総支給額） | takehome insurance.js | https://www.mhlw.go.jp/new-info/kobetu/roudou/gyousei/hoken/2020/dl/keizoku-20.pdf (p.20) | (2020 edition) | 2026-11-08 |
 | 月額表 令和9年分 例 (乙欄比較) | 社会保険料等控除後 199,000〜201,000円: 甲欄0人 4,170円 / 乙欄 19,200円 | takehome FAQ | https://www.nta.go.jp/publication/pamph/gensen/zeigakuhyo2027/data/01-07.pdf | — | 2026-11-08 |
 | 個人住民税の課税 | その年の1月1日時点で住所がある人に課税 | leaving-japan | https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/150790_06.html 「個人住民税は、その年の1月1日時点で市町村（都道府県）に住所がある方に対して課税されます。」 | not shown | 2026-11-08 |
+| 住民税 外国人向け説明 (前年1〜12月の所得, 1月2日以降の出国でも同じ, 出国前に払えなければ納税管理人を届出, 未納は在留期間更新に影響し得る, 納付書は毎年6月ごろ) | — | resident-tax | https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/individual-inhabitant-tax.html ; leaflets ja 000679117 / en 000679118 / vi 000679122 .pdf | not shown | 2026-11-08 |
+| 住民税 退職時の一括徴収 | 1〜5月に退職: 申出の有無にかかわらず一括徴収; 6〜12月: 本人の申出で一括徴収、なければ普通徴収 | resident-tax | https://www.soumu.go.jp/main_content/000679115.pdf (事業者向け) ; 000679117.pdf Q&A | not shown | 2026-11-08 |
 | 在留カードの返納 | 再入国許可によらない出国は出入国港で直ちに返納 (みなし再入国の扱いはこのページに記載なし) | leaving-japan | https://www.moj.go.jp/isa/applications/procedures/nyuukokukanri10_00020.html | not shown | 2026-11-08 |
 | 納税管理人 (脱退一時金の税金還付) | 帰国前に最終住所地の税務署へ「納税管理人の届出書」。出さずに帰国した場合は申告時に併せて提出 | nenkin-refund, leaving-japan | B.pdf leaflet (above) | 2026-09 | 2026-11-08 |
 | 還付申告の期限 | 還付申告書は「その年の翌年1月1日から5年間提出することができます」(一般規定。退職所得の選択課税の様式ページは未確認) | leaving-japan | https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2030.htm | 令和8年4月1日現在法令等 | 2026-11-08 |

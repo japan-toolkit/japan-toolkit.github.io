@@ -26,6 +26,9 @@ This catches meaning errors and obvious unnatural wording, but it is still machi
   Found two content issues that also affected en/ja/ne/my and were fixed in all six languages:
   (1) "giving or selling your phone or SIM is illegal" was too broad → now "a SIM card or phone line in your name";
   (2) "you can get most of this back" (payslip, pension) → "part of this back (up to a limit)" in en/ja/vi/id.
+- 2026-11-09 takehome FAQ new Q (bonus income tax, 5th item): vi/ne/id/my cross-reviewed; 0 meaning errors, wording fixes
+  applied in all four (vi 'được'/'tiền thuế là', id 'tabel tarif pajak bonus'/'dikalikan', my subject 'အခွန်ကို' + 'တွက်ချက်',
+  ne 'बीमा शुल्क'); second back-translation matched the English.
 - Status: all four languages AI-cross-reviewed once. Next: re-run after each text change; watch GitHub issues.
 
 ## How to get a free review (plan, 2026-11-08)
@@ -49,7 +52,7 @@ Machine-written; confidence noted. The owner decides when to order a review.
 | all five | payslip FAQ (tools/payslip/faq.json, 4 Q&A, added 2026-11-08) | vi/id good, ne medium, my medium-low | not reviewed |
 | all five | leaving-japan FAQ (tools/leaving-japan/faq.json, 4 Q&A, added 2026-11-08) | vi/id good, ne medium, my medium-low | not reviewed |
 | all five | takehome calculator (tools/takehome/index.html, new tool, added 2026-11-08) | vi/id good, ne medium, my medium-low | not reviewed |
-| all five | takehome FAQ (tools/takehome/faq.json, 4 Q&A, added 2026-11-08) | vi/id good, ne medium, my medium-low | not reviewed |
+| all five | takehome FAQ (tools/takehome/faq.json, 5 Q&A, added 2026-11-08; bonus Q added 2026-11-09) | vi/id good, ne medium, my medium-low | not reviewed |
 | all five | resident-tax guide (tools/resident-tax/index.html, new tool, added 2026-11-08) | vi/id good, ne medium, my medium-low | not reviewed |
 | all five | resident-tax FAQ (tools/resident-tax/faq.json, 4 Q&A, added 2026-11-08) | vi/id good, ne medium, my medium-low | not reviewed |
 | all five | kanji-work quiz (tools/kanji-work/words.js 120 words in 10 sets incl. construction/care/food/farm/factory/hotel, added 2026-11-08) — also check readings/meanings of every word | vi/id good, ne medium, my medium-low | not reviewed |

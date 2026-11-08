@@ -90,7 +90,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | id | correction |
 |---|---|---|---|
 | title | Things to do before you leave Japan | Hal yang harus dilakukan sebelum meninggalkan Jepang | |
-| lede | Once you decide to go home, work through these steps in order. Your checks are saved on this device. | Setelah memutuskan pulang, lakukan langkah-langkah berikut secara berurutan. Centang Anda tersimpan di perangkat ini. | |
+| lede | Once you decide to go home, work through these steps in order. Your checks are saved on this device. | Setelah memutuskan pulang, lakukan langkah-langkah berikut secara berurutan. Tanda centang Anda disimpan di perangkat ini. | |
 | phases[0] | 1 month before | 1 bulan sebelumnya | |
 | phases[1] | 2 weeks before | 2 minggu sebelumnya | |
 | phases[2] | The day before and the day you leave | Sehari sebelum dan hari keberangkatan | |
@@ -112,13 +112,13 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | items[5][0] | Stop electricity, gas, water and internet | Hentikan listrik, gas, air, dan internet | |
 | items[5][1] | Request service to end on your moving day, by phone or online. | Ajukan penghentian layanan untuk tanggal Anda pindah, lewat telepon atau online. | |
 | items[6][0] | Cancel your mobile phone contract | Putuskan kontrak ponsel | |
-| items[6][1] | Pay the final bill. Giving or selling your phone or SIM to someone else is illegal. | Bayar tagihan terakhir. Memberikan atau menjual ponsel atau SIM kepada orang lain adalah tindakan ilegal. | |
+| items[6][1] | Pay the final bill. Giving or selling a SIM card or phone line in your name to someone else is illegal. | Bayar tagihan terakhir. Memberikan atau menjual kartu SIM atau nomor telepon atas nama Anda kepada orang lain adalah ilegal. | |
 | items[7][0] | Close your bank account | Tutup rekening bank | |
 | items[7][1] | Do this after your last salary and deposit refund arrive. Selling or giving your account to someone else is illegal. | Lakukan setelah gaji terakhir dan uang deposit rumah masuk. Menjual atau memberikan rekening kepada orang lain adalah tindakan ilegal. | |
 | items[8][0] | Return health insurance documents | Kembalikan dokumen asuransi kesehatan | |
 | items[8][1] | Follow your company's instructions (company insurance) or the city office's (National Health Insurance). | Ikuti petunjuk perusahaan (asuransi perusahaan) atau kantor kota (asuransi nasional). | |
-| items[9][0] | Return your residence card at the airport | Kembalikan kartu residen di bandara | |
-| items[9][1] | If you don't plan to come back, hand in your residence card (在留カード) at departure immigration. | Jika tidak berencana kembali ke Jepang, serahkan kartu residen (在留カード) saat pemeriksaan keberangkatan. | |
+| items[9][0] | Return your residence card at the airport | Kembalikan kartu izin tinggal di bandara | |
+| items[9][1] | If you don't plan to come back, hand in your residence card (在留カード) at departure immigration. | Jika tidak berencana kembali ke Jepang (pergi tanpa izin masuk kembali), serahkan kartu izin tinggal (在留カード) saat pemeriksaan keberangkatan. | |
 | items[10][0] | Claim your pension refund within 2 years | Ajukan pencairan nenkin dalam 2 tahun | |
 | items[10][1] | Check the estimated amount with the nenkin calculator before you apply. Open the nenkin calculator → | Gunakan kalkulator nenkin untuk melihat perkiraan jumlahnya sebelum mengajukan. Buka kalkulator nenkin → | |
 | items[11][0] | Get back the withheld tax | Dapatkan kembali pajak yang dipotong | |
@@ -139,7 +139,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | title | How much pension will you get back when you leave Japan? | Berapa uang pensiun yang kembali saat Anda meninggalkan Jepang? | |
 | lede | Estimate your Lump-sum Withdrawal Payment (脱退一時金, the “nenkin refund”) using the official FY2026 formula from the Japan Pension Service. | Perkirakan Pembayaran Penarikan Sekaligus (脱退一時金, “pengembalian nenkin”) dengan rumus resmi tahun fiskal 2026 dari Japan Pension Service. | |
 | tabK | Company employee | Karyawan perusahaan | |
-| tabN | Self-enrolled / student | Daftar sendiri / pelajar | |
+| tabN | Self-enrolled / student | Peserta Pensiun Nasional (wiraswasta / pelajar) | |
 | salary | Average monthly salary (yen) | Rata-rata gaji bulanan (yen) | |
 | salaryHint | Before tax. Include regular allowances such as commuting pay. | Sebelum pajak. Termasuk tunjangan tetap seperti uang transportasi. | |
 | bonus | Bonuses per year (yen) | Bonus per tahun (yen) | |
@@ -159,9 +159,9 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | taxNote | You can claim back most of the 20.42% tax. Appoint a tax representative (納税管理人) in Japan before you leave, then file a tax return after you receive the refund. | Sebagian besar pajak 20,42% bisa diminta kembali. Tunjuk wakil pajak (納税管理人) di Jepang sebelum pergi, lalu laporkan pajak setelah menerima pengembalian. | |
 | noTax | No tax is withheld from a National Pension refund. | Pengembalian dari Pensiun Nasional tidak dipotong pajak. | |
 | under6 | You need at least 6 months of enrollment to qualify. | Anda memerlukan kepesertaan minimal 6 bulan untuk memenuhi syarat. | |
-| over120 | With 120 months (10 years) or more, you qualify for a regular pension instead of a refund. | Jika kepesertaan 120 bulan (10 tahun) atau lebih, Anda berhak atas pensiun biasa, bukan pengembalian sekaligus. | |
+| over120 | With 120 months (10 years) or more, you qualify for a regular pension instead of a refund. | Jika kepesertaan 120 bulan (10 tahun) atau lebih, Anda berhak atas pensiun hari tua, bukan pengembalian sekaligus. | |
 | eligTitle | Before you claim | Sebelum mengajukan | |
-| elig[0] | You are not a Japanese citizen and you have left Japan (moved your address out). | Anda bukan warga negara Jepang dan sudah meninggalkan Jepang (alamat sudah dipindahkan). | |
+| elig[0] | You are not a Japanese citizen and you have left Japan (moved your address out). | Anda bukan warga negara Jepang dan sudah meninggalkan Jepang (sudah lapor pindah keluar dan tidak punya alamat di Jepang). | |
 | elig[1] | You paid into the system for at least 6 months, but less than 10 years in total. | Anda membayar minimal 6 bulan, tetapi total kurang dari 10 tahun. | |
 | elig[2] | Claim within 2 years of leaving Japan. Late claims are refused. | Ajukan dalam 2 tahun setelah meninggalkan Jepang. Pengajuan terlambat ditolak. | |
 | elig[3] | Claiming erases all your Japanese pension periods. If your country has a social security agreement with Japan (for example the US, Germany, Australia, Brazil), those years could count toward a pension there. Check before you claim. | Setelah menerima pengembalian, seluruh masa kepesertaan Anda di Jepang dihapus. Jika negara Anda punya perjanjian jaminan sosial dengan Jepang, masa itu mungkin bisa dihitung untuk pensiun di negara Anda. Periksa dulu. | |
@@ -206,13 +206,13 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | r.other[0] | Other allowances | Tunjangan lainnya | |
 | r.other[1] | Housing, family, skill and similar allowances. | Tunjangan rumah, keluarga, keahlian, dan lain-lain. | |
 | r.health[0] | Health insurance | Asuransi kesehatan | |
-| r.health[1] | You pay about half and your company pays the rest. It means you pay only 30% of medical costs. | Anda membayar sekitar setengah, perusahaan membayar sisanya. Anda cukup membayar 30% biaya berobat. | |
+| r.health[1] | You pay about half and your company pays the rest. It means you pay only 30% of medical costs. | Anda membayar sekitar setengah, perusahaan membayar sisanya. Biasanya Anda cukup membayar 30% biaya berobat. | |
 | r.kaigo[0] | Long-term care insurance | Asuransi perawatan jangka panjang | |
 | r.kaigo[1] | Only people aged 40 to 64 pay this. | Hanya dibayar oleh orang berusia 40 sampai 64 tahun. | |
 | r.kodomo[0] | Child and childcare support levy | Iuran dukungan anak dan pengasuhan | |
 | r.kodomo[1] | A new deduction that started with pay from May 2026. The amount is small. | Potongan baru yang dimulai dari gaji Mei 2026. Jumlahnya kecil. | |
 | r.pension[0] | Employees' Pension (nenkin) | Pensiun Karyawan (nenkin) | |
-| r.pension[1] | When you leave Japan, you can get most of this back as a lump-sum refund. | Saat meninggalkan Jepang, sebagian besar bisa Anda dapatkan kembali sebagai pengembalian sekaligus. | |
+| r.pension[1] | When you leave Japan, you can get part of this back as a lump-sum refund (up to a limit). | Saat meninggalkan Jepang, sebagian bisa Anda dapatkan kembali sebagai pengembalian sekaligus (dengan batas tertentu). | |
 | r.koyo[0] | Employment insurance | Asuransi ketenagakerjaan | |
 | r.koyo[1] | Pays benefits if you lose your job. | Memberi tunjangan jika Anda kehilangan pekerjaan. | |
 | r.shotoku[0] | Income tax | Pajak penghasilan | |
@@ -285,7 +285,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | pay | Total monthly pay (yen) | Gaji kotor per bulan (yen) | |
 | hPay | Before deductions. Include overtime and commuting allowance. | Sebelum potongan. Termasuk lembur dan tunjangan transportasi. | |
 | commute | Of which: commuting allowance (yen) | Di antaranya: tunjangan transportasi (yen) | |
-| hCommute | Not taxed, but it counts for insurance. | Tidak dikenai pajak, tetapi dihitung untuk asuransi. | |
+| hCommute | Not taxed, but it counts for insurance. | Biasanya tidak dikenai pajak (sampai batas tertentu), tetapi dihitung untuk asuransi. | |
 | pref | Prefecture where you work | Prefektur tempat kerja | |
 | hPref | Kyokai Kenpo health insurance rates differ by prefecture. | Tarif asuransi kesehatan Kyokai Kenpo berbeda per prefektur. | |
 | deps | Number of dependants | Jumlah tanggungan | |
@@ -333,14 +333,14 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 危険 | きけん | Danger | Bahaya | |
 | 注意 | ちゅうい | Caution | Perhatian / hati-hati | |
 | 立入禁止 | たちいりきんし | No entry | Dilarang masuk | |
-| 関係者以外立入禁止 | かんけいしゃいがいたちいりきんし | Staff only | Selain petugas dilarang masuk | |
-| 火気厳禁 | かきげんきん | No open flames | Dilarang keras ada api | |
+| 関係者以外立入禁止 | かんけいしゃいがいたちいりきんし | Staff only | Dilarang masuk selain petugas | |
+| 火気厳禁 | かきげんきん | No open flames | Dilarang keras menyalakan api | |
 | 禁煙 | きんえん | No smoking | Dilarang merokok | |
 | 非常口 | ひじょうぐち | Emergency exit | Pintu darurat | |
 | 消火器 | しょうかき | Fire extinguisher | Alat pemadam api | |
 | 避難経路 | ひなんけいろ | Evacuation route | Jalur evakuasi | |
 | 頭上注意 | ずじょうちゅうい | Watch your head | Awas kepala | |
-| 足元注意 | あしもとちゅうい | Watch your step | Awas langkah | |
+| 足元注意 | あしもとちゅうい | Watch your step | Hati-hati melangkah | |
 | 保護具着用 | ほごぐちゃくよう | Wear protective gear | Wajib memakai alat pelindung | |
 | 支給 | しきゅう | Payment (earnings) | Pembayaran (penghasilan) | |
 | 控除 | こうじょ | Deduction | Potongan | |
@@ -370,8 +370,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 安全帯 | あんぜんたい | Safety harness | Sabuk pengaman | |
 | 墜落 | ついらく | Fall from height | Jatuh dari ketinggian | |
 | 重機 | じゅうき | Heavy machinery | Alat berat | |
-| 作業中 | さぎょうちゅう | Work in progress | Sedang ada pekerjaan | |
-| 資材 | しざい | Building materials | Bahan material | |
+| 作業中 | さぎょうちゅう | Work in progress | Sedang ada pekerjaan konstruksi | |
+| 資材 | しざい | Building materials | Bahan bangunan | |
 | 解体 | かいたい | Demolition | Pembongkaran | |
 | 溶接 | ようせつ | Welding | Pengelasan | |
 | 吊り荷 | つりに | Suspended load | Beban yang diangkat crane | |

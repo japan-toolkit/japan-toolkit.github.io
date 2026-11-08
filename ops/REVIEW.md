@@ -1,5 +1,33 @@
 # Translations waiting for a native-speaker check
 
+## AI cross-review (no native reviewer available) — method, 2026-11-08
+1. Extract the target-language strings only (no English) from `ops/review/<lang>.md`.
+2. A fresh reviewer agent that never sees the English back-translates each string literally and lists native-reader
+   problems (grammar, unnatural wording, wrong term, register, Unicode), with a corrected version.
+3. A second fresh agent back-translates only the corrections. Claude compares both back-translations with the English
+   source and accepts a correction only if the meaning still matches (hedges like "may" kept, numbers unchanged).
+4. Apply with `build/apply_translation_fixes.py` — it replaces whole strings by key only. (A first version replaced
+   substrings and changed unrelated text, e.g. a short Burmese word inside 'tax'; caught before deploy and redone.)
+   Rerun all tests, rebuild review sheets, ship through the normal approval.
+This catches meaning errors and obvious unnatural wording, but it is still machine judgement: real users' reports
+(the "translation mistake?" link on every page → GitHub issue) stay the final check.
+
+### Done
+- 2026-11-08 my + ne: leaving-japan, resident-tax (all strings + FAQ) and all 120 kanji-work words. my: 41 flagged,
+  37 corrections applied, 4 rejected (2 kept original wording, 2 replaced by better terms: 図面, 通勤手当); hedges fixed
+  ("may not be approved"). ne: 34 flagged, 32 applied, 2 rejected (排泄, 転出届 kept). Consistent terms now:
+  my 通勤手当 = အလုပ်သွားလာစရိတ် ထောက်ပံ့ငွေ, 差引支給額 = အသားတင် လက်ခံရငွေ; ne "पेन्सन (नेन्किन)".
+- 2026-11-08 my + ne round 2: takehome, payslip, nenkin-refund, kanji-grade/kanji-work UI and FAQs. my: 53 flagged,
+  46 applied (4 rejected: 'prefecture' rendered as 'district', a refund line that became 'part of', an eligibility line
+  that became ambiguous, 1 style-only). ne: 31 flagged, 30 applied (1 rejected: bonus hint changed meaning).
+  Many fixes hedge firm claims ("usually", "may") and fix terms (Burmese 子ども・子育て支援金 no longer reads as an allowance
+  you receive; kun label no longer reads as 'tax').
+- 2026-11-08 vi + id (all strings, ~390 each): vi 32 flagged / 32 applied, id 14 flagged / 14 applied (1 adjusted).
+  Found two content issues that also affected en/ja/ne/my and were fixed in all six languages:
+  (1) "giving or selling your phone or SIM is illegal" was too broad → now "a SIM card or phone line in your name";
+  (2) "you can get most of this back" (payslip, pension) → "part of this back (up to a limit)" in en/ja/vi/id.
+- Status: all four languages AI-cross-reviewed once. Next: re-run after each text change; watch GitHub issues.
+
 ## How to get a free review (plan, 2026-11-08)
 - Review sheets: `ops/review/<lang>.md` (vi, ne, id, my, ja). Each lists every string next to the English, with a
   "correction" column. Regenerate after any text change: `python3 build/export_review.py`.
@@ -13,10 +41,10 @@ Machine-written; confidence noted. The owner decides when to order a review.
 
 | Language | Pages | Confidence | Status |
 |---|---|---|---|
-| ne (Nepali) | all 3 tools, portal | medium | not reviewed |
-| my (Burmese) | all 3 tools, portal | medium-low | not reviewed — highest priority |
-| vi (Vietnamese) | all 3 tools, portal | good | not reviewed |
-| id (Indonesian) | all 3 tools, portal | good | not reviewed |
+| ne (Nepali) | all tools | medium → AI cross-reviewed 2026-11-08 | no native review |
+| my (Burmese) | all tools | medium-low → AI cross-reviewed 2026-11-08 | no native review — highest priority |
+| vi (Vietnamese) | all tools | good → AI cross-reviewed 2026-11-08 | no native review |
+| id (Indonesian) | all tools | good → AI cross-reviewed 2026-11-08 | no native review |
 | all five | nenkin-refund FAQ (tools/nenkin-refund/faq.json, 4 Q&A, added 2026-11-08) | vi/id good, ne medium, my medium-low | not reviewed |
 | all five | payslip FAQ (tools/payslip/faq.json, 4 Q&A, added 2026-11-08) | vi/id good, ne medium, my medium-low | not reviewed |
 | all five | leaving-japan FAQ (tools/leaving-japan/faq.json, 4 Q&A, added 2026-11-08) | vi/id good, ne medium, my medium-low | not reviewed |

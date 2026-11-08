@@ -53,7 +53,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.shift[1] | 勤務 | 勤務 | |
 | sets.construction[0] | Construction | Xây dựng | |
 | sets.construction[1] | 建設 | 建設 | |
-| sets.care[0] | Care work | Chăm sóc (kaigo) | |
+| sets.care[0] | Care work | Điều dưỡng, chăm sóc người cao tuổi (kaigo) | |
 | sets.care[1] | 介護 | 介護 | |
 | sets.food[0] | Food service | Nhà hàng, thực phẩm | |
 | sets.food[1] | 外食 | 外食 | |
@@ -91,32 +91,32 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 |---|---|---|---|
 | title | Things to do before you leave Japan | Những việc cần làm trước khi rời Nhật Bản | |
 | lede | Once you decide to go home, work through these steps in order. Your checks are saved on this device. | Khi đã quyết định về nước, hãy làm theo thứ tự dưới đây. Các mục đã đánh dấu được lưu trên thiết bị này. | |
-| phases[0] | 1 month before | Trước 1 tháng | |
-| phases[1] | 2 weeks before | Trước 2 tuần | |
-| phases[2] | The day before and the day you leave | Ngày trước và ngày xuất cảnh | |
+| phases[0] | 1 month before | 1 tháng trước khi đi | |
+| phases[1] | 2 weeks before | 2 tuần trước khi đi | |
+| phases[2] | The day before and the day you leave | Ngày hôm trước và ngày xuất cảnh | |
 | phases[3] | After you get home | Sau khi về nước | |
 | progress | {n} of {t} done | Đã xong {n} / {t} | |
 | reset | Clear all checks | Bỏ chọn tất cả | |
 | crime | Illegal | Phạm pháp | |
-| note | Procedures can differ by city and employer. If you are unsure, ask your city office or your company. | Thủ tục có thể khác nhau tùy địa phương và công ty. Nếu chưa rõ, hãy hỏi tòa thị chính hoặc công ty. | |
+| note | Procedures can differ by city and employer. If you are unsure, ask your city office or your company. | Thủ tục có thể khác nhau tùy địa phương và công ty. Nếu chưa rõ, hãy hỏi văn phòng thành phố (市区町村役所) hoặc công ty. | |
 | items[0][0] | Tell your company and collect documents | Báo công ty và lấy giấy tờ | |
 | items[0][1] | Ask for your withholding tax slip (源泉徴収票) and a document showing your basic pension number. You need both for the pension refund and the tax refund. | Xin phiếu khấu trừ thuế (源泉徴収票) và giấy tờ có mã số lương hưu cơ bản. Cần cho việc rút tiền nenkin và hoàn thuế. | |
 | items[1][0] | Decide how to pay resident tax (住民税) | Quyết định cách đóng thuế cư trú (住民税) | |
 | items[1][1] | If you lived in Japan on January 1, you owe resident tax for that year. Pay it all before you leave, or appoint a tax representative. See the resident tax guide → | Nếu bạn sống ở Nhật vào ngày 1/1, bạn phải đóng thuế cư trú của năm đó. Hãy đóng hết trước khi đi hoặc chỉ định người đại diện nộp thuế. Xem hướng dẫn thuế cư trú → | |
 | items[2][0] | Appoint a tax representative (納税管理人) | Chỉ định người đại diện nộp thuế (納税管理人) | |
-| items[2][1] | Choose a trusted person living in Japan or a tax accountant, and register them at the tax office. You need one to recover the 20.42% tax taken from your pension refund. | Chọn người tin cậy sống ở Nhật hoặc chuyên viên thuế, rồi nộp đơn cho cục thuế. Cần để lấy lại 20,42% thuế bị khấu trừ từ tiền nenkin. | |
+| items[2][1] | Choose a trusted person living in Japan or a tax accountant, and register them at the tax office. You need one to recover the 20.42% tax taken from your pension refund. | Chọn người tin cậy đang sống ở Nhật hoặc chuyên viên thuế, rồi nộp đơn cho cơ quan thuế (税務署). Việc này cần thiết để lấy lại phần lớn khoản thuế 20,42% bị khấu trừ từ tiền nenkin. | |
 | items[3][0] | Give notice on your apartment | Báo chấm dứt hợp đồng nhà | |
 | items[3][1] | Contact your landlord or management company. Many require one month's notice. | Liên hệ chủ nhà hoặc công ty quản lý. Nhiều nơi yêu cầu báo trước 1 tháng. | |
-| items[4][0] | Submit a moving-out notice (転出届) at the city office | Nộp thông báo chuyển đi (転出届) tại tòa thị chính | |
-| items[4][1] | Handle National Health Insurance and National Pension at the same visit. | Làm cùng lúc thủ tục Bảo hiểm y tế quốc dân và Hưu trí quốc dân. | |
+| items[4][0] | Submit a moving-out notice (転出届) at the city office | Nộp thông báo chuyển đi (転出届) tại văn phòng thành phố | |
+| items[4][1] | Handle National Health Insurance and National Pension at the same visit. | Nếu bạn đang tham gia Bảo hiểm y tế quốc dân và Hưu trí quốc dân, hãy làm thủ tục rút khỏi các chế độ này cùng lúc. | |
 | items[5][0] | Stop electricity, gas, water and internet | Ngừng điện, gas, nước và internet | |
 | items[5][1] | Request service to end on your moving day, by phone or online. | Đăng ký ngừng dịch vụ vào ngày chuyển đi, qua điện thoại hoặc trên mạng. | |
 | items[6][0] | Cancel your mobile phone contract | Hủy hợp đồng điện thoại | |
-| items[6][1] | Pay the final bill. Giving or selling your phone or SIM to someone else is illegal. | Thanh toán hóa đơn cuối cùng. Đưa hoặc bán điện thoại, SIM cho người khác là phạm pháp. | |
+| items[6][1] | Pay the final bill. Giving or selling a SIM card or phone line in your name to someone else is illegal. | Thanh toán hóa đơn cuối cùng. Cho hoặc bán SIM hay số điện thoại đứng tên bạn cho người khác là phạm pháp. | |
 | items[7][0] | Close your bank account | Đóng tài khoản ngân hàng | |
-| items[7][1] | Do this after your last salary and deposit refund arrive. Selling or giving your account to someone else is illegal. | Làm sau khi đã nhận lương cuối và tiền đặt cọc nhà. Bán hoặc cho người khác tài khoản là phạm pháp. | |
+| items[7][1] | Do this after your last salary and deposit refund arrive. Selling or giving your account to someone else is illegal. | Làm sau khi đã nhận lương cuối và tiền đặt cọc nhà. Bán hoặc cho người khác sử dụng tài khoản là phạm pháp. | |
 | items[8][0] | Return health insurance documents | Trả lại giấy tờ bảo hiểm y tế | |
-| items[8][1] | Follow your company's instructions (company insurance) or the city office's (National Health Insurance). | Làm theo hướng dẫn của công ty (bảo hiểm công ty) hoặc tòa thị chính (bảo hiểm quốc dân). | |
+| items[8][1] | Follow your company's instructions (company insurance) or the city office's (National Health Insurance). | Làm theo hướng dẫn của công ty (bảo hiểm công ty) hoặc văn phòng thành phố (bảo hiểm quốc dân). | |
 | items[9][0] | Return your residence card at the airport | Trả thẻ cư trú tại sân bay | |
 | items[9][1] | If you don't plan to come back, hand in your residence card (在留カード) at departure immigration. | Nếu không có kế hoạch quay lại Nhật, bạn trả thẻ cư trú (在留カード) khi làm thủ tục xuất cảnh. | |
 | items[10][0] | Claim your pension refund within 2 years | Xin rút tiền nenkin trong vòng 2 năm | |
@@ -124,13 +124,13 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | items[11][0] | Get back the withheld tax | Lấy lại thuế đã bị khấu trừ | |
 | items[11][1] | After you receive the pension refund, your tax representative files a tax return for you. The deadline is 5 years. | Sau khi nhận tiền nenkin, người đại diện nộp thuế sẽ khai thuế giúp bạn. Hạn trong vòng 5 năm. | |
 | faq[0].q | I am leaving in the middle of the year. Do I still pay resident tax? | Tôi về nước giữa năm. Tôi vẫn phải đóng thuế cư trú chứ? | |
-| faq[0].a | Yes. Resident tax is charged to everyone who had an address in a Japanese city on January 1 of that year, based on the previous year's income. Leaving later in the year does not cancel it. Pay the remaining amount before you leave, or appoint a tax representative (納税管理人) to pay it for you. | Có. Thuế cư trú được tính cho mọi người có địa chỉ tại một thành phố ở Nhật vào ngày 1 tháng 1 của năm đó, dựa trên thu nhập năm trước. Về nước giữa năm không làm mất khoản thuế này. Hãy đóng phần còn lại trước khi đi, hoặc nhờ người đại diện nộp thuế (納税管理人) đóng thay. | |
+| faq[0].a | Yes. Resident tax is charged to everyone who had an address in a Japanese city on January 1 of that year, based on the previous year's income. Leaving later in the year does not cancel it. Pay the remaining amount before you leave, or appoint a tax representative (納税管理人) to pay it for you. | Có. Thuế cư trú được tính cho mọi người có địa chỉ tại một thành phố ở Nhật vào ngày 1 tháng 1 của năm đó, dựa trên thu nhập năm trước. Về nước giữa năm thì khoản thuế này vẫn không được miễn. Hãy đóng phần còn lại trước khi đi, hoặc nhờ người đại diện nộp thuế (納税管理人) đóng thay. | |
 | faq[1].q | What do I do with my residence card when I leave? | Khi rời Nhật, tôi làm gì với thẻ cư trú? | |
 | faq[1].a | If you leave Japan without a re-entry permit, hand in your residence card (在留カード) to the immigration officer at the airport or seaport when you depart. If you leave with a re-entry permit but do not come back before it expires, the card becomes invalid and must be returned within 14 days. Late returns can be fined. | Nếu rời Nhật mà không có giấy phép tái nhập cảnh, hãy nộp lại thẻ cư trú (在留カード) cho nhân viên xuất nhập cảnh tại sân bay hoặc cảng khi xuất cảnh. Nếu đi bằng giấy phép tái nhập cảnh nhưng không quay lại trước khi hết hạn, thẻ sẽ hết hiệu lực và phải được trả lại trong vòng 14 ngày. Trả trễ có thể bị phạt tiền. | |
 | faq[2].q | I left Japan without appointing a tax representative. Can I still get the tax back? | Tôi đã về nước mà chưa chỉ định người đại diện nộp thuế. Tôi vẫn lấy lại thuế được chứ? | |
 | faq[2].a | Usually yes. It is best to register a tax representative (納税管理人) at your last local tax office before you leave. If you did not, the Japan Pension Service leaflet says you can submit the registration form together with your tax return. Your representative only needs to live in Japan. | Thường là được. Tốt nhất là đăng ký người đại diện nộp thuế (納税管理人) tại cơ quan thuế nơi bạn sống cuối cùng trước khi về nước. Nếu chưa làm, theo tờ hướng dẫn của Cơ quan Hưu trí Nhật Bản, bạn có thể nộp đơn đăng ký cùng lúc với tờ khai thuế. Người đại diện chỉ cần đang sống ở Nhật. | |
 | faq[3].q | How long do I have to claim the pension refund and the tax back? | Tôi có bao lâu để nhận tiền nenkin và lấy lại thuế? | |
-| faq[3].a | Two different deadlines. The pension refund must be claimed within 2 years from the day you stopped having an address in Japan. The tax refund return can be filed for 5 years from January 1 of the year after you received the pension refund. | Có hai thời hạn khác nhau. Tiền rút một lần phải nộp đơn trong vòng 2 năm kể từ ngày bạn không còn địa chỉ ở Nhật. Tờ khai hoàn thuế có thể nộp trong 5 năm, tính từ ngày 1 tháng 1 của năm sau năm bạn nhận tiền. | |
+| faq[3].a | Two different deadlines. The pension refund must be claimed within 2 years from the day you stopped having an address in Japan. The tax refund return can be filed for 5 years from January 1 of the year after you received the pension refund. | Có hai thời hạn khác nhau. Đơn xin tiền rút một lần phải nộp trong vòng 2 năm kể từ ngày bạn không còn địa chỉ ở Nhật. Tờ khai hoàn thuế có thể nộp trong 5 năm, tính từ ngày 1 tháng 1 của năm sau năm bạn nhận tiền. | |
 
 ## nenkin-refund
 
@@ -139,7 +139,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | title | How much pension will you get back when you leave Japan? | Bạn sẽ nhận lại bao nhiêu tiền lương hưu khi rời Nhật Bản? | |
 | lede | Estimate your Lump-sum Withdrawal Payment (脱退一時金, the “nenkin refund”) using the official FY2026 formula from the Japan Pension Service. | Ước tính khoản Trợ cấp rút một lần (脱退一時金, “tiền nenkin”) theo công thức chính thức năm tài chính 2026 của Cơ quan Hưu trí Nhật Bản. | |
 | tabK | Company employee | Nhân viên công ty | |
-| tabN | Self-enrolled / student | Tự tham gia / du học sinh | |
+| tabN | Self-enrolled / student | Tự đóng Hưu trí quốc dân / du học sinh | |
 | salary | Average monthly salary (yen) | Lương tháng trung bình (yên) | |
 | salaryHint | Before tax. Include regular allowances such as commuting pay. | Trước thuế. Bao gồm các khoản phụ cấp cố định như tiền đi lại. | |
 | bonus | Bonuses per year (yen) | Tiền thưởng mỗi năm (yên) | |
@@ -164,10 +164,10 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | elig[0] | You are not a Japanese citizen and you have left Japan (moved your address out). | Bạn không có quốc tịch Nhật và đã rời Nhật (đã chuyển địa chỉ ra nước ngoài). | |
 | elig[1] | You paid into the system for at least 6 months, but less than 10 years in total. | Bạn đã đóng ít nhất 6 tháng nhưng tổng cộng chưa đủ 10 năm. | |
 | elig[2] | Claim within 2 years of leaving Japan. Late claims are refused. | Nộp đơn trong vòng 2 năm sau khi rời Nhật. Nộp trễ sẽ bị từ chối. | |
-| elig[3] | Claiming erases all your Japanese pension periods. If your country has a social security agreement with Japan (for example the US, Germany, Australia, Brazil), those years could count toward a pension there. Check before you claim. | Khi nhận tiền rút một lần, toàn bộ thời gian tham gia ở Nhật sẽ bị xóa. Nếu nước bạn có hiệp định an sinh xã hội với Nhật, thời gian này có thể được cộng vào lương hưu ở nước bạn. Hãy kiểm tra trước. | |
+| elig[3] | Claiming erases all your Japanese pension periods. If your country has a social security agreement with Japan (for example the US, Germany, Australia, Brazil), those years could count toward a pension there. Check before you claim. | Khi nhận tiền rút một lần, toàn bộ thời gian tham gia ở Nhật trước đó sẽ không còn được tính. Nếu nước bạn có hiệp định an sinh xã hội với Nhật, bạn có thể cộng thời gian này vào lương hưu ở nước bạn, nhưng chỉ khi không rút một lần. Hãy kiểm tra trước khi nộp đơn. | |
 | disclaimer | This is an estimate. The Japan Pension Service calculates your final amount from your official record, which uses salary grades rather than your exact pay. | Đây là số tiền ước tính. Cơ quan Hưu trí Nhật Bản tính số tiền cuối cùng dựa trên hồ sơ chính thức, theo bậc lương chuẩn chứ không phải lương thực tế. | |
 | source | Source: | Nguồn: | |
-| checked | Figures checked November 2026 (FY2026 rates). | Số liệu kiểm tra tháng 11/2026 (mức năm tài chính 2026). | |
+| checked | Figures checked November 2026 (FY2026 rates). | Số liệu được kiểm tra vào tháng 11/2026 (mức năm tài chính 2026). | |
 | faq[0].q | Can I apply for the refund while I am still living in Japan? | Tôi có thể nộp đơn khi vẫn còn sống ở Nhật không? | |
 | faq[0].a | No. You can apply only after you no longer have an address in Japan. Usually you report your move-out (転出届) at your city office before you leave, then send the claim form after your move-out date, for example from your home country. | Không. Bạn chỉ có thể nộp đơn sau khi không còn địa chỉ ở Nhật. Thông thường, bạn khai báo chuyển đi (転出届) tại văn phòng thành phố trước khi về nước, rồi gửi đơn sau ngày chuyển đi, ví dụ từ quê nhà. | |
 | faq[1].q | Is there a deadline? | Có thời hạn nộp đơn không? | |
@@ -212,9 +212,9 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | r.kodomo[0] | Child and childcare support levy | Phí hỗ trợ trẻ em và nuôi con | |
 | r.kodomo[1] | A new deduction that started with pay from May 2026. The amount is small. | Khoản trừ mới, bắt đầu từ lương tháng 5/2026. Số tiền nhỏ. | |
 | r.pension[0] | Employees' Pension (nenkin) | Hưu trí phúc lợi (nenkin) | |
-| r.pension[1] | When you leave Japan, you can get most of this back as a lump-sum refund. | Khi rời Nhật, bạn có thể nhận lại phần lớn khoản này dưới dạng tiền rút một lần. | |
+| r.pension[1] | When you leave Japan, you can get part of this back as a lump-sum refund (up to a limit). | Khi rời Nhật, bạn có thể nhận lại một phần khoản này dưới dạng tiền rút một lần. | |
 | r.koyo[0] | Employment insurance | Bảo hiểm việc làm | |
-| r.koyo[1] | Pays benefits if you lose your job. | Trả trợ cấp nếu bạn mất việc. | |
+| r.koyo[1] | Pays benefits if you lose your job. | Dùng để trả trợ cấp khi bạn mất việc. | |
 | r.shotoku[0] | Income tax | Thuế thu nhập | |
 | r.shotoku[1] | This month's tax, taken in advance. Any difference is settled at year-end adjustment (年末調整) in December. | Thuế tháng này, được khấu trừ trước. Phần chênh lệch được điều chỉnh vào tháng 12 (年末調整). | |
 | r.jumin[0] | Resident tax | Thuế cư trú | |
@@ -255,18 +255,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | s.bills[1] | The city sends tax bills (納付書) around June each year. Pay everything that is left before you leave Japan. | Thành phố gửi giấy báo nộp thuế (納付書) khoảng tháng 6 hằng năm. Hãy đóng hết phần còn lại trước khi rời Nhật. | |
 | s.unsure[0] | Ask your company first | Hỏi công ty trước | |
 | s.unsure[1] | Check whether your pay slip has a 住民税 line. If it does, the tax is taken from your salary. If you are not sure, ask your HR or payroll staff. | Xem phiếu lương có dòng 住民税 không. Nếu có, thuế đang được trừ vào lương. Nếu không chắc, hãy hỏi bộ phận nhân sự. | |
-| s.newyear[0] | This year's tax may come after you leave | Thuế của năm nay có thể đến sau khi bạn đi | |
+| s.newyear[0] | This year's tax may come after you leave | Giấy báo thuế của năm nay có thể đến sau khi bạn đi | |
 | s.newyear[1] | Because you had an address in Japan on January 1 this year, you also owe this year's resident tax (based on last year's income). The amount is usually decided around June, which may be after you leave. Ask your city office before you go. | Vì bạn có địa chỉ ở Nhật vào ngày 1 tháng 1 năm nay, bạn còn phải đóng thuế cư trú năm nay (tính theo thu nhập năm ngoái). Số tiền này thường được quyết định vào khoảng tháng 6, có thể sau khi bạn đã đi. Hãy hỏi văn phòng thành phố trước khi đi. | |
 | s.rep[0] | If you cannot pay before leaving: appoint a representative | Nếu không thể đóng trước khi đi: chỉ định người đại diện | |
 | s.rep[1] | Choose someone who lives in Japan as your tax representative (納税管理人) and register them at your city office before you leave Japan. Who can be one and the forms differ by city. | Hãy chọn một người đang sống ở Nhật làm người đại diện nộp thuế (納税管理人) và đăng ký với văn phòng thành phố trước khi rời Nhật. Ai có thể làm đại diện và mẫu đơn khác nhau tùy thành phố. | |
 | s.visa[0] | Do not leave tax unpaid | Đừng để thuế chưa đóng | |
 | s.visa[1] | Unpaid resident tax can mean an application to extend your period of stay is not approved if you come back to Japan later. | Thuế cư trú chưa đóng có thể khiến đơn gia hạn thời gian lưu trú không được chấp nhận nếu sau này bạn quay lại Nhật. | |
 | s.next[0] | What about next year? | Năm sau thì sao? | |
-| s.next[1] | If you have moved your address out of Japan before January 1 next year, there is no resident tax for next year. | Nếu bạn đã chuyển địa chỉ ra khỏi Nhật trước ngày 1 tháng 1 năm sau, bạn không có thuế cư trú cho năm sau. | |
+| s.next[1] | If you have moved your address out of Japan before January 1 next year, there is no resident tax for next year. | Nếu bạn đã chuyển địa chỉ ra khỏi Nhật trước ngày 1 tháng 1 năm sau, bạn sẽ không phải đóng thuế cư trú cho năm sau. | |
 | note | Procedures can differ by city. Please confirm with the city office where you live. | Thủ tục có thể khác nhau tùy thành phố. Hãy xác nhận với văn phòng thành phố nơi bạn sống. | |
 | source | Sources: | Nguồn: | |
 | leaflet | Official leaflet (English) | Tờ hướng dẫn chính thức (tiếng Việt) | |
-| checked | Checked November 2026. | Kiểm tra tháng 11/2026. | |
+| checked | Checked November 2026. | Đã kiểm tra vào tháng 11/2026. | |
 | faq[0].q | Why is there no resident tax in my first year in Japan? | Vì sao năm đầu tiên ở Nhật tôi không phải đóng thuế cư trú? | |
 | faq[0].a | Resident tax is charged to people who had an address in Japan on January 1, based on the previous year's income. If you came to Japan after January 1, you had no address here on that day, so there is no resident tax for that year. It usually starts the next year. | Thuế cư trú được tính cho người có địa chỉ ở Nhật vào ngày 1 tháng 1, dựa trên thu nhập năm trước. Nếu bạn đến Nhật sau ngày 1 tháng 1, vào ngày đó bạn chưa có địa chỉ ở đây nên không có thuế cư trú cho năm đó. Thường thì bắt đầu từ năm sau. | |
 | faq[1].q | I only worked a few months last year. Do I still pay resident tax this year? | Năm ngoái tôi chỉ làm việc vài tháng. Năm nay tôi vẫn phải đóng thuế cư trú chứ? | |
@@ -285,11 +285,11 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | pay | Total monthly pay (yen) | Tổng lương tháng (yên) | |
 | hPay | Before deductions. Include overtime and commuting allowance. | Trước khi trừ. Bao gồm làm thêm giờ và phụ cấp đi lại. | |
 | commute | Of which: commuting allowance (yen) | Trong đó: phụ cấp đi lại (yên) | |
-| hCommute | Not taxed, but it counts for insurance. | Không bị tính thuế, nhưng vẫn tính vào bảo hiểm. | |
+| hCommute | Not taxed, but it counts for insurance. | Thường không bị tính thuế (trong hạn mức), nhưng vẫn được tính vào bảo hiểm. | |
 | pref | Prefecture where you work | Nơi làm việc (tỉnh) | |
 | hPref | Kyokai Kenpo health insurance rates differ by prefecture. | Tỷ lệ bảo hiểm y tế của Kyokai Kenpo khác nhau theo tỉnh. | |
 | deps | Number of dependants | Số người phụ thuộc | |
-| hDeps | Spouse and family your company counts for you (from your 扶養控除等申告書 form). | Vợ/chồng và người thân mà công ty tính cho bạn (theo tờ khai 扶養控除等申告書). | |
+| hDeps | Spouse and family your company counts for you (from your 扶養控除等申告書 form). | Vợ/chồng và người thân được công ty tính là người phụ thuộc của bạn (theo tờ khai 扶養控除等申告書). | |
 | jumin | Monthly resident tax (yen) | Thuế cư trú hằng tháng (yên) | |
 | hJumin | From your pay slip or the city's notice. Usually 0 in your first year. | Lấy từ phiếu lương hoặc thông báo của thành phố. Năm đầu thường là 0. | |
 | age | I am between 40 and 64 years old | Tôi từ 40 đến 64 tuổi | |
@@ -305,8 +305,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | juminL | Resident tax | Thuế cư trú | |
 | total | Total deductions | Tổng khoản trừ | |
 | notes[0] | Insurance uses your standard monthly pay grade (標準報酬月額), usually set from your April–June average. This tool uses this month's pay, so it can differ a little. | Bảo hiểm được tính theo bậc lương chuẩn (標準報酬月額), thường dựa trên lương trung bình tháng 4–6. Ở đây dùng lương tháng này nên có thể lệch một chút. | |
-| notes[1] | Income tax uses the official computer method (甲 column). If your company uses the printed table, the amount can differ a little (usually up to a few hundred yen), and more above 740,000 yen with dependants. | Thuế thu nhập dùng phương pháp tính bằng máy tính chính thức (cột 甲). Nếu công ty dùng bảng in, số tiền có thể khác một chút (thường tối đa vài trăm yên), nhiều hơn khi lương trên 740.000 yên và có người phụ thuộc. | |
-| notes[2] | If you have not given your company the 扶養控除等申告書 form, much more tax is taken (乙 column). That case is not covered here. | Nếu bạn chưa nộp tờ khai 扶養控除等申告書 cho công ty, thuế sẽ cao hơn nhiều (cột 乙). Không tính trong công cụ này. | |
+| notes[1] | Income tax uses the official computer method (甲 column). If your company uses the printed table, the amount can differ a little (usually up to a few hundred yen), and more above 740,000 yen with dependants. | Thuế thu nhập được tính theo phương pháp chính thức dành cho máy tính điện tử (cột 甲). Nếu công ty dùng bảng in, số tiền có thể khác một chút (thường tối đa vài trăm yên); chênh lệch lớn hơn khi lương trên 740.000 yên và có người phụ thuộc. | |
+| notes[2] | If you have not given your company the 扶養控除等申告書 form, much more tax is taken (乙 column). That case is not covered here. | Nếu bạn chưa nộp tờ khai 扶養控除等申告書 cho công ty, thuế sẽ cao hơn nhiều (cột 乙). Công cụ này không tính trường hợp đó. | |
 | notes[3] | Insurance rates are Kyokai Kenpo FY2026 rates. If your company has its own health insurance society, its rate is different. | Tỷ lệ bảo hiểm là của năm tài chính 2026 (Kyokai Kenpo). Nếu công ty có quỹ bảo hiểm riêng, tỷ lệ sẽ khác. | |
 | bTitle | Bonus (賞与) | Tiền thưởng (賞与) | |
 | bL | Bonus amount (yen) | Tiền thưởng (yên) | |
@@ -314,15 +314,15 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | bNet | Estimated bonus take-home | Tiền thưởng thực nhận ước tính | |
 | rateL | Tax rate | Tỷ lệ thuế | |
 | bSpecial | For this bonus your company calculates tax another way (no pay last month, or the bonus is more than 10 times last month's pay). This tool does not estimate that case. | Với khoản thưởng này, công ty tính thuế theo cách khác (tháng trước không có lương, hoặc thưởng lớn hơn 10 lần lương tháng trước). Công cụ này không ước tính trường hợp đó. | |
-| bNote | Insurance on a bonus uses the bonus rounded down to the nearest 1,000 yen. Employees' Pension counts up to 1,500,000 yen per month and health insurance up to 5,730,000 yen per fiscal year (earlier bonuses this year are not counted here). Income tax uses the official bonus rate table (甲 column). | Bảo hiểm trên tiền thưởng tính theo số tiền thưởng làm tròn xuống đến 1.000 yên. Hưu trí phúc lợi tính tối đa 1.500.000 yên mỗi tháng, bảo hiểm y tế tối đa 5.730.000 yên mỗi năm tài chính (không tính các lần thưởng trước trong năm). Thuế thu nhập dùng bảng tỷ lệ chính thức cho tiền thưởng (cột 甲). | |
+| bNote | Insurance on a bonus uses the bonus rounded down to the nearest 1,000 yen. Employees' Pension counts up to 1,500,000 yen per month and health insurance up to 5,730,000 yen per fiscal year (earlier bonuses this year are not counted here). Income tax uses the official bonus rate table (甲 column). | Bảo hiểm trên tiền thưởng tính theo số tiền thưởng làm tròn xuống đến 1.000 yên. Hưu trí phúc lợi tính tối đa 1.500.000 yên mỗi tháng, bảo hiểm y tế tối đa 5.730.000 yên mỗi năm tài chính (công cụ này không cộng các lần thưởng trước trong năm). Thuế thu nhập dùng bảng tỷ lệ chính thức cho tiền thưởng (cột 甲). | |
 | source | Sources: | Nguồn: | |
-| checked | Figures checked November 2026. | Số liệu kiểm tra tháng 11/2026. | |
+| checked | Figures checked November 2026. | Số liệu được kiểm tra vào tháng 11/2026. | |
 | faq[0].q | Why is income tax lower when I choose 2027? | Vì sao chọn năm 2027 thì thuế thu nhập thấp hơn? | |
 | faq[0].a | From pay received in 2027, the National Tax Agency's new withholding tables apply. The basic deduction was raised in the 2026 tax reform, so for the same pay the monthly tax is the same or a little lower. | Từ tiền lương nhận trong năm 2027, bảng khấu trừ thuế mới của Cơ quan Thuế Quốc gia được áp dụng. Mức khấu trừ cơ bản đã được nâng lên trong cải cách thuế năm 2026, nên với cùng mức lương, thuế hằng tháng bằng hoặc thấp hơn một chút. | |
 | faq[1].q | My company takes much more income tax than this calculator shows. Why? | Công ty trừ thuế thu nhập cao hơn nhiều so với công cụ này. Vì sao? | |
 | faq[1].a | Check whether you gave your company the 扶養控除等申告書 (declaration for dependants) form. Without it, tax is taken from the 乙 column, which is much higher. For example, in the 2027 table, pay of about 200,000 yen after insurance has 4,170 yen tax in the 甲 column (no dependants) but 19,200 yen in the 乙 column. | Hãy kiểm tra bạn đã nộp tờ khai 扶養控除等申告書 cho công ty chưa. Nếu chưa, thuế được tính theo cột 乙 và cao hơn nhiều. Ví dụ, theo bảng năm 2027, lương khoảng 200.000 yên sau bảo hiểm thì cột 甲 (không người phụ thuộc) là 4.170 yên, còn cột 乙 là 19.200 yên. | |
-| faq[2].q | Why does the pension amount stop rising at high pay? | Vì sao tiền hưu trí không tăng nữa khi lương cao? | |
-| faq[2].a | Employees' Pension uses standard monthly pay from 88,000 to 650,000 yen. Above 650,000 yen it stays at the top grade, so your share stays at 59,475 yen a month (9.15% of 650,000). Health insurance has more grades and keeps rising up to 1,390,000 yen. | Hưu trí phúc lợi dùng mức lương chuẩn từ 88.000 đến 650.000 yên. Trên 650.000 yên vẫn tính ở bậc cao nhất, nên phần bạn đóng giữ ở 59.475 yên/tháng (9,15% của 650.000). Bảo hiểm y tế có nhiều bậc hơn và tăng đến 1.390.000 yên. | |
+| faq[2].q | Why does the pension amount stop rising at high pay? | Vì sao tiền đóng hưu trí không tăng nữa khi lương cao? | |
+| faq[2].a | Employees' Pension uses standard monthly pay from 88,000 to 650,000 yen. Above 650,000 yen it stays at the top grade, so your share stays at 59,475 yen a month (9.15% of 650,000). Health insurance has more grades and keeps rising up to 1,390,000 yen. | Hưu trí phúc lợi dùng mức lương chuẩn từ 88.000 đến 650.000 yên. Trên 650.000 yên vẫn tính ở bậc cao nhất, nên phần bạn đóng giữ ở 59.475 yên/tháng (9,15% của 650.000). Bảo hiểm y tế có nhiều bậc hơn, lên đến bậc 1.390.000 yên. | |
 | faq[3].q | Why doesn't the calculator work out resident tax? | Vì sao công cụ không tự tính thuế cư trú? | |
 | faq[3].a | Resident tax is decided by your city from the previous year's income, for people who had an address in Japan on January 1. It depends on your city and last year's deductions, so please type in the amount from your pay slip or the city's notice. In your first year in Japan it is usually 0. | Thuế cư trú do thành phố quyết định dựa trên thu nhập năm trước, cho những người có địa chỉ ở Nhật vào ngày 1 tháng 1. Số tiền tùy theo thành phố và các khoản khấu trừ năm trước, nên hãy nhập số tiền trên phiếu lương hoặc thông báo của thành phố. Năm đầu ở Nhật thường là 0. | |
 
@@ -398,7 +398,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 食中毒 | しょくちゅうどく | Food poisoning | Ngộ độc thực phẩm | |
 | 冷蔵 | れいぞう | Refrigerated | Bảo quản lạnh (tủ mát) | |
 | 冷凍 | れいとう | Frozen | Đông lạnh | |
-| 仕込み | しこみ | Food prep | Sơ chế chuẩn bị | |
+| 仕込み | しこみ | Food prep | Sơ chế (chuẩn bị nguyên liệu) | |
 | 盛り付け | もりつけ | Plating | Bày món ra đĩa | |
 | 加熱 | かねつ | Heating (cooking through) | Làm nóng / nấu chín | |
 | 会計 | かいけい | Paying the bill | Thanh toán (tính tiền) | |
@@ -427,7 +427,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 停止 | ていし | Stop | Dừng | |
 | 点検 | てんけん | Checking equipment | Kiểm tra máy móc | |
 | 宿泊 | しゅくはく | Staying overnight | Lưu trú (ở lại qua đêm) | |
-| 客室 | きゃくしつ | Guest room | Phòng khách (phòng ngủ) | |
+| 客室 | きゃくしつ | Guest room | Phòng cho khách (phòng nghỉ) | |
 | 清掃 | せいそう | Cleaning | Dọn dẹp | |
 | 予約 | よやく | Reservation | Đặt trước | |
 | 受付 | うけつけ | Reception | Quầy lễ tân | |
@@ -444,7 +444,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 国籍 | こくせき | Nationality | Quốc tịch | |
 | 署名 | しょめい | Signature | Chữ ký | |
 | 印鑑 | いんかん | Personal seal (stamp) | Con dấu cá nhân | |
-| 記入例 | きにゅうれい | Sample of how to fill in | Mẫu điền | |
+| 記入例 | きにゅうれい | Sample of how to fill in | Ví dụ cách điền | |
 | 申請書 | しんせいしょ | Application form | Đơn xin | |
 | 在留カード | ざいりゅうカード | Residence card | Thẻ cư trú | |
 | 住民票 | じゅうみんひょう | Certificate of residence | Giấy chứng nhận cư trú | |

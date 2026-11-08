@@ -1,8 +1,8 @@
 # Backlog (top = next)
 
-1. **Native-speaker review** — sheets ready in `ops/review/<lang>.md` (plan in `ops/REVIEW.md`). Waiting for the owner to find reviewers; apply corrections as they come. Reason: machine-written translations, esp. Burmese/Nepali, on safety words.
+1. **Translation quality (AI cross-review, see ops/REVIEW.md)** — my/ne safety + leaving/resident-tax done on `daily/2026-11-08` (awaiting approval). Next: my/ne remaining tools, then vi, id. Also: 'translation mistake?' link on every page lets real users report.
 2. **Search Console follow-up** — from ~2026-11-21, ask the owner weekly which queries bring visitors; use them to pick new FAQ questions and tools. Reason: data-driven priorities.
-3. **Take-home calculator: bonus (賞与)** — DONE on `daily/2026-11-08`, awaiting approval (NTA bonus rate table 2026/2027 transcribed twice; official worked example passes). Later: add a bonus FAQ question.
+3. **Take-home calculator: bonus (賞与)** — live on main 2026-11-08 (NTA bonus rate table 2026/2027 transcribed twice; official worked example passes). Later: add a bonus FAQ question.
 4. **Kanji quizzes** — monthly KANJIDIC2 refresh (CLAUDE.md). Ideas: more field sets (漁業, 自動車整備, 航空, ビルクリーニング), a "review my mistakes" mode. Words must be checked twice.
 5. **Paid material plan** — 特定技能 field vocabulary in vi/id/ne; design only, no selling until the owner approves a platform. Keep separate from the free quizzes (KANJIDIC data is CC BY-SA; paid material must not use it).
 6. **Last-year resident tax estimate** — only if an official, nationwide formula can be cited; otherwise keep the guide as is.

@@ -175,12 +175,27 @@ PRIVACY = """<!doctype html><html lang="en"><head><meta charset="utf-8"><meta na
 <li>お問い合わせ：<a href="https://github.com/japan-toolkit/japan-toolkit.github.io/issues">GitHub</a> の Issue からご連絡ください。</li>
 </ul></div></body></html>"""
 
+def last_changed(path):
+    """Date (JST) of the last commit touching path, YYYY-MM-DD; today (JST) if it has uncommitted changes or no history."""
+    import datetime, os
+    today = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).date().isoformat()
+    rel = str(Path(path).resolve().relative_to(REPO))
+    dirty = subprocess.run(["git", "status", "--porcelain", "--", rel], cwd=REPO, capture_output=True, text=True).stdout.strip()
+    if dirty:
+        return today
+    out = subprocess.run(["git", "log", "-1", "--format=%cd", "--date=format-local:%Y-%m-%d", "--", rel], cwd=REPO,
+                         capture_output=True, text=True, env={**os.environ, "TZ": "Asia/Tokyo"}).stdout.strip()
+    return out or today
+
 def build_misc():
     (OUT / "privacy").mkdir(parents=True, exist_ok=True)
     (OUT / "privacy" / "index.html").write_text(PRIVACY)
-    urls = [f"{BASE}/", f"{BASE}/privacy/"] + [f"{BASE}/{l}/" for l in LANGS] + [f"{BASE}/{l}/{t}/" for l in LANGS for t in TOOLS]
+    tool_dates = {t: last_changed(ROOT / t) for t in TOOLS}
+    site_date = max([*tool_dates.values(), last_changed(Path(__file__))])
+    urls = ([(f"{BASE}/", site_date), (f"{BASE}/privacy/", last_changed(Path(__file__)))] + [(f"{BASE}/{l}/", site_date) for l in LANGS]
+            + [(f"{BASE}/{l}/{t}/", tool_dates[t]) for l in LANGS for t in TOOLS])
     (OUT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-        + "".join(f"  <url><loc>{u}</loc><lastmod>2026-11-07</lastmod></url>\n" for u in urls) + "</urlset>\n")
+        + "".join(f"  <url><loc>{u}</loc><lastmod>{d}</lastmod></url>\n" for u, d in urls) + "</urlset>\n")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n")
     (OUT / "404.html").write_text('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Page not found | Japan Practical Toolkit</title><meta http-equiv="refresh" content="0; url=/"></head><body><a href="/">Japan Practical Toolkit</a></body></html>')
     (OUT / ".nojekyll").write_text("")

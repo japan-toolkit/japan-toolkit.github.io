@@ -15,7 +15,7 @@ more than pass an exam. Most quiz sites teach by JLPT level; few teach the words
 
 ## Plan
 ### Version 1: "Kanji you see at work" (original content, no external data)
-- About 48 words in 4 sets: safety signs, pay slip, shifts and attendance, documents and city office.
+- 48 words in 4 sets (safety signs, pay slip, shifts, documents) + 36 words in 3 特定技能-field sets (construction, care, food service) = 84 words.
 - Each word: kanji, reading (hiragana), meaning in all six languages, one line on where you see it.
 - Two modes: kanji → meaning (in your language), kanji → reading. 4 choices; wrong choices come from the same set.
 - 10 questions per round, then a review of the ones you missed (with reading and meaning).
@@ -23,7 +23,7 @@ more than pass an exam. Most quiz sites teach by JLPT level; few teach the words
 - All text is written by us, so no licence conditions apply. Readings and meanings are checked twice.
 - Safety words are the reason this exists: a wrong answer on 立入禁止 or 火気厳禁 matters more than on a JLPT word.
 
-### Version 2 (later, needs owner OK): school-grade kanji from KANJIDIC2
+### Version 2: school-grade kanji from KANJIDIC2 (built 2026-11-08, tools/kanji-grade)
 - 教育漢字 by grade 1–6 (1,026), readings quiz for every language; English meaning; Hán-Việt for Vietnamese.
 - Footer credit on every quiz page; data file published as CC BY-SA; monthly data refresh in the daily run.
 - Needs the official `kanjidic2.xml.gz` from edrdg.org. The fetch tool here cannot save binary files, so the
@@ -31,3 +31,14 @@ more than pass an exam. Most quiz sites teach by JLPT level; few teach the words
 
 ## Not doing
 - No JLPT level claims. No paid content mixed into the free quiz. No tracking.
+
+## Version 2 notes (2026-11-08)
+- Data: owner-supplied `kanjidic2.xml.gz` (database_version 2026-311, created 2026-11-07, sha256 0ac6d0c0…ce7).
+  `build/kanjidic_extract.py` keeps grades 1–6 only (1,026 = 80/160/200/202/193/191) and only literal, grade,
+  strokes, on/kun readings, English meanings, Vietnamese readings. Output `tools/kanji-grade/kanji.js` (CC BY-SA 4.0 header).
+- Modes: reading (all languages), English meaning (all), Hán-Việt (vi only). A distractor is never a real reading of
+  the shown kanji, and meaning distractors never share a meaning word with the answer (`test_quiz.js`, 9,234 questions).
+- Credit line with links to KANJIDIC project, EDRDG, licence and CC BY-SA 4.0 on every language page, plus the data version.
+- Refresh: the licence asks web dictionary services to update at least monthly. www.edrdg.org is not reachable from
+  this environment, so on the first run of each month ask the owner for a new file (or to allow the domain), re-run
+  the extract script and the tests, and ship.

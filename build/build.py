@@ -8,7 +8,7 @@ OUT = REPO / "dist"
 BASE = "https://japan-toolkit.github.io"
 LANGS = ["vi", "ne", "id", "my", "en", "ja"]
 LANG_NAMES = {"vi": "Tiếng Việt", "ne": "नेपाली", "id": "Bahasa Indonesia", "my": "မြန်မာ", "en": "English", "ja": "日本語"}
-TOOLS = ["takehome", "nenkin-refund", "leaving-japan", "resident-tax", "payslip", "kanji-work"]
+TOOLS = ["takehome", "nenkin-refund", "leaving-japan", "resident-tax", "payslip", "kanji-work", "kanji-grade"]
 
 # Google Search Console: the owner pastes the code from the "HTML tag" method into this file
 # (just the content="..." value, or the whole <meta> tag). Empty or missing file = no tag.
@@ -31,6 +31,7 @@ SHORT = {
  "takehome": {"vi":"Tính lương thực nhận","ne":"हातमा आउने तलब क्याल्कुलेटर","id":"Kalkulator gaji bersih","my":"လက်ထဲရောက်လစာ တွက်စက်","en":"Take-home pay calculator","ja":"手取り計算機"},
  "resident-tax": {"vi":"Thuế cư trú khi về nước","ne":"जापान छोड्दा आवासीय कर","id":"Pajak penduduk saat pulang","my":"ပြန်ချိန် နေထိုင်သူအခွန်","en":"Resident tax when leaving","ja":"帰国時の住民税"},
  "kanji-work": {"vi":"Kanji ở nơi làm việc","ne":"काममा देखिने कान्जी","id":"Kanji di tempat kerja","my":"အလုပ်ခွင် ခန်းဂျီး","en":"Kanji at work quiz","ja":"仕事の漢字クイズ"},
+ "kanji-grade": {"vi":"Kanji tiểu học theo lớp","ne":"कक्षाअनुसार कान्जी","id":"Kanji SD per kelas","my":"အတန်းအလိုက် ခန်းဂျီး","en":"Primary-school kanji quiz","ja":"小学校の漢字クイズ"},
  "payslip": {"vi":"Đọc phiếu lương","ne":"तलब विवरण बुझ्ने तरिका","id":"Baca slip gaji","my":"လစာစာရွက် ဖတ်နည်း","en":"Pay slip reader","ja":"給与明細の読み方"},
 }
 UI = {

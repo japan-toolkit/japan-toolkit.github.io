@@ -43,6 +43,48 @@ shift: [
  ["勤務表","きんむひょう",{vi:"Bảng phân ca",ne:"कामको तालिका",id:"Jadwal kerja",my:"အလုပ်ဇယား",en:"Work schedule",ja:"だれがいつ働くかの表"}],
  ["朝礼","ちょうれい",{vi:"Họp đầu giờ sáng",ne:"बिहानको भेला",id:"Apel pagi",my:"နံနက်အစည်းအဝေး",en:"Morning meeting",ja:"朝、仕事の前に集まること"}]
 ],
+construction: [
+ ["足場","あしば",{vi:"Giàn giáo",ne:"मचान",id:"Perancah",my:"ငြမ်း",en:"Scaffolding",ja:"高い所で作業するための台"}],
+ ["安全帯","あんぜんたい",{vi:"Dây đai an toàn",ne:"सुरक्षा बेल्ट",id:"Sabuk pengaman",my:"လုံခြုံရေးခါးပတ်",en:"Safety harness",ja:"落ちないために体につけるベルト"}],
+ ["墜落","ついらく",{vi:"Rơi từ trên cao",ne:"उचाइबाट खस्नु",id:"Jatuh dari ketinggian",my:"အမြင့်မှ ပြုတ်ကျခြင်း",en:"Fall from height",ja:"高い所から落ちること"}],
+ ["重機","じゅうき",{vi:"Máy móc hạng nặng",ne:"भारी मेसिन",id:"Alat berat",my:"စက်ယန္တရားကြီး",en:"Heavy machinery",ja:"ショベルカーなどの大きな機械"}],
+ ["作業中","さぎょうちゅう",{vi:"Đang thi công",ne:"काम भइरहेको",id:"Sedang ada pekerjaan",my:"လုပ်ငန်းဆောင်ရွက်နေဆဲ",en:"Work in progress",ja:"今、作業をしている"}],
+ ["資材","しざい",{vi:"Vật liệu",ne:"निर्माण सामग्री",id:"Bahan material",my:"ဆောက်လုပ်ရေးပစ္စည်း",en:"Building materials",ja:"工事に使う材料"}],
+ ["解体","かいたい",{vi:"Tháo dỡ / phá dỡ",ne:"भत्काउने काम",id:"Pembongkaran",my:"ဖြိုဖျက်ခြင်း",en:"Demolition",ja:"建物などをこわすこと"}],
+ ["溶接","ようせつ",{vi:"Hàn",ne:"वेल्डिङ",id:"Pengelasan",my:"ဂဟေဆော်ခြင်း",en:"Welding",ja:"金属を熱でつなぐこと"}],
+ ["吊り荷","つりに",{vi:"Hàng đang được cẩu",ne:"क्रेनले झुण्ड्याएको भारी",id:"Beban yang diangkat crane",my:"ကရိန်းဖြင့် ချိတ်ဆွဲထားသော ဝန်",en:"Suspended load",ja:"クレーンでつり上げている荷物"}],
+ ["開口部","かいこうぶ",{vi:"Lỗ hở (trên sàn, tường)",ne:"भुइँ वा भित्तामा खुला प्वाल",id:"Lubang terbuka (lantai/dinding)",my:"ကြမ်းပြင်/နံရံရှိ အပေါက်",en:"Opening in a floor or wall",ja:"床や壁にあいている穴"}],
+ ["図面","ずめん",{vi:"Bản vẽ",ne:"नक्सा (ड्रइङ)",id:"Gambar kerja",my:"ပုံစံဆွဲ",en:"Drawing (blueprint)",ja:"工事の設計の図"}],
+ ["鉄筋","てっきん",{vi:"Cốt thép",ne:"रड (फलामे छड)",id:"Besi tulangan",my:"သံချောင်း",en:"Reinforcing steel (rebar)",ja:"コンクリートの中に入れる鉄の棒"}]
+],
+care: [
+ ["介護","かいご",{vi:"Chăm sóc (điều dưỡng)",ne:"हेरचाह",id:"Perawatan lansia",my:"စောင့်ရှောက်မှု",en:"Care (nursing care)",ja:"生活を手伝うこと"}],
+ ["利用者","りようしゃ",{vi:"Người sử dụng dịch vụ",ne:"सेवाग्राही",id:"Pengguna layanan",my:"ဝန်ဆောင်မှုအသုံးပြုသူ",en:"Service user (resident)",ja:"サービスを使う人"}],
+ ["食事介助","しょくじかいじょ",{vi:"Hỗ trợ ăn uống",ne:"खाना खान सहयोग",id:"Bantuan makan",my:"အစားအသောက် ကူညီခြင်း",en:"Help with eating",ja:"食事を手伝うこと"}],
+ ["入浴","にゅうよく",{vi:"Tắm",ne:"नुहाउने",id:"Mandi",my:"ရေချိုးခြင်း",en:"Bathing",ja:"おふろに入ること"}],
+ ["排泄","はいせつ",{vi:"Bài tiết (đi vệ sinh)",ne:"दिसा-पिसाब",id:"Buang air",my:"အညစ်အကြေး စွန့်ခြင်း",en:"Toileting",ja:"トイレ（大便・小便）"}],
+ ["移乗","いじょう",{vi:"Di chuyển (giường sang xe lăn)",ne:"ओछ्यानबाट ह्विलचेयरमा सार्ने",id:"Memindahkan (tempat tidur ke kursi roda)",my:"ကုတင်မှ ဘီးတပ်ကုလားထိုင်သို့ ရွှေ့ခြင်း",en:"Transfer (bed to wheelchair)",ja:"ベッドから車いすなどに乗り移ること"}],
+ ["車椅子","くるまいす",{vi:"Xe lăn",ne:"ह्विलचेयर",id:"Kursi roda",my:"ဘီးတပ်ကုလားထိုင်",en:"Wheelchair",ja:"車輪のついたいす"}],
+ ["服薬","ふくやく",{vi:"Uống thuốc",ne:"औषधि सेवन",id:"Minum obat",my:"ဆေးသောက်ခြင်း",en:"Taking medicine",ja:"薬を飲むこと"}],
+ ["体温","たいおん",{vi:"Nhiệt độ cơ thể",ne:"शरीरको तापक्रम",id:"Suhu tubuh",my:"ကိုယ်အပူချိန်",en:"Body temperature",ja:"体の温度"}],
+ ["血圧","けつあつ",{vi:"Huyết áp",ne:"रक्तचाप",id:"Tekanan darah",my:"သွေးပေါင်",en:"Blood pressure",ja:"血管の中の血の圧力"}],
+ ["申し送り","もうしおくり",{vi:"Bàn giao ca",ne:"पालो हस्तान्तरण जानकारी",id:"Serah terima (antar-shift)",my:"ဆိုင်းလွှဲ အချက်အလက်",en:"Shift handover",ja:"次の人に情報を伝えること"}],
+ ["転倒","てんとう",{vi:"Té ngã",ne:"लडेर खस्नु",id:"Terjatuh",my:"လဲကျခြင်း",en:"Falling over",ja:"転んでたおれること"}]
+],
+food: [
+ ["厨房","ちゅうぼう",{vi:"Nhà bếp",ne:"भान्सा",id:"Dapur",my:"မီးဖိုချောင်",en:"Kitchen",ja:"料理をつくる所"}],
+ ["手洗い","てあらい",{vi:"Rửa tay",ne:"हात धुने",id:"Cuci tangan",my:"လက်ဆေးခြင်း",en:"Hand washing",ja:"手をあらうこと"}],
+ ["消毒","しょうどく",{vi:"Khử trùng",ne:"कीटाणुनाशक सफाइ",id:"Disinfeksi",my:"ပိုးသတ်ခြင်း",en:"Disinfection",ja:"ばい菌をころすこと"}],
+ ["賞味期限","しょうみきげん",{vi:"Hạn dùng tốt nhất (ngon nhất)",ne:"उत्तम स्वाद रहने मिति",id:"Baik digunakan sebelum",my:"အရသာအကောင်းဆုံး သက်တမ်း",en:"Best-before date",ja:"おいしく食べられる期限"}],
+ ["消費期限","しょうひきげん",{vi:"Hạn sử dụng (an toàn)",ne:"खान सुरक्षित रहने अन्तिम मिति",id:"Batas aman dikonsumsi",my:"စားသုံးရန် နောက်ဆုံးရက်",en:"Use-by date",ja:"安全に食べられる期限"}],
+ ["食中毒","しょくちゅうどく",{vi:"Ngộ độc thực phẩm",ne:"खाद्य विषाक्तता",id:"Keracunan makanan",my:"အစားအစာ အဆိပ်သင့်ခြင်း",en:"Food poisoning",ja:"食べ物が原因の病気"}],
+ ["冷蔵","れいぞう",{vi:"Bảo quản lạnh (tủ mát)",ne:"चिसोमा राख्ने",id:"Simpan di lemari es",my:"ရေခဲသေတ္တာတွင် အအေးခံ",en:"Refrigerated",ja:"冷やして保存すること"}],
+ ["冷凍","れいとう",{vi:"Đông lạnh",ne:"जमाएर राख्ने",id:"Beku (frozen)",my:"အေးခဲ",en:"Frozen",ja:"こおらせて保存すること"}],
+ ["仕込み","しこみ",{vi:"Sơ chế chuẩn bị",ne:"खाना तयारीको काम",id:"Persiapan bahan",my:"ကြိုတင်ပြင်ဆင်ခြင်း",en:"Food prep",ja:"料理の前の準備"}],
+ ["盛り付け","もりつけ",{vi:"Bày món ra đĩa",ne:"थालमा सजाउने",id:"Penataan di piring",my:"ပန်းကန်ထဲ ထည့်ပြင်ခြင်း",en:"Plating",ja:"料理をお皿にのせること"}],
+ ["加熱","かねつ",{vi:"Làm nóng / nấu chín",ne:"तताउने",id:"Pemanasan (dimasak)",my:"အပူပေးခြင်း",en:"Heating (cooking through)",ja:"熱をくわえること"}],
+ ["会計","かいけい",{vi:"Thanh toán (tính tiền)",ne:"बिल भुक्तानी",id:"Pembayaran (kasir)",my:"ငွေရှင်းခြင်း",en:"Paying the bill",ja:"お金をはらうこと"}]
+],
 docs: [
  ["氏名","しめい",{vi:"Họ và tên",ne:"पूरा नाम",id:"Nama lengkap",my:"အမည်",en:"Full name",ja:"名前"}],
  ["住所","じゅうしょ",{vi:"Địa chỉ",ne:"ठेगाना",id:"Alamat",my:"လိပ်စာ",en:"Address",ja:"住んでいる場所"}],

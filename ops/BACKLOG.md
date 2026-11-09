@@ -3,7 +3,7 @@
 1. **Translation quality (AI cross-review, see ops/REVIEW.md)** — all four languages AI-cross-reviewed once, live on main 2026-11-08. Next: re-run after text changes; watch GitHub issues. Also: 'translation mistake?' link on every page lets real users report.
 2. **Search Console follow-up** — from ~2026-11-21, ask the owner weekly which queries bring visitors; use them to pick new FAQ questions and tools. Reason: data-driven priorities.
 3. **Take-home calculator: bonus (賞与)** — '10×' wording fix (both amounts after insurance, 6 languages) live on main 2026-11-09. — live on main 2026-11-08 (NTA bonus rate table 2026/2027 transcribed twice; official worked example passes). Bonus FAQ question (NTA worked example) live on main 2026-11-09.
-4. **Kanji quizzes** — monthly KANJIDIC2 refresh (CLAUDE.md). 漁業 set (12 words) live on main 2026-11-09. Owner wants all ideas below done (2026-11-09). 自動車整備 set live on main 2026-11-09. ビルクリーニング set live on main 2026-11-09. 航空 set on `daily/2026-11-09-g`, awaiting approval. All four field ideas done; possible next sets: 介護 part 2, 造船・舶用工業, 鉄道, 林業, 木材産業 (newer 特定技能 fields). Review-mistakes mode live on main 2026-11-09 (owner approved, incl. privacy page change). Later: same mode for kanji-grade. Words must be checked twice.
+4. **Kanji quizzes** — monthly KANJIDIC2 refresh (CLAUDE.md). 漁業 set (12 words) live on main 2026-11-09. Owner wants all ideas below done (2026-11-09). 自動車整備 set live on main 2026-11-09. ビルクリーニング set live on main 2026-11-09. 航空 set live on main 2026-11-09. All four field ideas done; possible next sets: 介護 part 2, 造船・舶用工業, 鉄道, 林業, 木材産業 (newer 特定技能 fields). Review-mistakes mode live on main 2026-11-09 (owner approved, incl. privacy page change). Later: same mode for kanji-grade. Words must be checked twice.
 5. **Paid material plan** — 特定技能 field vocabulary in vi/id/ne; design only, no selling until the owner approves a platform. Keep separate from the free quizzes (KANJIDIC data is CC BY-SA; paid material must not use it).
 6. **Last-year resident tax estimate** — only if an official, nationwide formula can be cited; otherwise keep the guide as is.
 
@@ -13,7 +13,7 @@
 - Sitemap lastmod per tool. Privacy page mentions quiz scores.
 
 ## Done
-- 2026-11-09 (7): kanji-work 航空 set (12 words × 6 languages), checked twice; 50 pages + play-throughs of 4 new sets + review-mode test passed. Branch `daily/2026-11-09-g`.
+- 2026-11-09 (7): kanji-work 航空 set (12 words × 6 languages), checked twice; 50 pages + play-throughs of 4 new sets + review-mode test passed. Branch `daily/2026-11-09-g`; owner approved, deployed 2026-11-09.
 - 2026-11-09 (6): kanji-work review-mistakes mode (retry button + remembered mistakes, privacy page updated), 6 languages, cross-reviewed; 50 pages + scripted test in 6 languages (3 wrong → retry 3 → 1 remembered; best score unchanged by retry). Branch `daily/2026-11-09-f`; owner approved (incl. storing missed words + privacy text), deployed 2026-11-09.
 - 2026-11-09 (5): kanji-work ビルクリーニング set (12 words × 6 languages, incl. 混ぜるな危険/塩素系), checked twice; 50 pages + play-throughs of fishing/car/cleaning passed. Branch `daily/2026-11-09-e`; owner approved, deployed 2026-11-09.
 - 2026-11-09 (4): kanji-work 自動車整備 set (12 words × 6 languages), checked twice; 50 pages + play-throughs for car and fishing sets passed. Branch `daily/2026-11-09-d`; owner approved, deployed 2026-11-09.

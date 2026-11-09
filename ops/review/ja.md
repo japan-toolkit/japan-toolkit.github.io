@@ -42,7 +42,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | ja | correction |
 |---|---|---|---|
 | title | Kanji you see at work | 仕事で見る漢字クイズ | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing and car maintenance. 10 questions per round. | 安全標識・給与明細・勤務表・書類、そして建設・介護・外食・農業・製造・宿泊・漁業・自動車整備の現場でよく出る漢字を読む練習です。1回10問。 | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance and building cleaning. 10 questions per round. | 安全標識・給与明細・勤務表・書類、そして建設・介護・外食・農業・製造・宿泊・漁業・自動車整備・ビルクリーニングの現場でよく出る漢字を読む練習です。1回10問。 | |
 | lset | Choose a topic | テーマを選ぶ | |
 | lmode | Choose a question type | 問題の種類を選ぶ | |
 | sets.safety[0] | Safety signs | 安全標識 | |
@@ -67,6 +67,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.fishing[1] | 漁業 | 漁業 | |
 | sets.car[0] | Car maintenance | 自動車整備 | |
 | sets.car[1] | 自動車整備 | 自動車整備 | |
+| sets.cleaning[0] | Building cleaning | ビルクリーニング | |
+| sets.cleaning[1] | ビルクリーニング | ビルクリーニング | |
 | sets.docs[0] | Forms and paperwork | 書類・手続き | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | 意味は？ | |
@@ -468,6 +470,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 洗車 | せんしゃ | Car wash | 車をあらうこと | |
 | 油漏れ | あぶらもれ | Oil leak | オイルが外にもれること（「オイル漏れ」とも言う） | |
 | 走行距離 | そうこうきょり | Distance driven (mileage) | 車が今までに走った長さ | |
+| 床 | ゆか | Floor | 部屋の下の面（歩く所） | |
+| 洗剤 | せんざい | Detergent (cleaning liquid) | よごれを落とすための薬 | |
+| 掃除機 | そうじき | Vacuum cleaner | ごみやほこりを吸い取る機械 | |
+| 雑巾 | ぞうきん | Cleaning cloth (rag) | ふくために使う布 | |
+| 便器 | べんき | Toilet bowl | トイレで用を足すための器 | |
+| 換気 | かんき | Ventilation (letting fresh air in) | 窓などを開けて空気を入れかえること | |
+| 混ぜるな危険 | まぜるなきけん | Danger: do not mix | ほかの洗剤とまぜると有毒なガスが出て、あぶない | |
+| 清掃中 | せいそうちゅう | Cleaning in progress | いま掃除をしているところ | |
+| 手袋 | てぶくろ | Gloves | 手を守るためにはめる物 | |
+| 廊下 | ろうか | Corridor (hallway) | 部屋と部屋をつなぐ細長い通路 | |
+| 塩素系 | えんそけい | Chlorine-based (bleach) | 塩素が入っているタイプ（漂白剤など） | |
+| 脚立 | きゃたつ | Stepladder | 高い所の作業で使う、立てて使うはしご | |
 | 氏名 | しめい | Full name | 名前 | |
 | 住所 | じゅうしょ | Address | 住んでいる場所 | |
 | 生年月日 | せいねんがっぴ | Date of birth | 生まれた年・月・日 | |

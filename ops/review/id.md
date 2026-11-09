@@ -42,7 +42,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | id | correction |
 |---|---|---|---|
 | title | Kanji you see at work | Kanji yang sering terlihat di tempat kerja | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing and car maintenance. 10 questions per round. | Latihan membaca kanji di tanda keselamatan, slip gaji, jadwal shift, dokumen, serta di bidang konstruksi, perawatan, restoran, pertanian, pabrik, perhotelan, perikanan, dan perawatan mobil. 10 soal per putaran. | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance and building cleaning. 10 questions per round. | Latihan membaca kanji di tanda keselamatan, slip gaji, jadwal shift, dokumen, serta di bidang konstruksi, perawatan, restoran, pertanian, pabrik, perhotelan, perikanan, perawatan mobil, dan pembersihan gedung. 10 soal per putaran. | |
 | lset | Choose a topic | Pilih topik | |
 | lmode | Choose a question type | Pilih jenis soal | |
 | sets.safety[0] | Safety signs | Tanda keselamatan | |
@@ -67,6 +67,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.fishing[1] | 漁業 | 漁業 | |
 | sets.car[0] | Car maintenance | Perawatan mobil | |
 | sets.car[1] | 自動車整備 | 自動車整備 | |
+| sets.cleaning[0] | Building cleaning | Pembersihan gedung | |
+| sets.cleaning[1] | ビルクリーニング | ビルクリーニング | |
 | sets.docs[0] | Forms and paperwork | Dokumen dan prosedur | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | Apa artinya? | |
@@ -468,6 +470,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 洗車 | せんしゃ | Car wash | Cuci mobil | |
 | 油漏れ | あぶらもれ | Oil leak | Kebocoran oli | |
 | 走行距離 | そうこうきょり | Distance driven (mileage) | Jarak tempuh | |
+| 床 | ゆか | Floor | Lantai | |
+| 洗剤 | せんざい | Detergent (cleaning liquid) | Deterjen (cairan pembersih) | |
+| 掃除機 | そうじき | Vacuum cleaner | Penyedot debu | |
+| 雑巾 | ぞうきん | Cleaning cloth (rag) | Kain lap | |
+| 便器 | べんき | Toilet bowl | Kloset (toilet) | |
+| 換気 | かんき | Ventilation (letting fresh air in) | Ventilasi (sirkulasi udara) | |
+| 混ぜるな危険 | まぜるなきけん | Danger: do not mix | Bahaya: jangan dicampur | |
+| 清掃中 | せいそうちゅう | Cleaning in progress | Sedang dibersihkan | |
+| 手袋 | てぶくろ | Gloves | Sarung tangan | |
+| 廊下 | ろうか | Corridor (hallway) | Lorong (koridor) | |
+| 塩素系 | えんそけい | Chlorine-based (bleach) | Berbahan klorin (pemutih) | |
+| 脚立 | きゃたつ | Stepladder | Tangga lipat | |
 | 氏名 | しめい | Full name | Nama lengkap | |
 | 住所 | じゅうしょ | Address | Alamat | |
 | 生年月日 | せいねんがっぴ | Date of birth | Tanggal lahir | |

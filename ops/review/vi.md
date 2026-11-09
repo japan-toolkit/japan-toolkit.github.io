@@ -42,7 +42,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | vi | correction |
 |---|---|---|---|
 | title | Kanji you see at work | Kanji thường gặp ở nơi làm việc | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing and car maintenance. 10 questions per round. | Luyện đọc kanji trên biển báo an toàn, phiếu lương, bảng ca, giấy tờ và trong ngành xây dựng, chăm sóc, nhà hàng, nông nghiệp, nhà máy, khách sạn, ngư nghiệp và bảo dưỡng ô tô. Mỗi lượt 10 câu. | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance and building cleaning. 10 questions per round. | Luyện đọc kanji trên biển báo an toàn, phiếu lương, bảng ca, giấy tờ và trong ngành xây dựng, chăm sóc, nhà hàng, nông nghiệp, nhà máy, khách sạn, ngư nghiệp, bảo dưỡng ô tô và vệ sinh tòa nhà. Mỗi lượt 10 câu. | |
 | lset | Choose a topic | Chọn chủ đề | |
 | lmode | Choose a question type | Chọn kiểu câu hỏi | |
 | sets.safety[0] | Safety signs | Biển báo an toàn | |
@@ -67,6 +67,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.fishing[1] | 漁業 | 漁業 | |
 | sets.car[0] | Car maintenance | Bảo dưỡng ô tô | |
 | sets.car[1] | 自動車整備 | 自動車整備 | |
+| sets.cleaning[0] | Building cleaning | Vệ sinh tòa nhà | |
+| sets.cleaning[1] | ビルクリーニング | ビルクリーニング | |
 | sets.docs[0] | Forms and paperwork | Giấy tờ và thủ tục | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | Nghĩa là gì? | |
@@ -468,6 +470,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 洗車 | せんしゃ | Car wash | Rửa xe | |
 | 油漏れ | あぶらもれ | Oil leak | Rò rỉ dầu | |
 | 走行距離 | そうこうきょり | Distance driven (mileage) | Số km xe đã chạy | |
+| 床 | ゆか | Floor | Sàn nhà | |
+| 洗剤 | せんざい | Detergent (cleaning liquid) | Chất tẩy rửa | |
+| 掃除機 | そうじき | Vacuum cleaner | Máy hút bụi | |
+| 雑巾 | ぞうきん | Cleaning cloth (rag) | Giẻ lau | |
+| 便器 | べんき | Toilet bowl | Bồn cầu | |
+| 換気 | かんき | Ventilation (letting fresh air in) | Thông gió | |
+| 混ぜるな危険 | まぜるなきけん | Danger: do not mix | Nguy hiểm: không được trộn lẫn | |
+| 清掃中 | せいそうちゅう | Cleaning in progress | Đang làm vệ sinh | |
+| 手袋 | てぶくろ | Gloves | Găng tay | |
+| 廊下 | ろうか | Corridor (hallway) | Hành lang | |
+| 塩素系 | えんそけい | Chlorine-based (bleach) | Loại chứa clo (thuốc tẩy trắng) | |
+| 脚立 | きゃたつ | Stepladder | Thang gấp chữ A | |
 | 氏名 | しめい | Full name | Họ và tên | |
 | 住所 | じゅうしょ | Address | Địa chỉ | |
 | 生年月日 | せいねんがっぴ | Date of birth | Ngày tháng năm sinh | |

@@ -42,7 +42,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | ne | correction |
 |---|---|---|---|
 | title | Kanji you see at work | काममा देखिने कान्जी | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing and car maintenance. 10 questions per round. | सुरक्षा चिह्न, तलब विवरण, सिफ्ट तालिका, कागजात, निर्माण, हेरचाह, रेस्टुरेन्ट, कृषि, कारखाना, होटल, माछा मार्ने तथा माछापालन, र गाडी मर्मत सम्भारका काममा देखिने कान्जी पढ्ने अभ्यास। एक पटकमा १० प्रश्न। | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance and building cleaning. 10 questions per round. | सुरक्षा चिह्न, तलब विवरण, सिफ्ट तालिका, कागजात, निर्माण, हेरचाह, रेस्टुरेन्ट, कृषि, कारखाना, होटल, माछा मार्ने तथा माछापालन, गाडी मर्मत सम्भार र भवन सरसफाइका काममा देखिने कान्जी पढ्ने अभ्यास। एक पटकमा १० प्रश्न। | |
 | lset | Choose a topic | विषय छान्नुहोस् | |
 | lmode | Choose a question type | प्रश्नको प्रकार छान्नुहोस् | |
 | sets.safety[0] | Safety signs | सुरक्षा चिह्न | |
@@ -67,6 +67,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.fishing[1] | 漁業 | 漁業 | |
 | sets.car[0] | Car maintenance | गाडी मर्मत सम्भार | |
 | sets.car[1] | 自動車整備 | 自動車整備 | |
+| sets.cleaning[0] | Building cleaning | भवन सरसफाइ | |
+| sets.cleaning[1] | ビルクリーニング | ビルクリーニング | |
 | sets.docs[0] | Forms and paperwork | कागजात र प्रक्रिया | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | अर्थ के हो? | |
@@ -468,6 +470,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 洗車 | せんしゃ | Car wash | गाडी धुने काम | |
 | 油漏れ | あぶらもれ | Oil leak | तेल चुहिनु | |
 | 走行距離 | そうこうきょり | Distance driven (mileage) | गाडी गुडेको दूरी | |
+| 床 | ゆか | Floor | भुइँ | |
+| 洗剤 | せんざい | Detergent (cleaning liquid) | सफा गर्ने साबुन वा तरल (डिटर्जेन्ट) | |
+| 掃除機 | そうじき | Vacuum cleaner | धुलो सोस्ने मेसिन (भ्याकुम क्लिनर) | |
+| 雑巾 | ぞうきん | Cleaning cloth (rag) | पुछ्ने कपडा | |
+| 便器 | べんき | Toilet bowl | शौचालयको कमोड | |
+| 換気 | かんき | Ventilation (letting fresh air in) | हावाको आवतजावत गराउने (भेन्टिलेसन) | |
+| 混ぜるな危険 | まぜるなきけん | Danger: do not mix | खतरा: नमिसाउनुहोस् | |
+| 清掃中 | せいそうちゅう | Cleaning in progress | सरसफाइ भइरहेको छ | |
+| 手袋 | てぶくろ | Gloves | पन्जा | |
+| 廊下 | ろうか | Corridor (hallway) | करिडोर (भित्री बाटो) | |
+| 塩素系 | えんそけい | Chlorine-based (bleach) | क्लोरिन भएको (ब्लिच) | |
+| 脚立 | きゃたつ | Stepladder | पट्याउन मिल्ने भर्याङ (A आकारको) | |
 | 氏名 | しめい | Full name | पूरा नाम | |
 | 住所 | じゅうしょ | Address | ठेगाना | |
 | 生年月日 | せいねんがっぴ | Date of birth | जन्म मिति | |

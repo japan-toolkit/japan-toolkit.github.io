@@ -42,7 +42,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | my | correction |
 |---|---|---|---|
 | title | Kanji you see at work | အလုပ်ခွင်တွင် တွေ့ရသော ခန်းဂျီး | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing and car maintenance. 10 questions per round. | ဘေးကင်းရေး ဆိုင်းဘုတ်၊ လစာစာရွက်၊ အလုပ်ဆိုင်းဇယား၊ စာရွက်စာတမ်းများနှင့် ဆောက်လုပ်ရေး၊ သက်ကြီးစောင့်ရှောက်မှု၊ စားသောက်ဆိုင်၊ စိုက်ပျိုးရေး၊ စက်ရုံ၊ ဟိုတယ်၊ ငါးလုပ်ငန်းနှင့် မော်တော်ယာဉ် ပြုပြင်ထိန်းသိမ်းရေးတို့တွင် တွေ့ရသော ခန်းဂျီးများကို ဖတ်တတ်အောင် လေ့ကျင့်ပါ။ တစ်ကြိမ်လျှင် မေးခွန်း ၁၀ ခု။ | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance and building cleaning. 10 questions per round. | ဘေးကင်းရေး ဆိုင်းဘုတ်၊ လစာစာရွက်၊ အလုပ်ဆိုင်းဇယား၊ စာရွက်စာတမ်းများနှင့် ဆောက်လုပ်ရေး၊ သက်ကြီးစောင့်ရှောက်မှု၊ စားသောက်ဆိုင်၊ စိုက်ပျိုးရေး၊ စက်ရုံ၊ ဟိုတယ်၊ ငါးလုပ်ငန်း၊ မော်တော်ယာဉ် ပြုပြင်ထိန်းသိမ်းရေးနှင့် အဆောက်အအုံ သန့်ရှင်းရေးတို့တွင် တွေ့ရသော ခန်းဂျီးများကို ဖတ်တတ်အောင် လေ့ကျင့်ပါ။ တစ်ကြိမ်လျှင် မေးခွန်း ၁၀ ခု။ | |
 | lset | Choose a topic | ခေါင်းစဉ် ရွေးပါ | |
 | lmode | Choose a question type | မေးခွန်းအမျိုးအစား ရွေးပါ | |
 | sets.safety[0] | Safety signs | ဘေးကင်းရေး ဆိုင်းဘုတ် | |
@@ -67,6 +67,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.fishing[1] | 漁業 | 漁業 | |
 | sets.car[0] | Car maintenance | မော်တော်ယာဉ် ပြုပြင်ထိန်းသိမ်းရေး | |
 | sets.car[1] | 自動車整備 | 自動車整備 | |
+| sets.cleaning[0] | Building cleaning | အဆောက်အအုံ သန့်ရှင်းရေး | |
+| sets.cleaning[1] | ビルクリーニング | ビルクリーニング | |
 | sets.docs[0] | Forms and paperwork | စာရွက်စာတမ်းနှင့် လုပ်ထုံးလုပ်နည်း | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | အဓိပ္ပာယ် ဘာလဲ | |
@@ -468,6 +470,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 洗車 | せんしゃ | Car wash | ကားဆေးခြင်း | |
 | 油漏れ | あぶらもれ | Oil leak | ဆီယိုခြင်း | |
 | 走行距離 | そうこうきょり | Distance driven (mileage) | မောင်းနှင်ခဲ့သော အကွာအဝေး | |
+| 床 | ゆか | Floor | ကြမ်းပြင် | |
+| 洗剤 | せんざい | Detergent (cleaning liquid) | သန့်ရှင်းရေးသုံး ဆေးရည် (ဆပ်ပြာရည်) | |
+| 掃除機 | そうじき | Vacuum cleaner | ဖုန်စုပ်စက် | |
+| 雑巾 | ぞうきん | Cleaning cloth (rag) | သုတ်ပဝါ (ဖုန်သုတ်အဝတ်) | |
+| 便器 | べんき | Toilet bowl | အိမ်သာခွက် | |
+| 換気 | かんき | Ventilation (letting fresh air in) | လေဝင်လေထွက် ပြုလုပ်ခြင်း | |
+| 混ぜるな危険 | まぜるなきけん | Danger: do not mix | အန္တရာယ်ရှိ၊ မရောရ | |
+| 清掃中 | せいそうちゅう | Cleaning in progress | သန့်ရှင်းရေး လုပ်နေဆဲ | |
+| 手袋 | てぶくろ | Gloves | လက်အိတ် | |
+| 廊下 | ろうか | Corridor (hallway) | စင်္ကြံ | |
+| 塩素系 | えんそけい | Chlorine-based (bleach) | ကလိုရင်းပါသော (အရောင်ချွတ်ဆေး) | |
+| 脚立 | きゃたつ | Stepladder | ခေါက်လှေကား | |
 | 氏名 | しめい | Full name | အမည် | |
 | 住所 | じゅうしょ | Address | လိပ်စာ | |
 | 生年月日 | せいねんがっぴ | Date of birth | မွေးသက္ကရာဇ် | |

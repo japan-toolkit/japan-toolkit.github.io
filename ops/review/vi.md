@@ -35,7 +35,9 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | on | On | Âm On | |
 | kun | Kun | Âm Kun | |
 | strokes | {n} strokes | {n} nét | |
-| note | Your scores are saved only on this device. | Điểm chỉ được lưu trên thiết bị của bạn. | |
+| note | Your scores and the kanji you missed are saved only on this device. | Điểm và các chữ bạn làm sai chỉ được lưu trên thiết bị của bạn. | |
+| retry | Practise the missed kanji | Luyện lại các chữ vừa làm sai | |
+| review | Review my mistakes ({n}) | Ôn lại các chữ đã làm sai ({n} chữ) | |
 
 ## kanji-work
 

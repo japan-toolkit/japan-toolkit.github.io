@@ -49,3 +49,4 @@ more than pass an exam. Most quiz sites teach by JLPT level; few teach the words
   (localStorage `kjw-miss`, kanji only). A word leaves the list when answered correctly in any round.
 - Retry/review rounds do not change the best score (only full 10-question rounds count).
 - Privacy page now mentions that missed quiz words are stored on the device.
+- 2026-11-09: same mode added to kanji-grade (localStorage `kjg-miss`, per grade + mode; `makeRoundFrom` in quiz.js, tested).

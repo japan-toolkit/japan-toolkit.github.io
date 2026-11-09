@@ -46,6 +46,8 @@ This catches meaning errors and obvious unnatural wording, but it is still machi
 - 2026-11-09 (7) kanji-work 'aviation' (航空) set: readings checked blind (all match; staff often say ゲート/エプロン/FOD/ディレイ).
   Sharpened 手荷物 vs 貨物 and 駐機場 vs 立入制限区域 glosses in all languages (could both look right); vi 遅延 no longer reads
   as 'missed my flight'; ne 制限区域 'प्रतिबन्धित', ne nouns instead of verbs; my 誘導/整備士/駐機場 fixed; second back-translation clean.
+- 2026-11-09 (8) kanji-grade review mode UI: vi/ne/id fine; my 'မှားသော/မှားခဲ့သော' read as 'incorrect kanji' → 'မှားဖြေခဲ့သော'
+  (answered wrongly), same fix applied to the kanji-work strings; back-translation clean.
 - Status: all four languages AI-cross-reviewed once. Next: re-run after each text change; watch GitHub issues.
 
 ## How to get a free review (plan, 2026-11-08)

@@ -165,7 +165,7 @@ PRIVACY = """<!doctype html><html lang="en"><head><meta charset="utf-8"><meta na
 <p>Last updated: November 2026</p>
 <ul>
 <li>The tools run entirely in your browser. The numbers you type are not sent to or stored on any server.</li>
-<li>Your browser may remember your language choice, checklist progress, quiz scores and the quiz words you answered wrongly on your own device (local storage). You can clear this at any time in your browser settings.</li>
+<li>Your browser may remember your language choice, checklist progress, quiz scores and the quiz words or kanji you answered wrongly on your own device (local storage). You can clear this at any time in your browser settings.</li>
 <li>We do not use cookies, accounts or tracking at this time. If we add analytics or advertising in the future, we will update this page first.</li>
 <li>The tools give estimates and general information, not legal, tax or financial advice. Please confirm with the official office concerned.</li>
 <li>Contact: open an issue at <a href="https://github.com/japan-toolkit/japan-toolkit.github.io/issues">GitHub</a>.</li>
@@ -173,7 +173,7 @@ PRIVACY = """<!doctype html><html lang="en"><head><meta charset="utf-8"><meta na
 <h2 lang="ja">プライバシーポリシー（日本語）</h2>
 <ul lang="ja">
 <li>各ツールはブラウザの中だけで動作します。入力した数字がサーバーに送信・保存されることはありません。</li>
-<li>言語の選択、チェックリストの進み具合、クイズの記録とまちがえた言葉は、あなたの端末のブラウザ（ローカルストレージ）に保存されることがあります。ブラウザの設定からいつでも削除できます。</li>
+<li>言語の選択、チェックリストの進み具合、クイズの記録とまちがえた言葉・漢字は、あなたの端末のブラウザ（ローカルストレージ）に保存されることがあります。ブラウザの設定からいつでも削除できます。</li>
 <li>現在、Cookie・アカウント・アクセス解析は使用していません。今後アクセス解析や広告を導入する場合は、事前に本ページを更新します。</li>
 <li>本サイトの情報は目安・一般情報であり、法律・税務・金融の助言ではありません。最終的には各公的機関でご確認ください。</li>
 <li>お問い合わせ：<a href="https://github.com/japan-toolkit/japan-toolkit.github.io/issues">GitHub</a> の Issue からご連絡ください。</li>

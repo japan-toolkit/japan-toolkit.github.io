@@ -35,7 +35,9 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | on | On | 音 | |
 | kun | Kun | 訓 | |
 | strokes | {n} strokes | {n}画 | |
-| note | Your scores are saved only on this device. | 記録はこの端末の中だけに保存されます。 | |
+| note | Your scores and the kanji you missed are saved only on this device. | 記録とまちがえた漢字は、この端末の中だけに保存されます。 | |
+| retry | Practise the missed kanji | まちがえた漢字だけもう一度 | |
+| review | Review my mistakes ({n}) | まちがえた漢字を復習（{n}字） | |
 
 ## kanji-work
 

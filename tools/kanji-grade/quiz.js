@@ -40,4 +40,10 @@ function makeRound(grade, mode, n = 10, rnd = Math.random) {
   for (const row of shuffle(pool, rnd)) { const q = makeQuestion(row, pool, mode, rnd); if (q) qs.push(q); if (qs.length === n) break; }
   return qs;
 }
-if (typeof module !== "undefined") module.exports = { kataToHira, showReading, readingKey, showMeaning, showViet, makeQuestion, makeRound, setKanji: k => { global.KANJI = k; } };
+// Round made only from the given rows (review of missed kanji); distractors still come from the whole grade.
+function makeRoundFrom(rows, grade, mode, n = 10, rnd = Math.random) {
+  const pool = KANJI.filter(r => r[1] === grade), qs = [];
+  for (const row of shuffle(rows, rnd)) { const q = makeQuestion(row, pool, mode, rnd); if (q) qs.push(q); if (qs.length === n) break; }
+  return qs;
+}
+if (typeof module !== "undefined") module.exports = { kataToHira, showReading, readingKey, showMeaning, showViet, makeQuestion, makeRound, makeRoundFrom, setKanji: k => { global.KANJI = k; } };

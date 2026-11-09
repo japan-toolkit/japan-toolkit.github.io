@@ -35,7 +35,9 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | on | On | ओन (音) | |
 | kun | Kun | कुन् (訓) | |
 | strokes | {n} strokes | {n} धर्का | |
-| note | Your scores are saved only on this device. | अंक तपाईंको उपकरणमा मात्र रहन्छ। | |
+| note | Your scores and the kanji you missed are saved only on this device. | अंक र तपाईंले गलत उत्तर दिएका अक्षरहरू तपाईंको उपकरणमा मात्र सुरक्षित गरिन्छन्। | |
+| retry | Practise the missed kanji | गलत उत्तर दिएका अक्षर फेरि अभ्यास गर्नुहोस् | |
+| review | Review my mistakes ({n}) | पहिले गलत उत्तर दिएका अक्षर दोहोर्‍याउनुहोस् ({n} अक्षर) | |
 
 ## kanji-work
 

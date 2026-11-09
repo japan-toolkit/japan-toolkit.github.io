@@ -30,5 +30,11 @@ for (const mode of ["reading", "meaning", "viet"]) for (let g = 1; g <= 6; g++) 
 for (let g = 1; g <= 6; g++) for (const mode of ["reading", "meaning", "viet"]) {
   const r = Q.makeRound(g, mode, 10, rnd); if (r.length !== 10 || new Set(r.map(q => q.row[0])).size !== 10) f(`round ${g} ${mode}`);
 }
+// Review rounds: only the given rows are asked; rows without a safe question are skipped.
+for (const g of [1, 6]) for (const mode of ["reading", "meaning", "viet"]) {
+  const rows = KANJI.filter(r => r[1] === g).slice(0, 5);
+  const r = Q.makeRoundFrom(rows, g, mode, 10, rnd);
+  if (!r.length || r.length > 5 || r.some(q => !rows.includes(q.row))) f(`review round ${g} ${mode}`);
+}
 console.log(fails ? `${fails} failures` : `all tests passed (${built} questions checked, data ${KANJIDIC_VERSION.database_version})`);
 process.exit(fails ? 1 : 0);

@@ -29,6 +29,9 @@ This catches meaning errors and obvious unnatural wording, but it is still machi
 - 2026-11-09 takehome FAQ new Q (bonus income tax, 5th item): vi/ne/id/my cross-reviewed; 0 meaning errors, wording fixes
   applied in all four (vi 'được'/'tiền thuế là', id 'tabel tarif pajak bonus'/'dikalikan', my subject 'အခွန်ကို' + 'တွက်ချက်',
   ne 'बीमा शुल्क'); second back-translation matched the English.
+- 2026-11-09 (2) bonus '10×' wording (bSpecial + FAQ, both amounts 'after insurance'): cross-reviewed, meaning OK in all 4;
+  applied: my 'နုတ်ပြီးသော' (adjectival, key fix) + sentence split, ne comma, id 'yang juga sudah dipotong', vi 'vượt quá'/'thì'.
+  Rejected: new insurance terms (my လူမှုဖူလုံရေး…, id iuran asuransi sosial) to keep site-wide terms; added 'because' clauses.
 - Status: all four languages AI-cross-reviewed once. Next: re-run after each text change; watch GitHub issues.
 
 ## How to get a free review (plan, 2026-11-08)

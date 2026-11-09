@@ -44,7 +44,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | vi | correction |
 |---|---|---|---|
 | title | Kanji you see at work | Kanji thường gặp ở nơi làm việc | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning and aviation. 10 questions per round. | Luyện đọc kanji trên biển báo an toàn, phiếu lương, bảng ca, giấy tờ và trong ngành xây dựng, chăm sóc, nhà hàng, nông nghiệp, nhà máy, khách sạn, ngư nghiệp, bảo dưỡng ô tô, vệ sinh tòa nhà và hàng không. Mỗi lượt 10 câu. | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation and shipbuilding. 10 questions per round. | Luyện đọc kanji trên biển báo an toàn, phiếu lương, bảng ca, giấy tờ và trong ngành xây dựng, chăm sóc, nhà hàng, nông nghiệp, nhà máy, khách sạn, ngư nghiệp, bảo dưỡng ô tô, vệ sinh tòa nhà, hàng không và đóng tàu. Mỗi lượt 10 câu. | |
 | lset | Choose a topic | Chọn chủ đề | |
 | lmode | Choose a question type | Chọn kiểu câu hỏi | |
 | sets.safety[0] | Safety signs | Biển báo an toàn | |
@@ -73,6 +73,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.cleaning[1] | ビルクリーニング | ビルクリーニング | |
 | sets.aviation[0] | Aviation (airports) | Hàng không (sân bay) | |
 | sets.aviation[1] | 航空 | 航空 | |
+| sets.ship[0] | Shipbuilding and marine equipment | Đóng tàu và công nghiệp thiết bị tàu thủy | |
+| sets.ship[1] | 造船・舶用工業 | 造船・舶用工業 | |
 | sets.docs[0] | Forms and paperwork | Giấy tờ và thủ tục | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | Nghĩa là gì? | |
@@ -500,6 +502,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 異物 | いぶつ | Foreign object (should not be there) | Vật lạ (dị vật) | |
 | 給油 | きゅうゆ | Refuelling | Tiếp nhiên liệu | |
 | 遅延 | ちえん | Delay | Chậm trễ (chuyến bay bị chậm) | |
+| 造船 | ぞうせん | Shipbuilding | Đóng tàu | |
+| 船体 | せんたい | Hull (main body of a ship) | Thân tàu | |
+| 鋼板 | こうはん | Steel plate | Tấm thép | |
+| 切断 | せつだん | Cutting (metal) | Cắt (kim loại) | |
+| 塗装 | とそう | Painting (coating) | Sơn phủ | |
+| 仕上げ | しあげ | Finishing (final touches) | Hoàn thiện (công đoạn cuối) | |
+| 玉掛け | たまがけ | Slinging (attaching loads to a crane hook) | Buộc và treo hàng vào móc cẩu | |
+| 酸欠 | さんけつ | Lack of oxygen | Thiếu oxy | |
+| 火花 | ひばな | Sparks | Tia lửa | |
+| 寸法 | すんぽう | Dimensions (measurements) | Kích thước | |
+| 進水 | しんすい | Launch (a new ship into the water) | Hạ thủy tàu | |
+| 機械加工 | きかいかこう | Machining | Gia công cơ khí | |
 | 氏名 | しめい | Full name | Họ và tên | |
 | 住所 | じゅうしょ | Address | Địa chỉ | |
 | 生年月日 | せいねんがっぴ | Date of birth | Ngày tháng năm sinh | |

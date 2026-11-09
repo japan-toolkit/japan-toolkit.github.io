@@ -44,7 +44,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | id | correction |
 |---|---|---|---|
 | title | Kanji you see at work | Kanji yang sering terlihat di tempat kerja | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning and aviation. 10 questions per round. | Latihan membaca kanji di tanda keselamatan, slip gaji, jadwal shift, dokumen, serta di bidang konstruksi, perawatan, restoran, pertanian, pabrik, perhotelan, perikanan, perawatan mobil, pembersihan gedung, dan penerbangan. 10 soal per putaran. | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation and shipbuilding. 10 questions per round. | Latihan membaca kanji di tanda keselamatan, slip gaji, jadwal shift, dokumen, serta di bidang konstruksi, perawatan, restoran, pertanian, pabrik, perhotelan, perikanan, perawatan mobil, pembersihan gedung, penerbangan, dan pembuatan kapal. 10 soal per putaran. | |
 | lset | Choose a topic | Pilih topik | |
 | lmode | Choose a question type | Pilih jenis soal | |
 | sets.safety[0] | Safety signs | Tanda keselamatan | |
@@ -73,6 +73,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.cleaning[1] | ビルクリーニング | ビルクリーニング | |
 | sets.aviation[0] | Aviation (airports) | Penerbangan (bandara) | |
 | sets.aviation[1] | 航空 | 航空 | |
+| sets.ship[0] | Shipbuilding and marine equipment | Pembuatan kapal dan industri peralatan kapal | |
+| sets.ship[1] | 造船・舶用工業 | 造船・舶用工業 | |
 | sets.docs[0] | Forms and paperwork | Dokumen dan prosedur | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | Apa artinya? | |
@@ -500,6 +502,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 異物 | いぶつ | Foreign object (should not be there) | Benda asing | |
 | 給油 | きゅうゆ | Refuelling | Pengisian bahan bakar | |
 | 遅延 | ちえん | Delay | Keterlambatan | |
+| 造船 | ぞうせん | Shipbuilding | Pembuatan kapal | |
+| 船体 | せんたい | Hull (main body of a ship) | Lambung kapal | |
+| 鋼板 | こうはん | Steel plate | Pelat baja | |
+| 切断 | せつだん | Cutting (metal) | Pemotongan (logam) | |
+| 塗装 | とそう | Painting (coating) | Pengecatan | |
+| 仕上げ | しあげ | Finishing (final touches) | Penyelesaian akhir (finishing) | |
+| 玉掛け | たまがけ | Slinging (attaching loads to a crane hook) | Pengikatan dan penggantungan beban pada kait crane | |
+| 酸欠 | さんけつ | Lack of oxygen | Kekurangan oksigen | |
+| 火花 | ひばな | Sparks | Percikan api | |
+| 寸法 | すんぽう | Dimensions (measurements) | Ukuran (dimensi) | |
+| 進水 | しんすい | Launch (a new ship into the water) | Peluncuran kapal ke air | |
+| 機械加工 | きかいかこう | Machining | Pemesinan (machining) | |
 | 氏名 | しめい | Full name | Nama lengkap | |
 | 住所 | じゅうしょ | Address | Alamat | |
 | 生年月日 | せいねんがっぴ | Date of birth | Tanggal lahir | |

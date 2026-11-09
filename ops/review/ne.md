@@ -44,7 +44,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | ne | correction |
 |---|---|---|---|
 | title | Kanji you see at work | काममा देखिने कान्जी | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning and aviation. 10 questions per round. | सुरक्षा चिह्न, तलब विवरण, सिफ्ट तालिका, कागजात, निर्माण, हेरचाह, रेस्टुरेन्ट, कृषि, कारखाना, होटल, माछा मार्ने तथा माछापालन, गाडी मर्मत सम्भार, भवन सरसफाइ र उड्डयनका काममा देखिने कान्जी पढ्ने अभ्यास। एक पटकमा १० प्रश्न। | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation and shipbuilding. 10 questions per round. | सुरक्षा चिह्न, तलब विवरण, सिफ्ट तालिका, कागजात, निर्माण, हेरचाह, रेस्टुरेन्ट, कृषि, कारखाना, होटल, माछा मार्ने तथा माछापालन, गाडी मर्मत सम्भार, भवन सरसफाइ, उड्डयन र जहाज निर्माणका काममा देखिने कान्जी पढ्ने अभ्यास। एक पटकमा १० प्रश्न। | |
 | lset | Choose a topic | विषय छान्नुहोस् | |
 | lmode | Choose a question type | प्रश्नको प्रकार छान्नुहोस् | |
 | sets.safety[0] | Safety signs | सुरक्षा चिह्न | |
@@ -73,6 +73,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.cleaning[1] | ビルクリーニング | ビルクリーニング | |
 | sets.aviation[0] | Aviation (airports) | उड्डयन (विमानस्थल) | |
 | sets.aviation[1] | 航空 | 航空 | |
+| sets.ship[0] | Shipbuilding and marine equipment | जहाज निर्माण र जहाजका उपकरण उद्योग | |
+| sets.ship[1] | 造船・舶用工業 | 造船・舶用工業 | |
 | sets.docs[0] | Forms and paperwork | कागजात र प्रक्रिया | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | अर्थ के हो? | |
@@ -500,6 +502,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 異物 | いぶつ | Foreign object (should not be there) | बाह्य वस्तु (हुन नहुने ठाउँमा परेको) | |
 | 給油 | きゅうゆ | Refuelling | इन्धन भर्ने काम | |
 | 遅延 | ちえん | Delay | ढिलाइ | |
+| 造船 | ぞうせん | Shipbuilding | जहाज निर्माण | |
+| 船体 | せんたい | Hull (main body of a ship) | जहाजको मुख्य भाग (हल) | |
+| 鋼板 | こうはん | Steel plate | स्टिलको प्लेट (पाता) | |
+| 切断 | せつだん | Cutting (metal) | धातु काट्ने काम | |
+| 塗装 | とそう | Painting (coating) | रङ लगाउने काम | |
+| 仕上げ | しあげ | Finishing (final touches) | अन्तिम काम (फिनिसिङ) | |
+| 玉掛け | たまがけ | Slinging (attaching loads to a crane hook) | क्रेनको हुकमा भार बाँधेर झुन्ड्याउने काम | |
+| 酸欠 | さんけつ | Lack of oxygen | अक्सिजनको कमी | |
+| 火花 | ひばな | Sparks | आगोको झिल्का | |
+| 寸法 | すんぽう | Dimensions (measurements) | नाप (साइज) | |
+| 進水 | しんすい | Launch (a new ship into the water) | नयाँ जहाजलाई पहिलो पटक पानीमा उतार्ने काम | |
+| 機械加工 | きかいかこう | Machining | मेसिनले धातुलाई ताछेर आकार दिने काम (मेसिनिङ) | |
 | 氏名 | しめい | Full name | पूरा नाम | |
 | 住所 | じゅうしょ | Address | ठेगाना | |
 | 生年月日 | せいねんがっぴ | Date of birth | जन्म मिति | |

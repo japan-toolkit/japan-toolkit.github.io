@@ -7,10 +7,26 @@ This branch (`source`) holds the sources and the operations notes. It is never s
 ## Owner and constraints
 - The owner checks in **once a day, about 30 minutes**, reading in Japanese. Write every report in Japanese.
 - The owner stays **anonymous**. Never add a real name, photo, address or personal email anywhere.
-- No paid services. No partnerships with other companies.
+- No paid services unless the owner approves. Outside companies only through the monetization rules below.
 - Nothing illegal; never encourage gambling, account/SIM selling or other abuse.
 - Languages, in this order: vi, ne, id, my, en, ja. English stays.
 - Commit as `Claude <noreply@anthropic.com>` (`git config user.name Claude && git config user.email noreply@anthropic.com`).
+
+## Monetization (owner goal, decided 2026-11-09)
+The site exists to earn money; "official release" = the start of earning. Three ways, in this order:
+1. **Donation links** (e.g. Ko-fi / GitHub Sponsors). A small link only; never pressure users.
+2. **Paid study material** (e.g. 特定技能 field vocabulary books), sold on an external platform that the owner chooses.
+   - GitHub Pages must not host a shop ("not allowed ... to run your online business, e-commerce site"): the site only links out.
+   - Original content only: no KANJIDIC2 or other CC BY-SA data, no text copied from other sites.
+   - A native-speaker check is required before anything is sold.
+   - The free tools stay free and complete. Paid material is extra; never put existing free content behind a paywall.
+3. **Ads**, only after the owner has chosen and signed up for an ad service.
+   - Update the privacy page first (cookies, third-party ad provider, 外部送信 notice).
+   - Block ad categories that target this audience: loans / consumer credit, gambling, SIM or bank-account trading,
+     visa or job brokers, MLM, dating. Ads must not look like tool content and never sit inside a result area.
+- The owner signs up for every service and handles payouts and seller-information duties. Claude never creates accounts,
+  never enters payment details, and asks the owner before adding any third-party script.
+- Every monetization change goes through the normal `daily/` branch and owner approval.
 
 ## Layout
 - `tools/<tool>/index.html` — one self-contained page per tool, with a `T` translation table for all six languages.

@@ -13,14 +13,13 @@ This branch (`source`) holds the sources and the operations notes. It is never s
 - Commit as `Claude <noreply@anthropic.com>` (`git config user.name Claude && git config user.email noreply@anthropic.com`).
 
 ## Monetization (owner goal, decided 2026-11-09)
-The site exists to earn money; "official release" = the start of earning. Three ways, in this order:
-1. **Donation links** (e.g. Ko-fi / GitHub Sponsors). A small link only; never pressure users.
-2. **Paid study material** (e.g. 特定技能 field vocabulary books), sold on an external platform that the owner chooses.
+The site exists to earn money; "official release" = the start of earning. Two ways only (no donations, owner decision 2026-11-09):
+1. **Paid study material** (e.g. 特定技能 field vocabulary books), sold on an external platform that the owner chooses.
    - GitHub Pages must not host a shop ("not allowed ... to run your online business, e-commerce site"): the site only links out.
    - Original content only: no KANJIDIC2 or other CC BY-SA data, no text copied from other sites.
    - A native-speaker check is required before anything is sold.
    - The free tools stay free and complete. Paid material is extra; never put existing free content behind a paywall.
-3. **Ads**, only after the owner has chosen and signed up for an ad service.
+2. **Ads**, only after the owner has chosen and signed up for an ad service.
    - Update the privacy page first (cookies, third-party ad provider, 外部送信 notice).
    - Block ad categories that target this audience: loans / consumer credit, gambling, SIM or bank-account trading,
      visa or job brokers, MLM, dating. Ads must not look like tool content and never sit inside a result area.

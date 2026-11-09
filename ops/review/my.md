@@ -35,7 +35,9 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | on | On | အွန်ယိုမိ (On) | |
 | kun | Kun | ကွန်ယိုမိ (Kun) | |
 | strokes | {n} strokes | စာလုံးရေးချက် {n} ချက် | |
-| note | Your scores are saved only on this device. | ရမှတ်ကို သင့်ဖုန်း သို့မဟုတ် ကွန်ပျူတာ၏ ဘရောက်ဇာတွင်သာ သိမ်းပါသည်။ | |
+| note | Your scores and the kanji you missed are saved only on this device. | ရမှတ်နှင့် သင်မှားဖြေခဲ့သော ခန်းဂျီးများကို သင့်ဖုန်း သို့မဟုတ် ကွန်ပျူတာ၏ ဘရောက်ဇာတွင်သာ သိမ်းပါသည်။ | |
+| retry | Practise the missed kanji | မှားဖြေခဲ့သော ခန်းဂျီးများကို ထပ်လေ့ကျင့်ပါ | |
+| review | Review my mistakes ({n}) | မှားဖြေခဲ့သော ခန်းဂျီးများကို ပြန်လေ့လာပါ ({n} လုံး) | |
 
 ## kanji-work
 
@@ -91,9 +93,9 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | missed | Words to review | ပြန်လေ့လာရန် စကားလုံးများ | |
 | perfect | All correct! Great job. | အားလုံးမှန်ပါသည်! အရမ်းကောင်းပါသည်။ | |
 | best | Best score: {n}/{t} | အမြင့်ဆုံးရမှတ်: {n}/{t} | |
-| note | Word list written by Japan Practical Toolkit. Your scores and the words you missed are saved only on this device. | စကားလုံးစာရင်းကို Japan Practical Toolkit က ကိုယ်တိုင် ပြုစုထားသည်။ ရမှတ်နှင့် မှားခဲ့သော စကားလုံးများကို သင့်စက်တွင်သာ သိမ်းဆည်းထားပါသည်။ | |
-| retry | Practise the missed words | မှားသော စကားလုံးများ ထပ်လေ့ကျင့်ပါ | |
-| review | Review my mistakes ({n}) | မှားခဲ့သော စကားလုံးများ ပြန်လေ့လာပါ ({n} လုံး) | |
+| note | Word list written by Japan Practical Toolkit. Your scores and the words you missed are saved only on this device. | စကားလုံးစာရင်းကို Japan Practical Toolkit က ကိုယ်တိုင် ပြုစုထားသည်။ ရမှတ်နှင့် သင်မှားဖြေခဲ့သော စကားလုံးများကို သင့်စက်တွင်သာ သိမ်းဆည်းထားပါသည်။ | |
+| retry | Practise the missed words | မှားဖြေခဲ့သော စကားလုံးများကို ထပ်လေ့ကျင့်ပါ | |
+| review | Review my mistakes ({n}) | မှားဖြေခဲ့သော စကားလုံးများကို ပြန်လေ့လာပါ ({n} လုံး) | |
 
 ## leaving-japan
 

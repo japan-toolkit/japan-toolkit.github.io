@@ -35,7 +35,9 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | on | On | On | |
 | kun | Kun | Kun | |
 | strokes | {n} strokes | {n} goresan | |
-| note | Your scores are saved only on this device. | Skor hanya disimpan di perangkat Anda. | |
+| note | Your scores and the kanji you missed are saved only on this device. | Skor dan kanji yang Anda jawab salah hanya disimpan di perangkat Anda. | |
+| retry | Practise the missed kanji | Latihan ulang kanji yang dijawab salah | |
+| review | Review my mistakes ({n}) | Ulangi kanji yang pernah dijawab salah ({n} kanji) | |
 
 ## kanji-work
 

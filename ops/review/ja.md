@@ -42,7 +42,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | ja | correction |
 |---|---|---|---|
 | title | Kanji you see at work | 仕事で見る漢字クイズ | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance and building cleaning. 10 questions per round. | 安全標識・給与明細・勤務表・書類、そして建設・介護・外食・農業・製造・宿泊・漁業・自動車整備・ビルクリーニングの現場でよく出る漢字を読む練習です。1回10問。 | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning and aviation. 10 questions per round. | 安全標識・給与明細・勤務表・書類、そして建設・介護・外食・農業・製造・宿泊・漁業・自動車整備・ビルクリーニング・航空の現場でよく出る漢字を読む練習です。1回10問。 | |
 | lset | Choose a topic | テーマを選ぶ | |
 | lmode | Choose a question type | 問題の種類を選ぶ | |
 | sets.safety[0] | Safety signs | 安全標識 | |
@@ -69,6 +69,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.car[1] | 自動車整備 | 自動車整備 | |
 | sets.cleaning[0] | Building cleaning | ビルクリーニング | |
 | sets.cleaning[1] | ビルクリーニング | ビルクリーニング | |
+| sets.aviation[0] | Aviation (airports) | 航空（空港） | |
+| sets.aviation[1] | 航空 | 航空 | |
 | sets.docs[0] | Forms and paperwork | 書類・手続き | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | 意味は？ | |
@@ -484,6 +486,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 廊下 | ろうか | Corridor (hallway) | 部屋と部屋をつなぐ細長い通路 | |
 | 塩素系 | えんそけい | Chlorine-based (bleach) | 塩素が入っているタイプ（漂白剤など） | |
 | 脚立 | きゃたつ | Stepladder | 高い所の作業で使う、立てて使うはしご | |
+| 空港 | くうこう | Airport | 飛行機が発着する所 | |
+| 滑走路 | かっそうろ | Runway | 飛行機が離陸・着陸するための道 | |
+| 搭乗口 | とうじょうぐち | Boarding gate | 飛行機に乗るための入口 | |
+| 手荷物 | てにもつ | Passengers' baggage (bags) | 乗客が持っている荷物や預けた荷物 | |
+| 貨物 | かもつ | Cargo (freight, not passengers' bags) | 会社などから預かって運ぶ品物（乗客の荷物ではない） | |
+| 整備士 | せいびし | Maintenance technician (mechanic) | 機械を点検・修理する専門の人 | |
+| 誘導 | ゆうどう | Guiding (marshalling) | 決まった場所まで案内して動かすこと | |
+| 駐機場 | ちゅうきじょう | Apron (where aircraft park) | 飛行機をとめておく場所 | |
+| 立入制限区域 | たちいりせいげんくいき | Restricted area (pass needed to enter) | 許可された人しか入れない場所 | |
+| 異物 | いぶつ | Foreign object (should not be there) | そこにあってはいけない物（落ちたネジなど） | |
+| 給油 | きゅうゆ | Refuelling | 燃料を入れること | |
+| 遅延 | ちえん | Delay | 予定より遅れること | |
 | 氏名 | しめい | Full name | 名前 | |
 | 住所 | じゅうしょ | Address | 住んでいる場所 | |
 | 生年月日 | せいねんがっぴ | Date of birth | 生まれた年・月・日 | |

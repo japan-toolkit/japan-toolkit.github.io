@@ -42,7 +42,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | vi | correction |
 |---|---|---|---|
 | title | Kanji you see at work | Kanji thường gặp ở nơi làm việc | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance and building cleaning. 10 questions per round. | Luyện đọc kanji trên biển báo an toàn, phiếu lương, bảng ca, giấy tờ và trong ngành xây dựng, chăm sóc, nhà hàng, nông nghiệp, nhà máy, khách sạn, ngư nghiệp, bảo dưỡng ô tô và vệ sinh tòa nhà. Mỗi lượt 10 câu. | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning and aviation. 10 questions per round. | Luyện đọc kanji trên biển báo an toàn, phiếu lương, bảng ca, giấy tờ và trong ngành xây dựng, chăm sóc, nhà hàng, nông nghiệp, nhà máy, khách sạn, ngư nghiệp, bảo dưỡng ô tô, vệ sinh tòa nhà và hàng không. Mỗi lượt 10 câu. | |
 | lset | Choose a topic | Chọn chủ đề | |
 | lmode | Choose a question type | Chọn kiểu câu hỏi | |
 | sets.safety[0] | Safety signs | Biển báo an toàn | |
@@ -69,6 +69,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.car[1] | 自動車整備 | 自動車整備 | |
 | sets.cleaning[0] | Building cleaning | Vệ sinh tòa nhà | |
 | sets.cleaning[1] | ビルクリーニング | ビルクリーニング | |
+| sets.aviation[0] | Aviation (airports) | Hàng không (sân bay) | |
+| sets.aviation[1] | 航空 | 航空 | |
 | sets.docs[0] | Forms and paperwork | Giấy tờ và thủ tục | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | Nghĩa là gì? | |
@@ -484,6 +486,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 廊下 | ろうか | Corridor (hallway) | Hành lang | |
 | 塩素系 | えんそけい | Chlorine-based (bleach) | Loại chứa clo (thuốc tẩy trắng) | |
 | 脚立 | きゃたつ | Stepladder | Thang gấp chữ A | |
+| 空港 | くうこう | Airport | Sân bay | |
+| 滑走路 | かっそうろ | Runway | Đường băng | |
+| 搭乗口 | とうじょうぐち | Boarding gate | Cửa lên máy bay | |
+| 手荷物 | てにもつ | Passengers' baggage (bags) | Hành lý của hành khách | |
+| 貨物 | かもつ | Cargo (freight, not passengers' bags) | Hàng hóa (cargo, không phải hành lý) | |
+| 整備士 | せいびし | Maintenance technician (mechanic) | Thợ bảo dưỡng (kỹ thuật viên) | |
+| 誘導 | ゆうどう | Guiding (marshalling) | Hướng dẫn di chuyển (chỉ đường) | |
+| 駐機場 | ちゅうきじょう | Apron (where aircraft park) | Sân đỗ máy bay (bãi đỗ tàu bay) | |
+| 立入制限区域 | たちいりせいげんくいき | Restricted area (pass needed to enter) | Khu vực hạn chế (cần thẻ mới được vào) | |
+| 異物 | いぶつ | Foreign object (should not be there) | Vật lạ (dị vật) | |
+| 給油 | きゅうゆ | Refuelling | Tiếp nhiên liệu | |
+| 遅延 | ちえん | Delay | Chậm trễ (chuyến bay bị chậm) | |
 | 氏名 | しめい | Full name | Họ và tên | |
 | 住所 | じゅうしょ | Address | Địa chỉ | |
 | 生年月日 | せいねんがっぴ | Date of birth | Ngày tháng năm sinh | |

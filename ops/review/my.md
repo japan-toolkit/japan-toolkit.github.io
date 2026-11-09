@@ -42,7 +42,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | my | correction |
 |---|---|---|---|
 | title | Kanji you see at work | အလုပ်ခွင်တွင် တွေ့ရသော ခန်းဂျီး | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance and building cleaning. 10 questions per round. | ဘေးကင်းရေး ဆိုင်းဘုတ်၊ လစာစာရွက်၊ အလုပ်ဆိုင်းဇယား၊ စာရွက်စာတမ်းများနှင့် ဆောက်လုပ်ရေး၊ သက်ကြီးစောင့်ရှောက်မှု၊ စားသောက်ဆိုင်၊ စိုက်ပျိုးရေး၊ စက်ရုံ၊ ဟိုတယ်၊ ငါးလုပ်ငန်း၊ မော်တော်ယာဉ် ပြုပြင်ထိန်းသိမ်းရေးနှင့် အဆောက်အအုံ သန့်ရှင်းရေးတို့တွင် တွေ့ရသော ခန်းဂျီးများကို ဖတ်တတ်အောင် လေ့ကျင့်ပါ။ တစ်ကြိမ်လျှင် မေးခွန်း ၁၀ ခု။ | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning and aviation. 10 questions per round. | ဘေးကင်းရေး ဆိုင်းဘုတ်၊ လစာစာရွက်၊ အလုပ်ဆိုင်းဇယား၊ စာရွက်စာတမ်းများနှင့် ဆောက်လုပ်ရေး၊ သက်ကြီးစောင့်ရှောက်မှု၊ စားသောက်ဆိုင်၊ စိုက်ပျိုးရေး၊ စက်ရုံ၊ ဟိုတယ်၊ ငါးလုပ်ငန်း၊ မော်တော်ယာဉ် ပြုပြင်ထိန်းသိမ်းရေး၊ အဆောက်အအုံ သန့်ရှင်းရေးနှင့် လေကြောင်းလုပ်ငန်းတို့တွင် တွေ့ရသော ခန်းဂျီးများကို ဖတ်တတ်အောင် လေ့ကျင့်ပါ။ တစ်ကြိမ်လျှင် မေးခွန်း ၁၀ ခု။ | |
 | lset | Choose a topic | ခေါင်းစဉ် ရွေးပါ | |
 | lmode | Choose a question type | မေးခွန်းအမျိုးအစား ရွေးပါ | |
 | sets.safety[0] | Safety signs | ဘေးကင်းရေး ဆိုင်းဘုတ် | |
@@ -69,6 +69,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.car[1] | 自動車整備 | 自動車整備 | |
 | sets.cleaning[0] | Building cleaning | အဆောက်အအုံ သန့်ရှင်းရေး | |
 | sets.cleaning[1] | ビルクリーニング | ビルクリーニング | |
+| sets.aviation[0] | Aviation (airports) | လေကြောင်း (လေဆိပ်) | |
+| sets.aviation[1] | 航空 | 航空 | |
 | sets.docs[0] | Forms and paperwork | စာရွက်စာတမ်းနှင့် လုပ်ထုံးလုပ်နည်း | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | အဓိပ္ပာယ် ဘာလဲ | |
@@ -484,6 +486,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 廊下 | ろうか | Corridor (hallway) | စင်္ကြံ | |
 | 塩素系 | えんそけい | Chlorine-based (bleach) | ကလိုရင်းပါသော (အရောင်ချွတ်ဆေး) | |
 | 脚立 | きゃたつ | Stepladder | ခေါက်လှေကား | |
+| 空港 | くうこう | Airport | လေဆိပ် | |
+| 滑走路 | かっそうろ | Runway | လေယာဉ်ပြေးလမ်း | |
+| 搭乗口 | とうじょうぐち | Boarding gate | လေယာဉ်ပေါ် တက်ရန် ဂိတ် | |
+| 手荷物 | てにもつ | Passengers' baggage (bags) | ခရီးသည် ဝန်စည်စလယ် | |
+| 貨物 | かもつ | Cargo (freight, not passengers' bags) | ကုန်စည် (ကာဂို၊ ခရီးဆောင်အိတ် မဟုတ်) | |
+| 整備士 | せいびし | Maintenance technician (mechanic) | ပြုပြင်ထိန်းသိမ်းရေး နည်းပညာရှင် (စက်ပြင်ဆရာ) | |
+| 誘導 | ゆうどう | Guiding (marshalling) | လမ်းကြောင်း ညွှန်ပြခြင်း | |
+| 駐機場 | ちゅうきじょう | Apron (where aircraft park) | လေယာဉ် ရပ်နားသည့်နေရာ | |
+| 立入制限区域 | たちいりせいげんくいき | Restricted area (pass needed to enter) | ဝင်ရောက်ခွင့် ကန့်သတ်နယ်မြေ (ခွင့်ပြုကတ် လိုအပ်) | |
+| 異物 | いぶつ | Foreign object (should not be there) | ရှိမနေသင့်သော ပြင်ပ အရာဝတ္ထု | |
+| 給油 | きゅうゆ | Refuelling | လောင်စာဆီ ဖြည့်ခြင်း | |
+| 遅延 | ちえん | Delay | နောက်ကျခြင်း | |
 | 氏名 | しめい | Full name | အမည် | |
 | 住所 | じゅうしょ | Address | လိပ်စာ | |
 | 生年月日 | せいねんがっぴ | Date of birth | မွေးသက္ကရာဇ် | |

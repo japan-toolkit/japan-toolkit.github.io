@@ -89,7 +89,9 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | missed | Words to review | Kata yang perlu diulang | |
 | perfect | All correct! Great job. | Semua benar! Bagus sekali. | |
 | best | Best score: {n}/{t} | Skor terbaik: {n}/{t} | |
-| note | Word list written by Japan Practical Toolkit. Your scores are saved only on this device. | Daftar kata disusun sendiri oleh Japan Practical Toolkit. Skor hanya disimpan di perangkat Anda. | |
+| note | Word list written by Japan Practical Toolkit. Your scores and the words you missed are saved only on this device. | Daftar kata disusun sendiri oleh Japan Practical Toolkit. Skor dan kata yang Anda jawab salah hanya disimpan di perangkat Anda. | |
+| retry | Practise the missed words | Latihan ulang kata yang dijawab salah | |
+| review | Review my mistakes ({n}) | Ulangi kata yang pernah dijawab salah ({n} kata) | |
 
 ## leaving-japan
 

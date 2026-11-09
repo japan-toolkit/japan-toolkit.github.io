@@ -89,7 +89,9 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | missed | Words to review | दोहोर्‍याउनुपर्ने शब्दहरू | |
 | perfect | All correct! Great job. | सबै सही! धेरै राम्रो। | |
 | best | Best score: {n}/{t} | सबैभन्दा राम्रो अंक: {n}/{t} | |
-| note | Word list written by Japan Practical Toolkit. Your scores are saved only on this device. | शब्दसूची Japan Practical Toolkit ले आफैँ तयार गरेको हो। अंक तपाईंको उपकरणमा मात्र रहन्छ। | |
+| note | Word list written by Japan Practical Toolkit. Your scores and the words you missed are saved only on this device. | शब्दसूची Japan Practical Toolkit ले आफैँ तयार गरेको हो। अंक र तपाईंले गलत उत्तर दिएका शब्दहरू तपाईंको उपकरणमा मात्र सुरक्षित गरिन्छन्। | |
+| retry | Practise the missed words | गलत उत्तर दिएका शब्द फेरि अभ्यास गर्नुहोस् | |
+| review | Review my mistakes ({n}) | पहिले गलत उत्तर दिएका शब्द दोहोर्‍याउनुहोस् ({n} शब्द) | |
 
 ## leaving-japan
 

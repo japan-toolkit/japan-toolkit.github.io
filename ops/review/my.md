@@ -42,7 +42,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | my | correction |
 |---|---|---|---|
 | title | Kanji you see at work | အလုပ်ခွင်တွင် တွေ့ရသော ခန်းဂျီး | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels and fishing. 10 questions per round. | ဘေးကင်းရေး ဆိုင်းဘုတ်၊ လစာစာရွက်၊ အလုပ်ဆိုင်းဇယား၊ စာရွက်စာတမ်းများနှင့် ဆောက်လုပ်ရေး၊ သက်ကြီးစောင့်ရှောက်မှု၊ စားသောက်ဆိုင်၊ စိုက်ပျိုးရေး၊ စက်ရုံ၊ ဟိုတယ်၊ ငါးလုပ်ငန်းတို့တွင် တွေ့ရသော ခန်းဂျီးများကို ဖတ်တတ်အောင် လေ့ကျင့်ပါ။ တစ်ကြိမ်လျှင် မေးခွန်း ၁၀ ခု။ | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing and car maintenance. 10 questions per round. | ဘေးကင်းရေး ဆိုင်းဘုတ်၊ လစာစာရွက်၊ အလုပ်ဆိုင်းဇယား၊ စာရွက်စာတမ်းများနှင့် ဆောက်လုပ်ရေး၊ သက်ကြီးစောင့်ရှောက်မှု၊ စားသောက်ဆိုင်၊ စိုက်ပျိုးရေး၊ စက်ရုံ၊ ဟိုတယ်၊ ငါးလုပ်ငန်းနှင့် မော်တော်ယာဉ် ပြုပြင်ထိန်းသိမ်းရေးတို့တွင် တွေ့ရသော ခန်းဂျီးများကို ဖတ်တတ်အောင် လေ့ကျင့်ပါ။ တစ်ကြိမ်လျှင် မေးခွန်း ၁၀ ခု။ | |
 | lset | Choose a topic | ခေါင်းစဉ် ရွေးပါ | |
 | lmode | Choose a question type | မေးခွန်းအမျိုးအစား ရွေးပါ | |
 | sets.safety[0] | Safety signs | ဘေးကင်းရေး ဆိုင်းဘုတ် | |
@@ -65,6 +65,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.hotel[1] | 宿泊 | 宿泊 | |
 | sets.fishing[0] | Fishing | ငါးလုပ်ငန်း | |
 | sets.fishing[1] | 漁業 | 漁業 | |
+| sets.car[0] | Car maintenance | မော်တော်ယာဉ် ပြုပြင်ထိန်းသိမ်းရေး | |
+| sets.car[1] | 自動車整備 | 自動車整備 | |
 | sets.docs[0] | Forms and paperwork | စာရွက်စာတမ်းနှင့် လုပ်ထုံးလုပ်နည်း | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | အဓိပ္ပာယ် ဘာလဲ | |
@@ -454,6 +456,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 船長 | せんちょう | Captain (skipper) | သင်္ဘောမှူး (ကပ္ပတိန်) | |
 | 荒天 | こうてん | Stormy weather | ရာသီဥတု ဆိုးရွားခြင်း (မုန်တိုင်း) | |
 | 船酔い | ふなよい | Seasickness | လှိုင်းမူးခြင်း | |
+| 整備 | せいび | Maintenance (servicing) | ပြုပြင်ထိန်းသိမ်းခြင်း | |
+| 車検 | しゃけん | Mandatory vehicle inspection | မော်တော်ယာဉ် မဖြစ်မနေ ကာလအလိုက် စစ်ဆေးမှု | |
+| 工具 | こうぐ | Tools | လက်သုံးကိရိယာ | |
+| 交換 | こうかん | Replacement | အသစ်လဲခြင်း | |
+| 燃料 | ねんりょう | Fuel | လောင်စာဆီ | |
+| 冷却水 | れいきゃくすい | Coolant | အင်ဂျင် အအေးခံရည် | |
+| 空気圧 | くうきあつ | Tyre air pressure | တာယာ လေဖိအား | |
+| 締め付け | しめつけ | Tightening (bolts) | မူလီကို တင်းအောင် ကျပ်ခြင်း | |
+| 車輪止め | しゃりんどめ | Wheel chock | ဘီးတုံး | |
+| 洗車 | せんしゃ | Car wash | ကားဆေးခြင်း | |
+| 油漏れ | あぶらもれ | Oil leak | ဆီယိုခြင်း | |
+| 走行距離 | そうこうきょり | Distance driven (mileage) | မောင်းနှင်ခဲ့သော အကွာအဝေး | |
 | 氏名 | しめい | Full name | အမည် | |
 | 住所 | じゅうしょ | Address | လိပ်စာ | |
 | 生年月日 | せいねんがっぴ | Date of birth | မွေးသက္ကရာဇ် | |

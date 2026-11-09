@@ -42,7 +42,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | id | correction |
 |---|---|---|---|
 | title | Kanji you see at work | Kanji yang sering terlihat di tempat kerja | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels and fishing. 10 questions per round. | Latihan membaca kanji di tanda keselamatan, slip gaji, jadwal shift, dokumen, serta di bidang konstruksi, perawatan, restoran, pertanian, pabrik, perhotelan, dan perikanan. 10 soal per putaran. | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing and car maintenance. 10 questions per round. | Latihan membaca kanji di tanda keselamatan, slip gaji, jadwal shift, dokumen, serta di bidang konstruksi, perawatan, restoran, pertanian, pabrik, perhotelan, perikanan, dan perawatan mobil. 10 soal per putaran. | |
 | lset | Choose a topic | Pilih topik | |
 | lmode | Choose a question type | Pilih jenis soal | |
 | sets.safety[0] | Safety signs | Tanda keselamatan | |
@@ -65,6 +65,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.hotel[1] | 宿泊 | 宿泊 | |
 | sets.fishing[0] | Fishing | Perikanan | |
 | sets.fishing[1] | 漁業 | 漁業 | |
+| sets.car[0] | Car maintenance | Perawatan mobil | |
+| sets.car[1] | 自動車整備 | 自動車整備 | |
 | sets.docs[0] | Forms and paperwork | Dokumen dan prosedur | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | Apa artinya? | |
@@ -454,6 +456,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 船長 | せんちょう | Captain (skipper) | Kapten kapal | |
 | 荒天 | こうてん | Stormy weather | Cuaca buruk (badai) | |
 | 船酔い | ふなよい | Seasickness | Mabuk laut | |
+| 整備 | せいび | Maintenance (servicing) | Perawatan (servis) | |
+| 車検 | しゃけん | Mandatory vehicle inspection | Uji berkala kendaraan (uji kelayakan) | |
+| 工具 | こうぐ | Tools | Perkakas | |
+| 交換 | こうかん | Replacement | Penggantian | |
+| 燃料 | ねんりょう | Fuel | Bahan bakar | |
+| 冷却水 | れいきゃくすい | Coolant | Air pendingin (coolant) | |
+| 空気圧 | くうきあつ | Tyre air pressure | Tekanan angin ban | |
+| 締め付け | しめつけ | Tightening (bolts) | Pengencangan (baut) | |
+| 車輪止め | しゃりんどめ | Wheel chock | Ganjal roda | |
+| 洗車 | せんしゃ | Car wash | Cuci mobil | |
+| 油漏れ | あぶらもれ | Oil leak | Kebocoran oli | |
+| 走行距離 | そうこうきょり | Distance driven (mileage) | Jarak tempuh | |
 | 氏名 | しめい | Full name | Nama lengkap | |
 | 住所 | じゅうしょ | Address | Alamat | |
 | 生年月日 | せいねんがっぴ | Date of birth | Tanggal lahir | |

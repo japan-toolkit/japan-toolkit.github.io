@@ -35,6 +35,9 @@ This catches meaning errors and obvious unnatural wording, but it is still machi
 - 2026-11-09 (3) kanji-work 'fishing' set (12 words + topic name + lede): readings checked blind (all 12 match, single standard
   reading), glosses back-translated blind; applied ne topic grammar, ne 漁港 reorder, ne 船酔い calque removed, my 餌 = feed/bait,
   vi 'và'. Kept my topic ငါးလုပ်ငန်း (ရေလုပ်ငန်း is the official term; consider).
+- 2026-11-09 (4) kanji-work 'car' (自動車整備) set: readings checked blind (all match; 輪止め わどめ / オイル漏れ noted in ja meaning);
+  故障 replaced by 洗車 (overlapped with 油漏れ as a distractor). Applied my 車検 'ကာလအလိုက်', my 燃料 'လောင်စာဆီ', my bolt 'မူလီ',
+  id 'Uji berkala kendaraan', ne 'दबाब', ne topic 'गाडी मर्मत सम्भार'; second back-translation clean.
 - Status: all four languages AI-cross-reviewed once. Next: re-run after each text change; watch GitHub issues.
 
 ## How to get a free review (plan, 2026-11-08)
@@ -61,5 +64,5 @@ Machine-written; confidence noted. The owner decides when to order a review.
 | all five | takehome FAQ (tools/takehome/faq.json, 5 Q&A, added 2026-11-08; bonus Q added 2026-11-09) | vi/id good, ne medium, my medium-low | not reviewed |
 | all five | resident-tax guide (tools/resident-tax/index.html, new tool, added 2026-11-08) | vi/id good, ne medium, my medium-low | not reviewed |
 | all five | resident-tax FAQ (tools/resident-tax/faq.json, 4 Q&A, added 2026-11-08) | vi/id good, ne medium, my medium-low | not reviewed |
-| all five | kanji-work quiz (tools/kanji-work/words.js 132 words in 11 sets incl. construction/care/food/farm/factory/hotel/fishing, added 2026-11-08) — also check readings/meanings of every word | vi/id good, ne medium, my medium-low | not reviewed |
+| all five | kanji-work quiz (tools/kanji-work/words.js 144 words in 12 sets incl. construction/care/food/farm/factory/hotel/fishing/car, added 2026-11-08) — also check readings/meanings of every word | vi/id good, ne medium, my medium-low | not reviewed |
 | all five | kanji-grade quiz UI strings (tools/kanji-grade/index.html, added 2026-11-08; data itself is KANJIDIC2) | vi/id good, ne medium, my medium-low | not reviewed |

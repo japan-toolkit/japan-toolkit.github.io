@@ -42,7 +42,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | ja | correction |
 |---|---|---|---|
 | title | Kanji you see at work | 仕事で見る漢字クイズ | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels and fishing. 10 questions per round. | 安全標識・給与明細・勤務表・書類、そして建設・介護・外食・農業・製造・宿泊・漁業の現場でよく出る漢字を読む練習です。1回10問。 | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing and car maintenance. 10 questions per round. | 安全標識・給与明細・勤務表・書類、そして建設・介護・外食・農業・製造・宿泊・漁業・自動車整備の現場でよく出る漢字を読む練習です。1回10問。 | |
 | lset | Choose a topic | テーマを選ぶ | |
 | lmode | Choose a question type | 問題の種類を選ぶ | |
 | sets.safety[0] | Safety signs | 安全標識 | |
@@ -65,6 +65,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.hotel[1] | 宿泊 | 宿泊 | |
 | sets.fishing[0] | Fishing | 漁業 | |
 | sets.fishing[1] | 漁業 | 漁業 | |
+| sets.car[0] | Car maintenance | 自動車整備 | |
+| sets.car[1] | 自動車整備 | 自動車整備 | |
 | sets.docs[0] | Forms and paperwork | 書類・手続き | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | 意味は？ | |
@@ -454,6 +456,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 船長 | せんちょう | Captain (skipper) | 船でいちばん上の責任者 | |
 | 荒天 | こうてん | Stormy weather | 風や雨が強い、悪い天気 | |
 | 船酔い | ふなよい | Seasickness | 船のゆれで気分が悪くなること | |
+| 整備 | せいび | Maintenance (servicing) | 点検して直し、よい状態にすること | |
+| 車検 | しゃけん | Mandatory vehicle inspection | 法律で決められた、車の定期的な検査 | |
+| 工具 | こうぐ | Tools | 作業に使う道具（スパナなど） | |
+| 交換 | こうかん | Replacement | 古い物を新しい物にかえること | |
+| 燃料 | ねんりょう | Fuel | ガソリンや軽油など、もやして動かす物 | |
+| 冷却水 | れいきゃくすい | Coolant | エンジンを冷やすための水 | |
+| 空気圧 | くうきあつ | Tyre air pressure | タイヤの中の空気の強さ | |
+| 締め付け | しめつけ | Tightening (bolts) | ボルトなどをしっかりしめること | |
+| 車輪止め | しゃりんどめ | Wheel chock | 車が動かないようにタイヤに当てる物（「輪止め」とも言う） | |
+| 洗車 | せんしゃ | Car wash | 車をあらうこと | |
+| 油漏れ | あぶらもれ | Oil leak | オイルが外にもれること（「オイル漏れ」とも言う） | |
+| 走行距離 | そうこうきょり | Distance driven (mileage) | 車が今までに走った長さ | |
 | 氏名 | しめい | Full name | 名前 | |
 | 住所 | じゅうしょ | Address | 住んでいる場所 | |
 | 生年月日 | せいねんがっぴ | Date of birth | 生まれた年・月・日 | |

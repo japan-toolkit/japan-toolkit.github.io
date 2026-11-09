@@ -42,7 +42,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | vi | correction |
 |---|---|---|---|
 | title | Kanji you see at work | Kanji thường gặp ở nơi làm việc | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels and fishing. 10 questions per round. | Luyện đọc kanji trên biển báo an toàn, phiếu lương, bảng ca, giấy tờ và trong ngành xây dựng, chăm sóc, nhà hàng, nông nghiệp, nhà máy, khách sạn và ngư nghiệp. Mỗi lượt 10 câu. | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing and car maintenance. 10 questions per round. | Luyện đọc kanji trên biển báo an toàn, phiếu lương, bảng ca, giấy tờ và trong ngành xây dựng, chăm sóc, nhà hàng, nông nghiệp, nhà máy, khách sạn, ngư nghiệp và bảo dưỡng ô tô. Mỗi lượt 10 câu. | |
 | lset | Choose a topic | Chọn chủ đề | |
 | lmode | Choose a question type | Chọn kiểu câu hỏi | |
 | sets.safety[0] | Safety signs | Biển báo an toàn | |
@@ -65,6 +65,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.hotel[1] | 宿泊 | 宿泊 | |
 | sets.fishing[0] | Fishing | Ngư nghiệp (đánh bắt, nuôi cá) | |
 | sets.fishing[1] | 漁業 | 漁業 | |
+| sets.car[0] | Car maintenance | Bảo dưỡng ô tô | |
+| sets.car[1] | 自動車整備 | 自動車整備 | |
 | sets.docs[0] | Forms and paperwork | Giấy tờ và thủ tục | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | Nghĩa là gì? | |
@@ -454,6 +456,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 船長 | せんちょう | Captain (skipper) | Thuyền trưởng | |
 | 荒天 | こうてん | Stormy weather | Thời tiết xấu, biển động | |
 | 船酔い | ふなよい | Seasickness | Say sóng | |
+| 整備 | せいび | Maintenance (servicing) | Bảo dưỡng | |
+| 車検 | しゃけん | Mandatory vehicle inspection | Đăng kiểm xe định kỳ | |
+| 工具 | こうぐ | Tools | Dụng cụ (đồ nghề) | |
+| 交換 | こうかん | Replacement | Thay thế | |
+| 燃料 | ねんりょう | Fuel | Nhiên liệu | |
+| 冷却水 | れいきゃくすい | Coolant | Nước làm mát | |
+| 空気圧 | くうきあつ | Tyre air pressure | Áp suất lốp | |
+| 締め付け | しめつけ | Tightening (bolts) | Siết chặt (bu lông) | |
+| 車輪止め | しゃりんどめ | Wheel chock | Cục chặn bánh xe | |
+| 洗車 | せんしゃ | Car wash | Rửa xe | |
+| 油漏れ | あぶらもれ | Oil leak | Rò rỉ dầu | |
+| 走行距離 | そうこうきょり | Distance driven (mileage) | Số km xe đã chạy | |
 | 氏名 | しめい | Full name | Họ và tên | |
 | 住所 | じゅうしょ | Address | Địa chỉ | |
 | 生年月日 | せいねんがっぴ | Date of birth | Ngày tháng năm sinh | |

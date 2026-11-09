@@ -42,7 +42,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | id | correction |
 |---|---|---|---|
 | title | Kanji you see at work | Kanji yang sering terlihat di tempat kerja | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories and hotels. 10 questions per round. | Latihan membaca kanji di tanda keselamatan, slip gaji, jadwal shift, dokumen, serta di bidang konstruksi, perawatan, restoran, pertanian, pabrik, dan perhotelan. 10 soal per putaran. | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels and fishing. 10 questions per round. | Latihan membaca kanji di tanda keselamatan, slip gaji, jadwal shift, dokumen, serta di bidang konstruksi, perawatan, restoran, pertanian, pabrik, perhotelan, dan perikanan. 10 soal per putaran. | |
 | lset | Choose a topic | Pilih topik | |
 | lmode | Choose a question type | Pilih jenis soal | |
 | sets.safety[0] | Safety signs | Tanda keselamatan | |
@@ -63,6 +63,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.factory[1] | 製造 | 製造 | |
 | sets.hotel[0] | Hotels | Perhotelan | |
 | sets.hotel[1] | 宿泊 | 宿泊 | |
+| sets.fishing[0] | Fishing | Perikanan | |
+| sets.fishing[1] | 漁業 | 漁業 | |
 | sets.docs[0] | Forms and paperwork | Dokumen dan prosedur | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | Apa artinya? | |
@@ -440,6 +442,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 忘れ物 | わすれもの | Item left behind | Barang tertinggal | |
 | 朝食会場 | ちょうしょくかいじょう | Breakfast room | Tempat sarapan | |
 | 喫煙所 | きつえんじょ | Smoking area | Area merokok | |
+| 漁船 | ぎょせん | Fishing boat | Kapal penangkap ikan | |
+| 漁港 | ぎょこう | Fishing port | Pelabuhan perikanan | |
+| 出港 | しゅっこう | Leaving port | Kapal berangkat dari pelabuhan | |
+| 帰港 | きこう | Returning to port | Kapal kembali ke pelabuhan | |
+| 網 | あみ | Net | Jaring | |
+| 救命胴衣 | きゅうめいどうい | Life jacket | Jaket pelampung | |
+| 水揚げ | みずあげ | Landing the catch | Membongkar hasil tangkapan ke darat | |
+| 養殖 | ようしょく | Fish farming (aquaculture) | Budidaya ikan | |
+| 餌 | えさ | Feed / bait | Pakan / umpan | |
+| 船長 | せんちょう | Captain (skipper) | Kapten kapal | |
+| 荒天 | こうてん | Stormy weather | Cuaca buruk (badai) | |
+| 船酔い | ふなよい | Seasickness | Mabuk laut | |
 | 氏名 | しめい | Full name | Nama lengkap | |
 | 住所 | じゅうしょ | Address | Alamat | |
 | 生年月日 | せいねんがっぴ | Date of birth | Tanggal lahir | |

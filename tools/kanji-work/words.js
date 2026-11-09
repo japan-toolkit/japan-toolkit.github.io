@@ -127,6 +127,20 @@ hotel: [
  ["朝食会場","ちょうしょくかいじょう",{vi:"Nơi ăn sáng",ne:"बिहानको खाना खाने ठाउँ",id:"Tempat sarapan",my:"နံနက်စာ စားသောက်ရာနေရာ",en:"Breakfast room",ja:"朝ごはんを食べる場所"}],
  ["喫煙所","きつえんじょ",{vi:"Khu vực hút thuốc",ne:"धूम्रपान गर्ने ठाउँ",id:"Area merokok",my:"ဆေးလိပ်သောက်ရန်နေရာ",en:"Smoking area",ja:"たばこを吸ってもいい場所"}]
 ],
+fishing: [
+ ["漁船","ぎょせん",{vi:"Tàu cá",ne:"माछा मार्ने डुङ्गा",id:"Kapal penangkap ikan",my:"ငါးဖမ်းလှေ",en:"Fishing boat",ja:"魚をとるための船"}],
+ ["漁港","ぎょこう",{vi:"Cảng cá",ne:"बन्दरगाह (माछा मार्ने डुङ्गाहरूको)",id:"Pelabuhan perikanan",my:"ငါးဖမ်းဆိပ်ကမ်း",en:"Fishing port",ja:"漁船が出入りする港"}],
+ ["出港","しゅっこう",{vi:"Tàu rời cảng",ne:"डुङ्गा बन्दरगाहबाट निस्कनु",id:"Kapal berangkat dari pelabuhan",my:"ဆိပ်ကမ်းမှ ထွက်ခွာခြင်း",en:"Leaving port",ja:"船が港を出ること"}],
+ ["帰港","きこう",{vi:"Tàu trở về cảng",ne:"डुङ्गा बन्दरगाहमा फर्कनु",id:"Kapal kembali ke pelabuhan",my:"ဆိပ်ကမ်းသို့ ပြန်ဝင်ခြင်း",en:"Returning to port",ja:"船が港にもどること"}],
+ ["網","あみ",{vi:"Lưới",ne:"जाल",id:"Jaring",my:"ပိုက်ကွန်",en:"Net",ja:"糸で作った、魚をとる道具"}],
+ ["救命胴衣","きゅうめいどうい",{vi:"Áo phao cứu sinh",ne:"जीवन रक्षक ज्याकेट",id:"Jaket pelampung",my:"အသက်ကယ်အင်္ကျီ",en:"Life jacket",ja:"水にうくための服（ライフジャケット）"}],
+ ["水揚げ","みずあげ",{vi:"Đưa cá đánh bắt lên bờ",ne:"समातेको माछा किनारमा झार्नु",id:"Membongkar hasil tangkapan ke darat",my:"ဖမ်းမိသော ငါးကို ကမ်းပေါ် တင်ခြင်း",en:"Landing the catch",ja:"とった魚を船から陸にあげること"}],
+ ["養殖","ようしょく",{vi:"Nuôi trồng thủy sản",ne:"माछा पालन",id:"Budidaya ikan",my:"ငါးမွေးမြူရေး",en:"Fish farming (aquaculture)",ja:"魚や貝などを育てること"}],
+ ["餌","えさ",{vi:"Thức ăn cho cá / mồi",ne:"माछाको दाना / चारो",id:"Pakan / umpan",my:"ငါးအစာ / ငါးမျှားစာ",en:"Feed / bait",ja:"魚や動物に食べさせる物"}],
+ ["船長","せんちょう",{vi:"Thuyền trưởng",ne:"डुङ्गाको कप्तान",id:"Kapten kapal",my:"သင်္ဘောမှူး (ကပ္ပတိန်)",en:"Captain (skipper)",ja:"船でいちばん上の責任者"}],
+ ["荒天","こうてん",{vi:"Thời tiết xấu, biển động",ne:"खराब मौसम (हावाहुरी)",id:"Cuaca buruk (badai)",my:"ရာသီဥတု ဆိုးရွားခြင်း (မုန်တိုင်း)",en:"Stormy weather",ja:"風や雨が強い、悪い天気"}],
+ ["船酔い","ふなよい",{vi:"Say sóng",ne:"डुङ्गामा वाकवाकी लाग्नु",id:"Mabuk laut",my:"လှိုင်းမူးခြင်း",en:"Seasickness",ja:"船のゆれで気分が悪くなること"}],
+],
 docs: [
  ["氏名","しめい",{vi:"Họ và tên",ne:"पूरा नाम",id:"Nama lengkap",my:"အမည်",en:"Full name",ja:"名前"}],
  ["住所","じゅうしょ",{vi:"Địa chỉ",ne:"ठेगाना",id:"Alamat",my:"လိပ်စာ",en:"Address",ja:"住んでいる場所"}],

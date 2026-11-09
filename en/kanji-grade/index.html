@@ -85,6 +85,7 @@ button:focus-visible,select:focus-visible{outline:2px solid var(--accent);outlin
     <div><div class="q" id="l-set"></div><div class="chips grades" id="sets"></div></div>
     <div><div class="q" id="l-mode"></div><div class="chips" id="modes"></div></div>
     <button type="button" class="btn primary" id="start"></button>
+    <button type="button" class="btn" id="review" hidden></button>
   </div>
 
   <section class="card" id="quiz" hidden aria-live="polite"></section>
@@ -147,45 +148,56 @@ function makeRound(grade, mode, n = 10, rnd = Math.random) {
   for (const row of shuffle(pool, rnd)) { const q = makeQuestion(row, pool, mode, rnd); if (q) qs.push(q); if (qs.length === n) break; }
   return qs;
 }
-if (typeof module !== "undefined") module.exports = { kataToHira, showReading, readingKey, showMeaning, showViet, makeQuestion, makeRound, setKanji: k => { global.KANJI = k; } };
+// Round made only from the given rows (review of missed kanji); distractors still come from the whole grade.
+function makeRoundFrom(rows, grade, mode, n = 10, rnd = Math.random) {
+  const pool = KANJI.filter(r => r[1] === grade), qs = [];
+  for (const row of shuffle(rows, rnd)) { const q = makeQuestion(row, pool, mode, rnd); if (q) qs.push(q); if (qs.length === n) break; }
+  return qs;
+}
+if (typeof module !== "undefined") module.exports = { kataToHira, showReading, readingKey, showMeaning, showViet, makeQuestion, makeRound, makeRoundFrom, setKanji: k => { global.KANJI = k; } };
 
 const T={
 vi:{title:"Kanji tiểu học theo lớp",lede:"1.026 chữ kanji học ở tiểu học Nhật Bản (lớp 1–6). Luyện cách đọc, nghĩa tiếng Anh và âm Hán Việt. Mỗi lượt 10 câu.",
 lset:"Chọn lớp",grade:"Lớp {g}",count:"{n} chữ",lmode:"Chọn kiểu câu hỏi",modes:{reading:["Cách đọc","Chọn một cách đọc đúng"],meaning:["Nghĩa (tiếng Anh)","Chọn nghĩa tiếng Anh"],viet:["Âm Hán Việt","Chọn âm Hán Việt"]},
 start:"Bắt đầu",next:"Câu tiếp theo",finish:"Xem kết quả",again:"Làm lại",change:"Đổi lớp",askR:"Đâu là một cách đọc của chữ này?",askM:"Chữ này có nghĩa là gì? (tiếng Anh)",askV:"Âm Hán Việt của chữ này là gì?",
 right:"Đúng rồi!",wrong:"Chưa đúng",of:"Câu {n}/{t}",result:"Kết quả",missed:"Các chữ cần ôn lại",perfect:"Đúng hết! Rất tốt.",best:"Điểm cao nhất: {n}/{t}",on:"Âm On",kun:"Âm Kun",strokes:"{n} nét",
-note:"Điểm chỉ được lưu trên thiết bị của bạn."},
+note:"Điểm và các chữ bạn làm sai chỉ được lưu trên thiết bị của bạn.",retry:"Luyện lại các chữ vừa làm sai",review:"Ôn lại các chữ đã làm sai ({n} chữ)"},
 ne:{title:"कक्षाअनुसार प्राथमिक कान्जी",lede:"जापानको प्राथमिक विद्यालयमा (कक्षा १–६) सिकिने १,०२६ कान्जी। उच्चारण र अंग्रेजी अर्थ अभ्यास गर्नुहोस्। एक पटकमा १० प्रश्न।",
 lset:"कक्षा छान्नुहोस्",grade:"कक्षा {g}",count:"{n} अक्षर",lmode:"प्रश्नको प्रकार छान्नुहोस्",modes:{reading:["उच्चारण","सही उच्चारण छान्नुहोस्"],meaning:["अर्थ (अंग्रेजी)","अंग्रेजी अर्थ छान्नुहोस्"]},
 start:"सुरु गर्नुहोस्",next:"अर्को प्रश्न",finish:"नतिजा हेर्नुहोस्",again:"फेरि गर्नुहोस्",change:"कक्षा बदल्नुहोस्",askR:"यस अक्षरको एउटा उच्चारण कुन हो?",askM:"यस अक्षरको अर्थ के हो? (अंग्रेजी)",askV:"",
 right:"सही!",wrong:"गलत",of:"प्रश्न {n}/{t}",result:"नतिजा",missed:"दोहोर्‍याउनुपर्ने अक्षरहरू",perfect:"सबै सही! धेरै राम्रो।",best:"सबैभन्दा राम्रो अंक: {n}/{t}",on:"ओन (音)",kun:"कुन् (訓)",strokes:"{n} धर्का",
-note:"अंक तपाईंको उपकरणमा मात्र रहन्छ।"},
+note:"अंक र तपाईंले गलत उत्तर दिएका अक्षरहरू तपाईंको उपकरणमा मात्र सुरक्षित गरिन्छन्।",retry:"गलत उत्तर दिएका अक्षर फेरि अभ्यास गर्नुहोस्",review:"पहिले गलत उत्तर दिएका अक्षर दोहोर्‍याउनुहोस् ({n} अक्षर)"},
 id:{title:"Kanji SD per kelas",lede:"1.026 kanji yang dipelajari di SD Jepang (kelas 1–6). Latihan cara baca dan arti bahasa Inggris. 10 soal per putaran.",
 lset:"Pilih kelas",grade:"Kelas {g}",count:"{n} kanji",lmode:"Pilih jenis soal",modes:{reading:["Cara baca","Pilih satu cara baca yang benar"],meaning:["Arti (bahasa Inggris)","Pilih arti bahasa Inggris"]},
 start:"Mulai",next:"Soal berikutnya",finish:"Lihat hasil",again:"Coba lagi",change:"Ganti kelas",askR:"Mana salah satu cara baca kanji ini?",askM:"Apa arti kanji ini? (bahasa Inggris)",askV:"",
 right:"Benar!",wrong:"Belum tepat",of:"Soal {n}/{t}",result:"Hasil",missed:"Kanji yang perlu diulang",perfect:"Semua benar! Bagus sekali.",best:"Skor terbaik: {n}/{t}",on:"On",kun:"Kun",strokes:"{n} goresan",
-note:"Skor hanya disimpan di perangkat Anda."},
+note:"Skor dan kanji yang Anda jawab salah hanya disimpan di perangkat Anda.",retry:"Latihan ulang kanji yang dijawab salah",review:"Ulangi kanji yang pernah dijawab salah ({n} kanji)"},
 my:{title:"အတန်းအလိုက် မူလတန်း ခန်းဂျီး",lede:"ဂျပန် မူလတန်းကျောင်း (အတန်း ၁–၆) တွင် သင်ယူသော ခန်းဂျီး ၁,၀၂၆ လုံး။ အသံထွက်နှင့် အင်္ဂလိပ်အဓိပ္ပာယ် လေ့ကျင့်ပါ။ တစ်ကြိမ်လျှင် မေးခွန်း ၁၀ ခု။",
 lset:"အတန်း ရွေးပါ",grade:"အတန်း {g}",count:"{n} လုံး",lmode:"မေးခွန်းအမျိုးအစား ရွေးပါ",modes:{reading:["အသံထွက်","မှန်ကန်သော အသံထွက် ရွေးရန်"],meaning:["အဓိပ္ပာယ် (အင်္ဂလိပ်)","အင်္ဂလိပ်အဓိပ္ပာယ် ရွေးရန်"]},
 start:"စတင်ရန်",next:"နောက်မေးခွန်း",finish:"ရလဒ် ကြည့်ရန်",again:"ထပ်လုပ်ရန်",change:"အတန်း ပြောင်းရန်",askR:"ဤခန်းဂျီး၏ အသံထွက်တစ်ခုမှာ ဘယ်ဟာလဲ။",askM:"ဤခန်းဂျီး၏ အဓိပ္ပာယ်မှာ ဘာလဲ။ (အင်္ဂလိပ်)",askV:"",
 right:"မှန်ပါသည်!",wrong:"မမှန်ပါ",of:"မေးခွန်း {n}/{t}",result:"ရလဒ်",missed:"ပြန်လေ့လာရန် ခန်းဂျီးများ",perfect:"အားလုံးမှန်ပါသည်! အရမ်းကောင်းပါသည်။",best:"အမြင့်ဆုံးရမှတ်: {n}/{t}",on:"အွန်ယိုမိ (On)",kun:"ကွန်ယိုမိ (Kun)",strokes:"စာလုံးရေးချက် {n} ချက်",
-note:"ရမှတ်ကို သင့်ဖုန်း သို့မဟုတ် ကွန်ပျူတာ၏ ဘရောက်ဇာတွင်သာ သိမ်းပါသည်။"},
+note:"ရမှတ်နှင့် သင်မှားဖြေခဲ့သော ခန်းဂျီးများကို သင့်ဖုန်း သို့မဟုတ် ကွန်ပျူတာ၏ ဘရောက်ဇာတွင်သာ သိမ်းပါသည်။",retry:"မှားဖြေခဲ့သော ခန်းဂျီးများကို ထပ်လေ့ကျင့်ပါ",review:"မှားဖြေခဲ့သော ခန်းဂျီးများကို ပြန်လေ့လာပါ ({n} လုံး)"},
 en:{title:"Primary-school kanji by grade",lede:"The 1,026 kanji taught in Japanese primary school (grades 1–6). Practise readings and English meanings. 10 questions per round.",
 lset:"Choose a grade",grade:"Grade {g}",count:"{n} kanji",lmode:"Choose a question type",modes:{reading:["Reading","Choose one correct reading"],meaning:["Meaning","Choose the English meaning"]},
 start:"Start",next:"Next question",finish:"See results",again:"Try again",change:"Change grade",askR:"Which is a reading of this kanji?",askM:"What does this kanji mean?",askV:"",
 right:"Correct!",wrong:"Not quite",of:"Question {n} of {t}",result:"Your result",missed:"Kanji to review",perfect:"All correct! Great job.",best:"Best score: {n}/{t}",on:"On",kun:"Kun",strokes:"{n} strokes",
-note:"Your scores are saved only on this device."},
+note:"Your scores and the kanji you missed are saved only on this device.",retry:"Practise the missed kanji",review:"Review my mistakes ({n})"},
 ja:{title:"小学校で習う漢字クイズ",lede:"小学校1〜6年生で習う漢字1,026字。読み方と英語の意味を練習できます。1回10問。",
 lset:"学年を選ぶ",grade:"{g}年生",count:"{n}字",lmode:"問題の種類を選ぶ",modes:{reading:["読み方","正しい読みを1つ選ぶ"],meaning:["意味（英語）","英語の意味を選ぶ"]},
 start:"スタート",next:"次の問題",finish:"結果を見る",again:"もう一度",change:"学年を変える",askR:"この漢字の読み方はどれ？",askM:"この漢字の意味は？（英語）",askV:"",
 right:"正解！",wrong:"ざんねん",of:"{t}問中 {n}問目",result:"結果",missed:"復習する漢字",perfect:"全問正解！すばらしい。",best:"最高記録：{n}/{t}",on:"音",kun:"訓",strokes:"{n}画",
-note:"記録はこの端末の中だけに保存されます。"}
+note:"記録とまちがえた漢字は、この端末の中だけに保存されます。",retry:"まちがえた漢字だけもう一度",review:"まちがえた漢字を復習（{n}字）"}
 };
 
 const N=10;
-let lang="vi", grade=1, mode="reading", round=null, best={};
+let lang="vi", grade=1, mode="reading", round=null, best={}, miss={};
 lang=window.__LANG;
 try{best=JSON.parse(localStorage.getItem("kjg-best"))||{};}catch(e){best={};}
+try{miss=JSON.parse(localStorage.getItem("kjg-miss"))||{};}catch(e){miss={};}
+// Missed kanji per grade+mode, kept on this device only. A kanji leaves the list once answered correctly.
+const missKey=()=>grade+"-"+mode;
+const missList=()=>(miss[missKey()]||[]).map(k=>KANJI.find(r=>r[0]===k&&r[1]===grade)).filter(Boolean);
+function saveMiss(k,m,ok){const key=grade+"-"+m,l=(miss[key]||[]).filter(x=>x!==k);if(!ok)l.push(k);if(l.length)miss[key]=l;else delete miss[key];try{localStorage.setItem("kjg-miss",JSON.stringify(miss))}catch(_){}}
 const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const fmt=(s,o)=>s.replace("{n}",o.n).replace("{t}",o.t).replace("{g}",o.g);
@@ -195,6 +207,7 @@ function renderSetup(){
   const t=T[lang]; if(!t.modes[mode]) mode="reading";
   $("l-set").textContent=t.lset; $("l-mode").textContent=t.lmode; $("start").textContent=t.start;
   $("sets").innerHTML=[1,2,3,4,5,6].map(g=>{const b=best[g+"-"+mode];return `<button type="button" data-grade="${g}" aria-pressed="${grade===g}">${esc(fmt(t.grade,{g}))}<small>${esc(fmt(t.count,{n:COUNTS[g-1]}))}${b!=null?" · "+b+"/"+N:""}</small></button>`;}).join("");
+  const ml=missList(); $("review").hidden=!ml.length; $("review").textContent=fmt(t.review,{n:ml.length});
   $("modes").innerHTML=Object.keys(t.modes).map(k=>`<button type="button" data-mode="${k}" aria-pressed="${mode===k}">${esc(t.modes[k][0])}<small>${esc(t.modes[k][1])}</small></button>`).join("");
 }
 function detail(row){
@@ -209,8 +222,8 @@ function renderQuiz(){
     const missed=round.missed.map(r=>`<li><span class="k" lang="ja">${esc(r[0])}</span><span class="r">${detail(r)}</span></li>`).join("");
     q.innerHTML=`<div class="ask">${esc(t.result)}</div><div class="score">${round.score} / ${round.qs.length}</div>
       ${round.missed.length?`<div class="q">${esc(t.missed)}</div><ul class="review">${missed}</ul>`:`<p class="ask">${esc(t.perfect)}</p>`}
-      <button type="button" class="btn primary" data-act="again">${esc(t.again)}</button><button type="button" class="btn" data-act="change">${esc(t.change)}</button>`;
-    q.querySelector('[data-act="again"]').focus(); return;
+      ${round.missed.length?`<button type="button" class="btn primary" data-act="retry">${esc(t.retry)}</button>`:""}<button type="button" class="btn${round.missed.length?"":" primary"}" data-act="again">${esc(t.again)}</button><button type="button" class="btn" data-act="change">${esc(t.change)}</button>`;
+    q.querySelector('[data-act="retry"],[data-act="again"]').focus(); return;
   }
   const qq=round.qs[round.i], row=qq.row, jp=round.mode==="reading";
   let fb="";
@@ -236,14 +249,15 @@ document.addEventListener("click",e=>{
   const b=e.target.closest("button"); if(!b) return;
   if(b.dataset.grade){grade=+b.dataset.grade;renderSetup();return;}
   if(b.dataset.mode){mode=b.dataset.mode;renderSetup();return;}
-  if(b.id==="start"||b.dataset.act==="again"){round={qs:makeRound(grade,mode,N),i:0,score:0,missed:[],answered:false,mode};renderQuiz();return;}
+  if(b.id==="start"||b.dataset.act==="again"){round={qs:makeRound(grade,mode,N),i:0,score:0,missed:[],answered:false,mode,full:true};renderQuiz();return;}
+  if(b.id==="review"||b.dataset.act==="retry"){const rows=b.id==="review"?missList():round.missed, m=b.id==="review"?mode:round.mode;round={qs:makeRoundFrom(rows,grade,m,N),i:0,score:0,missed:[],answered:false,mode:m,full:false};renderQuiz();return;}
   if(b.dataset.opt!=null&&round&&!round.answered){
     const q=round.qs[round.i], pick=q.options[+b.dataset.opt], ok=pick===q.answer;
-    round.answered=true; round.lastOk=ok; round.pick=pick; if(ok) round.score++; else round.missed.push(q.row);
+    round.answered=true; round.lastOk=ok; round.pick=pick; if(ok) round.score++; else round.missed.push(q.row); saveMiss(q.row[0],round.mode,ok);
     renderQuiz(); return;
   }
   if(b.dataset.act==="next"){round.i++;round.answered=false;
-    if(round.i>=round.qs.length){const k=grade+"-"+round.mode;best[k]=Math.max(best[k]||0,round.score);try{localStorage.setItem("kjg-best",JSON.stringify(best))}catch(_){}}
+    if(round.i>=round.qs.length&&round.full){const k=grade+"-"+round.mode;best[k]=Math.max(best[k]||0,round.score);try{localStorage.setItem("kjg-best",JSON.stringify(best))}catch(_){}}
     renderQuiz();return;}
   if(b.dataset.act==="change"){round=null;renderSetup();renderQuiz();$("start").focus();return;}
 });

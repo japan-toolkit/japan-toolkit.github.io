@@ -42,7 +42,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | id | correction |
 |---|---|---|---|
 | title | Kanji you see at work | Kanji yang sering terlihat di tempat kerja | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance and building cleaning. 10 questions per round. | Latihan membaca kanji di tanda keselamatan, slip gaji, jadwal shift, dokumen, serta di bidang konstruksi, perawatan, restoran, pertanian, pabrik, perhotelan, perikanan, perawatan mobil, dan pembersihan gedung. 10 soal per putaran. | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning and aviation. 10 questions per round. | Latihan membaca kanji di tanda keselamatan, slip gaji, jadwal shift, dokumen, serta di bidang konstruksi, perawatan, restoran, pertanian, pabrik, perhotelan, perikanan, perawatan mobil, pembersihan gedung, dan penerbangan. 10 soal per putaran. | |
 | lset | Choose a topic | Pilih topik | |
 | lmode | Choose a question type | Pilih jenis soal | |
 | sets.safety[0] | Safety signs | Tanda keselamatan | |
@@ -69,6 +69,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.car[1] | 自動車整備 | 自動車整備 | |
 | sets.cleaning[0] | Building cleaning | Pembersihan gedung | |
 | sets.cleaning[1] | ビルクリーニング | ビルクリーニング | |
+| sets.aviation[0] | Aviation (airports) | Penerbangan (bandara) | |
+| sets.aviation[1] | 航空 | 航空 | |
 | sets.docs[0] | Forms and paperwork | Dokumen dan prosedur | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | Apa artinya? | |
@@ -484,6 +486,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 廊下 | ろうか | Corridor (hallway) | Lorong (koridor) | |
 | 塩素系 | えんそけい | Chlorine-based (bleach) | Berbahan klorin (pemutih) | |
 | 脚立 | きゃたつ | Stepladder | Tangga lipat | |
+| 空港 | くうこう | Airport | Bandara | |
+| 滑走路 | かっそうろ | Runway | Landasan pacu | |
+| 搭乗口 | とうじょうぐち | Boarding gate | Gerbang naik pesawat | |
+| 手荷物 | てにもつ | Passengers' baggage (bags) | Bagasi penumpang | |
+| 貨物 | かもつ | Cargo (freight, not passengers' bags) | Kargo (barang kiriman, bukan bagasi) | |
+| 整備士 | せいびし | Maintenance technician (mechanic) | Teknisi perawatan (mekanik) | |
+| 誘導 | ゆうどう | Guiding (marshalling) | Pemanduan (mengarahkan) | |
+| 駐機場 | ちゅうきじょう | Apron (where aircraft park) | Apron (tempat parkir pesawat) | |
+| 立入制限区域 | たちいりせいげんくいき | Restricted area (pass needed to enter) | Area terbatas (masuk hanya dengan izin) | |
+| 異物 | いぶつ | Foreign object (should not be there) | Benda asing | |
+| 給油 | きゅうゆ | Refuelling | Pengisian bahan bakar | |
+| 遅延 | ちえん | Delay | Keterlambatan | |
 | 氏名 | しめい | Full name | Nama lengkap | |
 | 住所 | じゅうしょ | Address | Alamat | |
 | 生年月日 | せいねんがっぴ | Date of birth | Tanggal lahir | |

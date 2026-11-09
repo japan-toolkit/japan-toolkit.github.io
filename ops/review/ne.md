@@ -42,7 +42,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | ne | correction |
 |---|---|---|---|
 | title | Kanji you see at work | काममा देखिने कान्जी | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance and building cleaning. 10 questions per round. | सुरक्षा चिह्न, तलब विवरण, सिफ्ट तालिका, कागजात, निर्माण, हेरचाह, रेस्टुरेन्ट, कृषि, कारखाना, होटल, माछा मार्ने तथा माछापालन, गाडी मर्मत सम्भार र भवन सरसफाइका काममा देखिने कान्जी पढ्ने अभ्यास। एक पटकमा १० प्रश्न। | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning and aviation. 10 questions per round. | सुरक्षा चिह्न, तलब विवरण, सिफ्ट तालिका, कागजात, निर्माण, हेरचाह, रेस्टुरेन्ट, कृषि, कारखाना, होटल, माछा मार्ने तथा माछापालन, गाडी मर्मत सम्भार, भवन सरसफाइ र उड्डयनका काममा देखिने कान्जी पढ्ने अभ्यास। एक पटकमा १० प्रश्न। | |
 | lset | Choose a topic | विषय छान्नुहोस् | |
 | lmode | Choose a question type | प्रश्नको प्रकार छान्नुहोस् | |
 | sets.safety[0] | Safety signs | सुरक्षा चिह्न | |
@@ -69,6 +69,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.car[1] | 自動車整備 | 自動車整備 | |
 | sets.cleaning[0] | Building cleaning | भवन सरसफाइ | |
 | sets.cleaning[1] | ビルクリーニング | ビルクリーニング | |
+| sets.aviation[0] | Aviation (airports) | उड्डयन (विमानस्थल) | |
+| sets.aviation[1] | 航空 | 航空 | |
 | sets.docs[0] | Forms and paperwork | कागजात र प्रक्रिया | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | अर्थ के हो? | |
@@ -484,6 +486,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 廊下 | ろうか | Corridor (hallway) | करिडोर (भित्री बाटो) | |
 | 塩素系 | えんそけい | Chlorine-based (bleach) | क्लोरिन भएको (ब्लिच) | |
 | 脚立 | きゃたつ | Stepladder | पट्याउन मिल्ने भर्याङ (A आकारको) | |
+| 空港 | くうこう | Airport | विमानस्थल | |
+| 滑走路 | かっそうろ | Runway | धावनमार्ग (रनवे) | |
+| 搭乗口 | とうじょうぐち | Boarding gate | विमान चढ्ने ढोका (गेट) | |
+| 手荷物 | てにもつ | Passengers' baggage (bags) | यात्रुको सामान (लगेज) | |
+| 貨物 | かもつ | Cargo (freight, not passengers' bags) | कार्गो (ढुवानीको माल) | |
+| 整備士 | せいびし | Maintenance technician (mechanic) | मर्मत प्राविधिक (मेकानिक) | |
+| 誘導 | ゆうどう | Guiding (marshalling) | मार्गनिर्देशन (बाटो देखाउने काम) | |
+| 駐機場 | ちゅうきじょう | Apron (where aircraft park) | विमान पार्किङ क्षेत्र | |
+| 立入制限区域 | たちいりせいげんくいき | Restricted area (pass needed to enter) | प्रतिबन्धित क्षेत्र (अनुमति बिना प्रवेश निषेध) | |
+| 異物 | いぶつ | Foreign object (should not be there) | बाह्य वस्तु (हुन नहुने ठाउँमा परेको) | |
+| 給油 | きゅうゆ | Refuelling | इन्धन भर्ने काम | |
+| 遅延 | ちえん | Delay | ढिलाइ | |
 | 氏名 | しめい | Full name | पूरा नाम | |
 | 住所 | じゅうしょ | Address | ठेगाना | |
 | 生年月日 | せいねんがっぴ | Date of birth | जन्म मिति | |

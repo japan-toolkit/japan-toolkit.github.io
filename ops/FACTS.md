@@ -1,4 +1,4 @@
-# Official figures used by the tools (last checked 2026-11-09 JST, all sources re-read, no changes)
+# Official figures used by the tools (last checked 2026-11-09 JST, all sources re-read, no changes; 2026-11-10 scheduled run could not fetch any source — permission prompt unanswered)
 
 Every row should cite a primary (official) page. "Checked" = page re-read and figure confirmed on that date.
 

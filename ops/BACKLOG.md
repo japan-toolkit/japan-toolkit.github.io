@@ -2,7 +2,8 @@
 
 1. **Translation quality (AI cross-review, see ops/REVIEW.md)** — all four languages AI-cross-reviewed once, live on main 2026-11-08. Next: re-run after text changes; watch GitHub issues. Also: 'translation mistake?' link on every page lets real users report.
 2. **Search Console follow-up** — from ~2026-11-21, ask the owner weekly which queries bring visitors; use them to pick new FAQ questions and tools. Reason: data-driven priorities.
-3. **Take-home calculator: bonus (賞与)** — live on main 2026-11-08 (NTA bonus rate table 2026/2027 transcribed twice; official worked example passes). Bonus FAQ question (NTA worked example) live on main 2026-11-09.
+3. **Take-home calculator: bonus (賞与)** — small wording fix to do: '10 times last month's pay' (bSpecial + FAQ) should say 'after insurance' on both sides (NTA 15-16.pdf 備考4; logic already correct). Reason: precision.
+   Previously: — live on main 2026-11-08 (NTA bonus rate table 2026/2027 transcribed twice; official worked example passes). Bonus FAQ question (NTA worked example) live on main 2026-11-09.
 4. **Kanji quizzes** — monthly KANJIDIC2 refresh (CLAUDE.md). Ideas: more field sets (漁業, 自動車整備, 航空, ビルクリーニング), a "review my mistakes" mode. Words must be checked twice.
 5. **Paid material plan** — 特定技能 field vocabulary in vi/id/ne; design only, no selling until the owner approves a platform. Keep separate from the free quizzes (KANJIDIC data is CC BY-SA; paid material must not use it).
 6. **Last-year resident tax estimate** — only if an official, nationwide formula can be cited; otherwise keep the guide as is.
@@ -14,7 +15,7 @@
 
 ## Done
 - 2026-11-09: takehome FAQ 5th Q 'how is income tax on a bonus worked out' (6 languages, NTA 19-22.pdf example 9,564円 = existing test), vi/ne/id/my AI cross-reviewed + fixes. 50 pages checked (Playwright 390px, no JS errors, takehome 5 FAQ + JSON-LD, bonus box shown). Owner approved; cherry-picked to `source`, deployed to main 2026-11-09 (built dist identical to preview, 50 pages re-checked).
-- 2026-11-09: **Facts check NOT done** — web fetches to nenkin.go.jp / kyoukaikenpo / mhlw / soumu / moj / nta.go.jp were blocked (permission request unanswered in the unattended run). FACTS.md stays 'checked 2026-11-08'. Retry first thing next run; if blocked again, ask the owner to allow those domains.
+- 2026-11-09: **Facts check NOT done** — web fetches to nenkin.go.jp / kyoukaikenpo / mhlw / soumu / moj / nta.go.jp were blocked (permission request unanswered in the unattended run). Re-run later the same day while the owner had the session open: all sources read, no changes; FACTS.md checked 2026-11-09. Fetches seem to pass only while the owner is present — watch whether tomorrow's unattended run is blocked again.
 - Note: Playwright check must ignore fonts.googleapis.com (blocked in the sandbox; not a page error).
 - 2026-11-08: kanji-grade quiz (1,026 kanji, reading/meaning/Hán-Việt), 50 pages checked, 9,234 generated questions tested.
 - 2026-11-08: kanji-work quiz v1 (new tool), privacy page updated for quiz scores, 44 pages checked, full play-through test in 6 languages × 4 sets × 2 modes.

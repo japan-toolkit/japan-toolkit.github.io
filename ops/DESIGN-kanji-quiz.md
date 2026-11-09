@@ -15,7 +15,7 @@ more than pass an exam. Most quiz sites teach by JLPT level; few teach the words
 
 ## Plan
 ### Version 1: "Kanji you see at work" (original content, no external data)
-- 48 words in 4 sets (safety signs, pay slip, shifts, documents) + 72 words in 6 特定技能-field sets (construction, care, food service, farming, factory, hotel) = 120 words. 2026-11-09: +12 fishing (漁業) = 132 words, 11 sets. +12 car maintenance (自動車整備) = 144 words, 12 sets. +12 building cleaning (ビルクリーニング) = 156 words, 13 sets. +12 aviation (航空) = 168 words, 14 sets.
+- 48 words in 4 sets (safety signs, pay slip, shifts, documents) + 72 words in 6 特定技能-field sets (construction, care, food service, farming, factory, hotel) = 120 words. 2026-11-09: +12 fishing (漁業) = 132 words, 11 sets. +12 car maintenance (自動車整備) = 144 words, 12 sets. +12 building cleaning (ビルクリーニング) = 156 words, 13 sets. +12 aviation (航空) = 168 words, 14 sets. 2026-11-10: +12 shipbuilding (造船・舶用工業) = 180 words, 15 sets.
 - Each word: kanji, reading (hiragana), meaning in all six languages, one line on where you see it.
 - Two modes: kanji → meaning (in your language), kanji → reading. 4 choices; wrong choices come from the same set.
 - 10 questions per round, then a review of the ones you missed (with reading and meaning).

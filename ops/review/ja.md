@@ -44,7 +44,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | ja | correction |
 |---|---|---|---|
 | title | Kanji you see at work | 仕事で見る漢字クイズ | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning and aviation. 10 questions per round. | 安全標識・給与明細・勤務表・書類、そして建設・介護・外食・農業・製造・宿泊・漁業・自動車整備・ビルクリーニング・航空の現場でよく出る漢字を読む練習です。1回10問。 | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation and shipbuilding. 10 questions per round. | 安全標識・給与明細・勤務表・書類、そして建設・介護・外食・農業・製造・宿泊・漁業・自動車整備・ビルクリーニング・航空・造船の現場でよく出る漢字を読む練習です。1回10問。 | |
 | lset | Choose a topic | テーマを選ぶ | |
 | lmode | Choose a question type | 問題の種類を選ぶ | |
 | sets.safety[0] | Safety signs | 安全標識 | |
@@ -73,6 +73,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.cleaning[1] | ビルクリーニング | ビルクリーニング | |
 | sets.aviation[0] | Aviation (airports) | 航空（空港） | |
 | sets.aviation[1] | 航空 | 航空 | |
+| sets.ship[0] | Shipbuilding and marine equipment | 造船・舶用工業 | |
+| sets.ship[1] | 造船・舶用工業 | 造船・舶用工業 | |
 | sets.docs[0] | Forms and paperwork | 書類・手続き | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | 意味は？ | |
@@ -500,6 +502,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 異物 | いぶつ | Foreign object (should not be there) | そこにあってはいけない物（落ちたネジなど） | |
 | 給油 | きゅうゆ | Refuelling | 燃料を入れること | |
 | 遅延 | ちえん | Delay | 予定より遅れること | |
+| 造船 | ぞうせん | Shipbuilding | 船をつくること | |
+| 船体 | せんたい | Hull (main body of a ship) | 船の本体の部分 | |
+| 鋼板 | こうはん | Steel plate | 鋼（はがね）でできた板 | |
+| 切断 | せつだん | Cutting (metal) | 金属などを切ること | |
+| 塗装 | とそう | Painting (coating) | ペンキなどをぬること | |
+| 仕上げ | しあげ | Finishing (final touches) | 最後にきれいに整える作業 | |
+| 玉掛け | たまがけ | Slinging (attaching loads to a crane hook) | 荷物にワイヤーなどをかけて、クレーンのフックにつるすこと | |
+| 酸欠 | さんけつ | Lack of oxygen | 空気の中の酸素が足りないこと（タンクの中などで危ない） | |
+| 火花 | ひばな | Sparks | 金属を切ったり溶接したりするときに飛ぶ小さな火 | |
+| 寸法 | すんぽう | Dimensions (measurements) | 長さ・はば・高さなどの大きさ | |
+| 進水 | しんすい | Launch (a new ship into the water) | できた船を初めて水に浮かべること | |
+| 機械加工 | きかいかこう | Machining | 機械で金属をけずるなどして形を作ること | |
 | 氏名 | しめい | Full name | 名前 | |
 | 住所 | じゅうしょ | Address | 住んでいる場所 | |
 | 生年月日 | せいねんがっぴ | Date of birth | 生まれた年・月・日 | |

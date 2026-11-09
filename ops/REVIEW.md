@@ -38,6 +38,9 @@ This catches meaning errors and obvious unnatural wording, but it is still machi
 - 2026-11-09 (4) kanji-work 'car' (自動車整備) set: readings checked blind (all match; 輪止め わどめ / オイル漏れ noted in ja meaning);
   故障 replaced by 洗車 (overlapped with 油漏れ as a distractor). Applied my 車検 'ကာလအလိုက်', my 燃料 'လောင်စာဆီ', my bolt 'မူလီ',
   id 'Uji berkala kendaraan', ne 'दबाब', ne topic 'गाडी मर्मत सम्भार'; second back-translation clean.
+- 2026-11-09 (5) kanji-work 'cleaning' (ビルクリーニング) set: readings checked blind (床 = ゆか on the job); 混ぜるな危険 clear in all 4.
+  Fixed ne ladder (सिँढी 'stairs' → भर्याङ 'ladder'), ne detergent/vacuum/ventilation/sign wording, vi 'Đang làm vệ sinh',
+  vi bleach 'thuốc tẩy trắng', my detergent (was readable as sanitizer), id topic 'Pembersihan gedung'; second back-translation clean.
 - Status: all four languages AI-cross-reviewed once. Next: re-run after each text change; watch GitHub issues.
 
 ## How to get a free review (plan, 2026-11-08)
@@ -64,5 +67,5 @@ Machine-written; confidence noted. The owner decides when to order a review.
 | all five | takehome FAQ (tools/takehome/faq.json, 5 Q&A, added 2026-11-08; bonus Q added 2026-11-09) | vi/id good, ne medium, my medium-low | not reviewed |
 | all five | resident-tax guide (tools/resident-tax/index.html, new tool, added 2026-11-08) | vi/id good, ne medium, my medium-low | not reviewed |
 | all five | resident-tax FAQ (tools/resident-tax/faq.json, 4 Q&A, added 2026-11-08) | vi/id good, ne medium, my medium-low | not reviewed |
-| all five | kanji-work quiz (tools/kanji-work/words.js 144 words in 12 sets incl. construction/care/food/farm/factory/hotel/fishing/car, added 2026-11-08) — also check readings/meanings of every word | vi/id good, ne medium, my medium-low | not reviewed |
+| all five | kanji-work quiz (tools/kanji-work/words.js 156 words in 13 sets incl. construction/care/food/farm/factory/hotel/fishing/car/cleaning, added 2026-11-08) — also check readings/meanings of every word | vi/id good, ne medium, my medium-low | not reviewed |
 | all five | kanji-grade quiz UI strings (tools/kanji-grade/index.html, added 2026-11-08; data itself is KANJIDIC2) | vi/id good, ne medium, my medium-low | not reviewed |

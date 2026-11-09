@@ -42,7 +42,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | ne | correction |
 |---|---|---|---|
 | title | Kanji you see at work | काममा देखिने कान्जी | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories and hotels. 10 questions per round. | सुरक्षा चिह्न, तलब विवरण, सिफ्ट तालिका, कागजात, निर्माण, हेरचाह, रेस्टुरेन्ट, कृषि, कारखाना र होटलमा देखिने कान्जी पढ्ने अभ्यास। एक पटकमा १० प्रश्न। | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels and fishing. 10 questions per round. | सुरक्षा चिह्न, तलब विवरण, सिफ्ट तालिका, कागजात, निर्माण, हेरचाह, रेस्टुरेन्ट, कृषि, कारखाना, होटल र माछा मार्ने तथा माछा पालन काममा देखिने कान्जी पढ्ने अभ्यास। एक पटकमा १० प्रश्न। | |
 | lset | Choose a topic | विषय छान्नुहोस् | |
 | lmode | Choose a question type | प्रश्नको प्रकार छान्नुहोस् | |
 | sets.safety[0] | Safety signs | सुरक्षा चिह्न | |
@@ -63,6 +63,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.factory[1] | 製造 | 製造 | |
 | sets.hotel[0] | Hotels | होटल | |
 | sets.hotel[1] | 宿泊 | 宿泊 | |
+| sets.fishing[0] | Fishing | माछा मार्ने काम र माछा पालन | |
+| sets.fishing[1] | 漁業 | 漁業 | |
 | sets.docs[0] | Forms and paperwork | कागजात र प्रक्रिया | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | अर्थ के हो? | |
@@ -440,6 +442,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 忘れ物 | わすれもの | Item left behind | बिर्सिएको सामान | |
 | 朝食会場 | ちょうしょくかいじょう | Breakfast room | बिहानको खाना खाने ठाउँ | |
 | 喫煙所 | きつえんじょ | Smoking area | धूम्रपान गर्ने ठाउँ | |
+| 漁船 | ぎょせん | Fishing boat | माछा मार्ने डुङ्गा | |
+| 漁港 | ぎょこう | Fishing port | बन्दरगाह (माछा मार्ने डुङ्गाहरूको) | |
+| 出港 | しゅっこう | Leaving port | डुङ्गा बन्दरगाहबाट निस्कनु | |
+| 帰港 | きこう | Returning to port | डुङ्गा बन्दरगाहमा फर्कनु | |
+| 網 | あみ | Net | जाल | |
+| 救命胴衣 | きゅうめいどうい | Life jacket | जीवन रक्षक ज्याकेट | |
+| 水揚げ | みずあげ | Landing the catch | समातेको माछा किनारमा झार्नु | |
+| 養殖 | ようしょく | Fish farming (aquaculture) | माछा पालन | |
+| 餌 | えさ | Feed / bait | माछाको दाना / चारो | |
+| 船長 | せんちょう | Captain (skipper) | डुङ्गाको कप्तान | |
+| 荒天 | こうてん | Stormy weather | खराब मौसम (हावाहुरी) | |
+| 船酔い | ふなよい | Seasickness | डुङ्गामा वाकवाकी लाग्नु | |
 | 氏名 | しめい | Full name | पूरा नाम | |
 | 住所 | じゅうしょ | Address | ठेगाना | |
 | 生年月日 | せいねんがっぴ | Date of birth | जन्म मिति | |

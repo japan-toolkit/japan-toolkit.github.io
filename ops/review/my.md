@@ -42,7 +42,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | my | correction |
 |---|---|---|---|
 | title | Kanji you see at work | အလုပ်ခွင်တွင် တွေ့ရသော ခန်းဂျီး | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories and hotels. 10 questions per round. | ဘေးကင်းရေး ဆိုင်းဘုတ်၊ လစာစာရွက်၊ အလုပ်ဆိုင်းဇယား၊ စာရွက်စာတမ်းများနှင့် ဆောက်လုပ်ရေး၊ သက်ကြီးစောင့်ရှောက်မှု၊ စားသောက်ဆိုင်၊ စိုက်ပျိုးရေး၊ စက်ရုံ၊ ဟိုတယ်တို့တွင် တွေ့ရသော ခန်းဂျီးများကို ဖတ်တတ်အောင် လေ့ကျင့်ပါ။ တစ်ကြိမ်လျှင် မေးခွန်း ၁၀ ခု။ | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels and fishing. 10 questions per round. | ဘေးကင်းရေး ဆိုင်းဘုတ်၊ လစာစာရွက်၊ အလုပ်ဆိုင်းဇယား၊ စာရွက်စာတမ်းများနှင့် ဆောက်လုပ်ရေး၊ သက်ကြီးစောင့်ရှောက်မှု၊ စားသောက်ဆိုင်၊ စိုက်ပျိုးရေး၊ စက်ရုံ၊ ဟိုတယ်၊ ငါးလုပ်ငန်းတို့တွင် တွေ့ရသော ခန်းဂျီးများကို ဖတ်တတ်အောင် လေ့ကျင့်ပါ။ တစ်ကြိမ်လျှင် မေးခွန်း ၁၀ ခု။ | |
 | lset | Choose a topic | ခေါင်းစဉ် ရွေးပါ | |
 | lmode | Choose a question type | မေးခွန်းအမျိုးအစား ရွေးပါ | |
 | sets.safety[0] | Safety signs | ဘေးကင်းရေး ဆိုင်းဘုတ် | |
@@ -63,6 +63,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.factory[1] | 製造 | 製造 | |
 | sets.hotel[0] | Hotels | ဟိုတယ် | |
 | sets.hotel[1] | 宿泊 | 宿泊 | |
+| sets.fishing[0] | Fishing | ငါးလုပ်ငန်း | |
+| sets.fishing[1] | 漁業 | 漁業 | |
 | sets.docs[0] | Forms and paperwork | စာရွက်စာတမ်းနှင့် လုပ်ထုံးလုပ်နည်း | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | အဓိပ္ပာယ် ဘာလဲ | |
@@ -440,6 +442,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 忘れ物 | わすれもの | Item left behind | မေ့ကျန်ခဲ့သော ပစ္စည်း | |
 | 朝食会場 | ちょうしょくかいじょう | Breakfast room | နံနက်စာ စားသောက်ရာနေရာ | |
 | 喫煙所 | きつえんじょ | Smoking area | ဆေးလိပ်သောက်ရန်နေရာ | |
+| 漁船 | ぎょせん | Fishing boat | ငါးဖမ်းလှေ | |
+| 漁港 | ぎょこう | Fishing port | ငါးဖမ်းဆိပ်ကမ်း | |
+| 出港 | しゅっこう | Leaving port | ဆိပ်ကမ်းမှ ထွက်ခွာခြင်း | |
+| 帰港 | きこう | Returning to port | ဆိပ်ကမ်းသို့ ပြန်ဝင်ခြင်း | |
+| 網 | あみ | Net | ပိုက်ကွန် | |
+| 救命胴衣 | きゅうめいどうい | Life jacket | အသက်ကယ်အင်္ကျီ | |
+| 水揚げ | みずあげ | Landing the catch | ဖမ်းမိသော ငါးကို ကမ်းပေါ် တင်ခြင်း | |
+| 養殖 | ようしょく | Fish farming (aquaculture) | ငါးမွေးမြူရေး | |
+| 餌 | えさ | Feed / bait | ငါးအစာ / ငါးမျှားစာ | |
+| 船長 | せんちょう | Captain (skipper) | သင်္ဘောမှူး (ကပ္ပတိန်) | |
+| 荒天 | こうてん | Stormy weather | ရာသီဥတု ဆိုးရွားခြင်း (မုန်တိုင်း) | |
+| 船酔い | ふなよい | Seasickness | လှိုင်းမူးခြင်း | |
 | 氏名 | しめい | Full name | အမည် | |
 | 住所 | じゅうしょ | Address | လိပ်စာ | |
 | 生年月日 | せいねんがっぴ | Date of birth | မွေးသက္ကရာဇ် | |

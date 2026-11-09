@@ -42,7 +42,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | ja | correction |
 |---|---|---|---|
 | title | Kanji you see at work | 仕事で見る漢字クイズ | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories and hotels. 10 questions per round. | 安全標識・給与明細・勤務表・書類、そして建設・介護・外食・農業・製造・宿泊の現場でよく出る漢字を読む練習です。1回10問。 | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels and fishing. 10 questions per round. | 安全標識・給与明細・勤務表・書類、そして建設・介護・外食・農業・製造・宿泊・漁業の現場でよく出る漢字を読む練習です。1回10問。 | |
 | lset | Choose a topic | テーマを選ぶ | |
 | lmode | Choose a question type | 問題の種類を選ぶ | |
 | sets.safety[0] | Safety signs | 安全標識 | |
@@ -63,6 +63,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.factory[1] | 製造 | 製造 | |
 | sets.hotel[0] | Hotels | 宿泊 | |
 | sets.hotel[1] | 宿泊 | 宿泊 | |
+| sets.fishing[0] | Fishing | 漁業 | |
+| sets.fishing[1] | 漁業 | 漁業 | |
 | sets.docs[0] | Forms and paperwork | 書類・手続き | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | 意味は？ | |
@@ -440,6 +442,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 忘れ物 | わすれもの | Item left behind | わすれて置いていった物 | |
 | 朝食会場 | ちょうしょくかいじょう | Breakfast room | 朝ごはんを食べる場所 | |
 | 喫煙所 | きつえんじょ | Smoking area | たばこを吸ってもいい場所 | |
+| 漁船 | ぎょせん | Fishing boat | 魚をとるための船 | |
+| 漁港 | ぎょこう | Fishing port | 漁船が出入りする港 | |
+| 出港 | しゅっこう | Leaving port | 船が港を出ること | |
+| 帰港 | きこう | Returning to port | 船が港にもどること | |
+| 網 | あみ | Net | 糸で作った、魚をとる道具 | |
+| 救命胴衣 | きゅうめいどうい | Life jacket | 水にうくための服（ライフジャケット） | |
+| 水揚げ | みずあげ | Landing the catch | とった魚を船から陸にあげること | |
+| 養殖 | ようしょく | Fish farming (aquaculture) | 魚や貝などを育てること | |
+| 餌 | えさ | Feed / bait | 魚や動物に食べさせる物 | |
+| 船長 | せんちょう | Captain (skipper) | 船でいちばん上の責任者 | |
+| 荒天 | こうてん | Stormy weather | 風や雨が強い、悪い天気 | |
+| 船酔い | ふなよい | Seasickness | 船のゆれで気分が悪くなること | |
 | 氏名 | しめい | Full name | 名前 | |
 | 住所 | じゅうしょ | Address | 住んでいる場所 | |
 | 生年月日 | せいねんがっぴ | Date of birth | 生まれた年・月・日 | |

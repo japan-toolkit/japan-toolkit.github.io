@@ -42,7 +42,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | vi | correction |
 |---|---|---|---|
 | title | Kanji you see at work | Kanji thường gặp ở nơi làm việc | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories and hotels. 10 questions per round. | Luyện đọc kanji trên biển báo an toàn, phiếu lương, bảng ca, giấy tờ và trong ngành xây dựng, chăm sóc, nhà hàng, nông nghiệp, nhà máy, khách sạn. Mỗi lượt 10 câu. | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels and fishing. 10 questions per round. | Luyện đọc kanji trên biển báo an toàn, phiếu lương, bảng ca, giấy tờ và trong ngành xây dựng, chăm sóc, nhà hàng, nông nghiệp, nhà máy, khách sạn và ngư nghiệp. Mỗi lượt 10 câu. | |
 | lset | Choose a topic | Chọn chủ đề | |
 | lmode | Choose a question type | Chọn kiểu câu hỏi | |
 | sets.safety[0] | Safety signs | Biển báo an toàn | |
@@ -63,6 +63,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.factory[1] | 製造 | 製造 | |
 | sets.hotel[0] | Hotels | Khách sạn | |
 | sets.hotel[1] | 宿泊 | 宿泊 | |
+| sets.fishing[0] | Fishing | Ngư nghiệp (đánh bắt, nuôi cá) | |
+| sets.fishing[1] | 漁業 | 漁業 | |
 | sets.docs[0] | Forms and paperwork | Giấy tờ và thủ tục | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | Nghĩa là gì? | |
@@ -440,6 +442,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 忘れ物 | わすれもの | Item left behind | Đồ để quên | |
 | 朝食会場 | ちょうしょくかいじょう | Breakfast room | Nơi ăn sáng | |
 | 喫煙所 | きつえんじょ | Smoking area | Khu vực hút thuốc | |
+| 漁船 | ぎょせん | Fishing boat | Tàu cá | |
+| 漁港 | ぎょこう | Fishing port | Cảng cá | |
+| 出港 | しゅっこう | Leaving port | Tàu rời cảng | |
+| 帰港 | きこう | Returning to port | Tàu trở về cảng | |
+| 網 | あみ | Net | Lưới | |
+| 救命胴衣 | きゅうめいどうい | Life jacket | Áo phao cứu sinh | |
+| 水揚げ | みずあげ | Landing the catch | Đưa cá đánh bắt lên bờ | |
+| 養殖 | ようしょく | Fish farming (aquaculture) | Nuôi trồng thủy sản | |
+| 餌 | えさ | Feed / bait | Thức ăn cho cá / mồi | |
+| 船長 | せんちょう | Captain (skipper) | Thuyền trưởng | |
+| 荒天 | こうてん | Stormy weather | Thời tiết xấu, biển động | |
+| 船酔い | ふなよい | Seasickness | Say sóng | |
 | 氏名 | しめい | Full name | Họ và tên | |
 | 住所 | じゅうしょ | Address | Địa chỉ | |
 | 生年月日 | せいねんがっぴ | Date of birth | Ngày tháng năm sinh | |

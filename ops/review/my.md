@@ -89,7 +89,9 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | missed | Words to review | ပြန်လေ့လာရန် စကားလုံးများ | |
 | perfect | All correct! Great job. | အားလုံးမှန်ပါသည်! အရမ်းကောင်းပါသည်။ | |
 | best | Best score: {n}/{t} | အမြင့်ဆုံးရမှတ်: {n}/{t} | |
-| note | Word list written by Japan Practical Toolkit. Your scores are saved only on this device. | စကားလုံးစာရင်းကို Japan Practical Toolkit က ကိုယ်တိုင် ပြုစုထားသည်။ ရမှတ်ကို သင့်စက်တွင်သာ သိမ်းသည်။ | |
+| note | Word list written by Japan Practical Toolkit. Your scores and the words you missed are saved only on this device. | စကားလုံးစာရင်းကို Japan Practical Toolkit က ကိုယ်တိုင် ပြုစုထားသည်။ ရမှတ်နှင့် မှားခဲ့သော စကားလုံးများကို သင့်စက်တွင်သာ သိမ်းဆည်းထားပါသည်။ | |
+| retry | Practise the missed words | မှားသော စကားလုံးများ ထပ်လေ့ကျင့်ပါ | |
+| review | Review my mistakes ({n}) | မှားခဲ့သော စကားလုံးများ ပြန်လေ့လာပါ ({n} လုံး) | |
 
 ## leaving-japan
 

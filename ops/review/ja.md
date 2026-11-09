@@ -89,7 +89,9 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | missed | Words to review | 復習する言葉 | |
 | perfect | All correct! Great job. | 全問正解！すばらしい。 | |
 | best | Best score: {n}/{t} | 最高記録：{n}/{t} | |
-| note | Word list written by Japan Practical Toolkit. Your scores are saved only on this device. | 単語リストは Japan Practical Toolkit のオリジナルです。記録はこの端末の中だけに保存されます。 | |
+| note | Word list written by Japan Practical Toolkit. Your scores and the words you missed are saved only on this device. | 単語リストは Japan Practical Toolkit のオリジナルです。記録とまちがえた言葉は、この端末の中だけに保存されます。 | |
+| retry | Practise the missed words | まちがえた言葉だけもう一度 | |
+| review | Review my mistakes ({n}) | まちがえた言葉を復習（{n}語） | |
 
 ## leaving-japan
 

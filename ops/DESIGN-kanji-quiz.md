@@ -42,3 +42,10 @@ more than pass an exam. Most quiz sites teach by JLPT level; few teach the words
 - Refresh: the licence asks web dictionary services to update at least monthly. www.edrdg.org is not reachable from
   this environment, so on the first run of each month ask the owner for a new file (or to allow the domain), re-run
   the extract script and the tests, and ship.
+
+## Review-mistakes mode (2026-11-09)
+- Results screen: 'practise the missed words' starts a round with only this round's mistakes.
+- Start screen: 'review my mistakes (n)' appears when this device remembers missed words for the chosen set + mode
+  (localStorage `kjw-miss`, kanji only). A word leaves the list when answered correctly in any round.
+- Retry/review rounds do not change the best score (only full 10-question rounds count).
+- Privacy page now mentions that missed quiz words are stored on the device.

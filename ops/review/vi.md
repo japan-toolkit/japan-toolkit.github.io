@@ -89,7 +89,9 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | missed | Words to review | Các từ cần ôn lại | |
 | perfect | All correct! Great job. | Đúng hết! Rất tốt. | |
 | best | Best score: {n}/{t} | Điểm cao nhất: {n}/{t} | |
-| note | Word list written by Japan Practical Toolkit. Your scores are saved only on this device. | Danh sách từ do Japan Practical Toolkit tự biên soạn. Điểm chỉ được lưu trên thiết bị của bạn. | |
+| note | Word list written by Japan Practical Toolkit. Your scores and the words you missed are saved only on this device. | Danh sách từ do Japan Practical Toolkit tự biên soạn. Điểm và các từ bạn làm sai chỉ được lưu trên thiết bị của bạn. | |
+| retry | Practise the missed words | Luyện lại các từ vừa làm sai | |
+| review | Review my mistakes ({n}) | Ôn lại các từ đã làm sai ({n} từ) | |
 
 ## leaving-japan
 

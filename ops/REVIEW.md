@@ -41,6 +41,8 @@ This catches meaning errors and obvious unnatural wording, but it is still machi
 - 2026-11-09 (5) kanji-work 'cleaning' (ビルクリーニング) set: readings checked blind (床 = ゆか on the job); 混ぜるな危険 clear in all 4.
   Fixed ne ladder (सिँढी 'stairs' → भर्याङ 'ladder'), ne detergent/vacuum/ventilation/sign wording, vi 'Đang làm vệ sinh',
   vi bleach 'thuốc tẩy trắng', my detergent (was readable as sanitizer), id topic 'Pembersihan gedung'; second back-translation clean.
+- 2026-11-09 (6) kanji-work review mode UI (retry / review / footer note): cross-reviewed; fixed 'wrong words' → 'words you
+  answered wrongly' in ne/id, shorter my button labels; second back-translation clean.
 - Status: all four languages AI-cross-reviewed once. Next: re-run after each text change; watch GitHub issues.
 
 ## How to get a free review (plan, 2026-11-08)

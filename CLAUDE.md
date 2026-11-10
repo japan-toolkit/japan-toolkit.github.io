@@ -17,7 +17,11 @@ The site exists to earn money; "official release" = the start of earning. Two wa
 1. **Paid study material** (e.g. 特定技能 field vocabulary books), sold on an external platform that the owner chooses.
    - GitHub Pages must not host a shop ("not allowed ... to run your online business, e-commerce site"): the site only links out.
    - Original content only: no KANJIDIC2 or other CC BY-SA data, no text copied from other sites.
-   - A native-speaker check is required before anything is sold.
+   - A native-speaker check is required before anything is sold (owner decision 2026-11-10, "plan A"):
+     every safety caution (⚠) translation is checked by one paid native reviewer; the rest is checked by free
+     monitors who get a clearly labelled free beta copy ("β版・チェック前・再配布禁止"). Monitors only report mistakes:
+     never ask them for ratings or reviews (stealth-marketing rules). Collect no personal data from monitors.
+     Fix every reported problem (Claude checks each report before applying) before the paid version goes on sale.
    - The free tools stay free and complete. Paid material is extra; never put existing free content behind a paywall.
 2. **Ads**, only after the owner has chosen and signed up for an ad service.
    - Update the privacy page first (cookies, third-party ad provider, 外部送信 notice).

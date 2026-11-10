@@ -44,7 +44,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | ne | correction |
 |---|---|---|---|
 | title | Kanji you see at work | काममा देखिने कान्जी | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation and shipbuilding. 10 questions per round. | सुरक्षा चिह्न, तलब विवरण, सिफ्ट तालिका, कागजात, निर्माण, हेरचाह, रेस्टुरेन्ट, कृषि, कारखाना, होटल, माछा मार्ने तथा माछापालन, गाडी मर्मत सम्भार, भवन सरसफाइ, उड्डयन र जहाज निर्माणका काममा देखिने कान्जी पढ्ने अभ्यास। एक पटकमा १० प्रश्न। | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding and railways. 10 questions per round. | सुरक्षा चिह्न, तलब विवरण, सिफ्ट तालिका, कागजात, निर्माण, हेरचाह, रेस्टुरेन्ट, कृषि, कारखाना, होटल, माछा मार्ने तथा माछापालन, गाडी मर्मत सम्भार, भवन सरसफाइ, उड्डयन, जहाज निर्माण र रेलवेका काममा देखिने कान्जी पढ्ने अभ्यास। एक पटकमा १० प्रश्न। | |
 | lset | Choose a topic | विषय छान्नुहोस् | |
 | lmode | Choose a question type | प्रश्नको प्रकार छान्नुहोस् | |
 | sets.safety[0] | Safety signs | सुरक्षा चिह्न | |
@@ -75,6 +75,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.aviation[1] | 航空 | 航空 | |
 | sets.ship[0] | Shipbuilding and marine equipment | जहाज निर्माण र जहाजका उपकरण उद्योग | |
 | sets.ship[1] | 造船・舶用工業 | 造船・舶用工業 | |
+| sets.rail[0] | Railways | रेलवे | |
+| sets.rail[1] | 鉄道 | 鉄道 | |
 | sets.docs[0] | Forms and paperwork | कागजात र प्रक्रिया | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | अर्थ के हो? | |
@@ -514,6 +516,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 寸法 | すんぽう | Dimensions (measurements) | नाप (साइज) | |
 | 進水 | しんすい | Launch (a new ship into the water) | नयाँ जहाजलाई पहिलो पटक पानीमा उतार्ने काम | |
 | 機械加工 | きかいかこう | Machining | मेसिनले धातुलाई ताछेर आकार दिने काम (मेसिनिङ) | |
+| 線路 | せんろ | Railway track | रेलको लिक (रेलवे ट्र्याक) | |
+| 駅 | えき | Station | रेल स्टेसन | |
+| 車両 | しゃりょう | Railway car (carriage) | रेलको डिब्बा | |
+| 踏切 | ふみきり | Level crossing (railroad crossing) | सडक र रेलमार्ग एक-आपसमा काटिने ठाउँ (लेभल क्रसिङ) | |
+| 信号 | しんごう | Signal (light) | सिग्नल (संकेत बत्ती) | |
+| 架線 | かせん | Overhead power line (for trains) | रेललाई बिजुली दिने माथिको तार | |
+| 感電 | かんでん | Electric shock | करेन्ट लाग्नु | |
+| 運休 | うんきゅう | Service cancelled (train not running) | रेल सेवा रद्द | |
+| 終電 | しゅうでん | Last train of the day | दिनको अन्तिम रेल | |
+| 指差確認 | しさかくにん | Point and call (safety check) | औँलाले देखाएर ठूलो स्वरले बोलेर जाँच गर्नु | |
+| 待避 | たいひ | Stepping clear (to a safe spot when a train comes) | रेल आउँदा सुरक्षित ठाउँमा हट्नु | |
+| 改札 | かいさつ | Ticket gate | टिकट जाँच गर्ने गेट | |
 | 氏名 | しめい | Full name | पूरा नाम | |
 | 住所 | じゅうしょ | Address | ठेगाना | |
 | 生年月日 | せいねんがっぴ | Date of birth | जन्म मिति | |

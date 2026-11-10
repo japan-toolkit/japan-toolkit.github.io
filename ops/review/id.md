@@ -44,7 +44,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | id | correction |
 |---|---|---|---|
 | title | Kanji you see at work | Kanji yang sering terlihat di tempat kerja | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation and shipbuilding. 10 questions per round. | Latihan membaca kanji di tanda keselamatan, slip gaji, jadwal shift, dokumen, serta di bidang konstruksi, perawatan, restoran, pertanian, pabrik, perhotelan, perikanan, perawatan mobil, pembersihan gedung, penerbangan, dan pembuatan kapal. 10 soal per putaran. | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding and railways. 10 questions per round. | Latihan membaca kanji di tanda keselamatan, slip gaji, jadwal shift, dokumen, serta di bidang konstruksi, perawatan, restoran, pertanian, pabrik, perhotelan, perikanan, perawatan mobil, pembersihan gedung, penerbangan, pembuatan kapal, dan perkeretaapian. 10 soal per putaran. | |
 | lset | Choose a topic | Pilih topik | |
 | lmode | Choose a question type | Pilih jenis soal | |
 | sets.safety[0] | Safety signs | Tanda keselamatan | |
@@ -75,6 +75,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.aviation[1] | 航空 | 航空 | |
 | sets.ship[0] | Shipbuilding and marine equipment | Pembuatan kapal dan industri peralatan kapal | |
 | sets.ship[1] | 造船・舶用工業 | 造船・舶用工業 | |
+| sets.rail[0] | Railways | Perkeretaapian | |
+| sets.rail[1] | 鉄道 | 鉄道 | |
 | sets.docs[0] | Forms and paperwork | Dokumen dan prosedur | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | Apa artinya? | |
@@ -514,6 +516,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 寸法 | すんぽう | Dimensions (measurements) | Ukuran (dimensi) | |
 | 進水 | しんすい | Launch (a new ship into the water) | Peluncuran kapal ke air | |
 | 機械加工 | きかいかこう | Machining | Pemesinan (machining) | |
+| 線路 | せんろ | Railway track | Rel kereta (jalur rel) | |
+| 駅 | えき | Station | Stasiun | |
+| 車両 | しゃりょう | Railway car (carriage) | Gerbong kereta | |
+| 踏切 | ふみきり | Level crossing (railroad crossing) | Perlintasan kereta api | |
+| 信号 | しんごう | Signal (light) | Sinyal (lampu tanda) | |
+| 架線 | かせん | Overhead power line (for trains) | Kawat listrik aliran atas (LAA) untuk kereta | |
+| 感電 | かんでん | Electric shock | Tersengat listrik | |
+| 運休 | うんきゅう | Service cancelled (train not running) | Perjalanan dibatalkan (kereta tidak beroperasi) | |
+| 終電 | しゅうでん | Last train of the day | Kereta terakhir dalam sehari | |
+| 指差確認 | しさかくにん | Point and call (safety check) | Tunjuk dan sebut (cek keselamatan) | |
+| 待避 | たいひ | Stepping clear (to a safe spot when a train comes) | Menyingkir ke tempat aman saat kereta mendekat | |
+| 改札 | かいさつ | Ticket gate | Gerbang tiket | |
 | 氏名 | しめい | Full name | Nama lengkap | |
 | 住所 | じゅうしょ | Address | Alamat | |
 | 生年月日 | せいねんがっぴ | Date of birth | Tanggal lahir | |

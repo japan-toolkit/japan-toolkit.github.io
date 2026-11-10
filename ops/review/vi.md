@@ -44,7 +44,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | vi | correction |
 |---|---|---|---|
 | title | Kanji you see at work | Kanji thường gặp ở nơi làm việc | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation and shipbuilding. 10 questions per round. | Luyện đọc kanji trên biển báo an toàn, phiếu lương, bảng ca, giấy tờ và trong ngành xây dựng, chăm sóc, nhà hàng, nông nghiệp, nhà máy, khách sạn, ngư nghiệp, bảo dưỡng ô tô, vệ sinh tòa nhà, hàng không và đóng tàu. Mỗi lượt 10 câu. | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding and railways. 10 questions per round. | Luyện đọc kanji trên biển báo an toàn, phiếu lương, bảng ca, giấy tờ và trong ngành xây dựng, chăm sóc, nhà hàng, nông nghiệp, nhà máy, khách sạn, ngư nghiệp, bảo dưỡng ô tô, vệ sinh tòa nhà, hàng không, đóng tàu và đường sắt. Mỗi lượt 10 câu. | |
 | lset | Choose a topic | Chọn chủ đề | |
 | lmode | Choose a question type | Chọn kiểu câu hỏi | |
 | sets.safety[0] | Safety signs | Biển báo an toàn | |
@@ -75,6 +75,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.aviation[1] | 航空 | 航空 | |
 | sets.ship[0] | Shipbuilding and marine equipment | Đóng tàu và công nghiệp thiết bị tàu thủy | |
 | sets.ship[1] | 造船・舶用工業 | 造船・舶用工業 | |
+| sets.rail[0] | Railways | Đường sắt | |
+| sets.rail[1] | 鉄道 | 鉄道 | |
 | sets.docs[0] | Forms and paperwork | Giấy tờ và thủ tục | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | Nghĩa là gì? | |
@@ -514,6 +516,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 寸法 | すんぽう | Dimensions (measurements) | Kích thước | |
 | 進水 | しんすい | Launch (a new ship into the water) | Hạ thủy tàu | |
 | 機械加工 | きかいかこう | Machining | Gia công cơ khí | |
+| 線路 | せんろ | Railway track | Đường ray | |
+| 駅 | えき | Station | Nhà ga | |
+| 車両 | しゃりょう | Railway car (carriage) | Toa tàu | |
+| 踏切 | ふみきり | Level crossing (railroad crossing) | Đường ngang (chỗ đường bộ cắt đường sắt) | |
+| 信号 | しんごう | Signal (light) | Tín hiệu (đèn tín hiệu đường sắt) | |
+| 架線 | かせん | Overhead power line (for trains) | Dây điện trên cao (cấp điện cho tàu) | |
+| 感電 | かんでん | Electric shock | Bị điện giật | |
+| 運休 | うんきゅう | Service cancelled (train not running) | Tạm ngừng chạy tàu (hủy chuyến) | |
+| 終電 | しゅうでん | Last train of the day | Chuyến tàu cuối cùng trong ngày | |
+| 指差確認 | しさかくにん | Point and call (safety check) | Chỉ tay và hô to để xác nhận | |
+| 待避 | たいひ | Stepping clear (to a safe spot when a train comes) | Tránh sang chỗ an toàn khi tàu đến | |
+| 改札 | かいさつ | Ticket gate | Cửa soát vé | |
 | 氏名 | しめい | Full name | Họ và tên | |
 | 住所 | じゅうしょ | Address | Địa chỉ | |
 | 生年月日 | せいねんがっぴ | Date of birth | Ngày tháng năm sinh | |

@@ -44,7 +44,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | ja | correction |
 |---|---|---|---|
 | title | Kanji you see at work | 仕事で見る漢字クイズ | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation and shipbuilding. 10 questions per round. | 安全標識・給与明細・勤務表・書類、そして建設・介護・外食・農業・製造・宿泊・漁業・自動車整備・ビルクリーニング・航空・造船の現場でよく出る漢字を読む練習です。1回10問。 | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding and railways. 10 questions per round. | 安全標識・給与明細・勤務表・書類、そして建設・介護・外食・農業・製造・宿泊・漁業・自動車整備・ビルクリーニング・航空・造船・鉄道の現場でよく出る漢字を読む練習です。1回10問。 | |
 | lset | Choose a topic | テーマを選ぶ | |
 | lmode | Choose a question type | 問題の種類を選ぶ | |
 | sets.safety[0] | Safety signs | 安全標識 | |
@@ -75,6 +75,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.aviation[1] | 航空 | 航空 | |
 | sets.ship[0] | Shipbuilding and marine equipment | 造船・舶用工業 | |
 | sets.ship[1] | 造船・舶用工業 | 造船・舶用工業 | |
+| sets.rail[0] | Railways | 鉄道 | |
+| sets.rail[1] | 鉄道 | 鉄道 | |
 | sets.docs[0] | Forms and paperwork | 書類・手続き | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | 意味は？ | |
@@ -514,6 +516,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 寸法 | すんぽう | Dimensions (measurements) | 長さ・はば・高さなどの大きさ | |
 | 進水 | しんすい | Launch (a new ship into the water) | できた船を初めて水に浮かべること | |
 | 機械加工 | きかいかこう | Machining | 機械で金属をけずるなどして形を作ること | |
+| 線路 | せんろ | Railway track | 電車が走るレールの道 | |
+| 駅 | えき | Station | 電車に乗ったり降りたりする所 | |
+| 車両 | しゃりょう | Railway car (carriage) | 電車の一両一両（電車そのもの） | |
+| 踏切 | ふみきり | Level crossing (railroad crossing) | 道路と線路が交わる所 | |
+| 信号 | しんごう | Signal (light) | 進め・止まれなどを光で知らせるもの | |
+| 架線 | かせん | Overhead power line (for trains) | 電車に電気を送るため、線路の上に張った電線（現場では「がせん」とも言う） | |
+| 感電 | かんでん | Electric shock | 体に電気が流れること（とても危ない） | |
+| 運休 | うんきゅう | Service cancelled (train not running) | 電車などが運転を休むこと | |
+| 終電 | しゅうでん | Last train of the day | その日の最後の電車 | |
+| 指差確認 | しさかくにん | Point and call (safety check) | 指でさして、声に出して確かめること（「ゆびさしかくにん」とも言う） | |
+| 待避 | たいひ | Stepping clear (to a safe spot when a train comes) | 電車が来る前に、安全な場所によけること | |
+| 改札 | かいさつ | Ticket gate | 駅で切符を入れたり、ICカードをタッチしたりする所 | |
 | 氏名 | しめい | Full name | 名前 | |
 | 住所 | じゅうしょ | Address | 住んでいる場所 | |
 | 生年月日 | せいねんがっぴ | Date of birth | 生まれた年・月・日 | |

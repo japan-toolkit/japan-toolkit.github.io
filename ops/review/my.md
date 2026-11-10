@@ -44,7 +44,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | my | correction |
 |---|---|---|---|
 | title | Kanji you see at work | အလုပ်ခွင်တွင် တွေ့ရသော ခန်းဂျီး | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation and shipbuilding. 10 questions per round. | ဘေးကင်းရေး ဆိုင်းဘုတ်၊ လစာစာရွက်၊ အလုပ်ဆိုင်းဇယား၊ စာရွက်စာတမ်းများနှင့် ဆောက်လုပ်ရေး၊ သက်ကြီးစောင့်ရှောက်မှု၊ စားသောက်ဆိုင်၊ စိုက်ပျိုးရေး၊ စက်ရုံ၊ ဟိုတယ်၊ ငါးလုပ်ငန်း၊ မော်တော်ယာဉ် ပြုပြင်ထိန်းသိမ်းရေး၊ အဆောက်အအုံ သန့်ရှင်းရေး၊ လေကြောင်းလုပ်ငန်းနှင့် သင်္ဘောတည်ဆောက်ရေးတို့တွင် တွေ့ရသော ခန်းဂျီးများကို ဖတ်တတ်အောင် လေ့ကျင့်ပါ။ တစ်ကြိမ်လျှင် မေးခွန်း ၁၀ ခု။ | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding and railways. 10 questions per round. | ဘေးကင်းရေး ဆိုင်းဘုတ်၊ လစာစာရွက်၊ အလုပ်ဆိုင်းဇယား၊ စာရွက်စာတမ်းများနှင့် ဆောက်လုပ်ရေး၊ သက်ကြီးစောင့်ရှောက်မှု၊ စားသောက်ဆိုင်၊ စိုက်ပျိုးရေး၊ စက်ရုံ၊ ဟိုတယ်၊ ငါးလုပ်ငန်း၊ မော်တော်ယာဉ် ပြုပြင်ထိန်းသိမ်းရေး၊ အဆောက်အအုံ သန့်ရှင်းရေး၊ လေကြောင်းလုပ်ငန်း၊ သင်္ဘောတည်ဆောက်ရေးနှင့် ရထားလုပ်ငန်းတို့တွင် တွေ့ရသော ခန်းဂျီးများကို ဖတ်တတ်အောင် လေ့ကျင့်ပါ။ တစ်ကြိမ်လျှင် မေးခွန်း ၁၀ ခု။ | |
 | lset | Choose a topic | ခေါင်းစဉ် ရွေးပါ | |
 | lmode | Choose a question type | မေးခွန်းအမျိုးအစား ရွေးပါ | |
 | sets.safety[0] | Safety signs | ဘေးကင်းရေး ဆိုင်းဘုတ် | |
@@ -75,6 +75,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.aviation[1] | 航空 | 航空 | |
 | sets.ship[0] | Shipbuilding and marine equipment | သင်္ဘောတည်ဆောက်ရေးနှင့် သင်္ဘောသုံးစက်ပစ္စည်း လုပ်ငန်း | |
 | sets.ship[1] | 造船・舶用工業 | 造船・舶用工業 | |
+| sets.rail[0] | Railways | ရထားလုပ်ငန်း | |
+| sets.rail[1] | 鉄道 | 鉄道 | |
 | sets.docs[0] | Forms and paperwork | စာရွက်စာတမ်းနှင့် လုပ်ထုံးလုပ်နည်း | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | အဓိပ္ပာယ် ဘာလဲ | |
@@ -514,6 +516,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 寸法 | すんぽう | Dimensions (measurements) | အတိုင်းအတာ | |
 | 進水 | しんすい | Launch (a new ship into the water) | သင်္ဘောသစ်ကို ရေချခြင်း | |
 | 機械加工 | きかいかこう | Machining | စက်ဖြင့် သတ္တုကို ပုံသွင်းခြင်း | |
+| 線路 | せんろ | Railway track | ရထားသံလမ်း | |
+| 駅 | えき | Station | ဘူတာ | |
+| 車両 | しゃりょう | Railway car (carriage) | ရထားတွဲ | |
+| 踏切 | ふみきり | Level crossing (railroad crossing) | ရထားလမ်း ကူးဖြတ်ရာ နေရာ | |
+| 信号 | しんごう | Signal (light) | အချက်ပြမီး | |
+| 架線 | かせん | Overhead power line (for trains) | ရထားအတွက် အပေါ်မှ လျှပ်စစ်ကြိုး | |
+| 感電 | かんでん | Electric shock | ဓာတ်လိုက်ခြင်း | |
+| 運休 | うんきゅう | Service cancelled (train not running) | ရထား မပြေးဆွဲဘဲ ရပ်နားခြင်း | |
+| 終電 | しゅうでん | Last train of the day | တစ်နေ့တာ၏ နောက်ဆုံး ရထား | |
+| 指差確認 | しさかくにん | Point and call (safety check) | လက်ညှိုးထိုး၍ အသံထွက်ပြီး စစ်ဆေးခြင်း | |
+| 待避 | たいひ | Stepping clear (to a safe spot when a train comes) | ရထားလာချိန် ဘေးကင်းရာသို့ ရှောင်ခြင်း | |
+| 改札 | かいさつ | Ticket gate | လက်မှတ်စစ် ဂိတ် | |
 | 氏名 | しめい | Full name | အမည် | |
 | 住所 | じゅうしょ | Address | လိပ်စာ | |
 | 生年月日 | せいねんがっぴ | Date of birth | မွေးသက္ကရာဇ် | |

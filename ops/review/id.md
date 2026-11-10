@@ -44,7 +44,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | id | correction |
 |---|---|---|---|
 | title | Kanji you see at work | Kanji yang sering terlihat di tempat kerja | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding and railways. 10 questions per round. | Latihan membaca kanji di tanda keselamatan, slip gaji, jadwal shift, dokumen, serta di bidang konstruksi, perawatan, restoran, pertanian, pabrik, perhotelan, perikanan, perawatan mobil, pembersihan gedung, penerbangan, pembuatan kapal, dan perkeretaapian. 10 soal per putaran. | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding, railways and forestry. 10 questions per round. | Latihan membaca kanji di tanda keselamatan, slip gaji, jadwal shift, dokumen, serta di bidang konstruksi, perawatan, restoran, pertanian, pabrik, perhotelan, perikanan, perawatan mobil, pembersihan gedung, penerbangan, pembuatan kapal, perkeretaapian, dan kehutanan. 10 soal per putaran. | |
 | lset | Choose a topic | Pilih topik | |
 | lmode | Choose a question type | Pilih jenis soal | |
 | sets.safety[0] | Safety signs | Tanda keselamatan | |
@@ -77,6 +77,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.ship[1] | 造船・舶用工業 | 造船・舶用工業 | |
 | sets.rail[0] | Railways | Perkeretaapian | |
 | sets.rail[1] | 鉄道 | 鉄道 | |
+| sets.forest[0] | Forestry | Kehutanan | |
+| sets.forest[1] | 林業 | 林業 | |
 | sets.docs[0] | Forms and paperwork | Dokumen dan prosedur | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | Apa artinya? | |
@@ -528,6 +530,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 指差確認 | しさかくにん | Point and call (safety check) | Tunjuk dan sebut (cek keselamatan) | |
 | 待避 | たいひ | Stepping clear (to a safe spot when a train comes) | Menyingkir ke tempat aman saat kereta mendekat | |
 | 改札 | かいさつ | Ticket gate | Gerbang tiket | |
+| 伐倒 | ばっとう | Felling (cutting a tree down) | Penebangan pohon (merobohkan pohon) | |
+| 間伐 | かんばつ | Thinning (cutting some trees so the rest grow well) | Penjarangan (menebang sebagian pohon) | |
+| 下刈り | したがり | Weeding around young planted trees | Penyiangan (membersihkan rumput di sekitar pohon muda) | |
+| 苗木 | なえぎ | Seedling (young tree for planting) | Bibit pohon | |
+| 丸太 | まるた | Log | Kayu gelondongan | |
+| 枝打ち | えだうち | Pruning (cutting off lower branches) | Pemangkasan cabang bagian bawah | |
+| 刈払機 | かりはらいき | Brush cutter (machine) | Mesin pemotong rumput (brush cutter) | |
+| 林道 | りんどう | Forest road | Jalan hutan | |
+| 斜面 | しゃめん | Slope | Lereng | |
+| かかり木 | かかりぎ | Hung-up tree (a cut tree caught in another tree; very dangerous) | Pohon tersangkut (pohon tebangan tersangkut di pohon lain, sangat berbahaya) | |
+| 集材 | しゅうざい | Yarding (bringing logs together to one place) | Penyaradan (mengumpulkan kayu ke satu tempat) | |
+| 蜂 | はち | Bee / wasp / hornet (a sting can be life-threatening) | Lebah / tawon (sengatannya bisa mengancam nyawa) | |
 | 氏名 | しめい | Full name | Nama lengkap | |
 | 住所 | じゅうしょ | Address | Alamat | |
 | 生年月日 | せいねんがっぴ | Date of birth | Tanggal lahir | |

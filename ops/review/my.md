@@ -44,7 +44,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | my | correction |
 |---|---|---|---|
 | title | Kanji you see at work | အလုပ်ခွင်တွင် တွေ့ရသော ခန်းဂျီး | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding and railways. 10 questions per round. | ဘေးကင်းရေး ဆိုင်းဘုတ်၊ လစာစာရွက်၊ အလုပ်ဆိုင်းဇယား၊ စာရွက်စာတမ်းများနှင့် ဆောက်လုပ်ရေး၊ သက်ကြီးစောင့်ရှောက်မှု၊ စားသောက်ဆိုင်၊ စိုက်ပျိုးရေး၊ စက်ရုံ၊ ဟိုတယ်၊ ငါးလုပ်ငန်း၊ မော်တော်ယာဉ် ပြုပြင်ထိန်းသိမ်းရေး၊ အဆောက်အအုံ သန့်ရှင်းရေး၊ လေကြောင်းလုပ်ငန်း၊ သင်္ဘောတည်ဆောက်ရေးနှင့် ရထားလုပ်ငန်းတို့တွင် တွေ့ရသော ခန်းဂျီးများကို ဖတ်တတ်အောင် လေ့ကျင့်ပါ။ တစ်ကြိမ်လျှင် မေးခွန်း ၁၀ ခု။ | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding, railways and forestry. 10 questions per round. | ဘေးကင်းရေး ဆိုင်းဘုတ်၊ လစာစာရွက်၊ အလုပ်ဆိုင်းဇယား၊ စာရွက်စာတမ်းများနှင့် ဆောက်လုပ်ရေး၊ သက်ကြီးစောင့်ရှောက်မှု၊ စားသောက်ဆိုင်၊ စိုက်ပျိုးရေး၊ စက်ရုံ၊ ဟိုတယ်၊ ငါးလုပ်ငန်း၊ မော်တော်ယာဉ် ပြုပြင်ထိန်းသိမ်းရေး၊ အဆောက်အအုံ သန့်ရှင်းရေး၊ လေကြောင်းလုပ်ငန်း၊ သင်္ဘောတည်ဆောက်ရေး၊ ရထားလုပ်ငန်းနှင့် သစ်တောလုပ်ငန်းတို့တွင် တွေ့ရသော ခန်းဂျီးများကို ဖတ်တတ်အောင် လေ့ကျင့်ပါ။ တစ်ကြိမ်လျှင် မေးခွန်း ၁၀ ခု။ | |
 | lset | Choose a topic | ခေါင်းစဉ် ရွေးပါ | |
 | lmode | Choose a question type | မေးခွန်းအမျိုးအစား ရွေးပါ | |
 | sets.safety[0] | Safety signs | ဘေးကင်းရေး ဆိုင်းဘုတ် | |
@@ -77,6 +77,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.ship[1] | 造船・舶用工業 | 造船・舶用工業 | |
 | sets.rail[0] | Railways | ရထားလုပ်ငန်း | |
 | sets.rail[1] | 鉄道 | 鉄道 | |
+| sets.forest[0] | Forestry | သစ်တောလုပ်ငန်း | |
+| sets.forest[1] | 林業 | 林業 | |
 | sets.docs[0] | Forms and paperwork | စာရွက်စာတမ်းနှင့် လုပ်ထုံးလုပ်နည်း | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | အဓိပ္ပာယ် ဘာလဲ | |
@@ -528,6 +530,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 指差確認 | しさかくにん | Point and call (safety check) | လက်ညှိုးထိုး၍ အသံထွက်ပြီး စစ်ဆေးခြင်း | |
 | 待避 | たいひ | Stepping clear (to a safe spot when a train comes) | ရထားလာချိန် ဘေးကင်းရာသို့ ရှောင်ခြင်း | |
 | 改札 | かいさつ | Ticket gate | လက်မှတ်စစ် ဂိတ် | |
+| 伐倒 | ばっとう | Felling (cutting a tree down) | သစ်ပင်ကို ခုတ်လှဲခြင်း | |
+| 間伐 | かんばつ | Thinning (cutting some trees so the rest grow well) | ကျန်သစ်ပင်များ ကောင်းစွာကြီးထွားရန် အချို့ကို ခုတ်ထုတ်ခြင်း | |
+| 下刈り | したがり | Weeding around young planted trees | ပျိုးပင်ငယ်များ ပတ်လည်ရှိ ပေါင်းပင်ကို ရှင်းခြင်း | |
+| 苗木 | なえぎ | Seedling (young tree for planting) | စိုက်ရန် သစ်ပျိုးပင် | |
+| 丸太 | まるた | Log | သစ်လုံး | |
+| 枝打ち | えだうち | Pruning (cutting off lower branches) | သစ်ပင်၏ အောက်ပိုင်းရှိ ကိုင်းများကို ခုတ်ချခြင်း | |
+| 刈払機 | かりはらいき | Brush cutter (machine) | ပေါင်းရိတ်စက် | |
+| 林道 | りんどう | Forest road | သစ်တောလမ်း | |
+| 斜面 | しゃめん | Slope | ဆင်ခြေလျှော | |
+| かかり木 | かかりぎ | Hung-up tree (a cut tree caught in another tree; very dangerous) | ခုတ်လှဲထားသော သစ်ပင်က အခြားသစ်ပင်တွင် ငြိနေခြင်း (အလွန်အန္တရာယ်များ) | |
+| 集材 | しゅうざい | Yarding (bringing logs together to one place) | သစ်လုံးများကို တစ်နေရာတည်းသို့ စုသယ်ခြင်း | |
+| 蜂 | はち | Bee / wasp / hornet (a sting can be life-threatening) | ပျား / နကျယ် (အတုပ်ခံရလျှင် အသက်အန္တရာယ် ရှိနိုင်သည်) | |
 | 氏名 | しめい | Full name | အမည် | |
 | 住所 | じゅうしょ | Address | လိပ်စာ | |
 | 生年月日 | せいねんがっぴ | Date of birth | မွေးသက္ကရာဇ် | |

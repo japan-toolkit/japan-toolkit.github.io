@@ -1,4 +1,4 @@
-# Official figures used by the tools (last checked 2026-11-10 JST with the owner present: 15 main sources re-read, all figures and 更新日 unchanged. Not re-read on 11-10, last 11-09: R8_13tokyo.pdf, keizoku-20.pdf, soumu 000679115.pdf, NTA 15-16/19-22.pdf, zeigakuhyo2026 18.pdf)
+# Official figures used by the tools (last checked 2026-11-11 JST with the owner present: 14 main sources re-read, all figures and 更新日 unchanged; 協会けんぽ shows no 令和9年度 notice yet. Not re-read on 11-11, last 11-09: R8_13tokyo.pdf, keizoku-20.pdf, soumu 000679115.pdf, NTA 15-16/19-22.pdf, zeigakuhyo2026 18.pdf)
 
 Every row should cite a primary (official) page. "Checked" = page re-read and figure confirmed on that date.
 

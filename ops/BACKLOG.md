@@ -15,7 +15,7 @@
 
 ## Done
 - 2026-11-11: kanji-work 林業 set (伐倒/間伐/下刈り/苗木/丸太/枝打ち/刈払機/林道/斜面/かかり木/集材/蜂), checked twice (blind reading check; blind back-translation → 10 fixes incl. ne 'sting' not 'bite', ne forestry term; second back-translation → 1 more fix, ne hornet). Tests: words.js data test (204 words), 50 pages Playwright 390px (no JS errors, no h-scroll), play-through 6 languages × 2 modes (7/10 → retry 3/3, best score saved). Branch `daily/2026-11-11`, awaiting owner approval.
-- 2026-11-11: **Facts check NOT done** — all 14 official URLs refused (PROVENANCE_REQUIRED, unattended run), same as 11-09/11-10. Not worked around. Last full check 2026-11-10 (owner present).
+- 2026-11-11: **Facts check NOT done** — all 14 official URLs refused (PROVENANCE_REQUIRED, unattended run), same as 11-09/11-10. Not worked around. Re-run with the owner present the same day: 14 sources read, all unchanged.
 - 2026-11-10 (5): paid material prep — platform comparison (official fee pages, CAA Q&A on omitting address), native-check request text + 239-row check sheet, draft PDF (48 p, phone size) + 10-word sample; PDF text verified against the draft. Files in chat only.
 - 2026-11-10 (4): paid material step 2 — Vietnamese gloss/example/caution for all 100 words; blind back-translation (15 fixes), JA–VI meaning check (11 fixes), second back-translation of 21 revised (2 safety fixes). Delivered as xlsx in chat only.
 - 2026-11-10 (3): paid material step 1 — Japanese draft of 『介護の現場ことば 100』 (10 scenes × 10), 0 overlap with the free quiz, two independent AI checks (care practice/safety, plain Japanese) + re-check of revised entries. Delivered as xlsx in chat; content kept out of the public repo.

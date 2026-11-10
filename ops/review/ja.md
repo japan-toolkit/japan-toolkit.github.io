@@ -44,7 +44,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | ja | correction |
 |---|---|---|---|
 | title | Kanji you see at work | 仕事で見る漢字クイズ | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding and railways. 10 questions per round. | 安全標識・給与明細・勤務表・書類、そして建設・介護・外食・農業・製造・宿泊・漁業・自動車整備・ビルクリーニング・航空・造船・鉄道の現場でよく出る漢字を読む練習です。1回10問。 | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding, railways and forestry. 10 questions per round. | 安全標識・給与明細・勤務表・書類、そして建設・介護・外食・農業・製造・宿泊・漁業・自動車整備・ビルクリーニング・航空・造船・鉄道・林業の現場でよく出る漢字を読む練習です。1回10問。 | |
 | lset | Choose a topic | テーマを選ぶ | |
 | lmode | Choose a question type | 問題の種類を選ぶ | |
 | sets.safety[0] | Safety signs | 安全標識 | |
@@ -77,6 +77,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.ship[1] | 造船・舶用工業 | 造船・舶用工業 | |
 | sets.rail[0] | Railways | 鉄道 | |
 | sets.rail[1] | 鉄道 | 鉄道 | |
+| sets.forest[0] | Forestry | 林業 | |
+| sets.forest[1] | 林業 | 林業 | |
 | sets.docs[0] | Forms and paperwork | 書類・手続き | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | 意味は？ | |
@@ -528,6 +530,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 指差確認 | しさかくにん | Point and call (safety check) | 指でさして、声に出して確かめること（「ゆびさしかくにん」とも言う） | |
 | 待避 | たいひ | Stepping clear (to a safe spot when a train comes) | 電車が来る前に、安全な場所によけること | |
 | 改札 | かいさつ | Ticket gate | 駅で切符を入れたり、ICカードをタッチしたりする所 | |
+| 伐倒 | ばっとう | Felling (cutting a tree down) | 立っている木を切ってたおすこと | |
+| 間伐 | かんばつ | Thinning (cutting some trees so the rest grow well) | 残りの木がよく育つように、一部の木を切って間をあけること | |
+| 下刈り | したがり | Weeding around young planted trees | 植えた小さい木のまわりの草や低い木を刈ること | |
+| 苗木 | なえぎ | Seedling (young tree for planting) | 植えるための小さい木 | |
+| 丸太 | まるた | Log | 切った木の幹を、枝を落として切りそろえたもの | |
+| 枝打ち | えだうち | Pruning (cutting off lower branches) | 木の下のほうの枝を切り落とすこと | |
+| 刈払機 | かりはらいき | Brush cutter (machine) | 草や細い木を刈る、エンジンなどで動く機械（「草刈機」とも言う） | |
+| 林道 | りんどう | Forest road | 森の中の、仕事や運ぱんのための道 | |
+| 斜面 | しゃめん | Slope | かたむいている地面 | |
+| かかり木 | かかりぎ | Hung-up tree (a cut tree caught in another tree; very dangerous) | 切った木がほかの木にひっかかって、たおれきらないもの（とても危ない） | |
+| 集材 | しゅうざい | Yarding (bringing logs together to one place) | 切った木を運び出すために、1か所に集めること | |
+| 蜂 | はち | Bee / wasp / hornet (a sting can be life-threatening) | ハチ（特にスズメバチ）。さされると命にかかわることがある | |
 | 氏名 | しめい | Full name | 名前 | |
 | 住所 | じゅうしょ | Address | 住んでいる場所 | |
 | 生年月日 | せいねんがっぴ | Date of birth | 生まれた年・月・日 | |

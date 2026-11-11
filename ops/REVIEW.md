@@ -60,6 +60,11 @@ This catches meaning errors and obvious unnatural wording, but it is still machi
   蜂 often スズメバチ — noted in ja). Fixed: ne topic वन (forest) → वानिकी (forestry), ne 林道 no longer reads 'a road that works',
   ne 蜂 'bite' → 'sting' (चिल्नु) + अरिङ्गाल (hornet), vi かかり木 'bị mắc' → 'bị vướng', vi/en/ja 蜂 now include hornets, id 下刈り as a noun
   (Penyiangan), my written-form fixes; second back-translation clean.
+- 2026-11-12 kanji-work 'wood products' (木材産業) set (製材/原木/乾燥/含水率/合板/集成材/丸のこ/帯のこ/巻き込まれ/木くず/粉じん/耳栓):
+  readings checked blind (all 12 match; 合板 also ごうばん, 木くず rarely もくず). Fixed after blind back-translation: my 製材/原木 verb ခွဲစိတ် (surgical)
+  → ခွဲ, my 'blocked ear' → နားဆို့, my dust mask → နှာခေါင်းစည်း, my 含水率 အစိုဓာတ်, ne/my/vi glulam no longer reads as chipboard, ne शेविङ्स (रन्दा),
+  ne चिस्यान, ne loanword सॉ, id tertarik → terseret into a rotating machine, ja 原木 without 製材; second back-translation → 4 more fixes
+  (vi glulam term, id circular saw, my band saw ပတ်လွှ, my wood dust). Low confidence left: my ဘန်းဆော/ပတ်လွှ, ne ग्लुलाम.
 - Status: all four languages AI-cross-reviewed once. Next: re-run after each text change; watch GitHub issues.
 
 ## How to get a free review (plan, 2026-11-08)
@@ -86,5 +91,5 @@ Machine-written; confidence noted. The owner decides when to order a review.
 | all five | takehome FAQ (tools/takehome/faq.json, 5 Q&A, added 2026-11-08; bonus Q added 2026-11-09) | vi/id good, ne medium, my medium-low | not reviewed |
 | all five | resident-tax guide (tools/resident-tax/index.html, new tool, added 2026-11-08) | vi/id good, ne medium, my medium-low | not reviewed |
 | all five | resident-tax FAQ (tools/resident-tax/faq.json, 4 Q&A, added 2026-11-08) | vi/id good, ne medium, my medium-low | not reviewed |
-| all five | kanji-work quiz (tools/kanji-work/words.js 204 words in 17 sets incl. construction/care/food/farm/factory/hotel/fishing/car/cleaning/aviation/shipbuilding, added 2026-11-08) — also check readings/meanings of every word | vi/id good, ne medium, my medium-low | not reviewed |
+| all five | kanji-work quiz (tools/kanji-work/words.js 216 words in 18 sets incl. construction/care/food/farm/factory/hotel/fishing/car/cleaning/aviation/shipbuilding, added 2026-11-08) — also check readings/meanings of every word | vi/id good, ne medium, my medium-low | not reviewed |
 | all five | kanji-grade quiz UI strings (tools/kanji-grade/index.html, added 2026-11-08; data itself is KANJIDIC2) | vi/id good, ne medium, my medium-low | not reviewed |

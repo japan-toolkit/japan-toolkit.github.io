@@ -44,7 +44,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | ne | correction |
 |---|---|---|---|
 | title | Kanji you see at work | काममा देखिने कान्जी | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding, railways and forestry. 10 questions per round. | सुरक्षा चिह्न, तलब विवरण, सिफ्ट तालिका, कागजात, निर्माण, हेरचाह, रेस्टुरेन्ट, कृषि, कारखाना, होटल, माछा मार्ने तथा माछापालन, गाडी मर्मत सम्भार, भवन सरसफाइ, उड्डयन, जहाज निर्माण, रेलवे र वानिकीका काममा देखिने कान्जी पढ्ने अभ्यास। एक पटकमा १० प्रश्न। | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding, railways, forestry and wood products. 10 questions per round. | सुरक्षा चिह्न, तलब विवरण, सिफ्ट तालिका, कागजात, निर्माण, हेरचाह, रेस्टुरेन्ट, कृषि, कारखाना, होटल, माछा मार्ने तथा माछापालन, गाडी मर्मत सम्भार, भवन सरसफाइ, उड्डयन, जहाज निर्माण, रेलवे, वानिकी र काठ उद्योगका काममा देखिने कान्जी पढ्ने अभ्यास। एक पटकमा १० प्रश्न। | |
 | lset | Choose a topic | विषय छान्नुहोस् | |
 | lmode | Choose a question type | प्रश्नको प्रकार छान्नुहोस् | |
 | sets.safety[0] | Safety signs | सुरक्षा चिह्न | |
@@ -79,6 +79,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.rail[1] | 鉄道 | 鉄道 | |
 | sets.forest[0] | Forestry | वानिकी (रुख रोप्ने र काट्ने काम) | |
 | sets.forest[1] | 林業 | 林業 | |
+| sets.wood[0] | Wood products | काठ उद्योग (चिरान, प्लाइउड) | |
+| sets.wood[1] | 木材産業 | 木材産業 | |
 | sets.docs[0] | Forms and paperwork | कागजात र प्रक्रिया | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | अर्थ के हो? | |
@@ -542,6 +544,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | かかり木 | かかりぎ | Hung-up tree (a cut tree caught in another tree; very dangerous) | काटेको रुख अर्को रुखमा अड्किएको अवस्था (धेरै खतरनाक) | |
 | 集材 | しゅうざい | Yarding (bringing logs together to one place) | काटिएका काठ एकै ठाउँमा जम्मा गर्ने काम | |
 | 蜂 | はち | Bee / wasp / hornet (a sting can be life-threatening) | मौरी / बारुलो / अरिङ्गाल (चिलेमा ज्यानै जोखिममा पर्न सक्छ) | |
+| 製材 | せいざい | Sawmilling (cutting logs into boards and square timber) | मुढा चिरेर फल्याक र चौकोस काठ बनाउने काम | |
+| 原木 | げんぼく | Raw logs (before sawing) | नचिरिएको मुढा (कच्चा काठ) | |
+| 乾燥 | かんそう | Drying (wood) | काठ सुकाउने काम | |
+| 含水率 | がんすいりつ | Moisture content (how much water is in the wood) | काठको चिस्यान (काठमा भएको पानीको मात्रा, प्रतिशतमा) | |
+| 合板 | ごうはん | Plywood | प्लाइउड (पातला काठका तह टाँसेर बनाइएको फल्याक) | |
+| 集成材 | しゅうせいざい | Glued laminated timber (glulam) | पातला फल्याकहरू तह-तह टाँसेर बनाइएको ठूलो काठ (ग्लुलाम) | |
+| 丸のこ | まるのこ | Circular saw | गोलो आरा घुम्ने मेसिन (सर्कुलर सॉ) | |
+| 帯のこ | おびのこ | Band saw | ब्यान्ड सॉ (पट्टी जस्तो आरा घुम्ने मेसिन) | |
+| 巻き込まれ | まきこまれ | Getting caught in a machine (hand, sleeve or hair pulled in) | हात, बाहुला वा कपाल घुमिरहेको मेसिनमा तानिएर फस्नु | |
+| 木くず | きくず | Wood scraps and shavings | काठका टुक्रा र रन्दा लगाउँदा निस्कने छिलका | |
+| 粉じん | ふんじん | Dust (fine dust in the air; wear a dust mask) | हावामा उड्ने मसिनो धुलो (धुलो छेक्ने मास्क लगाउनुहोस्) | |
+| 耳栓 | みみせん | Earplugs (protect your hearing from machine noise) | इयरप्लग (मेसिनको चर्को आवाजबाट कान जोगाउन कानमा राख्ने प्लग) | |
 | 氏名 | しめい | Full name | पूरा नाम | |
 | 住所 | じゅうしょ | Address | ठेगाना | |
 | 生年月日 | せいねんがっぴ | Date of birth | जन्म मिति | |

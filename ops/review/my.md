@@ -44,7 +44,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | my | correction |
 |---|---|---|---|
 | title | Kanji you see at work | အလုပ်ခွင်တွင် တွေ့ရသော ခန်းဂျီး | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding, railways and forestry. 10 questions per round. | ဘေးကင်းရေး ဆိုင်းဘုတ်၊ လစာစာရွက်၊ အလုပ်ဆိုင်းဇယား၊ စာရွက်စာတမ်းများနှင့် ဆောက်လုပ်ရေး၊ သက်ကြီးစောင့်ရှောက်မှု၊ စားသောက်ဆိုင်၊ စိုက်ပျိုးရေး၊ စက်ရုံ၊ ဟိုတယ်၊ ငါးလုပ်ငန်း၊ မော်တော်ယာဉ် ပြုပြင်ထိန်းသိမ်းရေး၊ အဆောက်အအုံ သန့်ရှင်းရေး၊ လေကြောင်းလုပ်ငန်း၊ သင်္ဘောတည်ဆောက်ရေး၊ ရထားလုပ်ငန်းနှင့် သစ်တောလုပ်ငန်းတို့တွင် တွေ့ရသော ခန်းဂျီးများကို ဖတ်တတ်အောင် လေ့ကျင့်ပါ။ တစ်ကြိမ်လျှင် မေးခွန်း ၁၀ ခု။ | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding, railways, forestry and wood products. 10 questions per round. | ဘေးကင်းရေး ဆိုင်းဘုတ်၊ လစာစာရွက်၊ အလုပ်ဆိုင်းဇယား၊ စာရွက်စာတမ်းများနှင့် ဆောက်လုပ်ရေး၊ သက်ကြီးစောင့်ရှောက်မှု၊ စားသောက်ဆိုင်၊ စိုက်ပျိုးရေး၊ စက်ရုံ၊ ဟိုတယ်၊ ငါးလုပ်ငန်း၊ မော်တော်ယာဉ် ပြုပြင်ထိန်းသိမ်းရေး၊ အဆောက်အအုံ သန့်ရှင်းရေး၊ လေကြောင်းလုပ်ငန်း၊ သင်္ဘောတည်ဆောက်ရေး၊ ရထားလုပ်ငန်း၊ သစ်တောလုပ်ငန်းနှင့် သစ်သားထုတ်ကုန် လုပ်ငန်းတို့တွင် တွေ့ရသော ခန်းဂျီးများကို ဖတ်တတ်အောင် လေ့ကျင့်ပါ။ တစ်ကြိမ်လျှင် မေးခွန်း ၁၀ ခု။ | |
 | lset | Choose a topic | ခေါင်းစဉ် ရွေးပါ | |
 | lmode | Choose a question type | မေးခွန်းအမျိုးအစား ရွေးပါ | |
 | sets.safety[0] | Safety signs | ဘေးကင်းရေး ဆိုင်းဘုတ် | |
@@ -79,6 +79,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.rail[1] | 鉄道 | 鉄道 | |
 | sets.forest[0] | Forestry | သစ်တောလုပ်ငန်း | |
 | sets.forest[1] | 林業 | 林業 | |
+| sets.wood[0] | Wood products | သစ်သားထုတ်ကုန် လုပ်ငန်း | |
+| sets.wood[1] | 木材産業 | 木材産業 | |
 | sets.docs[0] | Forms and paperwork | စာရွက်စာတမ်းနှင့် လုပ်ထုံးလုပ်နည်း | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | အဓိပ္ပာယ် ဘာလဲ | |
@@ -542,6 +544,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | かかり木 | かかりぎ | Hung-up tree (a cut tree caught in another tree; very dangerous) | ခုတ်လှဲထားသော သစ်ပင်က အခြားသစ်ပင်တွင် ငြိနေခြင်း (အလွန်အန္တရာယ်များ) | |
 | 集材 | しゅうざい | Yarding (bringing logs together to one place) | သစ်လုံးများကို တစ်နေရာတည်းသို့ စုသယ်ခြင်း | |
 | 蜂 | はち | Bee / wasp / hornet (a sting can be life-threatening) | ပျား / နကျယ် (အတုပ်ခံရလျှင် အသက်အန္တရာယ် ရှိနိုင်သည်) | |
+| 製材 | せいざい | Sawmilling (cutting logs into boards and square timber) | သစ်လုံးများကို လွှဖြင့် ပျဉ်ပြားနှင့် သစ်ချောင်းများအဖြစ် ခွဲခြင်း | |
+| 原木 | げんぼく | Raw logs (before sawing) | မခွဲရသေးသော ကုန်ကြမ်း သစ်လုံး | |
+| 乾燥 | かんそう | Drying (wood) | သစ်သားကို အခြောက်ခံခြင်း | |
+| 含水率 | がんすいりつ | Moisture content (how much water is in the wood) | သစ်သား၏ အစိုဓာတ် (ရေပါဝင်မှုနှုန်း) | |
+| 合板 | ごうはん | Plywood | အထပ်သား (ပလိုင်ဝုဒ်) | |
+| 集成材 | しゅうせいざい | Glued laminated timber (glulam) | ပျဉ်ပြားငယ်များကို ကော်ဖြင့် ထပ်ကပ်ထားသော သစ်သား (ဂလူလမ်) | |
+| 丸のこ | まるのこ | Circular saw | စက်ဝိုင်းလွှ | |
+| 帯のこ | おびのこ | Band saw | ဘန်းဆော (ပတ်လွှ) | |
+| 巻き込まれ | まきこまれ | Getting caught in a machine (hand, sleeve or hair pulled in) | လည်နေသော စက်ထဲသို့ လက်၊ အင်္ကျီလက် သို့မဟုတ် ဆံပင် ဆွဲသွင်းခံရခြင်း | |
+| 木くず | きくず | Wood scraps and shavings | သစ်စနှင့် ရွေစာ | |
+| 粉じん | ふんじん | Dust (fine dust in the air; wear a dust mask) | လေထဲရှိ သစ်သားဖုန်မှုန့် (ဖုန်ကာ နှာခေါင်းစည်း တပ်ပါ) | |
+| 耳栓 | みみせん | Earplugs (protect your hearing from machine noise) | နားဆို့ (စက်သံ ဆူညံမှုမှ နားကို ကာကွယ်ရန် နားထဲ ထည့်ရသော အရာ) | |
 | 氏名 | しめい | Full name | အမည် | |
 | 住所 | じゅうしょ | Address | လိပ်စာ | |
 | 生年月日 | せいねんがっぴ | Date of birth | မွေးသက္ကရာဇ် | |

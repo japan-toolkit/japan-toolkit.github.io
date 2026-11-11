@@ -44,7 +44,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | id | correction |
 |---|---|---|---|
 | title | Kanji you see at work | Kanji yang sering terlihat di tempat kerja | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding, railways and forestry. 10 questions per round. | Latihan membaca kanji di tanda keselamatan, slip gaji, jadwal shift, dokumen, serta di bidang konstruksi, perawatan, restoran, pertanian, pabrik, perhotelan, perikanan, perawatan mobil, pembersihan gedung, penerbangan, pembuatan kapal, perkeretaapian, dan kehutanan. 10 soal per putaran. | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding, railways, forestry and wood products. 10 questions per round. | Latihan membaca kanji di tanda keselamatan, slip gaji, jadwal shift, dokumen, serta di bidang konstruksi, perawatan, restoran, pertanian, pabrik, perhotelan, perikanan, perawatan mobil, pembersihan gedung, penerbangan, pembuatan kapal, perkeretaapian, kehutanan, dan industri kayu. 10 soal per putaran. | |
 | lset | Choose a topic | Pilih topik | |
 | lmode | Choose a question type | Pilih jenis soal | |
 | sets.safety[0] | Safety signs | Tanda keselamatan | |
@@ -79,6 +79,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.rail[1] | 鉄道 | 鉄道 | |
 | sets.forest[0] | Forestry | Kehutanan | |
 | sets.forest[1] | 林業 | 林業 | |
+| sets.wood[0] | Wood products | Industri kayu | |
+| sets.wood[1] | 木材産業 | 木材産業 | |
 | sets.docs[0] | Forms and paperwork | Dokumen dan prosedur | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | Apa artinya? | |
@@ -542,6 +544,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | かかり木 | かかりぎ | Hung-up tree (a cut tree caught in another tree; very dangerous) | Pohon tersangkut (pohon tebangan tersangkut di pohon lain, sangat berbahaya) | |
 | 集材 | しゅうざい | Yarding (bringing logs together to one place) | Penyaradan (mengumpulkan kayu ke satu tempat) | |
 | 蜂 | はち | Bee / wasp / hornet (a sting can be life-threatening) | Lebah / tawon (sengatannya bisa mengancam nyawa) | |
+| 製材 | せいざい | Sawmilling (cutting logs into boards and square timber) | Penggergajian kayu (memotong kayu gelondongan menjadi papan dan balok) | |
+| 原木 | げんぼく | Raw logs (before sawing) | Kayu bulat bahan baku (belum digergaji) | |
+| 乾燥 | かんそう | Drying (wood) | Pengeringan (kayu) | |
+| 含水率 | がんすいりつ | Moisture content (how much water is in the wood) | Kadar air (kayu) | |
+| 合板 | ごうはん | Plywood | Kayu lapis (tripleks) | |
+| 集成材 | しゅうせいざい | Glued laminated timber (glulam) | Kayu laminasi (glulam) | |
+| 丸のこ | まるのこ | Circular saw | Gergaji bundar (circular saw) | |
+| 帯のこ | おびのこ | Band saw | Gergaji pita | |
+| 巻き込まれ | まきこまれ | Getting caught in a machine (hand, sleeve or hair pulled in) | Tertarik atau terseret masuk ke mesin yang berputar (tangan, lengan baju, rambut) | |
+| 木くず | きくず | Wood scraps and shavings | Serpihan dan serutan kayu | |
+| 粉じん | ふんじん | Dust (fine dust in the air; wear a dust mask) | Debu halus di udara (pakai masker debu) | |
+| 耳栓 | みみせん | Earplugs (protect your hearing from machine noise) | Penyumbat telinga (melindungi pendengaran dari bising mesin) | |
 | 氏名 | しめい | Full name | Nama lengkap | |
 | 住所 | じゅうしょ | Address | Alamat | |
 | 生年月日 | せいねんがっぴ | Date of birth | Tanggal lahir | |

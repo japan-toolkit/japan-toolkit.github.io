@@ -44,7 +44,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | ja | correction |
 |---|---|---|---|
 | title | Kanji you see at work | 仕事で見る漢字クイズ | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding, railways and forestry. 10 questions per round. | 安全標識・給与明細・勤務表・書類、そして建設・介護・外食・農業・製造・宿泊・漁業・自動車整備・ビルクリーニング・航空・造船・鉄道・林業の現場でよく出る漢字を読む練習です。1回10問。 | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding, railways, forestry and wood products. 10 questions per round. | 安全標識・給与明細・勤務表・書類、そして建設・介護・外食・農業・製造・宿泊・漁業・自動車整備・ビルクリーニング・航空・造船・鉄道・林業・木材産業の現場でよく出る漢字を読む練習です。1回10問。 | |
 | lset | Choose a topic | テーマを選ぶ | |
 | lmode | Choose a question type | 問題の種類を選ぶ | |
 | sets.safety[0] | Safety signs | 安全標識 | |
@@ -79,6 +79,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.rail[1] | 鉄道 | 鉄道 | |
 | sets.forest[0] | Forestry | 林業 | |
 | sets.forest[1] | 林業 | 林業 | |
+| sets.wood[0] | Wood products | 木材産業 | |
+| sets.wood[1] | 木材産業 | 木材産業 | |
 | sets.docs[0] | Forms and paperwork | 書類・手続き | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | 意味は？ | |
@@ -542,6 +544,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | かかり木 | かかりぎ | Hung-up tree (a cut tree caught in another tree; very dangerous) | 切った木がほかの木にひっかかって、たおれきらないもの（とても危ない） | |
 | 集材 | しゅうざい | Yarding (bringing logs together to one place) | 切った木を運び出すために、1か所に集めること | |
 | 蜂 | はち | Bee / wasp / hornet (a sting can be life-threatening) | ハチ（特にスズメバチ）。さされると命にかかわることがある | |
+| 製材 | せいざい | Sawmilling (cutting logs into boards and square timber) | 丸太を切って、板や角材にすること | |
+| 原木 | げんぼく | Raw logs (before sawing) | 板などにする前の、切ったままの木 | |
+| 乾燥 | かんそう | Drying (wood) | 木の水分をぬいて、かわかすこと | |
+| 含水率 | がんすいりつ | Moisture content (how much water is in the wood) | 木の中にふくまれている水の割合 | |
+| 合板 | ごうはん | Plywood | うすい板を何まいもはり合わせた板 | |
+| 集成材 | しゅうせいざい | Glued laminated timber (glulam) | 小さい板や角材を接着剤（のり）ではり合わせて作った木材 | |
+| 丸のこ | まるのこ | Circular saw | 丸い刃が回って木を切る機械 | |
+| 帯のこ | おびのこ | Band saw | 輪になった帯のような刃が回って木を切る機械 | |
+| 巻き込まれ | まきこまれ | Getting caught in a machine (hand, sleeve or hair pulled in) | 手や服のそで、かみの毛が、回っている機械に引きこまれること | |
+| 木くず | きくず | Wood scraps and shavings | 木を切ったりけずったりしたときに出る、小さいかけら | |
+| 粉じん | ふんじん | Dust (fine dust in the air; wear a dust mask) | 空気の中にまう、細かい木のこな。防じんマスクをつけましょう | |
+| 耳栓 | みみせん | Earplugs (protect your hearing from machine noise) | 大きな音から耳を守るため、耳の穴に入れるもの | |
 | 氏名 | しめい | Full name | 名前 | |
 | 住所 | じゅうしょ | Address | 住んでいる場所 | |
 | 生年月日 | せいねんがっぴ | Date of birth | 生まれた年・月・日 | |

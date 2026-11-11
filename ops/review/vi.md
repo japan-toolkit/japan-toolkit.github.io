@@ -44,7 +44,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | vi | correction |
 |---|---|---|---|
 | title | Kanji you see at work | Kanji thường gặp ở nơi làm việc | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding, railways and forestry. 10 questions per round. | Luyện đọc kanji trên biển báo an toàn, phiếu lương, bảng ca, giấy tờ và trong ngành xây dựng, chăm sóc, nhà hàng, nông nghiệp, nhà máy, khách sạn, ngư nghiệp, bảo dưỡng ô tô, vệ sinh tòa nhà, hàng không, đóng tàu, đường sắt và lâm nghiệp. Mỗi lượt 10 câu. | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding, railways, forestry and wood products. 10 questions per round. | Luyện đọc kanji trên biển báo an toàn, phiếu lương, bảng ca, giấy tờ và trong ngành xây dựng, chăm sóc, nhà hàng, nông nghiệp, nhà máy, khách sạn, ngư nghiệp, bảo dưỡng ô tô, vệ sinh tòa nhà, hàng không, đóng tàu, đường sắt, lâm nghiệp và công nghiệp gỗ. Mỗi lượt 10 câu. | |
 | lset | Choose a topic | Chọn chủ đề | |
 | lmode | Choose a question type | Chọn kiểu câu hỏi | |
 | sets.safety[0] | Safety signs | Biển báo an toàn | |
@@ -79,6 +79,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.rail[1] | 鉄道 | 鉄道 | |
 | sets.forest[0] | Forestry | Lâm nghiệp | |
 | sets.forest[1] | 林業 | 林業 | |
+| sets.wood[0] | Wood products | Công nghiệp gỗ | |
+| sets.wood[1] | 木材産業 | 木材産業 | |
 | sets.docs[0] | Forms and paperwork | Giấy tờ và thủ tục | |
 | sets.docs[1] | 書類 | 書類 | |
 | modes.meaning[0] | What does it mean? | Nghĩa là gì? | |
@@ -542,6 +544,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | かかり木 | かかりぎ | Hung-up tree (a cut tree caught in another tree; very dangerous) | Cây bị vướng (cây đã đốn bị vướng vào cây khác, rất nguy hiểm) | |
 | 集材 | しゅうざい | Yarding (bringing logs together to one place) | Gom gỗ (tập kết gỗ về một chỗ) | |
 | 蜂 | はち | Bee / wasp / hornet (a sting can be life-threatening) | Ong / ong bắp cày (bị đốt có thể nguy hiểm đến tính mạng) | |
+| 製材 | せいざい | Sawmilling (cutting logs into boards and square timber) | Xẻ gỗ (cưa gỗ tròn thành tấm, thanh) | |
+| 原木 | げんぼく | Raw logs (before sawing) | Gỗ nguyên liệu (gỗ tròn chưa xẻ) | |
+| 乾燥 | かんそう | Drying (wood) | Sấy khô (gỗ) | |
+| 含水率 | がんすいりつ | Moisture content (how much water is in the wood) | Độ ẩm của gỗ (lượng nước trong gỗ) | |
+| 合板 | ごうはん | Plywood | Gỗ dán (ván ép) | |
+| 集成材 | しゅうせいざい | Glued laminated timber (glulam) | Gỗ ghép nhiều lớp (glulam – các thanh gỗ dán keo chồng lên nhau) | |
+| 丸のこ | まるのこ | Circular saw | Cưa đĩa (cưa tròn) | |
+| 帯のこ | おびのこ | Band saw | Cưa vòng (cưa băng) | |
+| 巻き込まれ | まきこまれ | Getting caught in a machine (hand, sleeve or hair pulled in) | Bị cuốn vào máy (tay, tay áo, tóc) | |
+| 木くず | きくず | Wood scraps and shavings | Vụn gỗ, phoi bào | |
+| 粉じん | ふんじん | Dust (fine dust in the air; wear a dust mask) | Bụi gỗ mịn bay trong không khí (hãy đeo khẩu trang chống bụi) | |
+| 耳栓 | みみせん | Earplugs (protect your hearing from machine noise) | Nút bịt tai (bảo vệ tai khỏi tiếng ồn của máy) | |
 | 氏名 | しめい | Full name | Họ và tên | |
 | 住所 | じゅうしょ | Address | Địa chỉ | |
 | 生年月日 | せいねんがっぴ | Date of birth | Ngày tháng năm sinh | |

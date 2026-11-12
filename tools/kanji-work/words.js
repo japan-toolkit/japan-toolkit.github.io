@@ -71,6 +71,20 @@ care: [
  ["申し送り","もうしおくり",{vi:"Bàn giao ca",ne:"सिफ्ट हस्तान्तरणको जानकारी",id:"Serah terima (antar-shift)",my:"ဆိုင်းလွှဲ အချက်အလက်",en:"Shift handover",ja:"次の人に情報を伝えること"}],
  ["転倒","てんとう",{vi:"Té ngã",ne:"लडेर खस्नु",id:"Terjatuh",my:"လဲကျခြင်း",en:"Falling over",ja:"転んでたおれること"}]
 ],
+care2: [
+ ["誤嚥","ごえん",{vi:"Sặc (thức ăn, nước đi vào khí quản)",ne:"खाना वा पानी श्वासनलीमा जानु",id:"Tersedak / aspirasi (makanan/minuman masuk ke saluran napas)",my:"အစာ သို့မဟုတ် ရေ လေပြွန်ထဲ ဝင်ခြင်း",en:"Aspiration (food or drink going into the windpipe)",ja:"食べ物や飲み物が気管に入ること"}],
+ ["褥瘡","じょくそう",{vi:"Loét do tì đè (loét giường)",ne:"लामो समय सुतिरहँदा हुने घाउ (बेडसोर)",id:"Luka tekan (dekubitus)",my:"အိပ်ရာနာ (ကြာရှည်စွာ လှဲလျောင်းနေခြင်းကြောင့် ဖြစ်သော ဒဏ်ရာ)",en:"Pressure sore (bedsore)",ja:"長い時間同じ姿勢で寝ていてできる傷（床ずれ）"}],
+ ["体位変換","たいいへんかん",{vi:"Thay đổi tư thế (trở mình cho người nằm)",ne:"सुतेको व्यक्तिलाई कोल्टे फेराउने",id:"Mengubah posisi tubuh (memiringkan orang yang berbaring)",my:"လှဲလျောင်းနေသူကို ကိုယ်အနေအထား ပြောင်းပေးခြင်း",en:"Repositioning (turning a person in bed)",ja:"寝ている人の体の向きを変えること"}],
+ ["水分補給","すいぶんほきゅう",{vi:"Cho uống nước (bổ sung nước)",ne:"पानी पिलाउने (शरीरमा पानीको पूर्ति)",id:"Pemberian minum (asupan cairan)",my:"ရေတိုက်ခြင်း (ရေဓာတ် ဖြည့်ပေးခြင်း)",en:"Giving drinks (keeping hydrated)",ja:"水やお茶などを飲んでもらうこと"}],
+ ["見守り","みまもり",{vi:"Trông chừng (quan sát ở gần)",ne:"नजिकै रहेर ध्यान दिई हेरिरहने (सुरक्षाका लागि)",id:"Mengawasi dari dekat",my:"အနီးမှ စောင့်ကြည့်ခြင်း",en:"Watching over (keeping an eye on someone)",ja:"危なくないように近くで見ていること"}],
+ ["認知症","にんちしょう",{vi:"Sa sút trí tuệ (suy giảm trí nhớ và khả năng nhận thức)",ne:"डिमेन्सिया (स्मरणशक्ति र सोच्ने क्षमता घट्ने रोग)",id:"Demensia (penurunan daya ingat dan kemampuan berpikir sehingga sulit menjalani kehidupan sehari-hari)",my:"ဒီမန်းရှား (မှတ်ဉာဏ်နှင့် တွေးခေါ်နိုင်စွမ်း ကျဆင်းသည့် ရောဂါ)",en:"Dementia",ja:"もの忘れなどで生活がむずかしくなる病気"}],
+ ["記録","きろく",{vi:"Ghi chép (hồ sơ chăm sóc)",ne:"अभिलेख (लेखेर राख्ने)",id:"Catatan (pencatatan perawatan)",my:"မှတ်တမ်း (ရေးမှတ်ထားခြင်း)",en:"Record (care notes)",ja:"あったことを書いて残すこと"}],
+ ["更衣","こうい",{vi:"Thay quần áo",ne:"लुगा फेर्ने",id:"Ganti pakaian",my:"အဝတ်အစား လဲပေးခြင်း",en:"Changing clothes",ja:"服を着がえること"}],
+ ["歩行","ほこう",{vi:"Đi bộ (đi lại)",ne:"हिँड्ने (हिँडडुल गर्ने)",id:"Berjalan",my:"လမ်းလျှောက်ခြင်း",en:"Walking",ja:"歩くこと"}],
+ ["手すり","てすり",{vi:"Tay vịn",ne:"समात्ने रेलिङ",id:"Pegangan tangan (railing)",my:"လက်ကိုင်တန်း",en:"Handrail",ja:"つかまるための棒"}],
+ ["嘔吐","おうと",{vi:"Nôn mửa",ne:"बान्ता",id:"Muntah",my:"အန်ခြင်း",en:"Vomiting",ja:"食べた物などを口からはくこと"}],
+ ["声かけ","こえかけ",{vi:"Lên tiếng, báo cho người được chăm sóc biết (trước khi hỗ trợ)",ne:"सहयोग गर्नुअघि बोलेर जानकारी दिने",id:"Menyapa dan memberi tahu dulu sebelum membantu",my:"မကူညီမီ စကားပြော၍ အသိပေးခြင်း",en:"Speaking to the person first (before helping)",ja:"手伝う前などに相手に話しかけること"}]
+],
 food: [
  ["厨房","ちゅうぼう",{vi:"Nhà bếp",ne:"भान्सा",id:"Dapur",my:"မီးဖိုချောင်",en:"Kitchen",ja:"料理をつくる所"}],
  ["手洗い","てあらい",{vi:"Rửa tay",ne:"हात धुने",id:"Cuci tangan",my:"လက်ဆေးခြင်း",en:"Hand washing",ja:"手をあらうこと"}],

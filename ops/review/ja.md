@@ -57,6 +57,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.construction[1] | 建設 | 建設 | |
 | sets.care[0] | Care work | 介護 | |
 | sets.care[1] | 介護 | 介護 | |
+| sets.care2[0] | Care work 2 | 介護 2 | |
+| sets.care2[1] | 介護 | 介護 | |
 | sets.food[0] | Food service | 外食 | |
 | sets.food[1] | 外食 | 外食 | |
 | sets.farm[0] | Farming | 農業 | |
@@ -412,6 +414,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 血圧 | けつあつ | Blood pressure | 血管の中の血の圧力 | |
 | 申し送り | もうしおくり | Shift handover | 次の人に情報を伝えること | |
 | 転倒 | てんとう | Falling over | 転んでたおれること | |
+| 誤嚥 | ごえん | Aspiration (food or drink going into the windpipe) | 食べ物や飲み物が気管に入ること | |
+| 褥瘡 | じょくそう | Pressure sore (bedsore) | 長い時間同じ姿勢で寝ていてできる傷（床ずれ） | |
+| 体位変換 | たいいへんかん | Repositioning (turning a person in bed) | 寝ている人の体の向きを変えること | |
+| 水分補給 | すいぶんほきゅう | Giving drinks (keeping hydrated) | 水やお茶などを飲んでもらうこと | |
+| 見守り | みまもり | Watching over (keeping an eye on someone) | 危なくないように近くで見ていること | |
+| 認知症 | にんちしょう | Dementia | もの忘れなどで生活がむずかしくなる病気 | |
+| 記録 | きろく | Record (care notes) | あったことを書いて残すこと | |
+| 更衣 | こうい | Changing clothes | 服を着がえること | |
+| 歩行 | ほこう | Walking | 歩くこと | |
+| 手すり | てすり | Handrail | つかまるための棒 | |
+| 嘔吐 | おうと | Vomiting | 食べた物などを口からはくこと | |
+| 声かけ | こえかけ | Speaking to the person first (before helping) | 手伝う前などに相手に話しかけること | |
 | 厨房 | ちゅうぼう | Kitchen | 料理をつくる所 | |
 | 手洗い | てあらい | Hand washing | 手をあらうこと | |
 | 消毒 | しょうどく | Disinfection | ばい菌をころすこと | |

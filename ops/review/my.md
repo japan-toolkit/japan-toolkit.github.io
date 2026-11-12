@@ -57,6 +57,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.construction[1] | 建設 | 建設 | |
 | sets.care[0] | Care work | သက်ကြီးစောင့်ရှောက်မှု (ကိုင်ဂို) | |
 | sets.care[1] | 介護 | 介護 | |
+| sets.care2[0] | Care work 2 | သက်ကြီးစောင့်ရှောက်မှု (ကိုင်ဂို) ၂ | |
+| sets.care2[1] | 介護 | 介護 | |
 | sets.food[0] | Food service | စားသောက်ဆိုင် | |
 | sets.food[1] | 外食 | 外食 | |
 | sets.farm[0] | Farming | စိုက်ပျိုးရေး | |
@@ -412,6 +414,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 血圧 | けつあつ | Blood pressure | သွေးပေါင် | |
 | 申し送り | もうしおくり | Shift handover | ဆိုင်းလွှဲ အချက်အလက် | |
 | 転倒 | てんとう | Falling over | လဲကျခြင်း | |
+| 誤嚥 | ごえん | Aspiration (food or drink going into the windpipe) | အစာ သို့မဟုတ် ရေ လေပြွန်ထဲ ဝင်ခြင်း | |
+| 褥瘡 | じょくそう | Pressure sore (bedsore) | အိပ်ရာနာ (ကြာရှည်စွာ လှဲလျောင်းနေခြင်းကြောင့် ဖြစ်သော ဒဏ်ရာ) | |
+| 体位変換 | たいいへんかん | Repositioning (turning a person in bed) | လှဲလျောင်းနေသူကို ကိုယ်အနေအထား ပြောင်းပေးခြင်း | |
+| 水分補給 | すいぶんほきゅう | Giving drinks (keeping hydrated) | ရေတိုက်ခြင်း (ရေဓာတ် ဖြည့်ပေးခြင်း) | |
+| 見守り | みまもり | Watching over (keeping an eye on someone) | အနီးမှ စောင့်ကြည့်ခြင်း | |
+| 認知症 | にんちしょう | Dementia | ဒီမန်းရှား (မှတ်ဉာဏ်နှင့် တွေးခေါ်နိုင်စွမ်း ကျဆင်းသည့် ရောဂါ) | |
+| 記録 | きろく | Record (care notes) | မှတ်တမ်း (ရေးမှတ်ထားခြင်း) | |
+| 更衣 | こうい | Changing clothes | အဝတ်အစား လဲပေးခြင်း | |
+| 歩行 | ほこう | Walking | လမ်းလျှောက်ခြင်း | |
+| 手すり | てすり | Handrail | လက်ကိုင်တန်း | |
+| 嘔吐 | おうと | Vomiting | အန်ခြင်း | |
+| 声かけ | こえかけ | Speaking to the person first (before helping) | မကူညီမီ စကားပြော၍ အသိပေးခြင်း | |
 | 厨房 | ちゅうぼう | Kitchen | မီးဖိုချောင် | |
 | 手洗い | てあらい | Hand washing | လက်ဆေးခြင်း | |
 | 消毒 | しょうどく | Disinfection | ပိုးသတ်ခြင်း | |

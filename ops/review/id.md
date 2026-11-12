@@ -57,6 +57,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.construction[1] | 建設 | 建設 | |
 | sets.care[0] | Care work | Perawatan (kaigo) | |
 | sets.care[1] | 介護 | 介護 | |
+| sets.care2[0] | Care work 2 | Perawatan (kaigo) 2 | |
+| sets.care2[1] | 介護 | 介護 | |
 | sets.food[0] | Food service | Restoran dan makanan | |
 | sets.food[1] | 外食 | 外食 | |
 | sets.farm[0] | Farming | Pertanian | |
@@ -412,6 +414,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 血圧 | けつあつ | Blood pressure | Tekanan darah | |
 | 申し送り | もうしおくり | Shift handover | Serah terima (antar-shift) | |
 | 転倒 | てんとう | Falling over | Terjatuh | |
+| 誤嚥 | ごえん | Aspiration (food or drink going into the windpipe) | Tersedak / aspirasi (makanan/minuman masuk ke saluran napas) | |
+| 褥瘡 | じょくそう | Pressure sore (bedsore) | Luka tekan (dekubitus) | |
+| 体位変換 | たいいへんかん | Repositioning (turning a person in bed) | Mengubah posisi tubuh (memiringkan orang yang berbaring) | |
+| 水分補給 | すいぶんほきゅう | Giving drinks (keeping hydrated) | Pemberian minum (asupan cairan) | |
+| 見守り | みまもり | Watching over (keeping an eye on someone) | Mengawasi dari dekat | |
+| 認知症 | にんちしょう | Dementia | Demensia (penurunan daya ingat dan kemampuan berpikir sehingga sulit menjalani kehidupan sehari-hari) | |
+| 記録 | きろく | Record (care notes) | Catatan (pencatatan perawatan) | |
+| 更衣 | こうい | Changing clothes | Ganti pakaian | |
+| 歩行 | ほこう | Walking | Berjalan | |
+| 手すり | てすり | Handrail | Pegangan tangan (railing) | |
+| 嘔吐 | おうと | Vomiting | Muntah | |
+| 声かけ | こえかけ | Speaking to the person first (before helping) | Menyapa dan memberi tahu dulu sebelum membantu | |
 | 厨房 | ちゅうぼう | Kitchen | Dapur | |
 | 手洗い | てあらい | Hand washing | Cuci tangan | |
 | 消毒 | しょうどく | Disinfection | Disinfeksi | |

@@ -57,6 +57,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.construction[1] | 建設 | 建設 | |
 | sets.care[0] | Care work | हेरचाह (काइगो) | |
 | sets.care[1] | 介護 | 介護 | |
+| sets.care2[0] | Care work 2 | हेरचाह (काइगो) २ | |
+| sets.care2[1] | 介護 | 介護 | |
 | sets.food[0] | Food service | रेस्टुरेन्ट र खाना | |
 | sets.food[1] | 外食 | 外食 | |
 | sets.farm[0] | Farming | कृषि | |
@@ -412,6 +414,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 血圧 | けつあつ | Blood pressure | रक्तचाप | |
 | 申し送り | もうしおくり | Shift handover | सिफ्ट हस्तान्तरणको जानकारी | |
 | 転倒 | てんとう | Falling over | लडेर खस्नु | |
+| 誤嚥 | ごえん | Aspiration (food or drink going into the windpipe) | खाना वा पानी श्वासनलीमा जानु | |
+| 褥瘡 | じょくそう | Pressure sore (bedsore) | लामो समय सुतिरहँदा हुने घाउ (बेडसोर) | |
+| 体位変換 | たいいへんかん | Repositioning (turning a person in bed) | सुतेको व्यक्तिलाई कोल्टे फेराउने | |
+| 水分補給 | すいぶんほきゅう | Giving drinks (keeping hydrated) | पानी पिलाउने (शरीरमा पानीको पूर्ति) | |
+| 見守り | みまもり | Watching over (keeping an eye on someone) | नजिकै रहेर ध्यान दिई हेरिरहने (सुरक्षाका लागि) | |
+| 認知症 | にんちしょう | Dementia | डिमेन्सिया (स्मरणशक्ति र सोच्ने क्षमता घट्ने रोग) | |
+| 記録 | きろく | Record (care notes) | अभिलेख (लेखेर राख्ने) | |
+| 更衣 | こうい | Changing clothes | लुगा फेर्ने | |
+| 歩行 | ほこう | Walking | हिँड्ने (हिँडडुल गर्ने) | |
+| 手すり | てすり | Handrail | समात्ने रेलिङ | |
+| 嘔吐 | おうと | Vomiting | बान्ता | |
+| 声かけ | こえかけ | Speaking to the person first (before helping) | सहयोग गर्नुअघि बोलेर जानकारी दिने | |
 | 厨房 | ちゅうぼう | Kitchen | भान्सा | |
 | 手洗い | てあらい | Hand washing | हात धुने | |
 | 消毒 | しょうどく | Disinfection | कीटाणु मार्ने सफाइ | |

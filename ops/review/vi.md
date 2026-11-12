@@ -57,6 +57,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.construction[1] | 建設 | 建設 | |
 | sets.care[0] | Care work | Điều dưỡng, chăm sóc người cao tuổi (kaigo) | |
 | sets.care[1] | 介護 | 介護 | |
+| sets.care2[0] | Care work 2 | Điều dưỡng, chăm sóc người cao tuổi (kaigo) 2 | |
+| sets.care2[1] | 介護 | 介護 | |
 | sets.food[0] | Food service | Nhà hàng, thực phẩm | |
 | sets.food[1] | 外食 | 外食 | |
 | sets.farm[0] | Farming | Nông nghiệp | |
@@ -412,6 +414,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 血圧 | けつあつ | Blood pressure | Huyết áp | |
 | 申し送り | もうしおくり | Shift handover | Bàn giao ca | |
 | 転倒 | てんとう | Falling over | Té ngã | |
+| 誤嚥 | ごえん | Aspiration (food or drink going into the windpipe) | Sặc (thức ăn, nước đi vào khí quản) | |
+| 褥瘡 | じょくそう | Pressure sore (bedsore) | Loét do tì đè (loét giường) | |
+| 体位変換 | たいいへんかん | Repositioning (turning a person in bed) | Thay đổi tư thế (trở mình cho người nằm) | |
+| 水分補給 | すいぶんほきゅう | Giving drinks (keeping hydrated) | Cho uống nước (bổ sung nước) | |
+| 見守り | みまもり | Watching over (keeping an eye on someone) | Trông chừng (quan sát ở gần) | |
+| 認知症 | にんちしょう | Dementia | Sa sút trí tuệ (suy giảm trí nhớ và khả năng nhận thức) | |
+| 記録 | きろく | Record (care notes) | Ghi chép (hồ sơ chăm sóc) | |
+| 更衣 | こうい | Changing clothes | Thay quần áo | |
+| 歩行 | ほこう | Walking | Đi bộ (đi lại) | |
+| 手すり | てすり | Handrail | Tay vịn | |
+| 嘔吐 | おうと | Vomiting | Nôn mửa | |
+| 声かけ | こえかけ | Speaking to the person first (before helping) | Lên tiếng, báo cho người được chăm sóc biết (trước khi hỗ trợ) | |
 | 厨房 | ちゅうぼう | Kitchen | Nhà bếp | |
 | 手洗い | てあらい | Hand washing | Rửa tay | |
 | 消毒 | しょうどく | Disinfection | Khử trùng | |

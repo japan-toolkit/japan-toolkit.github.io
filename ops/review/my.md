@@ -61,6 +61,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.care2[1] | 介護 | 介護 | |
 | sets.food[0] | Food service | စားသောက်ဆိုင် | |
 | sets.food[1] | 外食 | 外食 | |
+| sets.food2[0] | Food service 2 | စားသောက်ဆိုင် ၂ | |
+| sets.food2[1] | 外食 | 外食 | |
 | sets.farm[0] | Farming | စိုက်ပျိုးရေး | |
 | sets.farm[1] | 農業 | 農業 | |
 | sets.factory[0] | Factory work | ထုတ်လုပ်ရေး၊ စက်ရုံ | |
@@ -438,6 +440,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 盛り付け | もりつけ | Plating | ပန်းကန်ထဲ ထည့်ပြင်ခြင်း | |
 | 加熱 | かねつ | Heating (cooking through) | အပူပေးခြင်း | |
 | 会計 | かいけい | Paying the bill | ငွေရှင်းခြင်း | |
+| 接客 | せっきゃく | Serving customers | ဖောက်သည်ကို ဝန်ဆောင်မှုပေးခြင်း | |
+| 注文 | ちゅうもん | Order | မှာယူခြင်း (အော်ဒါ) | |
+| 食材 | しょくざい | Ingredients | ချက်ပြုတ်ရန် ပါဝင်ပစ္စည်း | |
+| 包丁 | ほうちょう | Kitchen knife | မီးဖိုချောင်သုံး ဓား | |
+| 火傷 | やけど | Burn (from fire, hot water or oil) | အပူလောင်ဒဏ်ရာ (မီး၊ ရေနွေး၊ ဆီပူကြောင့်) | |
+| 揚げ物 | あげもの | Deep-fried food | ဆီများများဖြင့် ကြော်ထားသော အစားအစာ | |
+| 洗い場 | あらいば | Dishwashing area | ပန်းကန်ဆေးသည့်နေရာ | |
+| 解凍 | かいとう | Thawing (defrosting) | အေးခဲထားသော အစားအစာကို ရေခဲပျော်စေခြင်း | |
+| 中心温度 | ちゅうしんおんど | Core temperature (inside the food) | အစားအစာ၏ အလယ်ဗဟိုရှိ အပူချိန် | |
+| 衛生 | えいせい | Hygiene | ရောဂါမဖြစ်စေရန် သန့်ရှင်းအောင် ထိန်းသိမ်းခြင်း | |
+| 品切れ | しなぎれ | Sold out | ကုန်သွားပြီ (လက်ကျန် မရှိ) | |
+| 食器 | しょっき | Dishes (tableware) | စားသောက်ရာတွင် သုံးသော ပန်းကန်ပြား၊ ပန်းကန်လုံး၊ တူ | |
 | 収穫 | しゅうかく | Harvest | ရိတ်သိမ်းခြင်း | |
 | 農薬 | のうやく | Pesticide | ပိုးသတ်ဆေး | |
 | 肥料 | ひりょう | Fertilizer | မြေဩဇာ | |

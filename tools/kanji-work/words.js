@@ -99,6 +99,20 @@ food: [
  ["加熱","かねつ",{vi:"Làm nóng / nấu chín",ne:"तताउने",id:"Pemanasan (dimasak)",my:"အပူပေးခြင်း",en:"Heating (cooking through)",ja:"熱をくわえること"}],
  ["会計","かいけい",{vi:"Thanh toán (tính tiền)",ne:"बिल भुक्तानी",id:"Pembayaran (kasir)",my:"ငွေရှင်းခြင်း",en:"Paying the bill",ja:"お金をはらうこと"}]
 ],
+food2: [
+ ["接客","せっきゃく",{vi:"Phục vụ khách hàng",ne:"ग्राहकलाई सेवा दिने काम",id:"Melayani pelanggan",my:"ဖောက်သည်ကို ဝန်ဆောင်မှုပေးခြင်း",en:"Serving customers",ja:"お客さんの相手をすること"}],
+ ["注文","ちゅうもん",{vi:"Gọi món (đơn gọi món)",ne:"अर्डर (खाना मगाउने)",id:"Pesanan",my:"မှာယူခြင်း (အော်ဒါ)",en:"Order",ja:"ほしい料理などをたのむこと"}],
+ ["食材","しょくざい",{vi:"Nguyên liệu nấu ăn",ne:"खाना पकाउने सामग्री (मासु, तरकारी आदि)",id:"Bahan makanan",my:"ချက်ပြုတ်ရန် ပါဝင်ပစ္စည်း",en:"Ingredients",ja:"料理に使う材料"}],
+ ["包丁","ほうちょう",{vi:"Dao làm bếp",ne:"भान्साको चक्कु",id:"Pisau dapur",my:"မီးဖိုချောင်သုံး ဓား",en:"Kitchen knife",ja:"料理で使うナイフ"}],
+ ["火傷","やけど",{vi:"Vết bỏng (do lửa, nước sôi, dầu nóng)",ne:"पोलेको घाउ (आगो, तातो पानी वा तातो तेलले)",id:"Luka bakar (karena api, air panas, minyak panas)",my:"အပူလောင်ဒဏ်ရာ (မီး၊ ရေနွေး၊ ဆီပူကြောင့်)",en:"Burn (from fire, hot water or oil)",ja:"熱いものにふれてできるけが"}],
+ ["揚げ物","あげもの",{vi:"Món chiên ngập dầu",ne:"धेरै तेलमा तारेको खाना",id:"Makanan yang digoreng dengan banyak minyak",my:"ဆီများများဖြင့် ကြော်ထားသော အစားအစာ",en:"Deep-fried food",ja:"たっぷりの油であげた料理"}],
+ ["洗い場","あらいば",{vi:"Khu rửa bát",ne:"भाँडा माझ्ने ठाउँ",id:"Tempat cuci piring",my:"ပန်းကန်ဆေးသည့်နေရာ",en:"Dishwashing area",ja:"食器などをあらう場所"}],
+ ["解凍","かいとう",{vi:"Rã đông",ne:"जमेको खाना पगाल्ने काम",id:"Mencairkan makanan beku",my:"အေးခဲထားသော အစားအစာကို ရေခဲပျော်စေခြင်း",en:"Thawing (defrosting)",ja:"こおったものをとかすこと"}],
+ ["中心温度","ちゅうしんおんど",{vi:"Nhiệt độ ở tâm món ăn",ne:"खानाको बीच भागको तापक्रम",id:"Suhu bagian tengah makanan",my:"အစားအစာ၏ အလယ်ဗဟိုရှိ အပူချိန်",en:"Core temperature (inside the food)",ja:"食べ物のまん中の温度"}],
+ ["衛生","えいせい",{vi:"Vệ sinh (giữ sạch để phòng bệnh)",ne:"स्वच्छता (रोग नलाग्ने गरी सफा राख्ने)",id:"Higiene (menjaga kebersihan agar tidak sakit)",my:"ရောဂါမဖြစ်စေရန် သန့်ရှင်းအောင် ထိန်းသိမ်းခြင်း",en:"Hygiene",ja:"病気にならないように清潔にすること"}],
+ ["品切れ","しなぎれ",{vi:"Hết hàng (hết món)",ne:"सकिएको (स्टकमा छैन)",id:"Habis (stok habis)",my:"ကုန်သွားပြီ (လက်ကျန် မရှိ)",en:"Sold out",ja:"売るものがなくなること"}],
+ ["食器","しょっき",{vi:"Dụng cụ ăn uống (bát, đĩa, đũa)",ne:"खाना खाने भाँडा (थाल, कचौरा, चपस्टिक)",id:"Peralatan makan (piring, mangkuk, sumpit)",my:"စားသောက်ရာတွင် သုံးသော ပန်းကန်ပြား၊ ပန်းကန်လုံး၊ တူ",en:"Dishes (tableware)",ja:"皿やはしなど、食事に使う道具"}]
+],
 farm: [
  ["収穫","しゅうかく",{vi:"Thu hoạch",ne:"बाली भित्र्याउने",id:"Panen",my:"ရိတ်သိမ်းခြင်း",en:"Harvest",ja:"作物をとり入れること"}],
  ["農薬","のうやく",{vi:"Thuốc bảo vệ thực vật",ne:"कीटनाशक औषधि",id:"Pestisida",my:"ပိုးသတ်ဆေး",en:"Pesticide",ja:"虫や病気から作物を守る薬"}],

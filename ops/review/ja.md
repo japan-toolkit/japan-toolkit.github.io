@@ -61,6 +61,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.care2[1] | 介護 | 介護 | |
 | sets.food[0] | Food service | 外食 | |
 | sets.food[1] | 外食 | 外食 | |
+| sets.food2[0] | Food service 2 | 外食 2 | |
+| sets.food2[1] | 外食 | 外食 | |
 | sets.farm[0] | Farming | 農業 | |
 | sets.farm[1] | 農業 | 農業 | |
 | sets.factory[0] | Factory work | 製造 | |
@@ -438,6 +440,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 盛り付け | もりつけ | Plating | 料理をお皿にのせること | |
 | 加熱 | かねつ | Heating (cooking through) | 熱をくわえること | |
 | 会計 | かいけい | Paying the bill | お金をはらうこと | |
+| 接客 | せっきゃく | Serving customers | お客さんの相手をすること | |
+| 注文 | ちゅうもん | Order | ほしい料理などをたのむこと | |
+| 食材 | しょくざい | Ingredients | 料理に使う材料 | |
+| 包丁 | ほうちょう | Kitchen knife | 料理で使うナイフ | |
+| 火傷 | やけど | Burn (from fire, hot water or oil) | 熱いものにふれてできるけが | |
+| 揚げ物 | あげもの | Deep-fried food | たっぷりの油であげた料理 | |
+| 洗い場 | あらいば | Dishwashing area | 食器などをあらう場所 | |
+| 解凍 | かいとう | Thawing (defrosting) | こおったものをとかすこと | |
+| 中心温度 | ちゅうしんおんど | Core temperature (inside the food) | 食べ物のまん中の温度 | |
+| 衛生 | えいせい | Hygiene | 病気にならないように清潔にすること | |
+| 品切れ | しなぎれ | Sold out | 売るものがなくなること | |
+| 食器 | しょっき | Dishes (tableware) | 皿やはしなど、食事に使う道具 | |
 | 収穫 | しゅうかく | Harvest | 作物をとり入れること | |
 | 農薬 | のうやく | Pesticide | 虫や病気から作物を守る薬 | |
 | 肥料 | ひりょう | Fertilizer | 作物を育てるための栄養 | |

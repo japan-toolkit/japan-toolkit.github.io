@@ -61,6 +61,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.care2[1] | 介護 | 介護 | |
 | sets.food[0] | Food service | रेस्टुरेन्ट र खाना | |
 | sets.food[1] | 外食 | 外食 | |
+| sets.food2[0] | Food service 2 | रेस्टुरेन्ट र खाना 2 | |
+| sets.food2[1] | 外食 | 外食 | |
 | sets.farm[0] | Farming | कृषि | |
 | sets.farm[1] | 農業 | 農業 | |
 | sets.factory[0] | Factory work | उत्पादन, कारखाना | |
@@ -438,6 +440,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 盛り付け | もりつけ | Plating | थालमा सजाउने | |
 | 加熱 | かねつ | Heating (cooking through) | तताउने | |
 | 会計 | かいけい | Paying the bill | बिल भुक्तानी | |
+| 接客 | せっきゃく | Serving customers | ग्राहकलाई सेवा दिने काम | |
+| 注文 | ちゅうもん | Order | अर्डर (खाना मगाउने) | |
+| 食材 | しょくざい | Ingredients | खाना पकाउने सामग्री (मासु, तरकारी आदि) | |
+| 包丁 | ほうちょう | Kitchen knife | भान्साको चक्कु | |
+| 火傷 | やけど | Burn (from fire, hot water or oil) | पोलेको घाउ (आगो, तातो पानी वा तातो तेलले) | |
+| 揚げ物 | あげもの | Deep-fried food | धेरै तेलमा तारेको खाना | |
+| 洗い場 | あらいば | Dishwashing area | भाँडा माझ्ने ठाउँ | |
+| 解凍 | かいとう | Thawing (defrosting) | जमेको खाना पगाल्ने काम | |
+| 中心温度 | ちゅうしんおんど | Core temperature (inside the food) | खानाको बीच भागको तापक्रम | |
+| 衛生 | えいせい | Hygiene | स्वच्छता (रोग नलाग्ने गरी सफा राख्ने) | |
+| 品切れ | しなぎれ | Sold out | सकिएको (स्टकमा छैन) | |
+| 食器 | しょっき | Dishes (tableware) | खाना खाने भाँडा (थाल, कचौरा, चपस्टिक) | |
 | 収穫 | しゅうかく | Harvest | बाली भित्र्याउने | |
 | 農薬 | のうやく | Pesticide | कीटनाशक औषधि | |
 | 肥料 | ひりょう | Fertilizer | मल | |

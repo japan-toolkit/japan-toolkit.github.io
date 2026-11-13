@@ -70,6 +70,12 @@ This catches meaning errors and obvious unnatural wording, but it is still machi
   'mất trí' (also 'insane'), ne 歩行 हिँडाइ ('gait') → हिँड्ने, ne 見守り no longer निगरानी ('surveillance'), my 褥瘡 standard spelling အိပ်ရာ,
   my 認知症 ဒီမန်းရှား + explanation (avoids သူငယ်ပြန်), my 水分補給 plain ရေတိုက် first, id 誤嚥 + aspirasi; second back-translation → 5 more fixes
   (my လဲ→လှဲ 'lie down' ×2, id removed 'pikun' (insulting), ne 'sitting' dropped, vi 'Lên tiếng'). Low confidence left: my 12, ne 5.
+- 2026-11-14 kanji-work 'food service 2' (外食 2) set (接客/注文/食材/包丁/火傷/揚げ物/洗い場/解凍/中心温度/衛生/品切れ/食器):
+  readings checked blind (all 12 match; 火傷 also かしょう in formal first-aid texts). Fixed after blind back-translation: id 揚げ物 no longer
+  'gorengan' (= street snacks), vi/ne/my 食器 now eating tableware incl. chopsticks (ne भाँडाकुँडा = all pots; vi chén/bát mixed),
+  id 衛生 'Higiene (… agar tidak sakit)' (kebersihan alone ≈ cleaning), vi 'Vết bỏng' (bỏng alone can be a puffed snack), ne 3/8, my 9;
+  rejected vi 'vệ sinh thực phẩm' (too narrow). Second back-translation → 1 more fix (my ခွက် = cup → ပန်းကန်ပြား/ပန်းကန်လုံး).
+  Low confidence left: ne पगाल्ने ('melt', used for thawing), my 1 ဖောက်သည်.
 - Status: all four languages AI-cross-reviewed once. Next: re-run after each text change; watch GitHub issues.
 
 ## How to get a free review (plan, 2026-11-08)
@@ -96,5 +102,5 @@ Machine-written; confidence noted. The owner decides when to order a review.
 | all five | takehome FAQ (tools/takehome/faq.json, 5 Q&A, added 2026-11-08; bonus Q added 2026-11-09) | vi/id good, ne medium, my medium-low | not reviewed |
 | all five | resident-tax guide (tools/resident-tax/index.html, new tool, added 2026-11-08) | vi/id good, ne medium, my medium-low | not reviewed |
 | all five | resident-tax FAQ (tools/resident-tax/faq.json, 4 Q&A, added 2026-11-08) | vi/id good, ne medium, my medium-low | not reviewed |
-| all five | kanji-work quiz (tools/kanji-work/words.js 228 words in 19 sets incl. construction/care/food/farm/factory/hotel/fishing/car/cleaning/aviation/shipbuilding, added 2026-11-08) — also check readings/meanings of every word | vi/id good, ne medium, my medium-low | not reviewed |
+| all five | kanji-work quiz (tools/kanji-work/words.js 240 words in 21 sets incl. construction/care/food/farm/factory/hotel/fishing/car/cleaning/aviation/shipbuilding, added 2026-11-08) — also check readings/meanings of every word | vi/id good, ne medium, my medium-low | not reviewed |
 | all five | kanji-grade quiz UI strings (tools/kanji-grade/index.html, added 2026-11-08; data itself is KANJIDIC2) | vi/id good, ne medium, my medium-low | not reviewed |

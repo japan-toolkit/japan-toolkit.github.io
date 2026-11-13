@@ -61,6 +61,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.care2[1] | 介護 | 介護 | |
 | sets.food[0] | Food service | Restoran dan makanan | |
 | sets.food[1] | 外食 | 外食 | |
+| sets.food2[0] | Food service 2 | Restoran dan makanan 2 | |
+| sets.food2[1] | 外食 | 外食 | |
 | sets.farm[0] | Farming | Pertanian | |
 | sets.farm[1] | 農業 | 農業 | |
 | sets.factory[0] | Factory work | Manufaktur, pabrik | |
@@ -438,6 +440,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 盛り付け | もりつけ | Plating | Penataan di piring | |
 | 加熱 | かねつ | Heating (cooking through) | Pemanasan (dimasak) | |
 | 会計 | かいけい | Paying the bill | Pembayaran (kasir) | |
+| 接客 | せっきゃく | Serving customers | Melayani pelanggan | |
+| 注文 | ちゅうもん | Order | Pesanan | |
+| 食材 | しょくざい | Ingredients | Bahan makanan | |
+| 包丁 | ほうちょう | Kitchen knife | Pisau dapur | |
+| 火傷 | やけど | Burn (from fire, hot water or oil) | Luka bakar (karena api, air panas, minyak panas) | |
+| 揚げ物 | あげもの | Deep-fried food | Makanan yang digoreng dengan banyak minyak | |
+| 洗い場 | あらいば | Dishwashing area | Tempat cuci piring | |
+| 解凍 | かいとう | Thawing (defrosting) | Mencairkan makanan beku | |
+| 中心温度 | ちゅうしんおんど | Core temperature (inside the food) | Suhu bagian tengah makanan | |
+| 衛生 | えいせい | Hygiene | Higiene (menjaga kebersihan agar tidak sakit) | |
+| 品切れ | しなぎれ | Sold out | Habis (stok habis) | |
+| 食器 | しょっき | Dishes (tableware) | Peralatan makan (piring, mangkuk, sumpit) | |
 | 収穫 | しゅうかく | Harvest | Panen | |
 | 農薬 | のうやく | Pesticide | Pestisida | |
 | 肥料 | ひりょう | Fertilizer | Pupuk | |

@@ -61,6 +61,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.care2[1] | 介護 | 介護 | |
 | sets.food[0] | Food service | Nhà hàng, thực phẩm | |
 | sets.food[1] | 外食 | 外食 | |
+| sets.food2[0] | Food service 2 | Nhà hàng, thực phẩm 2 | |
+| sets.food2[1] | 外食 | 外食 | |
 | sets.farm[0] | Farming | Nông nghiệp | |
 | sets.farm[1] | 農業 | 農業 | |
 | sets.factory[0] | Factory work | Sản xuất, nhà máy | |
@@ -438,6 +440,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 盛り付け | もりつけ | Plating | Bày món ra đĩa | |
 | 加熱 | かねつ | Heating (cooking through) | Làm nóng / nấu chín | |
 | 会計 | かいけい | Paying the bill | Thanh toán (tính tiền) | |
+| 接客 | せっきゃく | Serving customers | Phục vụ khách hàng | |
+| 注文 | ちゅうもん | Order | Gọi món (đơn gọi món) | |
+| 食材 | しょくざい | Ingredients | Nguyên liệu nấu ăn | |
+| 包丁 | ほうちょう | Kitchen knife | Dao làm bếp | |
+| 火傷 | やけど | Burn (from fire, hot water or oil) | Vết bỏng (do lửa, nước sôi, dầu nóng) | |
+| 揚げ物 | あげもの | Deep-fried food | Món chiên ngập dầu | |
+| 洗い場 | あらいば | Dishwashing area | Khu rửa bát | |
+| 解凍 | かいとう | Thawing (defrosting) | Rã đông | |
+| 中心温度 | ちゅうしんおんど | Core temperature (inside the food) | Nhiệt độ ở tâm món ăn | |
+| 衛生 | えいせい | Hygiene | Vệ sinh (giữ sạch để phòng bệnh) | |
+| 品切れ | しなぎれ | Sold out | Hết hàng (hết món) | |
+| 食器 | しょっき | Dishes (tableware) | Dụng cụ ăn uống (bát, đĩa, đũa) | |
 | 収穫 | しゅうかく | Harvest | Thu hoạch | |
 | 農薬 | のうやく | Pesticide | Thuốc bảo vệ thực vật | |
 | 肥料 | ひりょう | Fertilizer | Phân bón | |

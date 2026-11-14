@@ -44,7 +44,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | id | correction |
 |---|---|---|---|
 | title | Kanji you see at work | Kanji yang sering terlihat di tempat kerja | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding, railways, forestry and wood products. 10 questions per round. | Latihan membaca kanji di tanda keselamatan, slip gaji, jadwal shift, dokumen, serta di bidang konstruksi, perawatan, restoran, pertanian, pabrik, perhotelan, perikanan, perawatan mobil, pembersihan gedung, penerbangan, pembuatan kapal, perkeretaapian, kehutanan, dan industri kayu. 10 soal per putaran. | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding, railways, forestry, wood products and food and drink manufacturing. 10 questions per round. | Latihan membaca kanji di tanda keselamatan, slip gaji, jadwal shift, dokumen, serta di bidang konstruksi, perawatan, restoran, pertanian, pabrik, perhotelan, perikanan, perawatan mobil, pembersihan gedung, penerbangan, pembuatan kapal, perkeretaapian, kehutanan, industri kayu, dan pabrik makanan dan minuman. 10 soal per putaran. | |
 | lset | Choose a topic | Pilih topik | |
 | lmode | Choose a question type | Pilih jenis soal | |
 | sets.safety[0] | Safety signs | Tanda keselamatan | |
@@ -65,6 +65,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.food[1] | 外食 | 外食 | |
 | sets.food2[0] | Food service 2 | Restoran dan makanan 2 | |
 | sets.food2[1] | 外食 | 外食 | |
+| sets.foodmfg[0] | Food and drink manufacturing | Pabrik makanan dan minuman | |
+| sets.foodmfg[1] | 飲食料品製造 | 飲食料品製造 | |
 | sets.farm[0] | Farming | Pertanian | |
 | sets.farm[1] | 農業 | 農業 | |
 | sets.factory[0] | Factory work | Manufaktur, pabrik | |
@@ -466,6 +468,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 衛生 | えいせい | Hygiene | Higiene (menjaga kebersihan agar tidak sakit) | |
 | 品切れ | しなぎれ | Sold out | Habis (stok habis) | |
 | 食器 | しょっき | Dishes (tableware) | Peralatan makan (piring, mangkuk, sumpit) | |
+| 原材料 | げんざいりょう | Raw materials (ingredients a product is made from) | Bahan baku (bahan untuk membuat produk) | |
+| 計量 | けいりょう | Weighing and measuring | Menimbang dan menakar | |
+| 包装 | ほうそう | Packaging (wrapping products in bags or boxes) | Pengemasan (membungkus produk atau memasukkannya ke dalam kantong atau kotak) | |
+| 殺菌 | さっきん | Killing germs (with heat, alcohol or chemicals) | Membunuh kuman dengan panas atau bahan kimia | |
+| 異物混入 | いぶつこんにゅう | Foreign matter getting into food (hair, insects, bits of metal) | Tercampur benda asing (rambut, serangga, atau serpihan logam masuk ke makanan) | |
+| 金属探知機 | きんぞくたんちき | Metal detector | Detektor logam (alat pendeteksi logam) | |
+| 製造日 | せいぞうび | Date of manufacture | Tanggal produksi | |
+| 冷却 | れいきゃく | Cooling (bringing the temperature down after cooking) | Pendinginan (menurunkan suhu setelah dimasak) | |
+| 充填 | じゅうてん | Filling (putting the contents into bottles or containers) | Pengisian (memasukkan isi produk ke dalam botol atau wadah) | |
+| 作業着 | さぎょうぎ | Work clothes (uniform) | Pakaian kerja | |
+| 毛髪 | もうはつ | Hair | Rambut | |
+| 交差汚染 | こうさおせん | Cross-contamination (germs spreading from raw food, dirty hands or tools to clean food) | Kontaminasi silang (kuman berpindah dari bahan mentah, tangan kotor, atau alat kotor ke makanan bersih) | |
 | 収穫 | しゅうかく | Harvest | Panen | |
 | 農薬 | のうやく | Pesticide | Pestisida | |
 | 肥料 | ひりょう | Fertilizer | Pupuk | |

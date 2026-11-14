@@ -44,7 +44,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | ja | correction |
 |---|---|---|---|
 | title | Kanji you see at work | 仕事で見る漢字クイズ | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding, railways, forestry and wood products. 10 questions per round. | 安全標識・給与明細・勤務表・書類、そして建設・介護・外食・農業・製造・宿泊・漁業・自動車整備・ビルクリーニング・航空・造船・鉄道・林業・木材産業の現場でよく出る漢字を読む練習です。1回10問。 | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding, railways, forestry, wood products and food and drink manufacturing. 10 questions per round. | 安全標識・給与明細・勤務表・書類、そして建設・介護・外食・農業・製造・宿泊・漁業・自動車整備・ビルクリーニング・航空・造船・鉄道・林業・木材産業・飲食料品製造の現場でよく出る漢字を読む練習です。1回10問。 | |
 | lset | Choose a topic | テーマを選ぶ | |
 | lmode | Choose a question type | 問題の種類を選ぶ | |
 | sets.safety[0] | Safety signs | 安全標識 | |
@@ -65,6 +65,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.food[1] | 外食 | 外食 | |
 | sets.food2[0] | Food service 2 | 外食 2 | |
 | sets.food2[1] | 外食 | 外食 | |
+| sets.foodmfg[0] | Food and drink manufacturing | 飲食料品製造 | |
+| sets.foodmfg[1] | 飲食料品製造 | 飲食料品製造 | |
 | sets.farm[0] | Farming | 農業 | |
 | sets.farm[1] | 農業 | 農業 | |
 | sets.factory[0] | Factory work | 製造 | |
@@ -466,6 +468,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 衛生 | えいせい | Hygiene | 病気にならないように清潔にすること | |
 | 品切れ | しなぎれ | Sold out | 売るものがなくなること | |
 | 食器 | しょっき | Dishes (tableware) | 皿やはしなど、食事に使う道具 | |
+| 原材料 | げんざいりょう | Raw materials (ingredients a product is made from) | 製品を作るもとになる材料 | |
+| 計量 | けいりょう | Weighing and measuring | 重さや量をはかること | |
+| 包装 | ほうそう | Packaging (wrapping products in bags or boxes) | 製品をふくろや箱に入れたり、フィルムでつつんだりすること | |
+| 殺菌 | さっきん | Killing germs (with heat, alcohol or chemicals) | 熱やアルコールなどで菌を殺すこと | |
+| 異物混入 | いぶつこんにゅう | Foreign matter getting into food (hair, insects, bits of metal) | 髪の毛や虫、金属など、入ってはいけない物が食品に入ること | |
+| 金属探知機 | きんぞくたんちき | Metal detector | 製品に金属が入っていないか調べる機械 | |
+| 製造日 | せいぞうび | Date of manufacture | 製品を作った日 | |
+| 冷却 | れいきゃく | Cooling (bringing the temperature down after cooking) | 食品などを冷やして温度を下げること（加熱のあとによく行う） | |
+| 充填 | じゅうてん | Filling (putting the contents into bottles or containers) | びんなどの容器に中身をつめること | |
+| 作業着 | さぎょうぎ | Work clothes (uniform) | 仕事をするときに着る服 | |
+| 毛髪 | もうはつ | Hair | 髪の毛 | |
+| 交差汚染 | こうさおせん | Cross-contamination (germs spreading from raw food, dirty hands or tools to clean food) | 生の食品やよごれた手・道具から、きれいな食品に菌などがうつること | |
 | 収穫 | しゅうかく | Harvest | 作物をとり入れること | |
 | 農薬 | のうやく | Pesticide | 虫や病気から作物を守る薬 | |
 | 肥料 | ひりょう | Fertilizer | 作物を育てるための栄養 | |

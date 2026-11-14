@@ -44,7 +44,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | vi | correction |
 |---|---|---|---|
 | title | Kanji you see at work | Kanji thường gặp ở nơi làm việc | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding, railways, forestry and wood products. 10 questions per round. | Luyện đọc kanji trên biển báo an toàn, phiếu lương, bảng ca, giấy tờ và trong ngành xây dựng, chăm sóc, nhà hàng, nông nghiệp, nhà máy, khách sạn, ngư nghiệp, bảo dưỡng ô tô, vệ sinh tòa nhà, hàng không, đóng tàu, đường sắt, lâm nghiệp và công nghiệp gỗ. Mỗi lượt 10 câu. | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding, railways, forestry, wood products and food and drink manufacturing. 10 questions per round. | Luyện đọc kanji trên biển báo an toàn, phiếu lương, bảng ca, giấy tờ và trong ngành xây dựng, chăm sóc, nhà hàng, nông nghiệp, nhà máy, khách sạn, ngư nghiệp, bảo dưỡng ô tô, vệ sinh tòa nhà, hàng không, đóng tàu, đường sắt, lâm nghiệp, công nghiệp gỗ và chế biến thực phẩm, đồ uống. Mỗi lượt 10 câu. | |
 | lset | Choose a topic | Chọn chủ đề | |
 | lmode | Choose a question type | Chọn kiểu câu hỏi | |
 | sets.safety[0] | Safety signs | Biển báo an toàn | |
@@ -65,6 +65,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.food[1] | 外食 | 外食 | |
 | sets.food2[0] | Food service 2 | Nhà hàng, thực phẩm 2 | |
 | sets.food2[1] | 外食 | 外食 | |
+| sets.foodmfg[0] | Food and drink manufacturing | Chế biến thực phẩm và đồ uống (nhà máy) | |
+| sets.foodmfg[1] | 飲食料品製造 | 飲食料品製造 | |
 | sets.farm[0] | Farming | Nông nghiệp | |
 | sets.farm[1] | 農業 | 農業 | |
 | sets.factory[0] | Factory work | Sản xuất, nhà máy | |
@@ -466,6 +468,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 衛生 | えいせい | Hygiene | Vệ sinh (giữ sạch để phòng bệnh) | |
 | 品切れ | しなぎれ | Sold out | Hết hàng (hết món) | |
 | 食器 | しょっき | Dishes (tableware) | Dụng cụ ăn uống (bát, đĩa, đũa) | |
+| 原材料 | げんざいりょう | Raw materials (ingredients a product is made from) | Nguyên liệu (dùng để làm ra sản phẩm) | |
+| 計量 | けいりょう | Weighing and measuring | Cân đo (cân trọng lượng, đo lượng) | |
+| 包装 | ほうそう | Packaging (wrapping products in bags or boxes) | Đóng gói, bao gói sản phẩm (cho vào túi, bọc kín, xếp vào thùng) | |
+| 殺菌 | さっきん | Killing germs (with heat, alcohol or chemicals) | Diệt khuẩn (bằng nhiệt hoặc hóa chất) | |
+| 異物混入 | いぶつこんにゅう | Foreign matter getting into food (hair, insects, bits of metal) | Lẫn dị vật (tóc, côn trùng, mảnh kim loại... rơi vào thực phẩm) | |
+| 金属探知機 | きんぞくたんちき | Metal detector | Máy dò kim loại | |
+| 製造日 | せいぞうび | Date of manufacture | Ngày sản xuất | |
+| 冷却 | れいきゃく | Cooling (bringing the temperature down after cooking) | Làm nguội (hạ nhiệt độ sau khi nấu) | |
+| 充填 | じゅうてん | Filling (putting the contents into bottles or containers) | Chiết rót, nạp (cho sản phẩm vào đầy chai, lọ) | |
+| 作業着 | さぎょうぎ | Work clothes (uniform) | Quần áo làm việc (đồ mặc khi làm việc) | |
+| 毛髪 | もうはつ | Hair | Tóc (sợi tóc) | |
+| 交差汚染 | こうさおせん | Cross-contamination (germs spreading from raw food, dirty hands or tools to clean food) | Nhiễm chéo (vi khuẩn lây từ thực phẩm sống, tay bẩn hoặc dụng cụ bẩn sang thực phẩm sạch) | |
 | 収穫 | しゅうかく | Harvest | Thu hoạch | |
 | 農薬 | のうやく | Pesticide | Thuốc bảo vệ thực vật | |
 | 肥料 | ひりょう | Fertilizer | Phân bón | |

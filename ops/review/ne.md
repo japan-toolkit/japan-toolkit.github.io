@@ -44,7 +44,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | ne | correction |
 |---|---|---|---|
 | title | Kanji you see at work | काममा देखिने कान्जी | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding, railways, forestry and wood products. 10 questions per round. | सुरक्षा चिह्न, तलब विवरण, सिफ्ट तालिका, कागजात, निर्माण, हेरचाह, रेस्टुरेन्ट, कृषि, कारखाना, होटल, माछा मार्ने तथा माछापालन, गाडी मर्मत सम्भार, भवन सरसफाइ, उड्डयन, जहाज निर्माण, रेलवे, वानिकी र काठ उद्योगका काममा देखिने कान्जी पढ्ने अभ्यास। एक पटकमा १० प्रश्न। | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding, railways, forestry, wood products and food and drink manufacturing. 10 questions per round. | सुरक्षा चिह्न, तलब विवरण, सिफ्ट तालिका, कागजात, निर्माण, हेरचाह, रेस्टुरेन्ट, कृषि, कारखाना, होटल, माछा मार्ने तथा माछापालन, गाडी मर्मत सम्भार, भवन सरसफाइ, उड्डयन, जहाज निर्माण, रेलवे, वानिकी, काठ उद्योग र खाद्य तथा पेय पदार्थ उत्पादनका काममा देखिने कान्जी पढ्ने अभ्यास। एक पटकमा १० प्रश्न। | |
 | lset | Choose a topic | विषय छान्नुहोस् | |
 | lmode | Choose a question type | प्रश्नको प्रकार छान्नुहोस् | |
 | sets.safety[0] | Safety signs | सुरक्षा चिह्न | |
@@ -65,6 +65,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.food[1] | 外食 | 外食 | |
 | sets.food2[0] | Food service 2 | रेस्टुरेन्ट र खाना 2 | |
 | sets.food2[1] | 外食 | 外食 | |
+| sets.foodmfg[0] | Food and drink manufacturing | खाद्य तथा पेय पदार्थ उत्पादन (कारखाना) | |
+| sets.foodmfg[1] | 飲食料品製造 | 飲食料品製造 | |
 | sets.farm[0] | Farming | कृषि | |
 | sets.farm[1] | 農業 | 農業 | |
 | sets.factory[0] | Factory work | उत्पादन, कारखाना | |
@@ -466,6 +468,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 衛生 | えいせい | Hygiene | स्वच्छता (रोग नलाग्ने गरी सफा राख्ने) | |
 | 品切れ | しなぎれ | Sold out | सकिएको (स्टकमा छैन) | |
 | 食器 | しょっき | Dishes (tableware) | खाना खाने भाँडा (थाल, कचौरा, चपस्टिक) | |
+| 原材料 | げんざいりょう | Raw materials (ingredients a product is made from) | कच्चा पदार्थ (उत्पादन बनाउन प्रयोग हुने सामग्री) | |
+| 計量 | けいりょう | Weighing and measuring | तौलने र नाप्ने काम | |
+| 包装 | ほうそう | Packaging (wrapping products in bags or boxes) | उत्पादनलाई थैली वा बाकसमा राखेर प्याकिङ गर्ने | |
+| 殺菌 | さっきん | Killing germs (with heat, alcohol or chemicals) | ताप वा रसायनले कीटाणु मार्ने | |
+| 異物混入 | いぶつこんにゅう | Foreign matter getting into food (hair, insects, bits of metal) | खानेकुरामा कपाल, कीरा वा धातुको टुक्रा जस्ता नचाहिने वस्तु मिसिनु | |
+| 金属探知機 | きんぞくたんちき | Metal detector | धातु पत्ता लगाउने मेसिन (मेटल डिटेक्टर) | |
+| 製造日 | せいぞうび | Date of manufacture | उत्पादन मिति | |
+| 冷却 | れいきゃく | Cooling (bringing the temperature down after cooking) | पकाएपछि चिसो पार्ने | |
+| 充填 | じゅうてん | Filling (putting the contents into bottles or containers) | बोतल वा भाँडोभित्र उत्पादन भर्ने | |
+| 作業着 | さぎょうぎ | Work clothes (uniform) | काम गर्दा लगाउने पोसाक | |
+| 毛髪 | もうはつ | Hair | कपाल | |
+| 交差汚染 | こうさおせん | Cross-contamination (germs spreading from raw food, dirty hands or tools to clean food) | काँचो खाना, फोहोर हात वा औजारबाट सफा खानामा कीटाणु सर्नु | |
 | 収穫 | しゅうかく | Harvest | बाली भित्र्याउने | |
 | 農薬 | のうやく | Pesticide | कीटनाशक औषधि | |
 | 肥料 | ひりょう | Fertilizer | मल | |

@@ -44,7 +44,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | key | English | my | correction |
 |---|---|---|---|
 | title | Kanji you see at work | အလုပ်ခွင်တွင် တွေ့ရသော ခန်းဂျီး | |
-| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding, railways, forestry and wood products. 10 questions per round. | ဘေးကင်းရေး ဆိုင်းဘုတ်၊ လစာစာရွက်၊ အလုပ်ဆိုင်းဇယား၊ စာရွက်စာတမ်းများနှင့် ဆောက်လုပ်ရေး၊ သက်ကြီးစောင့်ရှောက်မှု၊ စားသောက်ဆိုင်၊ စိုက်ပျိုးရေး၊ စက်ရုံ၊ ဟိုတယ်၊ ငါးလုပ်ငန်း၊ မော်တော်ယာဉ် ပြုပြင်ထိန်းသိမ်းရေး၊ အဆောက်အအုံ သန့်ရှင်းရေး၊ လေကြောင်းလုပ်ငန်း၊ သင်္ဘောတည်ဆောက်ရေး၊ ရထားလုပ်ငန်း၊ သစ်တောလုပ်ငန်းနှင့် သစ်သားထုတ်ကုန် လုပ်ငန်းတို့တွင် တွေ့ရသော ခန်းဂျီးများကို ဖတ်တတ်အောင် လေ့ကျင့်ပါ။ တစ်ကြိမ်လျှင် မေးခွန်း ၁၀ ခု။ | |
+| lede | Practise reading the kanji on safety signs, pay slips, shift charts and forms, plus words for construction, care work, food service, farming, factories, hotels, fishing, car maintenance, building cleaning, aviation, shipbuilding, railways, forestry, wood products and food and drink manufacturing. 10 questions per round. | ဘေးကင်းရေး ဆိုင်းဘုတ်၊ လစာစာရွက်၊ အလုပ်ဆိုင်းဇယား၊ စာရွက်စာတမ်းများနှင့် ဆောက်လုပ်ရေး၊ သက်ကြီးစောင့်ရှောက်မှု၊ စားသောက်ဆိုင်၊ စိုက်ပျိုးရေး၊ စက်ရုံ၊ ဟိုတယ်၊ ငါးလုပ်ငန်း၊ မော်တော်ယာဉ် ပြုပြင်ထိန်းသိမ်းရေး၊ အဆောက်အအုံ သန့်ရှင်းရေး၊ လေကြောင်းလုပ်ငန်း၊ သင်္ဘောတည်ဆောက်ရေး၊ ရထားလုပ်ငန်း၊ သစ်တောလုပ်ငန်း၊ သစ်သားထုတ်ကုန် လုပ်ငန်းနှင့် အစားအသောက် ထုတ်လုပ်ရေးတို့တွင် တွေ့ရသော ခန်းဂျီးများကို ဖတ်တတ်အောင် လေ့ကျင့်ပါ။ တစ်ကြိမ်လျှင် မေးခွန်း ၁၀ ခု။ | |
 | lset | Choose a topic | ခေါင်းစဉ် ရွေးပါ | |
 | lmode | Choose a question type | မေးခွန်းအမျိုးအစား ရွေးပါ | |
 | sets.safety[0] | Safety signs | ဘေးကင်းရေး ဆိုင်းဘုတ် | |
@@ -65,6 +65,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.food[1] | 外食 | 外食 | |
 | sets.food2[0] | Food service 2 | စားသောက်ဆိုင် ၂ | |
 | sets.food2[1] | 外食 | 外食 | |
+| sets.foodmfg[0] | Food and drink manufacturing | အစားအသောက် ထုတ်လုပ်ရေး (စက်ရုံ) | |
+| sets.foodmfg[1] | 飲食料品製造 | 飲食料品製造 | |
 | sets.farm[0] | Farming | စိုက်ပျိုးရေး | |
 | sets.farm[1] | 農業 | 農業 | |
 | sets.factory[0] | Factory work | ထုတ်လုပ်ရေး၊ စက်ရုံ | |
@@ -466,6 +468,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 衛生 | えいせい | Hygiene | ရောဂါမဖြစ်စေရန် သန့်ရှင်းအောင် ထိန်းသိမ်းခြင်း | |
 | 品切れ | しなぎれ | Sold out | ကုန်သွားပြီ (လက်ကျန် မရှိ) | |
 | 食器 | しょっき | Dishes (tableware) | စားသောက်ရာတွင် သုံးသော ပန်းကန်ပြား၊ ပန်းကန်လုံး၊ တူ | |
+| 原材料 | げんざいりょう | Raw materials (ingredients a product is made from) | ကုန်ကြမ်း (ထုတ်ကုန်ပြုလုပ်ရန် သုံးသော ပစ္စည်း) | |
+| 計量 | けいりょう | Weighing and measuring | ချိန်တွယ်ခြင်း၊ တိုင်းတာခြင်း | |
+| 包装 | ほうそう | Packaging (wrapping products in bags or boxes) | ထုပ်ပိုးခြင်း (ထုတ်ကုန်ကို အိတ် သို့မဟုတ် ပုံးထဲ ထည့်၍ ထုပ်ခြင်း) | |
+| 殺菌 | さっきん | Killing germs (with heat, alcohol or chemicals) | အပူ သို့မဟုတ် ဓာတုဆေးဖြင့် ရောဂါပိုး သတ်ခြင်း | |
+| 異物混入 | いぶつこんにゅう | Foreign matter getting into food (hair, insects, bits of metal) | အစားအစာထဲသို့ ဆံပင်၊ ပိုးမွှား၊ သတ္တုစ စသည့် မပါသင့်သော အရာများ ရောပါသွားခြင်း | |
+| 金属探知機 | きんぞくたんちき | Metal detector | သတ္တုရှာဖွေစက် | |
+| 製造日 | せいぞうび | Date of manufacture | ထုတ်လုပ်သည့်ရက်စွဲ | |
+| 冷却 | れいきゃく | Cooling (bringing the temperature down after cooking) | ချက်ပြီးနောက် အအေးခံခြင်း | |
+| 充填 | じゅうてん | Filling (putting the contents into bottles or containers) | ပုလင်း သို့မဟုတ် ဘူးထဲသို့ ထုတ်ကုန် ဖြည့်သွင်းခြင်း | |
+| 作業着 | さぎょうぎ | Work clothes (uniform) | အလုပ်ဝတ်စုံ | |
+| 毛髪 | もうはつ | Hair | ဆံပင် | |
+| 交差汚染 | こうさおせん | Cross-contamination (germs spreading from raw food, dirty hands or tools to clean food) | အစားအစာအစိမ်း၊ ညစ်ပတ်သော လက် သို့မဟုတ် ကိရိယာများမှ သန့်ရှင်းသော အစားအစာသို့ ရောဂါပိုး ကူးစက်ခြင်း | |
 | 収穫 | しゅうかく | Harvest | ရိတ်သိမ်းခြင်း | |
 | 農薬 | のうやく | Pesticide | ပိုးသတ်ဆေး | |
 | 肥料 | ひりょう | Fertilizer | မြေဩဇာ | |

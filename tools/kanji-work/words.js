@@ -127,6 +127,20 @@ food2: [
  ["品切れ","しなぎれ",{vi:"Hết hàng (hết món)",ne:"सकिएको (स्टकमा छैन)",id:"Habis (stok habis)",my:"ကုန်သွားပြီ (လက်ကျန် မရှိ)",en:"Sold out",ja:"売るものがなくなること"}],
  ["食器","しょっき",{vi:"Dụng cụ ăn uống (bát, đĩa, đũa)",ne:"खाना खाने भाँडा (थाल, कचौरा, चपस्टिक)",id:"Peralatan makan (piring, mangkuk, sumpit)",my:"စားသောက်ရာတွင် သုံးသော ပန်းကန်ပြား၊ ပန်းကန်လုံး၊ တူ",en:"Dishes (tableware)",ja:"皿やはしなど、食事に使う道具"}]
 ],
+foodmfg: [
+ ["原材料","げんざいりょう",{vi:"Nguyên liệu (dùng để làm ra sản phẩm)",ne:"कच्चा पदार्थ (उत्पादन बनाउन प्रयोग हुने सामग्री)",id:"Bahan baku (bahan untuk membuat produk)",my:"ကုန်ကြမ်း (ထုတ်ကုန်ပြုလုပ်ရန် သုံးသော ပစ္စည်း)",en:"Raw materials (ingredients a product is made from)",ja:"製品を作るもとになる材料"}],
+ ["計量","けいりょう",{vi:"Cân đo (cân trọng lượng, đo lượng)",ne:"तौलने र नाप्ने काम",id:"Menimbang dan menakar",my:"ချိန်တွယ်ခြင်း၊ တိုင်းတာခြင်း",en:"Weighing and measuring",ja:"重さや量をはかること"}],
+ ["包装","ほうそう",{vi:"Đóng gói, bao gói sản phẩm (cho vào túi, bọc kín, xếp vào thùng)",ne:"उत्पादनलाई थैली वा बाकसमा राखेर प्याकिङ गर्ने",id:"Pengemasan (membungkus produk atau memasukkannya ke dalam kantong atau kotak)",my:"ထုပ်ပိုးခြင်း (ထုတ်ကုန်ကို အိတ် သို့မဟုတ် ပုံးထဲ ထည့်၍ ထုပ်ခြင်း)",en:"Packaging (wrapping products in bags or boxes)",ja:"製品をふくろや箱に入れたり、フィルムでつつんだりすること"}],
+ ["殺菌","さっきん",{vi:"Diệt khuẩn (bằng nhiệt hoặc hóa chất)",ne:"ताप वा रसायनले कीटाणु मार्ने",id:"Membunuh kuman dengan panas atau bahan kimia",my:"အပူ သို့မဟုတ် ဓာတုဆေးဖြင့် ရောဂါပိုး သတ်ခြင်း",en:"Killing germs (with heat, alcohol or chemicals)",ja:"熱やアルコールなどで菌を殺すこと"}],
+ ["異物混入","いぶつこんにゅう",{vi:"Lẫn dị vật (tóc, côn trùng, mảnh kim loại... rơi vào thực phẩm)",ne:"खानेकुरामा कपाल, कीरा वा धातुको टुक्रा जस्ता नचाहिने वस्तु मिसिनु",id:"Tercampur benda asing (rambut, serangga, atau serpihan logam masuk ke makanan)",my:"အစားအစာထဲသို့ ဆံပင်၊ ပိုးမွှား၊ သတ္တုစ စသည့် မပါသင့်သော အရာများ ရောပါသွားခြင်း",en:"Foreign matter getting into food (hair, insects, bits of metal)",ja:"髪の毛や虫、金属など、入ってはいけない物が食品に入ること"}],
+ ["金属探知機","きんぞくたんちき",{vi:"Máy dò kim loại",ne:"धातु पत्ता लगाउने मेसिन (मेटल डिटेक्टर)",id:"Detektor logam (alat pendeteksi logam)",my:"သတ္တုရှာဖွေစက်",en:"Metal detector",ja:"製品に金属が入っていないか調べる機械"}],
+ ["製造日","せいぞうび",{vi:"Ngày sản xuất",ne:"उत्पादन मिति",id:"Tanggal produksi",my:"ထုတ်လုပ်သည့်ရက်စွဲ",en:"Date of manufacture",ja:"製品を作った日"}],
+ ["冷却","れいきゃく",{vi:"Làm nguội (hạ nhiệt độ sau khi nấu)",ne:"पकाएपछि चिसो पार्ने",id:"Pendinginan (menurunkan suhu setelah dimasak)",my:"ချက်ပြီးနောက် အအေးခံခြင်း",en:"Cooling (bringing the temperature down after cooking)",ja:"食品などを冷やして温度を下げること（加熱のあとによく行う）"}],
+ ["充填","じゅうてん",{vi:"Chiết rót, nạp (cho sản phẩm vào đầy chai, lọ)",ne:"बोतल वा भाँडोभित्र उत्पादन भर्ने",id:"Pengisian (memasukkan isi produk ke dalam botol atau wadah)",my:"ပုလင်း သို့မဟုတ် ဘူးထဲသို့ ထုတ်ကုန် ဖြည့်သွင်းခြင်း",en:"Filling (putting the contents into bottles or containers)",ja:"びんなどの容器に中身をつめること"}],
+ ["作業着","さぎょうぎ",{vi:"Quần áo làm việc (đồ mặc khi làm việc)",ne:"काम गर्दा लगाउने पोसाक",id:"Pakaian kerja",my:"အလုပ်ဝတ်စုံ",en:"Work clothes (uniform)",ja:"仕事をするときに着る服"}],
+ ["毛髪","もうはつ",{vi:"Tóc (sợi tóc)",ne:"कपाल",id:"Rambut",my:"ဆံပင်",en:"Hair",ja:"髪の毛"}],
+ ["交差汚染","こうさおせん",{vi:"Nhiễm chéo (vi khuẩn lây từ thực phẩm sống, tay bẩn hoặc dụng cụ bẩn sang thực phẩm sạch)",ne:"काँचो खाना, फोहोर हात वा औजारबाट सफा खानामा कीटाणु सर्नु",id:"Kontaminasi silang (kuman berpindah dari bahan mentah, tangan kotor, atau alat kotor ke makanan bersih)",my:"အစားအစာအစိမ်း၊ ညစ်ပတ်သော လက် သို့မဟုတ် ကိရိယာများမှ သန့်ရှင်းသော အစားအစာသို့ ရောဂါပိုး ကူးစက်ခြင်း",en:"Cross-contamination (germs spreading from raw food, dirty hands or tools to clean food)",ja:"生の食品やよごれた手・道具から、きれいな食品に菌などがうつること"}]
+],
 farm: [
  ["収穫","しゅうかく",{vi:"Thu hoạch",ne:"बाली भित्र्याउने",id:"Panen",my:"ရိတ်သိမ်းခြင်း",en:"Harvest",ja:"作物をとり入れること"}],
  ["農薬","のうやく",{vi:"Thuốc bảo vệ thực vật",ne:"कीटनाशक औषधि",id:"Pestisida",my:"ပိုးသတ်ဆေး",en:"Pesticide",ja:"虫や病気から作物を守る薬"}],

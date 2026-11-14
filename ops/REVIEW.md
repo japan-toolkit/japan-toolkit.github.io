@@ -88,6 +88,9 @@ This catches meaning errors and obvious unnatural wording, but it is still machi
   distinct in every language (wrap in bag/box vs fill bottle/container), vi 作業着 no longer 'protective gear', 殺菌 not 'sterilise completely',
   dirty hands added to 交差汚染; ja explanations clearer. Second back-translation → 4 more (vi 'ruột' = intestines removed, id 'wrap with a box').
   Low confidence left: my 2 (金属探知機 သတ္တုရှာဖွေစက်, 交差汚染 wording).
+- 2026-11-15 (3) request link + prefilled request text (build.py UI 'ask' / 'askbody'): vi/ne/id/my back-translated blind; meaning OK in all four.
+  Applied: id subject fix ('Apa yang perlu kami tambahkan' — the old wording read as if the user adds it) + 'mohon' + '(kartu zairyu)',
+  my question split in two + မြန်မာဘာသာဖြင့် (register). Not applied (optional): vi 'thẻ ngoại kiều', ne 'टुल' (site uses उपकरण).
 - Status: all four languages AI-cross-reviewed once. Next: re-run after each text change; watch GitHub issues.
 
 ## How to get a free review (plan, 2026-11-08)

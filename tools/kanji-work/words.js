@@ -85,6 +85,20 @@ care2: [
  ["嘔吐","おうと",{vi:"Nôn mửa",ne:"बान्ता",id:"Muntah",my:"အန်ခြင်း",en:"Vomiting",ja:"食べた物などを口からはくこと"}],
  ["声かけ","こえかけ",{vi:"Lên tiếng, báo cho người được chăm sóc biết (trước khi hỗ trợ)",ne:"सहयोग गर्नुअघि बोलेर जानकारी दिने",id:"Menyapa dan memberi tahu dulu sebelum membantu",my:"မကူညီမီ စကားပြော၍ အသိပေးခြင်း",en:"Speaking to the person first (before helping)",ja:"手伝う前などに相手に話しかけること"}]
 ],
+care3: [
+ ["誤薬","ごやく",{vi:"Nhầm thuốc (sai thuốc, sai liều, sai người hoặc sai giờ)",ne:"औषधि दिँदा हुने गल्ती (गलत औषधि, गलत मात्रा, गलत व्यक्ति वा गलत समय)",id:"Kesalahan pemberian obat (salah obat, salah dosis, salah orang, atau salah waktu)",my:"ဆေးမှားပေးခြင်း (ဆေး၊ ဆေးပမာဏ၊ လူ သို့မဟုတ် အချိန် မှားခြင်း)",en:"Medication error (wrong medicine, dose, person or time)",ja:"薬の種類や量、使う人、時間などをまちがえること"}],
+ ["脱水","だっすい",{vi:"Mất nước (cơ thể thiếu nước)",ne:"शरीरमा पानीको कमी (डिहाइड्रेसन)",id:"Dehidrasi (tubuh kekurangan cairan)",my:"ရေဓာတ်ခန်းခြောက်ခြင်း",en:"Dehydration",ja:"体の水分が足りなくなること"}],
+ ["発熱","はつねつ",{vi:"Sốt",ne:"ज्वरो आउनु",id:"Demam",my:"ဖျားခြင်း (ကိုယ်အပူချိန် တက်ခြင်း)",en:"Fever",ja:"熱が出ること"}],
+ ["脈拍","みゃくはく",{vi:"Mạch (số lần tim đập)",ne:"नाडीको गति",id:"Denyut nadi",my:"သွေးခုန်နှုန်း",en:"Pulse",ja:"1分間に心臓が動く回数（手首などではかる）"}],
+ ["意識","いしき",{vi:"Ý thức (tỉnh táo, nhận biết được xung quanh)",ne:"होस (ब्यूँझेर वरपर के भइरहेको छ थाहा पाउने अवस्था)",id:"Kesadaran (sadar dan mengenali lingkungan sekitar)",my:"သတိရှိခြင်း (နိုးနေပြီး ပတ်ဝန်းကျင်ကို သိနိုင်သော အခြေအနေ)",en:"Consciousness (awake and aware)",ja:"目がさめていて、まわりのことがわかる状態"}],
+ ["清拭","せいしき",{vi:"Lau người (lau cơ thể bằng khăn thay cho tắm)",ne:"नुहाउन नसक्ने व्यक्तिको शरीर तौलियाले पुछिदिनु",id:"Menyeka badan dengan handuk (pengganti mandi)",my:"ရေမချိုးနိုင်သူ၏ ကိုယ်ကို တဘက်ဖြင့် သုတ်ပေးခြင်း",en:"Bed bath (wiping the body with a warm towel)",ja:"おふろに入ることができない人の体を、あたたかいタオルでふくこと"}],
+ ["義歯","ぎし",{vi:"Răng giả",ne:"कृत्रिम दाँत",id:"Gigi palsu",my:"သွားတု",en:"Dentures",ja:"入れ歯"}],
+ ["失禁","しっきん",{vi:"Không kiểm soát được tiểu tiện, đại tiện (són tiểu, són phân)",ne:"पिसाब वा दिसा रोक्न नसक्नु",id:"Tidak bisa menahan buang air kecil atau besar (inkontinensia)",my:"ဆီး သို့မဟုတ် ဝမ်း မထိန်းနိုင်ခြင်း",en:"Incontinence (leaking urine or stool)",ja:"トイレに間に合わなかったり、気づかなかったりして、尿や便がもれること"}],
+ ["寝たきり","ねたきり",{vi:"Nằm liệt giường",ne:"ओछ्यानबाट उठ्न नसक्ने अवस्था",id:"Terbaring terus di tempat tidur (tidak bisa bangun)",my:"အိပ်ရာထဲမှ မထနိုင်ခြင်း",en:"Bedridden",ja:"病気だったり体が弱かったりして、一日のほとんどをベッドの上ですごす状態"}],
+ ["杖","つえ",{vi:"Gậy chống",ne:"हिँड्दा टेक्ने लौरो",id:"Tongkat jalan",my:"တုတ်ကောက် (လမ်းလျှောက်တုတ်)",en:"Walking stick (cane)",ja:"歩くときに体をささえるために持つ棒"}],
+ ["居室","きょしつ",{vi:"Phòng ở của người sử dụng dịch vụ",ne:"सेवाग्राही बस्ने कोठा",id:"Kamar pengguna layanan",my:"ဝန်ဆောင်မှုအသုံးပြုသူ နေထိုင်သော အခန်း",en:"Resident's room",ja:"利用者が生活する部屋"}],
+ ["救急車","きゅうきゅうしゃ",{vi:"Xe cấp cứu",ne:"एम्बुलेन्स",id:"Ambulans",my:"လူနာတင်ယာဉ်",en:"Ambulance",ja:"急な病気やけがの人を病院へ運ぶ車"}]
+],
 food: [
  ["厨房","ちゅうぼう",{vi:"Nhà bếp",ne:"भान्सा",id:"Dapur",my:"မီးဖိုချောင်",en:"Kitchen",ja:"料理をつくる所"}],
  ["手洗い","てあらい",{vi:"Rửa tay",ne:"हात धुने",id:"Cuci tangan",my:"လက်ဆေးခြင်း",en:"Hand washing",ja:"手をあらうこと"}],

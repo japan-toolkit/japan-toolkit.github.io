@@ -59,6 +59,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.care[1] | 介護 | 介護 | |
 | sets.care2[0] | Care work 2 | သက်ကြီးစောင့်ရှောက်မှု (ကိုင်ဂို) ၂ | |
 | sets.care2[1] | 介護 | 介護 | |
+| sets.care3[0] | Care work 3 | သက်ကြီးစောင့်ရှောက်မှု (ကိုင်ဂို) ၃ | |
+| sets.care3[1] | 介護 | 介護 | |
 | sets.food[0] | Food service | စားသောက်ဆိုင် | |
 | sets.food[1] | 外食 | 外食 | |
 | sets.food2[0] | Food service 2 | စားသောက်ဆိုင် ၂ | |
@@ -428,6 +430,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 手すり | てすり | Handrail | လက်ကိုင်တန်း | |
 | 嘔吐 | おうと | Vomiting | အန်ခြင်း | |
 | 声かけ | こえかけ | Speaking to the person first (before helping) | မကူညီမီ စကားပြော၍ အသိပေးခြင်း | |
+| 誤薬 | ごやく | Medication error (wrong medicine, dose, person or time) | ဆေးမှားပေးခြင်း (ဆေး၊ ဆေးပမာဏ၊ လူ သို့မဟုတ် အချိန် မှားခြင်း) | |
+| 脱水 | だっすい | Dehydration | ရေဓာတ်ခန်းခြောက်ခြင်း | |
+| 発熱 | はつねつ | Fever | ဖျားခြင်း (ကိုယ်အပူချိန် တက်ခြင်း) | |
+| 脈拍 | みゃくはく | Pulse | သွေးခုန်နှုန်း | |
+| 意識 | いしき | Consciousness (awake and aware) | သတိရှိခြင်း (နိုးနေပြီး ပတ်ဝန်းကျင်ကို သိနိုင်သော အခြေအနေ) | |
+| 清拭 | せいしき | Bed bath (wiping the body with a warm towel) | ရေမချိုးနိုင်သူ၏ ကိုယ်ကို တဘက်ဖြင့် သုတ်ပေးခြင်း | |
+| 義歯 | ぎし | Dentures | သွားတု | |
+| 失禁 | しっきん | Incontinence (leaking urine or stool) | ဆီး သို့မဟုတ် ဝမ်း မထိန်းနိုင်ခြင်း | |
+| 寝たきり | ねたきり | Bedridden | အိပ်ရာထဲမှ မထနိုင်ခြင်း | |
+| 杖 | つえ | Walking stick (cane) | တုတ်ကောက် (လမ်းလျှောက်တုတ်) | |
+| 居室 | きょしつ | Resident's room | ဝန်ဆောင်မှုအသုံးပြုသူ နေထိုင်သော အခန်း | |
+| 救急車 | きゅうきゅうしゃ | Ambulance | လူနာတင်ယာဉ် | |
 | 厨房 | ちゅうぼう | Kitchen | မီးဖိုချောင် | |
 | 手洗い | てあらい | Hand washing | လက်ဆေးခြင်း | |
 | 消毒 | しょうどく | Disinfection | ပိုးသတ်ခြင်း | |

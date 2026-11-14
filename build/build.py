@@ -41,6 +41,14 @@ UI = {
  "intro": {"vi":"Không cần đăng ký. Số liệu bạn nhập chỉ ở trên thiết bị của bạn.","ne":"दर्ता गर्नु पर्दैन। तपाईंले लेखेका अंकहरू तपाईंकै उपकरणमा मात्र रहन्छन्।","id":"Tanpa pendaftaran. Angka yang Anda masukkan hanya tersimpan di perangkat Anda.","my":"စာရင်းသွင်းရန် မလိုပါ။ သင်ထည့်သော ကိန်းဂဏန်းများသည် သင့်စက်ပေါ်တွင်သာ ရှိပါသည်။","en":"No sign-up. The numbers you type stay on your own device.","ja":"登録不要。入力した数字はあなたの端末の中だけで使われます。"},
  "more": {"vi":"Công cụ khác","ne":"अन्य उपकरण","id":"Alat lainnya","my":"အခြားကိရိယာများ","en":"More tools","ja":"ほかのツール"},
  "fix": {"vi":"Bản dịch có chỗ sai? Hãy báo cho chúng tôi","ne":"अनुवादमा गल्ती छ? हामीलाई बताउनुहोस्","id":"Ada terjemahan yang salah? Beri tahu kami","my":"ဘာသာပြန် မှားနေပါသလား။ ကျွန်ုပ်တို့ကို ပြောပြပါ","en":"Found a translation mistake? Tell us","ja":"翻訳のまちがいを知らせる"},
+ "ask": {"vi":"Bạn có yêu cầu hoặc ý kiến? Hãy cho chúng tôi biết","ne":"केही अनुरोध वा सुझाव छ? हामीलाई बताउनुहोस्","id":"Punya permintaan atau saran? Beri tahu kami","my":"တောင်းဆိုချက် သို့မဟုတ် အကြံပြုချက် ရှိပါသလား။ ကျွန်ုပ်တို့ကို ပြောပြပါ","en":"Have a request or an idea? Tell us","ja":"要望・意見を送る"},
+ # Prefilled text of the request form (GitHub issue). Issues are public, so the text says so and asks for no personal data.
+ "askbody": {"vi":"Bạn muốn chúng tôi thêm hoặc sửa điều gì? (ví dụ: công cụ mới, từ mới cho bài luyện kanji, chỗ khó hiểu)\n\n\n\nBạn có thể viết bằng tiếng Việt. Nội dung này ai cũng xem được, vì vậy xin đừng viết thông tin cá nhân như họ tên, địa chỉ hay số thẻ lưu trú.",
+  "ne":"हामीले के थप्नुपर्छ वा के सच्याउनुपर्छ? (जस्तै: नयाँ उपकरण, कान्जी अभ्यासका लागि नयाँ शब्द, बुझ्न गाह्रो भएको ठाउँ)\n\n\n\nतपाईं नेपालीमा लेख्न सक्नुहुन्छ। यो सन्देश सबैले देख्न सक्छन्, त्यसैले नाम, ठेगाना वा जाइर्यु कार्ड नम्बर जस्ता व्यक्तिगत जानकारी नलेख्नुहोस्।",
+  "id":"Apa yang perlu kami tambahkan atau perbaiki? (misalnya: alat baru, kata baru untuk latihan kanji, bagian yang sulit dipahami)\n\n\n\nAnda boleh menulis dalam bahasa Indonesia. Pesan ini bisa dilihat semua orang, jadi mohon jangan menulis data pribadi seperti nama, alamat, atau nomor kartu izin tinggal (kartu zairyu).",
+  "my":"ဘာကို ထပ်ထည့်စေချင်ပါသလဲ၊ ဘာကို ပြင်စေချင်ပါသလဲ။ (ဥပမာ - ကိရိယာအသစ်၊ ခန်းဂျီးလေ့ကျင့်ရန် စကားလုံးအသစ်၊ နားလည်ရခက်သော နေရာ)\n\n\n\nမြန်မာဘာသာဖြင့် ရေးနိုင်ပါသည်။ ဤစာကို လူတိုင်း မြင်နိုင်သောကြောင့် အမည်၊ လိပ်စာ၊ နေထိုင်ခွင့်ကတ်နံပါတ် စသည့် ကိုယ်ရေးအချက်အလက်များ မရေးပါနှင့်။",
+  "en":"What would you like us to add or fix? (for example: a new tool, new words for the kanji quiz, something that is hard to understand)\n\n\n\nYou can write in your own language. Everyone can see this message, so please do not write personal information such as your name, address or residence card number.",
+  "ja":"追加してほしいこと、直してほしいことを書いてください。（例：新しいツール、漢字クイズに入れてほしい言葉、わかりにくいところ）\n\n\n\nこの内容はだれでも見ることができます。名前・住所・在留カード番号などの個人情報は書かないでください。"},
  "privacy": {"vi":"Chính sách bảo mật","ne":"गोपनीयता नीति","id":"Kebijakan privasi","my":"ကိုယ်ရေးအချက်အလက် မူဝါဒ","en":"Privacy policy","ja":"プライバシーポリシー"},
 }
 
@@ -74,6 +82,7 @@ def head(lang, title, desc, path, extra=""):
 def nav(lang, current):
     items = "".join(f'<li><a href="../{t}/">{SHORT[t][lang]}</a></li>' for t in TOOLS if t != current)
     return (f'<nav class="site-nav"><h2>{UI["more"][lang]}</h2><ul>{items}</ul>'
+            f'<a class="legal" href="{ISSUES}?title=' + quote(f"[{lang}] {current}: request") + "&amp;body=" + quote(UI["askbody"][lang]) + f'&amp;labels=request" target="_blank" rel="noopener">{UI["ask"][lang]}</a>'
             f'<a class="legal" href="{ISSUES}?title=' + quote(f"[{lang}] {current}: translation") + f'&amp;labels=translation" target="_blank" rel="noopener">{UI["fix"][lang]}</a>'
             f'<a class="legal" href="/privacy/">{UI["privacy"][lang]}</a></nav>')
 

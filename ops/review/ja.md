@@ -59,6 +59,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.care[1] | 介護 | 介護 | |
 | sets.care2[0] | Care work 2 | 介護 2 | |
 | sets.care2[1] | 介護 | 介護 | |
+| sets.care3[0] | Care work 3 | 介護 3 | |
+| sets.care3[1] | 介護 | 介護 | |
 | sets.food[0] | Food service | 外食 | |
 | sets.food[1] | 外食 | 外食 | |
 | sets.food2[0] | Food service 2 | 外食 2 | |
@@ -428,6 +430,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 手すり | てすり | Handrail | つかまるための棒 | |
 | 嘔吐 | おうと | Vomiting | 食べた物などを口からはくこと | |
 | 声かけ | こえかけ | Speaking to the person first (before helping) | 手伝う前などに相手に話しかけること | |
+| 誤薬 | ごやく | Medication error (wrong medicine, dose, person or time) | 薬の種類や量、使う人、時間などをまちがえること | |
+| 脱水 | だっすい | Dehydration | 体の水分が足りなくなること | |
+| 発熱 | はつねつ | Fever | 熱が出ること | |
+| 脈拍 | みゃくはく | Pulse | 1分間に心臓が動く回数（手首などではかる） | |
+| 意識 | いしき | Consciousness (awake and aware) | 目がさめていて、まわりのことがわかる状態 | |
+| 清拭 | せいしき | Bed bath (wiping the body with a warm towel) | おふろに入ることができない人の体を、あたたかいタオルでふくこと | |
+| 義歯 | ぎし | Dentures | 入れ歯 | |
+| 失禁 | しっきん | Incontinence (leaking urine or stool) | トイレに間に合わなかったり、気づかなかったりして、尿や便がもれること | |
+| 寝たきり | ねたきり | Bedridden | 病気だったり体が弱かったりして、一日のほとんどをベッドの上ですごす状態 | |
+| 杖 | つえ | Walking stick (cane) | 歩くときに体をささえるために持つ棒 | |
+| 居室 | きょしつ | Resident's room | 利用者が生活する部屋 | |
+| 救急車 | きゅうきゅうしゃ | Ambulance | 急な病気やけがの人を病院へ運ぶ車 | |
 | 厨房 | ちゅうぼう | Kitchen | 料理をつくる所 | |
 | 手洗い | てあらい | Hand washing | 手をあらうこと | |
 | 消毒 | しょうどく | Disinfection | ばい菌をころすこと | |

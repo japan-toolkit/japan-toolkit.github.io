@@ -59,6 +59,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.care[1] | 介護 | 介護 | |
 | sets.care2[0] | Care work 2 | हेरचाह (काइगो) २ | |
 | sets.care2[1] | 介護 | 介護 | |
+| sets.care3[0] | Care work 3 | हेरचाह (काइगो) ३ | |
+| sets.care3[1] | 介護 | 介護 | |
 | sets.food[0] | Food service | रेस्टुरेन्ट र खाना | |
 | sets.food[1] | 外食 | 外食 | |
 | sets.food2[0] | Food service 2 | रेस्टुरेन्ट र खाना 2 | |
@@ -428,6 +430,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 手すり | てすり | Handrail | समात्ने रेलिङ | |
 | 嘔吐 | おうと | Vomiting | बान्ता | |
 | 声かけ | こえかけ | Speaking to the person first (before helping) | सहयोग गर्नुअघि बोलेर जानकारी दिने | |
+| 誤薬 | ごやく | Medication error (wrong medicine, dose, person or time) | औषधि दिँदा हुने गल्ती (गलत औषधि, गलत मात्रा, गलत व्यक्ति वा गलत समय) | |
+| 脱水 | だっすい | Dehydration | शरीरमा पानीको कमी (डिहाइड्रेसन) | |
+| 発熱 | はつねつ | Fever | ज्वरो आउनु | |
+| 脈拍 | みゃくはく | Pulse | नाडीको गति | |
+| 意識 | いしき | Consciousness (awake and aware) | होस (ब्यूँझेर वरपर के भइरहेको छ थाहा पाउने अवस्था) | |
+| 清拭 | せいしき | Bed bath (wiping the body with a warm towel) | नुहाउन नसक्ने व्यक्तिको शरीर तौलियाले पुछिदिनु | |
+| 義歯 | ぎし | Dentures | कृत्रिम दाँत | |
+| 失禁 | しっきん | Incontinence (leaking urine or stool) | पिसाब वा दिसा रोक्न नसक्नु | |
+| 寝たきり | ねたきり | Bedridden | ओछ्यानबाट उठ्न नसक्ने अवस्था | |
+| 杖 | つえ | Walking stick (cane) | हिँड्दा टेक्ने लौरो | |
+| 居室 | きょしつ | Resident's room | सेवाग्राही बस्ने कोठा | |
+| 救急車 | きゅうきゅうしゃ | Ambulance | एम्बुलेन्स | |
 | 厨房 | ちゅうぼう | Kitchen | भान्सा | |
 | 手洗い | てあらい | Hand washing | हात धुने | |
 | 消毒 | しょうどく | Disinfection | कीटाणु मार्ने सफाइ | |

@@ -59,6 +59,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.care[1] | 介護 | 介護 | |
 | sets.care2[0] | Care work 2 | Điều dưỡng, chăm sóc người cao tuổi (kaigo) 2 | |
 | sets.care2[1] | 介護 | 介護 | |
+| sets.care3[0] | Care work 3 | Điều dưỡng, chăm sóc người cao tuổi (kaigo) 3 | |
+| sets.care3[1] | 介護 | 介護 | |
 | sets.food[0] | Food service | Nhà hàng, thực phẩm | |
 | sets.food[1] | 外食 | 外食 | |
 | sets.food2[0] | Food service 2 | Nhà hàng, thực phẩm 2 | |
@@ -428,6 +430,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 手すり | てすり | Handrail | Tay vịn | |
 | 嘔吐 | おうと | Vomiting | Nôn mửa | |
 | 声かけ | こえかけ | Speaking to the person first (before helping) | Lên tiếng, báo cho người được chăm sóc biết (trước khi hỗ trợ) | |
+| 誤薬 | ごやく | Medication error (wrong medicine, dose, person or time) | Nhầm thuốc (sai thuốc, sai liều, sai người hoặc sai giờ) | |
+| 脱水 | だっすい | Dehydration | Mất nước (cơ thể thiếu nước) | |
+| 発熱 | はつねつ | Fever | Sốt | |
+| 脈拍 | みゃくはく | Pulse | Mạch (số lần tim đập) | |
+| 意識 | いしき | Consciousness (awake and aware) | Ý thức (tỉnh táo, nhận biết được xung quanh) | |
+| 清拭 | せいしき | Bed bath (wiping the body with a warm towel) | Lau người (lau cơ thể bằng khăn thay cho tắm) | |
+| 義歯 | ぎし | Dentures | Răng giả | |
+| 失禁 | しっきん | Incontinence (leaking urine or stool) | Không kiểm soát được tiểu tiện, đại tiện (són tiểu, són phân) | |
+| 寝たきり | ねたきり | Bedridden | Nằm liệt giường | |
+| 杖 | つえ | Walking stick (cane) | Gậy chống | |
+| 居室 | きょしつ | Resident's room | Phòng ở của người sử dụng dịch vụ | |
+| 救急車 | きゅうきゅうしゃ | Ambulance | Xe cấp cứu | |
 | 厨房 | ちゅうぼう | Kitchen | Nhà bếp | |
 | 手洗い | てあらい | Hand washing | Rửa tay | |
 | 消毒 | しょうどく | Disinfection | Khử trùng | |

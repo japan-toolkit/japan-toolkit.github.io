@@ -59,6 +59,8 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.care[1] | 介護 | 介護 | |
 | sets.care2[0] | Care work 2 | Perawatan (kaigo) 2 | |
 | sets.care2[1] | 介護 | 介護 | |
+| sets.care3[0] | Care work 3 | Perawatan (kaigo) 3 | |
+| sets.care3[1] | 介護 | 介護 | |
 | sets.food[0] | Food service | Restoran dan makanan | |
 | sets.food[1] | 外食 | 外食 | |
 | sets.food2[0] | Food service 2 | Restoran dan makanan 2 | |
@@ -428,6 +430,18 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 手すり | てすり | Handrail | Pegangan tangan (railing) | |
 | 嘔吐 | おうと | Vomiting | Muntah | |
 | 声かけ | こえかけ | Speaking to the person first (before helping) | Menyapa dan memberi tahu dulu sebelum membantu | |
+| 誤薬 | ごやく | Medication error (wrong medicine, dose, person or time) | Kesalahan pemberian obat (salah obat, salah dosis, salah orang, atau salah waktu) | |
+| 脱水 | だっすい | Dehydration | Dehidrasi (tubuh kekurangan cairan) | |
+| 発熱 | はつねつ | Fever | Demam | |
+| 脈拍 | みゃくはく | Pulse | Denyut nadi | |
+| 意識 | いしき | Consciousness (awake and aware) | Kesadaran (sadar dan mengenali lingkungan sekitar) | |
+| 清拭 | せいしき | Bed bath (wiping the body with a warm towel) | Menyeka badan dengan handuk (pengganti mandi) | |
+| 義歯 | ぎし | Dentures | Gigi palsu | |
+| 失禁 | しっきん | Incontinence (leaking urine or stool) | Tidak bisa menahan buang air kecil atau besar (inkontinensia) | |
+| 寝たきり | ねたきり | Bedridden | Terbaring terus di tempat tidur (tidak bisa bangun) | |
+| 杖 | つえ | Walking stick (cane) | Tongkat jalan | |
+| 居室 | きょしつ | Resident's room | Kamar pengguna layanan | |
+| 救急車 | きゅうきゅうしゃ | Ambulance | Ambulans | |
 | 厨房 | ちゅうぼう | Kitchen | Dapur | |
 | 手洗い | てあらい | Hand washing | Cuci tangan | |
 | 消毒 | しょうどく | Disinfection | Disinfeksi | |

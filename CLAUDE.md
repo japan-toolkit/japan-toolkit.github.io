@@ -21,7 +21,15 @@ The site exists to earn money; "official release" = the start of earning. Two wa
      every safety caution (⚠) translation is checked by one paid native reviewer; the rest is checked by free
      monitors who get a clearly labelled free beta copy ("β版・チェック前・再配布禁止"). Monitors only report mistakes:
      never ask them for ratings or reviews (stealth-marketing rules). Collect no personal data from monitors.
-     Fix every reported problem (Claude checks each report before applying) before the paid version goes on sale.
+     Fix every reported problem (Claude checks each report before applying).
+   - **Early release (owner decision 2026-11-15, "release first"):** the paid version may go on sale before the paid
+     caution check is finished, on these conditions:
+     - no safety caution (⚠) is shown in a translation that a native reviewer has not checked: until then the cautions
+       appear in plain Japanese only;
+     - the product page and the PDF say clearly that the caution translations will be added after a native-speaker
+       check, as a free update for buyers. Never write or imply "native-checked" for parts that are not;
+     - the paid caution check is still ordered and applied; monitor reports keep being fixed after the sale starts;
+     - when the checked cautions are added, replace the PDF on the platform and update the product text the same day.
    - The free tools stay free and complete. Paid material is extra; never put existing free content behind a paywall.
 2. **Ads**, only after the owner has chosen and signed up for an ad service.
    - Update the privacy page first (cookies, third-party ad provider, 外部送信 notice).

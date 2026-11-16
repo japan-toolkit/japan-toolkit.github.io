@@ -91,6 +91,8 @@ This catches meaning errors and obvious unnatural wording, but it is still machi
 - 2026-11-15 (3) request link + prefilled request text (build.py UI 'ask' / 'askbody'): vi/ne/id/my back-translated blind; meaning OK in all four.
   Applied: id subject fix ('Apa yang perlu kami tambahkan' — the old wording read as if the user adds it) + 'mohon' + '(kartu zairyu)',
   my question split in two + မြန်မာဘာသာဖြင့် (register). Not applied (optional): vi 'thẻ ngoại kiều', ne 'टुल' (site uses उपकरण).
+- 2026-11-17 request text: vi/ne 在留カード term aligned with the site (thẻ cư trú / निवास कार्ड + 在留カード); blind back-translation clean.
+  Optional, not applied: ne softer 'नलेख्नुहोला'.
 - Status: all four languages AI-cross-reviewed once. Next: re-run after each text change; watch GitHub issues.
 
 ## How to get a free review (plan, 2026-11-08)

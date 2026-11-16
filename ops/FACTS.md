@@ -1,4 +1,4 @@
-# Official figures used by the tools (last checked 2026-11-15 JST with the owner present: 14 main sources re-read one at a time, all figures and 更新日 unchanged; 47 prefecture rates compared with insurance.js by script, identical; 協会けんぽ shows no 令和9年度 notice yet; zeigakuhyo2026/2027 both still published, no 訂正 notice. Not re-read on 11-15, last 11-09: R8_13tokyo.pdf, keizoku-20.pdf, soumu 000679115.pdf, NTA 15-16/19-22.pdf, zeigakuhyo2026/2027 18.pdf, 01-07.pdf)
+# Official figures used by the tools (unattended runs 11-16, 11-17: official pages refused, not re-read; last checked 2026-11-15 JST with the owner present: 14 main sources re-read one at a time, all figures and 更新日 unchanged; 47 prefecture rates compared with insurance.js by script, identical; 協会けんぽ shows no 令和9年度 notice yet; zeigakuhyo2026/2027 both still published, no 訂正 notice. Not re-read on 11-15, last 11-09: R8_13tokyo.pdf, keizoku-20.pdf, soumu 000679115.pdf, NTA 15-16/19-22.pdf, zeigakuhyo2026/2027 18.pdf, 01-07.pdf)
 
 Every row should cite a primary (official) page. "Checked" = page re-read and figure confirmed on that date.
 

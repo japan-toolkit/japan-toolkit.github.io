@@ -1,0 +1,120 @@
+{
+  "_about": "Site-wide glossary checked by build/check_terms.py. For each concept: 'en' = English trigger (regex, case-insensitive); per language the term that must appear in the same string when the English one mentions the concept. A list = any of these forms is fine. 'avoid' = old or drifted forms that must not appear anywhere. 'skip' = string keys where the term is left out on purpose (short label, pronoun), with a reason. Skip key format: '<lang or *>:<string key>:<concept>'. Japanese kanji-work glosses (words:*) explain the word without repeating it, so they are not checked.",
+  "concepts": {
+    "在留カード": {
+      "en": "residence card",
+      "vi": "thẻ cư trú",
+      "ne": "निवास कार्ड",
+      "id": "kartu izin tinggal",
+      "my": "နေထိုင်ခွင့်ကတ်",
+      "ja": "在留カード",
+      "avoid": {
+        "vi": [
+          "thẻ lưu trú"
+        ],
+        "ne": [
+          "जाइर्यु कार्ड"
+        ]
+      }
+    },
+    "住民税": {
+      "en": "resident tax",
+      "vi": "thuế cư trú",
+      "ne": "आवासीय कर",
+      "id": "pajak penduduk",
+      "my": "နေထိုင်သူအခွန်",
+      "ja": "住民税"
+    },
+    "納税管理人": {
+      "en": "tax representative",
+      "vi": "đại diện nộp thuế",
+      "ne": "कर प्रतिनिधि",
+      "id": "wakil pajak",
+      "my": "အခွန်ကိုယ်စားလှယ်",
+      "ja": "納税管理人"
+    },
+    "再入国許可": {
+      "en": "re-entry permit",
+      "vi": "giấy phép tái nhập cảnh",
+      "ne": "पुनः प्रवेश अनुमति",
+      "id": "izin masuk kembali",
+      "my": "ပြန်လည်ဝင်ရောက်ခွင့်",
+      "ja": "再入国許可"
+    },
+    "源泉徴収票": {
+      "en": "withholding (tax )?slip",
+      "vi": "phiếu khấu trừ thuế",
+      "ne": "कर कट्टी प्रमाणपत्र",
+      "id": "bukti potong pajak",
+      "my": "အခွန်နုတ်ယူမှု ထောက်ခံစာ",
+      "ja": "源泉徴収票"
+    },
+    "転出届": {
+      "en": "moving-out notice|move-out",
+      "vi": "thông báo chuyển đi",
+      "ne": "बसाइँसराइको सूचना",
+      "id": "pindah keluar",
+      "my": "ပြောင်းရွှေ့ကြောင်း အကြောင်းကြားစာ",
+      "ja": "転出届",
+      "avoid": {
+        "vi": [
+          "khai báo chuyển đi"
+        ],
+        "ne": [
+          "बसाइँसराइ सूचना",
+          "ठेगाना सराइको सूचना"
+        ],
+        "my": [
+          "ပြောင်းရွှေ့ထွက်ခွာကြောင်း အသိပေးစာ"
+        ]
+      }
+    },
+    "厚生年金": {
+      "en": "employees'? pension",
+      "vi": "hưu trí phúc lợi",
+      "ne": "कर्मचारी पेन्सन",
+      "id": "pensiun karyawan",
+      "my": "ဝန်ထမ်းပင်စင်",
+      "ja": "厚生年金"
+    },
+    "国民年金": {
+      "en": "national pension",
+      "vi": "hưu trí quốc dân",
+      "ne": "राष्ट्रिय पेन्सन",
+      "id": "pensiun nasional",
+      "my": "အမျိုးသားပင်စင်",
+      "ja": "国民年金"
+    },
+    "健康保険": {
+      "en": "health insurance",
+      "vi": "bảo hiểm y tế",
+      "ne": "स्वास्थ्य बीमा",
+      "id": "asuransi kesehatan",
+      "my": "ကျန်းမာရေးအာမခံ",
+      "ja": [
+        "健康保険",
+        "健保"
+      ]
+    },
+    "雇用保険": {
+      "en": "employment insurance",
+      "vi": "bảo hiểm việc làm",
+      "ne": "रोजगार बीमा",
+      "id": "asuransi ketenagakerjaan",
+      "my": "အလုပ်အကိုင်အာမခံ",
+      "ja": "雇用保険"
+    },
+    "税務署": {
+      "en": "tax office",
+      "vi": "cơ quan thuế",
+      "ne": "कर कार्यालय",
+      "id": "kantor pajak",
+      "my": "အခွန်ရုံး",
+      "ja": "税務署"
+    }
+  },
+  "skip": {
+    "*:nenkin-refund:faq[2].a:厚生年金": "English says 'For Employees' Pension'; the 60-month cap also applies to National Pension, so the translations without it are correct (2026-11-18).",
+    "*:takehome:notes[3]:健康保険": "'its own health insurance society' is shortened to 'own insurance association' on purpose; the sentence is about the company's fund."
+  }
+}

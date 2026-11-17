@@ -306,7 +306,7 @@ docs: [
  ["申請書","しんせいしょ",{vi:"Đơn xin",ne:"आवेदन फारम",id:"Formulir permohonan",my:"လျှောက်လွှာ",en:"Application form",ja:"お願いするための書類"}],
  ["在留カード","ざいりゅうカード",{vi:"Thẻ cư trú",ne:"निवास कार्ड",id:"Kartu izin tinggal",my:"နေထိုင်ခွင့်ကတ်",en:"Residence card",ja:"日本に住む外国人のカード"}],
  ["住民票","じゅうみんひょう",{vi:"Giấy chứng nhận cư trú",ne:"निवास प्रमाणपत्र",id:"Surat keterangan domisili",my:"နေထိုင်မှု မှတ်တမ်း",en:"Certificate of residence",ja:"どこに住んでいるかの証明"}],
- ["転出届","てんしゅつとどけ",{vi:"Thông báo chuyển đi",ne:"ठेगाना सराइको सूचना",id:"Laporan pindah keluar",my:"ပြောင်းရွှေ့ကြောင်း အကြောင်းကြားစာ",en:"Moving-out notice",ja:"ほかの市区町村や外国へ引っ越すときの届け"}],
+ ["転出届","てんしゅつとどけ",{vi:"Thông báo chuyển đi",ne:"बसाइँसराइको सूचना",id:"Laporan pindah keluar",my:"ပြောင်းရွှေ့ကြောင်း အကြောင်းကြားစာ",en:"Moving-out notice",ja:"ほかの市区町村や外国へ引っ越すときの届け"}],
  ["有効期限","ゆうこうきげん",{vi:"Ngày hết hạn",ne:"म्याद सकिने मिति",id:"Masa berlaku",my:"သက်တမ်းကုန်ရက်",en:"Expiry date",ja:"使える最後の日"}]
 ]};
 if (typeof module !== "undefined") module.exports = { WORDS };

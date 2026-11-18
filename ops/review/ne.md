@@ -63,7 +63,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | sets.care3[1] | 介護 | 介護 | |
 | sets.food[0] | Food service | रेस्टुरेन्ट र खाना | |
 | sets.food[1] | 外食 | 外食 | |
-| sets.food2[0] | Food service 2 | रेस्टुरेन्ट र खाना 2 | |
+| sets.food2[0] | Food service 2 | रेस्टुरेन्ट र खाना २ | |
 | sets.food2[1] | 外食 | 外食 | |
 | sets.foodmfg[0] | Food and drink manufacturing | खाद्य तथा पेय पदार्थ उत्पादन (कारखाना) | |
 | sets.foodmfg[1] | 飲食料品製造 | 飲食料品製造 | |
@@ -135,7 +135,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | items[2][1] | Choose a trusted person living in Japan or a tax accountant, and register them at the tax office. You need one to recover the 20.42% tax taken from your pension refund. | जापानमा बस्ने भरपर्दो व्यक्ति वा कर विशेषज्ञ छान्नुहोस् र कर कार्यालयमा सूचना दिनुहोस्। पेन्सन फिर्ता रकमबाट काटिएको २०.४२% कर फिर्ता लिन यो आवश्यक छ। | |
 | items[3][0] | Give notice on your apartment | घर भाडा सम्झौता अन्त्य गर्ने सूचना दिनुहोस् | |
 | items[3][1] | Contact your landlord or management company. Many require one month's notice. | घरधनी वा व्यवस्थापन कम्पनीलाई सम्पर्क गर्नुहोस्। धेरैजसो ठाउँमा १ महिना अघि सूचना दिनुपर्छ। | |
-| items[4][0] | Submit a moving-out notice (転出届) at the city office | नगरपालिका कार्यालयमा बसाइँसराइ सूचना (転出届) बुझाउनुहोस् | |
+| items[4][0] | Submit a moving-out notice (転出届) at the city office | नगरपालिका कार्यालयमा बसाइँसराइको सूचना (転出届) बुझाउनुहोस् | |
 | items[4][1] | Handle National Health Insurance and National Pension at the same visit. | राष्ट्रिय स्वास्थ्य बीमा र राष्ट्रिय पेन्सनको प्रक्रिया पनि सँगै गर्नुहोस्। | |
 | items[5][0] | Stop electricity, gas, water and internet | बिजुली, ग्यास, पानी र इन्टरनेट बन्द गर्नुहोस् | |
 | items[5][1] | Request service to end on your moving day, by phone or online. | सर्ने दिनदेखि सेवा बन्द हुने गरी फोन वा अनलाइनबाट आवेदन दिनुहोस्। | |
@@ -197,11 +197,11 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | source | Source: | स्रोत: | |
 | checked | Figures checked November 2026 (FY2026 rates). | नोभेम्बर २०२६ मा जाँच गरिएको (आर्थिक वर्ष २०२६ का दर)। | |
 | faq[0].q | Can I apply for the refund while I am still living in Japan? | जापानमै बसिरहेको बेला फिर्ताको लागि आवेदन दिन सकिन्छ? | |
-| faq[0].a | No. You can apply only after you no longer have an address in Japan. Usually you report your move-out (転出届) at your city office before you leave, then send the claim form after your move-out date, for example from your home country. | सकिँदैन। जापानमा तपाईंको ठेगाना नरहेपछि मात्र आवेदन दिन सकिन्छ। सामान्यतया जानुअघि नगरपालिका कार्यालयमा ठेगाना सराइको सूचना (転出届) दिनुहोस्, अनि सराइको मितिपछि आवेदन फारम पठाउनुहोस् (जस्तै, आफ्नो देश पुगेपछि)। | |
+| faq[0].a | No. You can apply only after you no longer have an address in Japan. Usually you report your move-out (転出届) at your city office before you leave, then send the claim form after your move-out date, for example from your home country. | सकिँदैन। जापानमा तपाईंको ठेगाना नरहेपछि मात्र आवेदन दिन सकिन्छ। सामान्यतया जानुअघि नगरपालिका कार्यालयमा बसाइँसराइको सूचना (転出届) दिनुहोस्, अनि बसाइँ सरेको मितिपछि आवेदन फारम पठाउनुहोस् (जस्तै, आफ्नो देश पुगेपछि)। | |
 | faq[1].q | Is there a deadline? | आवेदन दिने म्याद छ? | |
 | faq[1].a | Yes. The Japan Pension Service must receive your claim within 2 years from the day you stopped having an address in Japan. After that, you cannot get the refund. | छ। जापानमा ठेगाना नरहेको दिनदेखि २ वर्षभित्र आवेदन दिनुपर्छ। त्यसपछि फिर्ता रकम पाइँदैन। | |
 | faq[2].q | I paid for more than 5 years. Is everything refunded? | मैले ५ वर्षभन्दा बढी तिरेँ। सबै फिर्ता हुन्छ? | |
-| faq[2].a | No. For Employees' Pension, if your last month of enrollment was April 2021 or later, at most 60 months (5 years) are counted, even if you paid longer. If you have 10 years or more in total, you cannot get the refund; you qualify for a pension in old age instead. | हुँदैन। अन्तिम महिना अप्रिल २०२१ वा त्योभन्दा पछि भए, जति लामो तिर्नुभए पनि बढीमा ६० महिना (५ वर्ष) मात्र गनिन्छ। जम्मा १० वर्ष वा बढी भए फिर्ता पाइँदैन; बरु वृद्धावस्थामा पेन्सन पाउने हकदार हुन सक्नुहुन्छ। | |
+| faq[2].a | No. If your last month of enrollment was April 2021 or later, at most 60 months (5 years) are counted, even if you paid longer. If you have 10 years or more in total, you cannot get the refund; you qualify for a pension in old age instead. | हुँदैन। अन्तिम महिना अप्रिल २०२१ वा त्योभन्दा पछि भए, जति लामो तिर्नुभए पनि बढीमा ६० महिना (५ वर्ष) मात्र गनिन्छ। जम्मा १० वर्ष वा बढी भए फिर्ता पाइँदैन; बरु वृद्धावस्थामा पेन्सन पाउने हकदार हुन सक्नुहुन्छ। | |
 | faq[3].q | Why is tax taken from my refund, and can I get it back? | फिर्ता रकमबाट किन कर काटिन्छ, र फिर्ता लिन सकिन्छ? | |
 | faq[3].a | From the Employees' Pension refund, 20.42% income tax is withheld. Nothing is withheld from a National Pension refund. To get most of the tax back, appoint a tax representative (納税管理人) in Japan before you leave; after the refund arrives, they file a tax return for you. | कर्मचारी पेन्सन (厚生年金) को फिर्ताबाट २०.४२% आयकर काटिन्छ। राष्ट्रिय पेन्सन (国民年金) को फिर्ताबाट केही काटिँदैन। काटिएको करको ठूलो भाग प्रायः फिर्ता लिन सकिन्छ; यसका लागि जानुअघि जापानमा कर प्रतिनिधि (納税管理人) नियुक्त गर्नुहोस्। रकम आएपछि उहाँले तपाईंको तर्फबाट कर विवरण बुझाउनुहुन्छ। | |
 
@@ -622,5 +622,5 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | 申請書 | しんせいしょ | Application form | आवेदन फारम | |
 | 在留カード | ざいりゅうカード | Residence card | निवास कार्ड | |
 | 住民票 | じゅうみんひょう | Certificate of residence | निवास प्रमाणपत्र | |
-| 転出届 | てんしゅつとどけ | Moving-out notice | ठेगाना सराइको सूचना | |
+| 転出届 | てんしゅつとどけ | Moving-out notice | बसाइँसराइको सूचना | |
 | 有効期限 | ゆうこうきげん | Expiry date | म्याद सकिने मिति | |

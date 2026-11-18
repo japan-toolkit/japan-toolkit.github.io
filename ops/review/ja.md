@@ -201,7 +201,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | faq[1].q | Is there a deadline? | 請求に期限はありますか？ | |
 | faq[1].a | Yes. The Japan Pension Service must receive your claim within 2 years from the day you stopped having an address in Japan. After that, you cannot get the refund. | あります。日本に住所がなくなった日から2年以内に請求する必要があります。期限を過ぎると受け取れません。 | |
 | faq[2].q | I paid for more than 5 years. Is everything refunded? | 5年より長く払いました。全額戻りますか？ | |
-| faq[2].a | No. For Employees' Pension, if your last month of enrollment was April 2021 or later, at most 60 months (5 years) are counted, even if you paid longer. If you have 10 years or more in total, you cannot get the refund; you qualify for a pension in old age instead. | いいえ。最後の加入月が2021年4月以降の場合、計算に使われるのは最大60か月（5年）分です。加入期間が合計10年以上ある場合は脱退一時金を受け取れず、将来の老齢年金の対象になります。 | |
+| faq[2].a | No. If your last month of enrollment was April 2021 or later, at most 60 months (5 years) are counted, even if you paid longer. If you have 10 years or more in total, you cannot get the refund; you qualify for a pension in old age instead. | いいえ。最後の加入月が2021年4月以降の場合、計算に使われるのは最大60か月（5年）分です。加入期間が合計10年以上ある場合は脱退一時金を受け取れず、将来の老齢年金の対象になります。 | |
 | faq[3].q | Why is tax taken from my refund, and can I get it back? | なぜ税金が引かれるのですか？取り戻せますか？ | |
 | faq[3].a | From the Employees' Pension refund, 20.42% income tax is withheld. Nothing is withheld from a National Pension refund. To get most of the tax back, appoint a tax representative (納税管理人) in Japan before you leave; after the refund arrives, they file a tax return for you. | 厚生年金の脱退一時金からは所得税20.42%が源泉徴収されます。国民年金の脱退一時金からは引かれません。税金の多くを取り戻すには、出国前に日本で納税管理人を決めておき、一時金が振り込まれた後にその人があなたの代わりに確定申告をします。 | |
 

@@ -135,7 +135,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | items[2][1] | Choose a trusted person living in Japan or a tax accountant, and register them at the tax office. You need one to recover the 20.42% tax taken from your pension refund. | ဂျပန်တွင် နေထိုင်သော ယုံကြည်ရသူ သို့မဟုတ် အခွန်အကြံပေးကို ရွေးချယ်ပြီး အခွန်ရုံးသို့ အကြောင်းကြားပါ။ ပင်စင် (နန်ကင်) ပြန်အမ်းငွေမှ နုတ်ထားသော ၂၀.၄၂% အခွန်ကို ပြန်ရရန် လိုအပ်ပါသည်။ | |
 | items[3][0] | Give notice on your apartment | အိမ်ငှားစာချုပ် ဖျက်သိမ်းရန် အကြောင်းကြားပါ | |
 | items[3][1] | Contact your landlord or management company. Many require one month's notice. | အိမ်ရှင် သို့မဟုတ် စီမံခန့်ခွဲမှုကုမ္ပဏီကို ဆက်သွယ်ပါ။ အများစုမှာ ၁ လ ကြိုတင် အကြောင်းကြားရန် လိုအပ်ပါသည်။ | |
-| items[4][0] | Submit a moving-out notice (転出届) at the city office | မြို့ရုံးတွင် ပြောင်းရွှေ့ထွက်ခွာကြောင်း အသိပေးစာ (転出届) တင်ပါ | |
+| items[4][0] | Submit a moving-out notice (転出届) at the city office | မြို့ရုံးတွင် ပြောင်းရွှေ့ကြောင်း အကြောင်းကြားစာ (転出届) တင်ပါ | |
 | items[4][1] | Handle National Health Insurance and National Pension at the same visit. | အမျိုးသား ကျန်းမာရေးအာမခံနှင့် အမျိုးသားပင်စင် လုပ်ငန်းစဉ်များကိုလည်း တစ်ခါတည်း ဆောင်ရွက်ပါ။ | |
 | items[5][0] | Stop electricity, gas, water and internet | လျှပ်စစ်၊ ဓာတ်ငွေ့၊ ရေနှင့် အင်တာနက်ကို ပိတ်ရန် လျှောက်ပါ | |
 | items[5][1] | Request service to end on your moving day, by phone or online. | ပြောင်းရွှေ့မည့်နေ့တွင် ပိတ်ရန် ဖုန်း သို့မဟုတ် အွန်လိုင်းဖြင့် လျှောက်ထားပါ။ | |
@@ -144,7 +144,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | items[7][0] | Close your bank account | ဘဏ်အကောင့်ကို ပိတ်ပါ | |
 | items[7][1] | Do this after your last salary and deposit refund arrive. Selling or giving your account to someone else is illegal. | နောက်ဆုံးလစာနှင့် အိမ်စပေါ်ငွေ ဝင်ပြီးမှ ပိတ်ပါ။ အကောင့်ကို အခြားသူအား ရောင်းခြင်း သို့မဟုတ် ပေးခြင်းသည် တရားမဝင်ပါ။ | |
 | items[8][0] | Return health insurance documents | ကျန်းမာရေးအာမခံ စာရွက်စာတမ်းများကို ပြန်အပ်ပါ | |
-| items[8][1] | Follow your company's instructions (company insurance) or the city office's (National Health Insurance). | ကုမ္ပဏီ (ကုမ္ပဏီအာမခံ) သို့မဟုတ် မြို့ရုံး (အမျိုးသားအာမခံ) ၏ ညွှန်ကြားချက်အတိုင်း ဆောင်ရွက်ပါ။ | |
+| items[8][1] | Follow your company's instructions (company insurance) or the city office's (National Health Insurance). | ကုမ္ပဏီ (ကုမ္ပဏီအာမခံ) သို့မဟုတ် မြို့ရုံး (အမျိုးသား ကျန်းမာရေးအာမခံ) ၏ ညွှန်ကြားချက်အတိုင်း ဆောင်ရွက်ပါ။ | |
 | items[9][0] | Return your residence card at the airport | လေဆိပ်တွင် နေထိုင်ခွင့်ကတ်ကို ပြန်အပ်ပါ | |
 | items[9][1] | If you don't plan to come back, hand in your residence card (在留カード) at departure immigration. | ဂျပန်သို့ ပြန်လာရန် အစီအစဉ်မရှိပါက ထွက်ခွာစစ်ဆေးချိန်တွင် နေထိုင်ခွင့်ကတ် (在留カード) ကို အပ်ရပါမည်။ | |
 | items[10][0] | Claim your pension refund within 2 years | ၂ နှစ်အတွင်း နန်ကင်ငွေ ပြန်ထုတ်ရန် လျှောက်ထားပါ | |
@@ -201,7 +201,7 @@ Write corrections in the last column (or open a GitHub issue). Japanese words in
 | faq[1].q | Is there a deadline? | လျှောက်ထားရန် နောက်ဆုံးရက် ရှိပါသလား။ | |
 | faq[1].a | Yes. The Japan Pension Service must receive your claim within 2 years from the day you stopped having an address in Japan. After that, you cannot get the refund. | ရှိပါသည်။ ဂျပန်တွင် လိပ်စာ မရှိတော့သည့်နေ့မှ ၂ နှစ်အတွင်း လျှောက်ထားရပါမည်။ ထို့နောက်တွင် ပြန်အမ်းငွေ မရနိုင်တော့ပါ။ | |
 | faq[2].q | I paid for more than 5 years. Is everything refunded? | ၅ နှစ်ထက် ပိုပေးသွင်းခဲ့ပါသည်။ အားလုံး ပြန်ရပါသလား။ | |
-| faq[2].a | No. For Employees' Pension, if your last month of enrollment was April 2021 or later, at most 60 months (5 years) are counted, even if you paid longer. If you have 10 years or more in total, you cannot get the refund; you qualify for a pension in old age instead. | မရပါ။ နောက်ဆုံး ပင်စင်ဝင်ရောက်ခဲ့သည့်လသည် ၂၀၂၁ ဧပြီ သို့မဟုတ် နောက်ပိုင်း ဖြစ်ပါက ပိုကြာကြာ ပေးသွင်းခဲ့သော်လည်း အများဆုံး ၆၀ လ (၅ နှစ်) သာ တွက်ချက်ပါသည်။ စုစုပေါင်း ၁၀ နှစ်နှင့်အထက် ရှိပါက ပြန်အမ်းငွေ မရဘဲ အသက်ကြီးချိန်တွင် ပင်စင်ရရှိခွင့် ရှိပါသည်။ | |
+| faq[2].a | No. If your last month of enrollment was April 2021 or later, at most 60 months (5 years) are counted, even if you paid longer. If you have 10 years or more in total, you cannot get the refund; you qualify for a pension in old age instead. | မရပါ။ နောက်ဆုံး ပင်စင်ဝင်ရောက်ခဲ့သည့်လသည် ၂၀၂၁ ဧပြီ သို့မဟုတ် နောက်ပိုင်း ဖြစ်ပါက ပိုကြာကြာ ပေးသွင်းခဲ့သော်လည်း အများဆုံး ၆၀ လ (၅ နှစ်) သာ တွက်ချက်ပါသည်။ စုစုပေါင်း ၁၀ နှစ်နှင့်အထက် ရှိပါက ပြန်အမ်းငွေ မရဘဲ အသက်ကြီးချိန်တွင် ပင်စင်ရရှိခွင့် ရှိပါသည်။ | |
 | faq[3].q | Why is tax taken from my refund, and can I get it back? | ပြန်အမ်းငွေမှ အခွန် ဘာကြောင့် နုတ်ပါသလဲ၊ ပြန်ရနိုင်ပါသလား။ | |
 | faq[3].a | From the Employees' Pension refund, 20.42% income tax is withheld. Nothing is withheld from a National Pension refund. To get most of the tax back, appoint a tax representative (納税管理人) in Japan before you leave; after the refund arrives, they file a tax return for you. | ဝန်ထမ်းပင်စင် (厚生年金) ပြန်အမ်းငွေမှ ဝင်ငွေခွန် ၂၀.၄၂% နုတ်ယူပါသည်။ အမျိုးသားပင်စင် (国民年金) ပြန်အမ်းငွေမှ မနုတ်ပါ။ အခွန်အများစုကို ပြန်ရနိုင်ရန် မထွက်ခွာမီ ဂျပန်တွင် အခွန်ကိုယ်စားလှယ် (納税管理人) ခန့်အပ်ထားပါ။ ငွေရောက်ပြီးနောက် ထိုသူက သင့်ကိုယ်စား အခွန်ပြန်တမ်း တင်ပေးနိုင်ပါသည်။ | |
 

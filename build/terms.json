@@ -1,5 +1,5 @@
 {
-  "_about": "Site-wide glossary checked by build/check_terms.py. For each concept: 'en' = English trigger (regex, case-insensitive); per language the term that must appear in the same string when the English one mentions the concept. A list = any of these forms is fine. 'avoid' = old or drifted forms that must not appear anywhere. 'skip' = string keys where the term is left out on purpose (short label, pronoun), with a reason. Skip key format: '<lang or *>:<string key>:<concept>'. Japanese kanji-work glosses (words:*) explain the word without repeating it, so they are not checked.",
+  "_about": "Site-wide glossary checked by build/check_terms.py. For each concept: 'en' = English trigger (regex, case-insensitive); per language the term that must appear in the same string when the English one mentions the concept. A list = any of these forms is fine. 'avoid' = old or drifted forms that must not appear anywhere. 'skip' = string keys where the term is left out on purpose (short label, pronoun), with a reason. Skip key format: '<lang or *>:<string key>:<concept>'. Japanese kanji-work glosses (words:*) explain the word without repeating it, so they are not checked. 年末調整 has no settled translation in vi/ne/id: the Japanese term in brackets is the required form (2026-11-20).",
   "concepts": {
     "在留カード": {
       "en": "residence card",
@@ -111,6 +111,36 @@
       "id": "kantor pajak",
       "my": "အခွန်ရုံး",
       "ja": "税務署"
+    },
+    "標準報酬月額": {
+      "en": "standard monthly pay|標準報酬月額",
+      "vi": "lương chuẩn",
+      "ne": [
+        "मानक मासिक तलब",
+        "मानक तह"
+      ],
+      "id": "gaji standar",
+      "my": [
+        "စံလစဉ်လစာ",
+        "စံလစာ"
+      ],
+      "ja": "標準報酬"
+    },
+    "源泉徴収税額表": {
+      "en": "withholding (tax )?tables?",
+      "vi": "bảng khấu trừ thuế",
+      "ne": "कर कट्टी तालिका",
+      "id": "tabel pemotongan pajak",
+      "my": "အခွန်နုတ်ယူမှုဇယား",
+      "ja": "源泉徴収税額表"
+    },
+    "年末調整": {
+      "en": "year-end adjustment",
+      "vi": "年末調整",
+      "ne": "年末調整",
+      "id": "年末調整",
+      "my": "年末調整",
+      "ja": "年末調整"
     }
   },
   "skip": {

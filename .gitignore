@@ -1,2 +1,5 @@
 dist/
 __pycache__/
+# Search Console exports are the owner's account data: never commit them
+*Performance-on-Search*
+*.zip

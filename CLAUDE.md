@@ -54,7 +54,7 @@ The site exists to earn money; "official release" = the start of earning. Two wa
 
 ## Daily routine (scheduled run)
 1. Clone the repo; work on branch `source`.
-2. **Facts check**: re-read each source in `ops/FACTS.md`. If any figure or page "更新日" changed, note it at the top of the report and prepare the fix on a `daily/` branch.
+2. **Facts check**: re-read each source in `ops/FACTS.md`. If any figure or page "更新日" changed, note it at the top of the report and prepare the fix on a `daily/` branch. Also run `python3 build/check_sources.py` (offline): every official link on the site must be listed in FACTS.md, and it lists rows not re-read for 14+ days.
 3. **One piece of work** from the top of `ops/BACKLOG.md` that can be finished and verified in one run. Push it to `daily/YYYY-MM-DD` on both `source` changes and a built preview. Do not merge to `main`.
 4. Update `ops/BACKLOG.md` (move done items, add ideas with a one-line reason), commit to `source`.
    **Monthly (first run of each month, JST):** the KANJIDIC2 licence asks for regular data updates. www.edrdg.org is not reachable from this environment, so put a request at the top of the report: ask the owner to download https://www.edrdg.org/kanjidic/kanjidic2.xml.gz and attach it in the session. When it arrives: `python3 -I build/kanjidic_extract.py <file> tools/kanji-grade/kanji.js`, `node tools/kanji-grade/test_quiz.js`, build, check, push to `daily/`, and ask for approval. If the owner allows www.edrdg.org later, download it directly instead.

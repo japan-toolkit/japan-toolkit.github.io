@@ -117,7 +117,7 @@ def build_tool(tool):
     for lang in LANGS:
         m = meta[lang]
         page = (head(lang, f'{m["title"]} | Japan Practical Toolkit', m["lede"], f"{tool}/", top)
-                + f'<body><script>window.__LANG="{lang}";</script>' + body + faq_html(tool, lang) + nav(lang, tool) + "</body></html>")
+                + f'<body><script>window.__LANG="{lang}";</script><main>' + body + faq_html(tool, lang) + "</main>" + nav(lang, tool) + "</body></html>")
         d = OUT / lang / tool
         d.mkdir(parents=True, exist_ok=True)
         (d / "index.html").write_text(page)
@@ -130,7 +130,7 @@ PORTAL_CSS = """<link rel="stylesheet" href="https://fonts.googleapis.com/css2?f
 @media (prefers-color-scheme:dark){:root{--bg:#0f1715;--surface:#16211e;--ink:#e4ece9;--muted:#9aaba6;--line:#2a3a36;--accent:#5cc4ae;--accent-soft:#1d3631;color-scheme:dark}}
 body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.65}
 html:lang(my) body{line-height:1.95}
-.wrap{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 40px;display:flex;flex-direction:column;gap:22px}
+.wrap{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 40px;display:flex;flex-direction:column;gap:22px}.wrap>header,.wrap>main{display:flex;flex-direction:column;gap:22px}
 .brand{font-family:"Bricolage Grotesque",sans-serif;font-weight:600;letter-spacing:.04em;text-transform:uppercase;font-size:12px;color:var(--muted)}
 h1{font-family:var(--display);font-weight:800;font-size:clamp(26px,5vw,40px);line-height:1.2;margin:0;text-wrap:balance}
 p{margin:0;color:var(--muted)}
@@ -154,23 +154,23 @@ def build_portals():
     for lang in LANGS:
         cards = "".join(f'<a class="card" href="{t}/"><b>{SHORT[t][lang]}</b><span>{metas[t][lang]["lede"]}</span></a>' for t in TOOLS)
         page = (head(lang, f'{UI["tagline"][lang]} | Japan Practical Toolkit', UI["intro"][lang], "", PORTAL_CSS)
-                + f'<body><div class="wrap"><div class="brand">Japan Practical Toolkit</div>{lang_links(lang, "../")}'
+                + f'<body><div class="wrap"><header><div class="brand">Japan Practical Toolkit</div>{lang_links(lang, "../")}</header><main>'
                 + f'<div><h1>{UI["tagline"][lang]}</h1><p style="margin-top:8px">{UI["intro"][lang]}</p></div>'
-                + f'<div class="cards">{cards}</div><footer><a href="/privacy/">{UI["privacy"][lang]}</a></footer></div></body></html>')
+                + f'<div class="cards">{cards}</div></main><footer><a href="/privacy/">{UI["privacy"][lang]}</a></footer></div></body></html>')
         (OUT / lang).mkdir(parents=True, exist_ok=True)
         (OUT / lang / "index.html").write_text(page)
     # Root: language chooser with the tagline in every language (no auto-redirect).
     rows = "".join(f'<a class="card" href="{l}/" lang="{l}"><b>{LANG_NAMES[l]}</b><span>{UI["tagline"][l]}</span></a>' for l in LANGS)
     root = (head("en", "Japan Practical Toolkit", "Free tools in Vietnamese, Nepali, Indonesian, Burmese, English and Japanese for foreigners working in Japan.", "", gsc_meta() + PORTAL_CSS).replace(f'<link rel="canonical" href="{BASE}/en/">', f'<link rel="canonical" href="{BASE}/">')
-            + f'<body><div class="wrap"><div class="brand">Japan Practical Toolkit</div><h1>Japan Practical Toolkit</h1><div class="cards">{rows}</div>'
+            + f'<body><div class="wrap"><header><div class="brand">Japan Practical Toolkit</div></header><main><h1>Japan Practical Toolkit</h1><div class="cards">{rows}</div></main>'
             + '<footer><a href="/privacy/">Privacy policy / プライバシーポリシー</a></footer></div></body></html>')
     (OUT / "index.html").write_text(root)
 
 PRIVACY = """<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Privacy policy | Japan Practical Toolkit</title><link rel="canonical" href="https://japan-toolkit.github.io/privacy/">""" + PORTAL_CSS + """
 <style>h2{font-family:var(--display);font-size:19px;margin:8px 0 0}ul{margin:0;padding-left:20px;color:var(--muted)}</style></head><body><div class="wrap">
-<a class="brand" href="/" style="text-decoration:none">Japan Practical Toolkit</a>
-<h1>Privacy policy</h1>
+<header><a class="brand" href="/" style="text-decoration:none">Japan Practical Toolkit</a></header>
+<main><h1>Privacy policy</h1>
 <p>Last updated: November 2026</p>
 <ul>
 <li>The tools run entirely in your browser. The numbers you type are not sent to or stored on any server.</li>
@@ -186,7 +186,7 @@ PRIVACY = """<!doctype html><html lang="en"><head><meta charset="utf-8"><meta na
 <li>現在、Cookie・アカウント・アクセス解析は使用していません。今後アクセス解析や広告を導入する場合は、事前に本ページを更新します。</li>
 <li>本サイトの情報は目安・一般情報であり、法律・税務・金融の助言ではありません。最終的には各公的機関でご確認ください。</li>
 <li>お問い合わせ：<a href="https://github.com/japan-toolkit/japan-toolkit.github.io/issues">GitHub</a> の Issue からご連絡ください。</li>
-</ul></div></body></html>"""
+</ul></main></div></body></html>"""
 
 def last_changed(path):
     """Date (JST) of the last commit touching path, YYYY-MM-DD; today (JST) if it has uncommitted changes or no history."""

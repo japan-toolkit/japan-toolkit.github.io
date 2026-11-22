@@ -49,6 +49,7 @@ The site exists to earn money; "official release" = the start of earning. Two wa
 ## How to build and deploy
 1. `python3 build/build.py` (needs node).
 2. Check every page renders: serve `dist/` locally and open each `/<lang>/<tool>/` with Playwright; no JS errors, no horizontal scroll at 390px.
+   Then `node build/check_a11y.js dist <axe.min.js>` (axe-core installed outside the repo, see the file header): 0 violations in light and dark.
 3. Deploy only after the owner approves: clone `main`, replace its contents with `dist/` (keep `.git`), commit, push.
    Until approval, push work to a branch named `daily/YYYY-MM-DD` instead.
 

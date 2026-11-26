@@ -48,7 +48,8 @@ The site exists to earn money; "official release" = the start of earning. Two wa
 
 ## How to build and deploy
 1. `python3 build/build.py` (needs node).
-2. Check every page renders: serve `dist/` locally and open each `/<lang>/<tool>/` with Playwright; no JS errors, no horizontal scroll at 390px.
+2. Run `sh build/check_all.sh` (add `AXE=<axe.min.js>` for the accessibility step): build, all tests and every check below in one command; it stops at the first failure and ends with `ALL CHECKS PASSED`.
+   Check every page renders: `node build/check_pages.js dist` serves `dist/` locally and opens every page with Playwright at 390px; HTTP 200, no JS errors, no horizontal scroll, title + h1 present.
    Then `python3 build/check_links.py` (offline: internal links, #anchors, canonical, hreflang, sitemap): 0 problems.
    Then `node build/check_a11y.js dist <axe.min.js>` (axe-core installed outside the repo, see the file header): 0 violations in light and dark.
 3. Deploy only after the owner approves: clone `main`, replace its contents with `dist/` (keep `.git`), commit, push.

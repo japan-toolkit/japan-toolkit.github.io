@@ -35,4 +35,6 @@ Every row should cite a primary (official) page. "Checked" = page re-read and fi
 
 ## Calendar
 - New fiscal-year rates are usually announced Feb–Mar and apply from March/April. Watch closely in those months.
+  協会けんぽ: when the 令和9年度 page (…/rate_prefectures/r09/) appears, save its text to a file outside the repo and run
+  `python3 -I build/check_rates.py <file> --js 2027` (exit 0 = same as insurance.js, 2 = changed + ready table line, 1 = not all 47 read → read again).
 - November: NTA publishes next year's 源泉徴収税額表 (a `zeigakuhyo2027` folder for 令和9年分 already exists on nta.go.jp). This matters for the planned take-home calculator.
